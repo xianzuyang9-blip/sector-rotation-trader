@@ -1,0 +1,170 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-consumer-stress-google-trends-for-car-insuran",
+    "title": "Weekly Rise In Consumer Stress Google Trends For Car Insurance Claims Signals Auto Sector Pressure",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-freight-volume-deviation-from-12-week-moving",
+    "title": "Weekly Surge In Freight Volume Deviation From 12-week Moving Average",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-google-trends-for-food-delivery-delay-complai",
+    "title": "Weekly Jump In Google Trends For Food Delivery Delay Complaints Signals Consumer Frustration",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-google-trends-for-warehouse-labor-shortage-s",
+    "title": "Weekly Spike In Google Trends For Warehouse Labor Shortage Signals Industrial Labor Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-abnormal-surge-in-political-insider-filings-for-energy",
+    "title": "Daily Abnormal Surge In Political Insider Filings For Energy Sector Execs",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+    "title": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+    "title": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-abnormal-jump-in-usgs-earthquake-activity-near-major-l",
+    "title": "Daily Abnormal Jump In Usgs Earthquake Activity Near Major Logistics Hubs Signals Freight Disruption Risk",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-google-trends-for-electric-vehicle-battery-re",
+    "title": "Weekly Jump In Google Trends For Electric Vehicle Battery Replacement Signals Auto Tech Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-local-building-permits-filings-signals-region",
+    "title": "Daily Spike In Local Building Permits Filings Signals Regional Economic Acceleration",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+    "title": "Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+    "title": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+    "title": "Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-freight-logistics-google-trends-for-last-mile",
+    "title": "Weekly Rise In Freight Logistics Google Trends For Last Mile Delivery Delay Signals Rising Shipping Friction",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+    "title": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-network-saturation-spillover-demand-signal",
+    "title": "Ev Charger Network Saturation Spillover Demand Signal",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "financial-sector-repricing-from-bank-deposit-outflow-alerts",
+    "title": "Financial Sector Repricing From Bank Deposit Outflow Alerts",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+    "title": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earthquake-swarm-activity-triggers-insurance-and-reinsurance",
+    "title": "Earthquake Swarm Activity Triggers Insurance And Reinsurance Demand Spike",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "consumer-debt-stress-spike-from-credit-card-delinquency-news",
+    "title": "Consumer Debt Stress Spike From Credit Card Delinquency News Surge",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "travel-sentiment-surge-from-airline-load-factor-rebound-sign",
+    "title": "Travel Sentiment Surge From Airline Load Factor Rebound Signals Discretionary Recovery",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-broker-margin-squeeze-detected-via-trucking-rate-col",
+    "title": "Freight Broker Margin Squeeze Detected Via Trucking Rate Collapse",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "political-insider-selling-surge-predicts-market-pullback",
+    "title": "Political Insider Selling Surge Predicts Market Pullback",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "labor-market-cooling-signals-via-job-posting-velocity-collap",
+    "title": "Labor Market Cooling Signals Via Job Posting Velocity Collapse",
+    "family": "labor_jobs",
+    "score": 100
+  }
+]
