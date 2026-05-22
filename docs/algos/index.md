@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-05-22T23:51:12
+Updated (UTC): 2026-05-22T23:55:18
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 327
+Crazy models: 334
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -343,3 +343,10 @@ Crazy models: 327
 | ev-charger-rollout-acceleration-green-energy-sector-tailwind | Ev Charger Rollout Acceleration Green Energy Sector Tailwind | weekly |
 | google-trends-surge-in-bankruptcy-search-intent | Google Trends Surge In Bankruptcy Search Intent | weekly |
 | rss-count-surge-for-supply-chain-bottleneck-news | Rss Count Surge For Supply Chain Bottleneck News | daily |
+| daily-jump-in-google-trends-for-emergency-dental-surgery-sig | Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress | daily |
+| daily-spike-in-rss-news-count-for-semiconductor-equipment-or | Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound | daily |
+| daily-surge-in-rss-news-counts-on-corporate-dividend-increas | Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength | daily |
+| weekly-surge-in-google-trends-for-tech-stock-selloff-signals | Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors | weekly |
+| weekly-surge-in-google-trends-for-warehouse-automation-jobs- | Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption | weekly |
+| renewable-energy-investment-thesis-rebound-from-policy-senti | Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge | weekly |
+| utility-sector-rate-hike-anxiety-from-weather-driven-demand- | Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike | daily |

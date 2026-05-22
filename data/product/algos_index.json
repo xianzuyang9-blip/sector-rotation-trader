@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T23:51:13Z",
+  "generated_at": "2026-05-22T23:55:18Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -65,6 +65,30 @@
       "ytd_pct": -0.26,
       "trade_count": 29,
       "positions": 1,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+      "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLK"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
       "last_snapshot": "2026-05-22",
       "last_signal": null,
       "new_algo_date": null,
@@ -153,6 +177,30 @@
       "family": "attention_sentiment",
       "status": "parked",
       "evidence_class": "pending_seed",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLF"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+      "algo_type": "crazy",
+      "algo_id": "daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+      "name": "Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
       "rebalance_frequency": "daily",
       "universe": [
         "XLF"
@@ -577,6 +625,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "algo_type": "crazy",
+      "algo_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "name": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 99787.44,
+      "ytd_pct": -0.21,
+      "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:renewable-energy-rss-news-volume-surge",
       "algo_type": "crazy",
       "algo_id": "renewable-energy-rss-news-volume-surge",
@@ -833,6 +905,30 @@
       "equity": 100000.0,
       "ytd_pct": 0.0,
       "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "name": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLP"
+      ],
+      "equity": 99950.21,
+      "ytd_pct": -0.05,
+      "trade_count": 8,
       "positions": 0,
       "last_snapshot": "2026-05-22",
       "last_signal": null,
@@ -1107,6 +1203,30 @@
       "equity": 99732.03,
       "ytd_pct": -0.27,
       "trade_count": 16,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "name": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLV"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
       "positions": 0,
       "last_snapshot": "2026-05-22",
       "last_signal": null,
@@ -4413,6 +4533,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+      "name": "Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-google-trends-searches-for-truck-driver-stri",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-searches-for-truck-driver-stri",
@@ -6562,6 +6706,30 @@
       "new_algo_date": null,
       "backtest_status": "UNSUPPORTED_DATA",
       "backtest_reason": "Uses non-price adapter: crazy.adapters.eia_electricity",
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+      "algo_type": "crazy",
+      "algo_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+      "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
       "backtest_alpha_vs_spy_pct": null,
       "backtest_trade_count": null
     },

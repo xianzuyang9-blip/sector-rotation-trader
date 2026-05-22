@@ -1,0 +1,16 @@
+{
+  "adapter": "google_trends",
+  "algo_file": "crazy/algos/renewable_energy_investment_thesis_rebound_from_policy_senti.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-05-22/build/claude_renewable-energy-investment-thesis-rebound-from-policy-senti.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-05-22/algos/crazy/renewable-energy-investment-thesis-rebound-from-policy-senti"
+}

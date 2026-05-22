@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-22T23:51:22.754730",
+  "as_of": "2026-05-22T23:55:17.382392",
   "spy_ret_30d": 0.04841044362716396,
   "entries": [
     {
@@ -355,6 +355,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+      "name": "Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "volatility-spike-follow-through",
       "name": "Volatility Spike Follow-Through",
       "category": "crazy",
@@ -485,6 +493,14 @@
     {
       "algo_id": "reddit-subreddit-sentiment-spike",
       "name": "Reddit Subreddit Sentiment Spike",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+      "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1339,6 +1355,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+      "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-spike-in-usgs-earthquake-activity-near-key-industrial-",
       "name": "Daily Spike In Usgs Earthquake Activity Near Key Industrial Hubs",
       "category": "crazy",
@@ -1787,6 +1811,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+      "name": "Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "utility-volatility-compression-reversion-bounce",
       "name": "Utility Volatility Compression Reversion Bounce",
       "category": "crazy",
@@ -1883,6 +1915,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "name": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "twitter-sentiment-spike",
       "name": "Twitter Sentiment Spike",
       "category": "crazy",
@@ -1893,6 +1933,14 @@
     {
       "algo_id": "tsa",
       "name": "TSA Body Count",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "name": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2513,6 +2561,14 @@
       "ret_30d": -0.0020967025224482017,
       "sharpe_30d": -19.55892236794165,
       "max_dd_30d": -0.002249423859083861
+    },
+    {
+      "algo_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "name": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+      "category": "crazy",
+      "ret_30d": -0.0021255999999999498,
+      "sharpe_30d": -19.17318916810424,
+      "max_dd_30d": -0.0021255999999999766
     },
     {
       "algo_id": "weekly-google-trends-surge-in-home-energy-bill-shock-signals",

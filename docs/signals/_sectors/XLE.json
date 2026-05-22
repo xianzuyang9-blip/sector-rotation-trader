@@ -3,8 +3,8 @@
   "sector": "Energy",
   "bullish": 5,
   "bearish": 32,
-  "neutral": 295,
-  "total_signals": 332,
+  "neutral": 302,
+  "total_signals": 339,
   "total_active": 37,
   "bullish_pct": 14,
   "composite": "5 of 37",
@@ -225,6 +225,15 @@
       "direction": "NEUTRAL",
       "days_running": 89,
       "ytd_pct": -0.61,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+      "name": "Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -468,6 +477,15 @@
       "direction": "NEUTRAL",
       "days_running": 87,
       "ytd_pct": -0.11,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+      "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -837,6 +855,15 @@
       "direction": "NEUTRAL",
       "days_running": 73,
       "ytd_pct": -0.13,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "name": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.21,
       "beat_spy": false
     },
     {
@@ -1803,6 +1830,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+      "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-spike-in-usgs-earthquake-activity-near-key-industrial-",
       "name": "Daily Spike In Usgs Earthquake Activity Near Key Industrial Hubs",
       "algo_type": "crazy",
@@ -2487,6 +2523,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+      "name": "Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "utility-volatility-compression-reversion-bounce",
       "name": "Utility Volatility Compression Reversion Bounce",
       "algo_type": "crazy",
@@ -2613,6 +2658,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "name": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.05,
+      "beat_spy": false
+    },
+    {
       "algo_id": "twitter-sentiment-spike",
       "name": "Twitter Sentiment Spike",
       "algo_type": "crazy",
@@ -2627,6 +2681,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 109,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "name": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },

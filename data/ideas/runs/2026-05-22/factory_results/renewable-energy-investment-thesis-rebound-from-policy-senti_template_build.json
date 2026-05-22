@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-22/build/claude_renewable-energy-investment-thesis-rebound-from-policy-senti.md",
+  "out": "crazy/algos/renewable_energy_investment_thesis_rebound_from_policy_senti.py",
+  "adapter": "google_trends",
+  "idea_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+  "name": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+  "universe": [
+    "XLU"
+  ],
+  "frequency": "weekly",
+  "family": "attention_sentiment",
+  "threshold": 0.4,
+  "direction": "up",
+  "hold_days": 9
+}

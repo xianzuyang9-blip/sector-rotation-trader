@@ -1,0 +1,9 @@
+{
+  "algo_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+  "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-22"
+}

@@ -1,0 +1,9 @@
+{
+  "algo_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+  "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.eia_electricity",
+  "metrics": {},
+  "run_date": "2026-05-22"
+}

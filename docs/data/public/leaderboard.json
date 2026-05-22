@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-05-22T23:51:23Z",
+  "generated_at": "2026-05-22T23:55:19Z",
   "counts": {
-    "total": 332,
+    "total": 339,
     "beating_spy": 1
   },
   "algos": [
@@ -1763,6 +1763,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "name": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.05,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.038,
+            "return_pct": 0.189
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.377,
+            "return_pct": 1.886
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:weekly-surge-in-google-trends-for-diy-car-maintenance-signal",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-diy-car-maintenance-signal",
@@ -3271,6 +3307,42 @@
           }
         },
         "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "algo_type": "crazy",
+      "algo_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "name": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.21,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.21,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLU",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.675,
+            "return_pct": 3.374
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.359,
+            "return_pct": -1.797
+          }
+        },
+        "summary": "mixed"
       }
     },
     {
@@ -11038,6 +11110,186 @@
             "direction": "UP",
             "confidence": 0.083,
             "return_pct": 0.413
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
+      "name": "Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.043,
+            "return_pct": 0.216
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.081,
+            "return_pct": -0.406
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+      "algo_type": "crazy",
+      "algo_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+      "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLU",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.675,
+            "return_pct": 3.374
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.359,
+            "return_pct": -1.797
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+      "algo_type": "crazy",
+      "algo_id": "daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+      "name": "Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.329,
+            "return_pct": 1.644
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.202,
+            "return_pct": 1.011
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
+      "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.469,
+            "return_pct": 2.343
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 12.589
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "name": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-22",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLV",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.66,
+            "return_pct": 3.301
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.792,
+            "return_pct": 3.96
           }
         },
         "summary": "both_up"

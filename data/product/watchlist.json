@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T23:51:13Z",
+  "generated_at": "2026-05-22T23:55:18Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -194,6 +194,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "algo_type": "crazy",
+      "algo_id": "renewable-energy-investment-thesis-rebound-from-policy-senti",
+      "name": "Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 99787.44,
+      "ytd_pct": -0.21,
+      "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:renewable-energy-rss-news-volume-surge",
       "algo_type": "crazy",
       "algo_id": "renewable-energy-rss-news-volume-surge",
@@ -291,6 +315,30 @@
       "ytd_pct": -0.59,
       "trade_count": 110,
       "positions": 2,
+      "last_snapshot": "2026-05-22",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+      "name": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLP"
+      ],
+      "equity": 99950.21,
+      "ytd_pct": -0.05,
+      "trade_count": 8,
+      "positions": 0,
       "last_snapshot": "2026-05-22",
       "last_signal": null,
       "new_algo_date": null,

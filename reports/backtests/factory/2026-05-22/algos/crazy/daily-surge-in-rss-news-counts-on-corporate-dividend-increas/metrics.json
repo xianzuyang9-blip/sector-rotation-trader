@@ -1,0 +1,9 @@
+{
+  "algo_id": "daily-surge-in-rss-news-counts-on-corporate-dividend-increas",
+  "name": "Daily Surge In Rss News Counts On Corporate Dividend Increases Signals Financial Sector Strength",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-22"
+}

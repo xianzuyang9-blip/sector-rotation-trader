@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-22/build/chatgpt_weekly-surge-in-google-trends-for-tech-stock-selloff-signals.md",
+  "out": "crazy/algos/weekly_surge_in_google_trends_for_tech_stock_selloff_signals.py",
+  "adapter": "google_trends",
+  "idea_id": "weekly-surge-in-google-trends-for-tech-stock-selloff-signals",
+  "name": "Weekly Surge In Google Trends For Tech Stock Selloff Signals Rotation To Defensive Sectors",
+  "universe": [
+    "XLP"
+  ],
+  "frequency": "weekly",
+  "family": "attention_sentiment",
+  "threshold": 1.3,
+  "direction": "up",
+  "hold_days": 42
+}

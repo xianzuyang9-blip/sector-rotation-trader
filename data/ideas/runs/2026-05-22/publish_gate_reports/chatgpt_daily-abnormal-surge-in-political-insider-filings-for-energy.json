@@ -1,0 +1,33 @@
+{
+  "source_file": "data/ideas/runs/2026-05-22/publish/chatgpt_daily-abnormal-surge-in-political-insider-filings-for-energy.md",
+  "target_file": "data/ideas/runs/2026-05-22/intervention/chatgpt_daily-abnormal-surge-in-political-insider-filings-for-energy.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "political_insider_filing",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter_missing",
+      "short_position_not_supported",
+      "short_trade_not_supported",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "html_table": 3
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 925,
+    "output_tokens": 83
+  },
+  "cost_usd": 0.0031425,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"political_insider_filing\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"No existing 'political_insider_filing' adapter; requires new adapter for insider filings data.\",\n  \"risk_flags\": [\"adapter_missing\", \"short_position_not_supported\"]\n}\n```"
+}

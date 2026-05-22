@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-22/build/claude_utility-sector-rate-hike-anxiety-from-weather-driven-demand-.md",
+  "out": "crazy/algos/utility_sector_rate_hike_anxiety_from_weather_driven_demand_.py",
+  "adapter": "eia_electricity",
+  "idea_id": "utility-sector-rate-hike-anxiety-from-weather-driven-demand-",
+  "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+  "universe": [
+    "XLU"
+  ],
+  "frequency": "daily",
+  "family": "macro_input_pressure",
+  "threshold": 0.9,
+  "direction": "up",
+  "hold_days": 6
+}

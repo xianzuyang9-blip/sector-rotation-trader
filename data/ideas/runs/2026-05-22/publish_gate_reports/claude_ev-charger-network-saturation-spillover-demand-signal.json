@@ -1,0 +1,33 @@
+{
+  "source_file": "data/ideas/runs/2026-05-22/publish/claude_ev-charger-network-saturation-spillover-demand-signal.md",
+  "target_file": "data/ideas/runs/2026-05-22/intervention/claude_ev-charger-network-saturation-spillover-demand-signal.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "openchargemap",
+    "needs_new_adapter": true,
+    "reason": "Open Charge Map does not currently provide utilization or growth rate data needed for the signal logic.",
+    "risk_flags": [
+      "data source instability",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "missing utilization metric"
+    ],
+    "route": {
+      "adapters": [
+        "openchargemap"
+      ],
+      "scores": {
+        "openchargemap": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 1013,
+    "output_tokens": 84
+  },
+  "cost_usd": 0.0033725,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"openchargemap\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Open Charge Map does not currently provide utilization or growth rate data needed for the signal logic.\",\n  \"risk_flags\": [\"data source instability\", \"missing utilization metric\", \"low adapter routing confidence\"]\n}\n```"
+}
