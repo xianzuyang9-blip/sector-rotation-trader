@@ -1,0 +1,19 @@
+FEATURE IDEAS RUN — 2026-05-22
+==================================================
+
+Total PRDs generated: 8
+
+ChatGPT (OpenAI): 4 ideas
+  1. Signal Decay Curves
+  2. Biscotti’s Failures Gallery
+  3. Signal Bucket Explorer
+  4. Trade Log Time Machine
+
+Claude (Anthropic): 4 ideas
+  1. Signal Graveyard
+  2. Divergence Digest
+  3. Bucket Reclassifier
+  4. Trade Audit Trail
+
+==================================================
+PRDs saved to: drafts/features/2026-05-22/
