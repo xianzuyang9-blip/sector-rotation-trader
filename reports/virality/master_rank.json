@@ -85,6 +85,23 @@
     "source_file": "drafts/features/2026-05-15/anthropic-feature-02-failure-audit-trail.md"
   },
   {
+    "feature_name": "Signal Graveyard",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 3,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 9,
+    "adjusted_score": 10.8,
+    "top_viral_mechanic": "Failure transparency as social proof\u2014users can screenshot dead signals with full P&L to prove they do rigorous due diligence, flipping the usual fintech narrative of hiding losses.",
+    "biggest_weakness": "Zero network effects or invitation mechanics; viewing a dead signal doesn't require or incentivize bringing others into the product.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/anthropic-feature-01-signal-graveyard.md"
+  },
+  {
     "feature_name": "Live Trade Witness",
     "scores": {
       "proof_of_work": 4,
@@ -187,6 +204,23 @@
     "source_file": "drafts/features/2026-05-01/anthropic-feature-01-signal-divorce-papers.md"
   },
   {
+    "feature_name": "Biscotti's Failures Gallery",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 2,
+      "public_evidence": 4,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 11,
+    "adjusted_score": 9.24,
+    "top_viral_mechanic": "Brutally honest failure display is anti-hype contrarian flex that lets skeptical traders prove they're not falling for marketing BS\u2014highly shareable in r/algotrading as 'finally someone showing losses.'",
+    "biggest_weakness": "No incentive loop: users consume failures but have zero reason to invite others; it's a read-only gallery, not a participation mechanic.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/openai-feature-02-biscotti-s-failures-gallery.md"
+  },
+  {
     "feature_name": "Receipts Export",
     "scores": {
       "proof_of_work": 4,
@@ -236,6 +270,23 @@
     "biggest_weakness": "No built-in sharing mechanism, no incentive to invite others, and divergence insights are personal edge\u2014users have zero reason to broadcast findings publicly.",
     "verdict": "BUILD_NOW",
     "source_file": "drafts/features/2026-05-15/anthropic-feature-01-signal-divergence-report.md"
+  },
+  {
+    "feature_name": "Signal Decay Curves",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.96,
+    "top_viral_mechanic": "Raw failure visualization with no smoothing lets users publicly share 'my signal died on day 47' as credible proof of rigor, directly exploiting the failures-published unfair advantage.",
+    "biggest_weakness": "No built-in sharing mechanism or social loop\u2014users must manually screenshot or link; decay curves are inherently introspective rather than externally validating.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/openai-feature-01-signal-decay-curves.md"
   },
   {
     "feature_name": "Divergence View",
@@ -476,6 +527,74 @@
     "source_file": "drafts/features/2026-05-15/openai-feature-03-operator-s-signal-diary.md"
   },
   {
+    "feature_name": "Divergence Digest",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Operator-curated observations on rank divergences let users discover and discuss underrated signals, creating natural conversation starters in r/algotrading without hype language.",
+    "biggest_weakness": "No built-in sharing mechanism or incentive loop\u2014users must manually copy/paste findings to social; digest is consumption-only, not inherently multiplayer.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/anthropic-feature-02-divergence-digest.md"
+  },
+  {
+    "feature_name": "Bucket Reclassifier",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Transparency into operator reasoning (especially reclassifications from NOISE\u2192ALPHA) becomes credibility proof that paid users can screenshot and share as 'look how honest this is'\u2014exploits the core unfair advantage.",
+    "biggest_weakness": "No incentive loop: viewing bucket history doesn't require inviting others or unlock exclusive value, so it's a feature that improves trust but doesn't drive referral or network growth.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/anthropic-feature-03-bucket-reclassifier.md"
+  },
+  {
+    "feature_name": "Trade Audit Trail",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Transparency-as-proof lets skeptical traders publicly validate signal claims and call out inflated returns, turning audit logs into credibility ammunition for word-of-mouth.",
+    "biggest_weakness": "Feature is entirely inward-facing (paid users only, no public sharing mechanism); audit trails don't naturally leave breadcrumbs that drive external discovery or invite friends.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/anthropic-feature-04-trade-audit-trail.md"
+  },
+  {
+    "feature_name": "Trade Log Time Machine",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Honest loss-first timeline directly contradicts fintech hype and lets skeptical traders prove due diligence to peers by sharing receipts of failure analysis.",
+    "biggest_weakness": "No built-in sharing mechanism or social loop\u2014users must manually screenshot or link, and the feature works equally well in private, killing organic word-of-mouth.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/openai-feature-04-trade-log-time-machine.md"
+  },
+  {
     "feature_name": "Signal Bucket Explorer",
     "scores": {
       "proof_of_work": 2,
@@ -508,6 +627,23 @@
     "biggest_weakness": "No inherent sharing mechanism\u2014users must manually screenshot or describe findings; correlation matrices are inherently private portfolio decisions, not social artifacts.",
     "verdict": "BUILD_LATER",
     "source_file": "drafts/features/2026-05-15/anthropic-feature-03-cross-signal-correlation-matrix.md"
+  },
+  {
+    "feature_name": "Signal Bucket Explorer",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 6,
+    "adjusted_score": 7.68,
+    "top_viral_mechanic": "Honest bucket classification (ALPHA/noise/unresolved) front-and-center exploits the failures-published transparency angle that competitors hide, making it genuinely shareable to skeptical traders.",
+    "biggest_weakness": "No incentive for users to invite others or share their findings\u2014it's a better leaderboard filter, not a social mechanic that spreads organically.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-22/openai-feature-03-signal-bucket-explorer.md"
   },
   {
     "feature_name": "Signal Hunter's Bucket View",
