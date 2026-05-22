@@ -240,6 +240,36 @@ marketing/content/{YYYY-MM-DD}-{slug}/
 
 The current v1 path still uses `drafts/social/YYYY-MM-DD/`, but the longer-term content contract should be compatible with a dispatcher that reads bundles in the shape above.
 
+## StockArithm Scheduled Bundles
+
+StockArithm now has a dedicated schedule file and generator workflow for dispatcher-ready bundles:
+
+- `marketing_schedule.csv` — schedule source with date, slug, title, theme, channels, and Reddit targets
+- `scripts/stockarithm_content_generator.py` — reads `marketing_schedule.csv` and `reports/deep_validation/latest.json`, then writes `marketing/content/{YYYY-MM-DD}-{slug}/`
+- `.github/workflows/stockarithm_content_bundles.yml` — scheduled/manual GitHub Actions entrypoint that runs the generator and commits the bundle output
+
+The generated bundle contract is:
+
+```text
+marketing/content/{YYYY-MM-DD}-{slug}/
+  meta.json
+  x.md
+  medium.md
+  substack.md
+  substack_note.md
+  reddit_algotrading.md
+  reddit_investing.md
+  reddit_stocks.md
+  reddit_quant.md
+  reddit_security_analysis.md
+```
+
+The generator is facts-locked and schedule-driven:
+
+- the schedule row defines the angle, title, and channel set
+- the deep validation report defines the facts that can be used
+- the output bundle is self-contained and ready for a downstream dispatcher
+
 ## Scripts
 
 ### `scripts/write_deep_validation_report.py`
@@ -325,6 +355,24 @@ Responsibilities:
 Channel prompts enforce distinct tone per audience: methodology-first for r/algotrading and r/quant, outcome-focused for r/investing, punchy scoreboard for r/stocks, macro-framed for r/SecurityAnalysis, terse Fintwit for Twitter/X.
 
 Supports `--channel` flag to regenerate a single channel locally.
+
+### `scripts/stockarithm_content_generator.py`
+
+Dispatcher-ready content bundle generator for StockArithm. Reads `marketing_schedule.csv` and `reports/deep_validation/latest.json`, then writes a self-contained `marketing/content/{YYYY-MM-DD}-{slug}/` bundle with `meta.json` plus channel files for X, Medium, Substack, Substack Notes, and subreddit-specific Reddit variants.
+
+Responsibilities:
+
+- read the scheduled row for the requested date from `marketing_schedule.csv`;
+- read locked facts from `reports/deep_validation/latest.json` (or a dated version);
+- generate the bundle files with one LLM call per channel;
+- write `meta.json` describing the bundle, schedule, channel status, and Reddit targets;
+- leave posting to a downstream dispatcher.
+
+Constraints:
+
+- it must not invent facts outside the validation report;
+- it must not change the trading system;
+- it must produce dispatcher-ready output without manual copy/paste.
 
 ### `scripts/refresh_reddit_drafts.py`
 

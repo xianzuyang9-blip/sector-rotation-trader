@@ -566,6 +566,12 @@ Scripts:
 - `scripts/generate_content.py`
 - `scripts/run_content_engine.sh`
 
+StockArithm also has a separate dispatcher-ready content path:
+
+- `marketing_schedule.csv`
+- `scripts/stockarithm_content_generator.py`
+- `.github/workflows/stockarithm_content_bundles.yml`
+
 Inputs:
 
 - `data/rank_history.csv`
@@ -593,6 +599,7 @@ If it is not in the validation report, it does not exist.
 The generator does not recompute strategy metrics and does not use an LLM. It formats already-validated facts.
 
 Current public-facing drafts still land in `drafts/social/YYYY-MM-DD/` and `drafts/reddit_launch/YYYY-MM-DD/`. The long-term content contract is to keep the output deterministic, dispatcher-friendly, and fact-locked.
+StockArithm bundle generation now uses `marketing_schedule.csv` plus `scripts/stockarithm_content_generator.py` to write `marketing/content/{YYYY-MM-DD}-{slug}/` for downstream dispatch.
 
 Detailed documentation:
 
