@@ -821,19 +821,29 @@
       "positions": {},
       "sector": "Weather Extremes Utility Demand Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99979.82,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99979.82,
+      "positions": {},
+      "sector": "Weather Extremes Utility Demand Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-09",
-  "last_run": "2026-05-21",
+  "last_run": "2026-05-22",
   "meta": {
     "weather-extremes-utility-demand-spike": {
       "signal_label": "HOLD",
-      "latest_value": 11203751.0,
-      "prior_avg": 11421850.5429,
-      "signal_change": -0.0191,
+      "latest_value": 10606290.0,
+      "prior_avg": 11441040.5143,
+      "signal_change": -0.073,
       "name": "Weather Extremes Utility Demand Spike",
       "last_signal": "HOLD",
-      "last_run": "2026-05-21"
+      "last_run": "2026-05-22"
     }
   }
 }

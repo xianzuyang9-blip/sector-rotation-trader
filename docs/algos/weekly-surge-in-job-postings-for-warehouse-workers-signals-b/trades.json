@@ -81,6 +81,20 @@
       "cost": 4995.28,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-22",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.2927,
+      "price": 171.77,
+      "proceeds": 5021.39,
+      "fees": 10.21,
+      "tax": 9.66,
+      "pnl": 16.45,
+      "pnl_pct": 0.33,
+      "entry_date": "2026-05-21",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1063,6 +1077,16 @@
       },
       "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99912.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.01,
+      "positions": {},
+      "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

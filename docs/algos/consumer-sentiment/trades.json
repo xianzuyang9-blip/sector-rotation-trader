@@ -1,5 +1,26 @@
 {
-  "trade_log": [],
+  "trade_log": [
+    {
+      "date": "2026-05-22",
+      "action": "BUY",
+      "ticker": "XLP",
+      "shares": 471.6981,
+      "price": 84.8,
+      "cost": 40000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-22",
+      "action": "BUY",
+      "ticker": "XLU",
+      "shares": 661.5215,
+      "price": 45.35,
+      "cost": 30000.0,
+      "margin": false,
+      "fees": 9.95
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-01-16",
@@ -1149,6 +1170,35 @@
       "positions": {},
       "sector": "Consumer Sentiment",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 29980.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99980.1,
+      "positions": {
+        "XLP": {
+          "shares": 471.6981,
+          "entry_price": 84.8,
+          "current_price": 84.8,
+          "market_value": 40000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-22",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 661.5215,
+          "entry_price": 45.35,
+          "current_price": 45.35,
+          "market_value": 30000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-22",
+          "margin": false
+        }
+      },
+      "sector": "Consumer Sentiment",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

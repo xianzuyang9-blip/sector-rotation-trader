@@ -201,6 +201,20 @@
       "cost": 4993.47,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-22",
+      "action": "SELL",
+      "ticker": "XLU",
+      "shares": 110.966,
+      "price": 45.35,
+      "proceeds": 5022.07,
+      "fees": 10.23,
+      "tax": 10.58,
+      "pnl": 18.02,
+      "pnl_pct": 0.36,
+      "entry_date": "2026-05-21",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1313,6 +1327,16 @@
       },
       "sector": "Utilities Sector Negative Price Gap Fill",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99877.43,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99877.43,
+      "positions": {},
+      "sector": "Utilities Sector Negative Price Gap Fill",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19"

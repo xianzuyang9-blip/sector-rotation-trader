@@ -153,6 +153,20 @@
       "cost": 4983.48,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-22",
+      "action": "SELL",
+      "ticker": "XLU",
+      "shares": 110.7439,
+      "price": 45.35,
+      "proceeds": 5012.0,
+      "fees": 10.23,
+      "tax": 10.55,
+      "pnl": 17.97,
+      "pnl_pct": 0.36,
+      "entry_date": "2026-05-21",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1165,6 +1179,16 @@
       },
       "sector": "Weekly Spike In Google Trends For Home Cooling Failure Signals Bearish Xlu",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99677.56,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99677.56,
+      "positions": {},
+      "sector": "Weekly Spike In Google Trends For Home Cooling Failure Signals Bearish Xlu",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

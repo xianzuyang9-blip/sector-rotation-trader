@@ -886,19 +886,29 @@
       "positions": {},
       "sector": "Healthcare Cost Shock Google Trends Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Healthcare Cost Shock Google Trends Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-29",
-  "last_run": "2026-05-21",
+  "last_run": "2026-05-22",
   "meta": {
     "healthcare-cost-shock-google-trends-spike": {
       "signal_label": "HOLD",
-      "latest_value": 14.0,
-      "prior_avg": 33.8929,
-      "signal_change": -0.5869,
+      "latest_value": 12.0,
+      "prior_avg": 33.2143,
+      "signal_change": -0.6387,
       "name": "Healthcare Cost Shock Google Trends Spike",
       "last_signal": "HOLD",
-      "last_run": "2026-05-21"
+      "last_run": "2026-05-22"
     }
   }
 }

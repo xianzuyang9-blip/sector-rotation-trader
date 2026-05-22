@@ -1363,19 +1363,29 @@
       "positions": {},
       "sector": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99385.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99385.03,
+      "positions": {},
+      "sector": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-29",
-  "last_run": "2026-05-21",
+  "last_run": "2026-05-22",
   "meta": {
     "daily-jump-in-google-trends-searches-for-home-water-heater-r": {
-      "latest_value": 17.0,
-      "prior_avg": 20.7143,
-      "signal_change": -0.1793,
+      "latest_value": 15.0,
+      "prior_avg": 21.2857,
+      "signal_change": -0.2953,
       "signal_label": "HOLD",
       "name": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
       "last_signal": "HOLD",
-      "last_run": "2026-05-21"
+      "last_run": "2026-05-22"
     }
   }
 }
