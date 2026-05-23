@@ -3755,6 +3755,16 @@
       "positions": {},
       "sector": "Chaos Rotation Lab",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-23",
+      "cash": 93975.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 93975.35,
+      "positions": {},
+      "sector": "Chaos Rotation Lab",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-16"

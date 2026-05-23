@@ -1,10 +1,19 @@
 {
-  "cash": 99709.29508819529,
+  "cash": 94713.88033378552,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 423.4291707133222,
+  "fees_paid": 433.3791707133222,
   "taxes_paid": 162.21574310485127,
-  "positions": {},
+  "positions": {
+    "XLY": {
+      "shares": 41.8313873271005,
+      "entry_price": 119.18000030517578,
+      "entry_date": "2026-05-23",
+      "cost": 4985.464754409764,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-04-01",
@@ -509,6 +518,16 @@
       "pnl_pct": 0.13,
       "entry_date": "2026-05-21",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-23",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.8314,
+      "price": 119.18,
+      "cost": 4985.46,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1491,20 +1510,40 @@
       "positions": {},
       "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-23",
+      "cash": 94713.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99699.35,
+      "positions": {
+        "XLY": {
+          "shares": 41.8314,
+          "entry_price": 119.18,
+          "current_price": 119.18,
+          "market_value": 4985.46,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-23",
+          "margin": false
+        }
+      },
+      "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-11",
-  "last_run": "2026-05-22",
+  "last_run": "2026-05-23",
   "meta": {
     "port-container-volume-surge-signals-import-demand-recovery-a": {
       "latest_value": 890861.0,
       "prior_avg": 795107.6875,
       "signal_change": 0.1204,
-      "signal_label": "HOLD",
-      "entry_date": "2026-05-21",
+      "signal_label": "RISK_ON",
+      "entry_date": "2026-05-23",
       "name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-22"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-23"
     }
   }
 }

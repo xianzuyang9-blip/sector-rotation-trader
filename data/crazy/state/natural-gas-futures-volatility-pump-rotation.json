@@ -841,19 +841,29 @@
       "positions": {},
       "sector": "Natural Gas Futures Volatility Pump Rotation",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-23",
+      "cash": 99979.83,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99979.83,
+      "positions": {},
+      "sector": "Natural Gas Futures Volatility Pump Rotation",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-06",
-  "last_run": "2026-05-22",
+  "last_run": "2026-05-23",
   "meta": {
     "natural-gas-futures-volatility-pump-rotation": {
       "signal_label": "HOLD",
-      "latest_value": 10606290.0,
-      "prior_avg": 11441040.5143,
-      "signal_change": -0.073,
+      "latest_value": 10499480.0,
+      "prior_avg": 11372275.1143,
+      "signal_change": -0.0767,
       "name": "Natural Gas Futures Volatility Pump Rotation",
       "last_signal": "HOLD",
-      "last_run": "2026-05-22"
+      "last_run": "2026-05-23"
     }
   }
 }

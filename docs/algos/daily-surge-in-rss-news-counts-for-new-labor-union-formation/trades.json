@@ -119,6 +119,16 @@
       "pnl_pct": -0.47,
       "entry_date": "2026-05-20",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-23",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.0781,
+      "price": 171.77,
+      "cost": 4994.75,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -941,6 +951,26 @@
       "positions": {},
       "sector": "Daily Surge In Rss News Counts For New Labor Union Formations Signals Labor Market Pressure On Industrial Sector",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-23",
+      "cash": 94890.27,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99885.02,
+      "positions": {
+        "XLI": {
+          "shares": 29.0781,
+          "entry_price": 171.77,
+          "current_price": 171.77,
+          "market_value": 4994.75,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-23",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Rss News Counts For New Labor Union Formations Signals Labor Market Pressure On Industrial Sector",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-11"

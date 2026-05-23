@@ -1139,20 +1139,30 @@
       "positions": {},
       "sector": "Consumer Discretionary Google Trends Surge For Sale Keywords",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-23",
+      "cash": 99960.96,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99960.96,
+      "positions": {},
+      "sector": "Consumer Discretionary Google Trends Surge For Sale Keywords",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19",
-  "last_run": "2026-05-22",
+  "last_run": "2026-05-23",
   "meta": {
     "consumer-discretionary-google-trends-surge-for-sale-keywords": {
       "signal_label": "HOLD",
-      "latest_value": 63.0,
-      "prior_avg": 74.5714,
-      "signal_change": -0.1552,
+      "latest_value": 72.0,
+      "prior_avg": 78.5714,
+      "signal_change": -0.0836,
       "entry_date": "2026-04-02",
       "name": "Consumer Discretionary Google Trends Surge For Sale Keywords",
       "last_signal": "HOLD",
-      "last_run": "2026-05-22"
+      "last_run": "2026-05-23"
     }
   }
 }
