@@ -58,10 +58,20 @@ marketing/content/{YYYY-MM-DD}-{slug}/
   substack.md
   substack_note.md
   reddit_algotrading.md
+  reddit_algotrading_titles.md
+  reddit_algotrading_first_comment.txt
   reddit_investing.md
+  reddit_investing_titles.md
+  reddit_investing_first_comment.txt
   reddit_stocks.md
+  reddit_stocks_titles.md
+  reddit_stocks_first_comment.txt
   reddit_quant.md
+  reddit_quant_titles.md
+  reddit_quant_first_comment.txt
   reddit_security_analysis.md
+  reddit_security_analysis_titles.md
+  reddit_security_analysis_first_comment.txt
 ```
 
 If a channel is not used for a given post, the file can be omitted or marked `skip` in `meta.json`, but the schema should stay stable.
@@ -79,15 +89,47 @@ Each bundle should include a `meta.json` that tells the dispatcher:
 The dispatcher should own posting and write-back status.
 The generator should own preparation.
 
+## Hook QA Layer
+
+The hook QA layer exists to keep weak openings and weak Reddit titles out of the bundle by default.
+
+It applies most directly to:
+
+- `x.md`
+- `substack_note.md`
+- `reddit_*_titles.md`
+
+The generator should:
+
+- create a few candidate hooks from the schedule row and validated facts;
+- score the candidates deterministically;
+- select the strongest hook that still matches the channel;
+- write the selected hook into `meta.json` for inspection.
+
+The scoring should reward:
+
+- curiosity;
+- tension;
+- contradiction when the facts support it;
+- short, specific phrasing;
+- numbers when they strengthen the hook.
+
+The scoring should penalize:
+
+- soft summary language;
+- internal taxonomy language;
+- generic marketing phrasing;
+- hooks that are too literal to create curiosity.
+
 ## Channel Roles
 
 | Channel | Purpose | Role |
 |---------|---------|------|
-| X | Short hook and reach | Fast, sharp, direct |
-| Medium | Secondary funnel | Optional broader reach |
-| Substack | Home base | Full long-form article |
-| Substack Note | Discovery | Short teaser or question |
-| Reddit | Community discussion | Targeted, subreddit-specific version |
+| X | Short hook and reach | Fast, sharp, direct. Tease the longer Substack piece. |
+| Medium | Secondary funnel | Optional broader reach and teaser surface. |
+| Substack | Home base | Full long-form article and canonical CTA to `https://www.stockarithm.com`. |
+| Substack Note | Discovery | Short teaser or question. |
+| Reddit | Community discussion | Targeted, subreddit-specific version with no links in the body. First comment can carry the outbound link manually. |
 
 ## What The Generator Should Do
 
@@ -99,6 +141,14 @@ The generator should:
 - write the `meta.json`;
 - keep the output folder self-contained;
 - leave posting to the dispatcher.
+
+Channel-specific link rules:
+
+- `substack.md` is the canonical long-form article and should link back to `https://www.stockarithm.com`.
+- `reddit_*.md` bodies must be link-free and native to the subreddit.
+- `reddit_*_first_comment.txt` exists for the manual outbound link after posting.
+- `x.md` should be short and controversial enough to push the reader to the longer piece.
+- `medium.md` should act as a teaser/discovery surface, not a second canonical home.
 
 ## What The Generator Should Not Do
 

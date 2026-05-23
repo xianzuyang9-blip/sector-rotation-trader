@@ -236,6 +236,8 @@ marketing/content/{YYYY-MM-DD}-{slug}/
   substack.md
   substack_note.md
   reddit_<target>.md
+  reddit_<target>_titles.md
+  reddit_<target>_first_comment.txt
 ```
 
 The current v1 path still uses `drafts/social/YYYY-MM-DD/`, but the longer-term content contract should be compatible with a dispatcher that reads bundles in the shape above.
@@ -258,10 +260,20 @@ marketing/content/{YYYY-MM-DD}-{slug}/
   substack.md
   substack_note.md
   reddit_algotrading.md
+  reddit_algotrading_titles.md
+  reddit_algotrading_first_comment.txt
   reddit_investing.md
+  reddit_investing_titles.md
+  reddit_investing_first_comment.txt
   reddit_stocks.md
+  reddit_stocks_titles.md
+  reddit_stocks_first_comment.txt
   reddit_quant.md
+  reddit_quant_titles.md
+  reddit_quant_first_comment.txt
   reddit_security_analysis.md
+  reddit_security_analysis_titles.md
+  reddit_security_analysis_first_comment.txt
 ```
 
 The generator is facts-locked and schedule-driven:
@@ -269,6 +281,15 @@ The generator is facts-locked and schedule-driven:
 - the schedule row defines the angle, title, and channel set
 - the deep validation report defines the facts that can be used
 - the output bundle is self-contained and ready for a downstream dispatcher
+- a hook QA pass ranks X hooks, Substack Note hooks, and Reddit title candidates before write-out
+
+Channel rules:
+
+- `substack.md` is the canonical long-form article and should end with a CTA to `https://www.stockarithm.com`.
+- `reddit_*.md` bodies must be link-free and useful on their own.
+- `reddit_*_first_comment.txt` is where the manual outbound link belongs after posting.
+- `x.md` is the short hook and should not try to carry the whole thesis.
+- `medium.md` is a teaser/discovery surface, not a second canonical article.
 
 ## Scripts
 

@@ -599,7 +599,7 @@ If it is not in the validation report, it does not exist.
 The generator does not recompute strategy metrics and does not use an LLM. It formats already-validated facts.
 
 Current public-facing drafts still land in `drafts/social/YYYY-MM-DD/` and `drafts/reddit_launch/YYYY-MM-DD/`. The long-term content contract is to keep the output deterministic, dispatcher-friendly, and fact-locked.
-StockArithm bundle generation now uses `marketing_schedule.csv` plus `scripts/stockarithm_content_generator.py` to write `marketing/content/{YYYY-MM-DD}-{slug}/` for downstream dispatch.
+StockArithm bundle generation now uses `marketing_schedule.csv` plus `scripts/stockarithm_content_generator.py` to write `marketing/content/{YYYY-MM-DD}-{slug}/` for downstream dispatch. In that bundle, `substack.md` is canonical, `reddit_*.md` bodies are link-free, and `reddit_*_first_comment.txt` is the manual outbound slot.
 
 Detailed documentation:
 

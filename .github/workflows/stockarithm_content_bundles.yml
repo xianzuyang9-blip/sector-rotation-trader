@@ -2,7 +2,7 @@ name: StockArithm Content Bundles
 
 on:
   schedule:
-    - cron: "0 14 * * *"
+    - cron: "30 13 * * *"  # 09:30 ET during daylight time
   workflow_dispatch:
     inputs:
       run_date:

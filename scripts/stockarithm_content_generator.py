@@ -14,10 +14,20 @@ Output shape:
     substack.md
     substack_note.md
     reddit_algotrading.md
+    reddit_algotrading_titles.md
+    reddit_algotrading_first_comment.txt
     reddit_investing.md
+    reddit_investing_titles.md
+    reddit_investing_first_comment.txt
     reddit_stocks.md
+    reddit_stocks_titles.md
+    reddit_stocks_first_comment.txt
     reddit_quant.md
+    reddit_quant_titles.md
+    reddit_quant_first_comment.txt
     reddit_security_analysis.md
+    reddit_security_analysis_titles.md
+    reddit_security_analysis_first_comment.txt
 
 Usage:
     python scripts/stockarithm_content_generator.py
@@ -129,7 +139,200 @@ def _split_list(value):
     return [part.strip() for part in parts if part.strip()]
 
 
-def _channel_prompt(channel_key, schedule_row):
+def _top_force_item(report):
+    force_rank = report.get("force_rank") or {}
+    top_10 = force_rank.get("top_10") or []
+    return top_10[0] if top_10 else {}
+
+
+def _top_rolling_item(report):
+    rolling = report.get("rolling_30d") or {}
+    top_10 = rolling.get("top_10") or []
+    return top_10[0] if top_10 else {}
+
+
+def _count_value(report, key):
+    system_state = report.get("system_state") or {}
+    value = system_state.get(key)
+    return int(value) if isinstance(value, (int, float)) else 0
+
+
+def _pluralize(count, singular, plural=None):
+    if count == 1:
+        return singular
+    return plural or f"{singular}s"
+
+
+def _hook_quality_score(text, channel_key):
+    score = 0
+    cleaned = re.sub(r"\s+", " ", text.strip())
+    lower = cleaned.lower()
+    length = len(cleaned)
+
+    if not cleaned:
+        return -999
+
+    # Core qualities
+    if any(word in lower for word in ("why", "what", "how", "wrong", "still", "fail", "losing", "visible", "public", "beating", "but", "yet")):
+        score += 4
+    if re.search(r"\d", cleaned):
+        score += 3
+    if "spy" in lower:
+        score += 2
+    if "stockarithm" in lower:
+        score += 1 if channel_key in {"x", "substack_note"} else 0
+
+    # Length / fit
+    if channel_key == "x":
+        if length <= 280:
+            score += 5
+        if length <= 140:
+            score += 3
+        if 40 <= length <= 120:
+            score += 2
+        if length < 25:
+            score -= 2
+    else:
+        if 30 <= length <= 120:
+            score += 2
+        if length > 180:
+            score -= 1
+
+    # Penalize soft or internal-language hooks
+    if lower.startswith(("we ", "here's ", "here is ", "this post", "daily update", "summary", "report", "launch", "product")):
+        score -= 4
+    if any(word in lower for word in ("proprietary", "seamless", "game-changing", "cutting-edge", "synergy", "solution")):
+        score -= 6
+    if any(word in lower for word in ("taxonomy", "ledger", "pipeline", "backtest", "notebook")) and channel_key in {"x", "reddit"}:
+        score -= 2
+
+    return score
+
+
+def _select_best_hook(candidates, channel_key):
+    ranked = sorted(
+        [c for c in candidates if c],
+        key=lambda item: (-_hook_quality_score(item, channel_key), len(item), item.lower()),
+    )
+    if not ranked:
+        return ""
+    return ranked[0]
+
+
+def _render_reddit_title_options(channel_key, report, row):
+    candidates = _reddit_title_candidates(channel_key, report, row)
+    ranked = sorted(
+        [c for c in candidates if c],
+        key=lambda item: (-_hook_quality_score(item, "reddit"), len(item), item.lower()),
+    )
+    return ranked[:5]
+
+
+def _x_hook_candidates(report, row):
+    top_force = _top_force_item(report)
+    top_name = top_force.get("name") or "the top signal"
+    beat_spy = _count_value(report, "beating_spy_force_rank")
+    total = _count_value(report, "total_force_ranked")
+    losers = max(total - beat_spy, 0)
+    title = row.get("title") or "StockArithm"
+    verb = "is" if beat_spy == 1 else "are"
+    return [
+        f"{beat_spy} of {total} signals {verb} beating SPY. The losers stay visible.",
+        f"{top_name} is still #1, but the board is the real story.",
+        f"The point of StockArithm is not a polished backtest. It is a public board.",
+        f"{title}: the premise matters less than what the board keeps showing.",
+        f"{losers} signals are not beating SPY. That is the part worth reading.",
+    ]
+
+
+def _substack_note_candidates(report, row):
+    top_force = _top_force_item(report)
+    top_name = top_force.get("name") or "the top signal"
+    total = _count_value(report, "total_force_ranked")
+    beat_spy = _count_value(report, "beating_spy_force_rank")
+    winner_word = _pluralize(beat_spy, "winner")
+    return [
+        f"One public board, {beat_spy} {winner_word}, {total - beat_spy} losers. That is the point.",
+        f"{top_name} is still the cleanest winner, but the board is the better story.",
+        f"StockArithm exists to keep the failures visible, not hide them.",
+        f"The interesting part is not the winner; it is how the full board behaves.",
+    ]
+
+
+def _reddit_title_candidates(channel_key, report, row):
+    top_force = _top_force_item(report)
+    top_name = top_force.get("name") or "the top signal"
+    beat_spy = _count_value(report, "beating_spy_force_rank")
+    total = _count_value(report, "total_force_ranked")
+    failure_count = max(total - beat_spy, 0)
+    title = row.get("title") or "StockArithm"
+    winner_word = _pluralize(beat_spy, "winner")
+    verb = "is" if beat_spy == 1 else "are"
+
+    shared = [
+        f"{beat_spy} of {total} signals {verb} beating SPY. Here is the full public board.",
+        f"I built a public sector-rotation lab and kept every failure visible.",
+        f"The label can be wrong and the signal can still work.",
+    ]
+
+    if channel_key == "reddit_algotrading":
+        return shared + [
+            f"{top_name} is #1, but the more interesting number is {failure_count} losing signals.",
+            "How I keep a public paper-trading board honest when most ideas fail",
+        ]
+    if channel_key == "reddit_investing":
+        return shared + [
+            f"{title} — a public paper-trading lab for alternative data signals",
+            "Why I think visible losses matter more than pretty backtests",
+        ]
+    if channel_key == "reddit_stocks":
+        return shared + [
+            f"One winner, a lot of losers, and a public board I can’t hide",
+            f"{beat_spy} {winner_word} out of {total} signals. That is the whole story.",
+        ]
+    if channel_key == "reddit_quant":
+        return shared + [
+            f"{total} paper-traded signals, {beat_spy} above SPY, and the sample size is still small",
+            "What a public sector-rotation lab can and cannot tell you",
+        ]
+    if channel_key == "reddit_security_analysis":
+        return shared + [
+            f"Why a public alternative-data sector lab is really a thesis test",
+            "How visible failures change the way I think about signal quality",
+        ]
+    return shared
+
+
+def _parse_reddit_bundle(text):
+    upper = text.upper()
+    if "BODY:" not in upper or "FIRST COMMENT:" not in upper:
+        raise ValueError("reddit bundle missing BODY/FIRST COMMENT sections")
+
+    body = _extract_section(text, "BODY:", {"FIRST COMMENT:"})
+    first_comment = _extract_section(text, "FIRST COMMENT:", set())
+    return body, first_comment
+
+
+def _extract_section(text, start_marker, end_markers):
+    lines = text.splitlines()
+    start = None
+    for idx, line in enumerate(lines):
+        if line.strip().upper() == start_marker:
+            start = idx + 1
+            break
+    if start is None:
+        raise ValueError(f"missing section: {start_marker}")
+
+    end = len(lines)
+    for idx in range(start, len(lines)):
+        marker = lines[idx].strip().upper()
+        if marker in end_markers:
+            end = idx
+            break
+    return "\n".join(lines[start:end]).strip()
+
+
+def _channel_prompt(channel_key, schedule_row, selected_hook=None, title_options=None):
     title = schedule_row["title"]
     theme = schedule_row["theme"]
     notes = schedule_row.get("notes") or ""
@@ -154,7 +357,9 @@ Context:
 - theme: {theme}
 - notes: {notes}
 
-Write one tweet only, under 280 characters, with one sharp observation and a light CTA.
+Selected hook: {selected_hook or "n/a"}
+
+Write one tweet only, under 280 characters, with one sharp observation and a light CTA. If possible, open with the selected hook or a very close variant that preserves the same tension. Hint toward the longer Substack piece, but do not force a URL.
 Return plain text only.
 """
 
@@ -169,7 +374,9 @@ Context:
 - theme: {theme}
 - notes: {notes}
 
-Write a polished, readable Medium article with a clear title on the first line, 3-5 short sections, and a practical closing. Keep it honest and useful, not marketing copy.
+Selected hook: {selected_hook or "n/a"}
+
+Write a polished, readable Medium article with a clear title on the first line, 3-5 short sections, and a practical closing. Keep it honest and useful, not marketing copy. This should act as a teaser / discovery surface for the canonical Substack article.
 Length: 700-1100 words.
 Return markdown only.
 """
@@ -185,7 +392,9 @@ Context:
 - theme: {theme}
 - notes: {notes}
 
-Write the canonical long-form post. Put the title on the first line, then the body. Make it feel like a real analyst's field note with a clear point of view.
+Selected hook: {selected_hook or "n/a"}
+
+Write the canonical long-form post. Put the title on the first line, then the body. Make it feel like a real analyst's field note with a clear point of view. End with a short CTA that links back to https://www.stockarithm.com.
 Length: 900-1300 words.
 Return markdown only.
 """
@@ -201,7 +410,9 @@ Context:
 - theme: {theme}
 - notes: {notes}
 
-Write a short note: 2-4 sentences, sharp and readable, ending with a real question when possible. Keep it discovery-oriented, not salesy.
+Selected hook: {selected_hook or "n/a"}
+
+Write a short note: 2-4 sentences, sharp and readable, ending with a real question when possible. Keep it discovery-oriented, not salesy. It should support the canonical Substack article, not replace it.
 Return plain text only.
 """
 
@@ -245,8 +456,24 @@ Context:
 - title: {title}
 - theme: {theme}
 - notes: {notes}
+- selected title option: {selected_hook or "n/a"}
+- title candidates:
+{title_options or "n/a"}
 
-Write a post tailored to the subreddit. Include a title line first, blank line, then body. Mention stockarithm.com unless the channel would obviously reject it.
+Write a post tailored to the subreddit. Output exactly these sections:
+
+BODY:
+...
+
+FIRST COMMENT:
+...
+
+Rules:
+- The BODY must be native-value and link-free.
+- Do not include any URLs in the BODY.
+- Do not include stockarithm.com or substack.com in the BODY.
+- The FIRST COMMENT can hold the link placeholder for the later manual post or the actual outbound link text.
+- The selected title should be the hook QA winner from the title candidates above.
 Length: {length} to 550 words depending on the subreddit.
 Return markdown/plain text only.
 """
@@ -267,24 +494,36 @@ CHANNEL_ORDER = [
 ]
 
 
-def _build_meta(run_date, row, bundle_dir, report):
+def _build_meta(run_date, row, bundle_dir, report, hook_qa=None):
     reddit_targets = _split_list(row.get("reddit_targets"))
     channels = _split_list(row.get("channels"))
 
     channel_meta = {}
     if "x" in channels:
-        channel_meta["x"] = {"status": "ready", "file": "x.md"}
+        channel_meta["x"] = {"status": "ready", "file": "x.md", "link_policy": "substack_cta"}
     if "medium" in channels:
-        channel_meta["medium"] = {"status": "ready", "file": "medium.md"}
+        channel_meta["medium"] = {"status": "ready", "file": "medium.md", "link_policy": "substack_teaser"}
     if "substack" in channels:
-        channel_meta["substack"] = {"status": "ready", "file": "substack.md"}
+        channel_meta["substack"] = {
+            "status": "ready",
+            "file": "substack.md",
+            "link_policy": "site_cta",
+            "canonical_url": "https://www.stockarithm.com",
+        }
     if "substack_note" in channels:
-        channel_meta["substack_note"] = {"status": "ready", "file": "substack_note.md"}
+        channel_meta["substack_note"] = {"status": "ready", "file": "substack_note.md", "link_policy": "hook"}
     if "reddit" in channels and reddit_targets:
         channel_meta["reddit"] = {
             "status": "ready",
+            "link_policy": "no_links_in_body",
             "subreddits": [
-                {"name": target, "status": "ready", "file": f"reddit_{target}.md"}
+                {
+                    "name": target,
+                    "status": "ready",
+                    "file": f"reddit_{target}.md",
+                    "titles_file": f"reddit_{target}_titles.md",
+                    "first_comment_file": f"reddit_{target}_first_comment.txt",
+                }
                 for target in reddit_targets
             ],
         }
@@ -303,6 +542,8 @@ def _build_meta(run_date, row, bundle_dir, report):
         "bundle_path": str(bundle_dir),
         "channels": channel_meta,
     }
+    if hook_qa:
+        meta["hook_qa"] = hook_qa
     return meta
 
 
@@ -313,12 +554,17 @@ def _lint_draft(text, channel_key):
         raise ValueError(f"{channel_key}: stale brand casing Stockarithm found")
     if channel_key == "x" and len(text) > 280:
         raise ValueError(f"{channel_key}: X draft exceeds 280 characters")
-    if channel_key != "substack_note" and "stockarithm.com" not in text.lower():
+    if channel_key == "substack" and "stockarithm.com" not in text.lower():
         raise ValueError(f"{channel_key}: missing stockarithm.com URL")
+    if channel_key.startswith("reddit_"):
+        if re.search(r"https?://|www\.", text, re.IGNORECASE):
+            raise ValueError(f"{channel_key}: Reddit body must not contain URLs")
+        if "stockarithm.com" in text.lower():
+            raise ValueError(f"{channel_key}: Reddit body must not contain stockarithm.com")
 
 
-def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir):
-    prompt = _channel_prompt(channel_key, row)
+def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, selected_hook=None, title_options=None):
+    prompt = _channel_prompt(channel_key, row, selected_hook=selected_hook, title_options=title_options)
     user_message = (
         f"Schedule row for {run_date}:\n"
         f"{json.dumps(row, indent=2, sort_keys=True)}\n\n"
@@ -346,6 +592,20 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir):
         messages=[{"role": "user", "content": user_message}],
     )
     draft = message.content[0].text.strip()
+    if channel_key.startswith("reddit_"):
+        body, first_comment = _parse_reddit_bundle(draft)
+        _lint_draft(body, channel_key)
+        body_path = bundle_dir / f"{channel_key}.md"
+        titles_path = bundle_dir / f"{channel_key}_titles.md"
+        comment_path = bundle_dir / f"{channel_key}_first_comment.txt"
+        body_path.write_text(body + "\n", encoding="utf-8")
+        titles_path.write_text((title_options or "") + "\n", encoding="utf-8")
+        comment_path.write_text(first_comment + "\n", encoding="utf-8")
+        print(f"[stockarithm-content] wrote {body_path}")
+        print(f"[stockarithm-content] wrote {titles_path}")
+        print(f"[stockarithm-content] wrote {comment_path}")
+        return
+
     _lint_draft(draft, channel_key)
 
     filename = {
@@ -353,11 +613,6 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir):
         "medium": "medium.md",
         "substack": "substack.md",
         "substack_note": "substack_note.md",
-        "reddit_algotrading": "reddit_algotrading.md",
-        "reddit_investing": "reddit_investing.md",
-        "reddit_stocks": "reddit_stocks.md",
-        "reddit_quant": "reddit_quant.md",
-        "reddit_security_analysis": "reddit_security_analysis.md",
     }[channel_key]
     out_path = bundle_dir / filename
     out_path.write_text(draft + "\n", encoding="utf-8")
@@ -378,7 +633,23 @@ def generate(run_date, dry_run=False):
     facts_block = _build_facts_block(report)
     bundle_dir = OUTPUT_ROOT / f"{run_date}-{row['slug']}"
     bundle_dir.mkdir(parents=True, exist_ok=True)
-    meta = _build_meta(run_date, row, bundle_dir, report)
+
+    x_candidates = _x_hook_candidates(report, row)
+    x_hook = _select_best_hook(x_candidates, "x")
+    note_candidates = _substack_note_candidates(report, row)
+    note_hook = _select_best_hook(note_candidates, "substack_note")
+    reddit_title_options = {}
+    for target in _split_list(row.get("reddit_targets")):
+        channel_key = f"reddit_{target}"
+        reddit_title_options[target] = _render_reddit_title_options(channel_key, report, row)
+
+    hook_qa = {
+        "x": {"selected": x_hook, "candidates": x_candidates},
+        "substack_note": {"selected": note_hook, "candidates": note_candidates},
+        "reddit_titles": reddit_title_options,
+    }
+
+    meta = _build_meta(run_date, row, bundle_dir, report, hook_qa=hook_qa)
 
     if dry_run:
         print(f"[stockarithm-content] dry-run for {run_date}")
@@ -387,9 +658,13 @@ def generate(run_date, dry_run=False):
         if "reddit" in channels:
             for target in _split_list(row.get("reddit_targets")):
                 print(f"  would write: {bundle_dir / f'reddit_{target}.md'}")
+                print(f"  would write: {bundle_dir / f'reddit_{target}_titles.md'}")
+                print(f"  would write: {bundle_dir / f'reddit_{target}_first_comment.txt'}")
         for key in ("x", "medium", "substack", "substack_note"):
             if key in channels:
                 print(f"  would write: {bundle_dir / f'{key}.md'}")
+        print(f"  selected x hook: {x_hook}")
+        print(f"  selected substack note hook: {note_hook}")
         return
 
     api_key = os.getenv("ANTHROPIC_API_KEY")
@@ -410,10 +685,31 @@ def generate(run_date, dry_run=False):
             target = channel_key.replace("reddit_", "")
             if target not in _split_list(row.get("reddit_targets")):
                 continue
+            title_options = reddit_title_options.get(target, [])
+            selected_title = title_options[0] if title_options else ""
+            _write_channel(
+                client,
+                channel_key,
+                run_date,
+                facts_block,
+                row,
+                bundle_dir,
+                selected_hook=selected_title,
+                title_options="\n".join(f"{idx + 1}. {title}" for idx, title in enumerate(title_options)),
+            )
         else:
             if channel_key not in channels:
                 continue
-        _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir)
+            selected_hook = x_hook if channel_key in {"x", "medium"} else note_hook if channel_key == "substack_note" else None
+            _write_channel(
+                client,
+                channel_key,
+                run_date,
+                facts_block,
+                row,
+                bundle_dir,
+                selected_hook=selected_hook,
+            )
 
     (bundle_dir / "meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(f"[stockarithm-content] wrote {bundle_dir / 'meta.json'}")

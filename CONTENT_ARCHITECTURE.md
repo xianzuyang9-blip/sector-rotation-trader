@@ -47,6 +47,35 @@ reports/deep_validation/latest.json
 -> drafts/social/YYYY-MM-DD/
 ```
 
+## Hook QA Layer
+
+The hook QA layer exists to stop weak opening hooks and weak Reddit titles from leaking into public channels.
+
+It is most important for:
+
+- `x.md`
+- `substack_note.md`
+- `reddit_*_titles.md`
+
+The generator should score candidate hooks before it writes them, then choose the strongest option that still matches the schedule row and the facts package.
+
+Hook QA should reward:
+
+- curiosity
+- tension
+- contradiction when the evidence supports it
+- short, specific wording
+- numbers when they help the hook
+
+Hook QA should penalize:
+
+- soft summary language
+- internal taxonomy language
+- generic marketing phrasing
+- hooks that are too literal to create curiosity
+
+The outcome should be a deterministic, inspectable first pass, not a creative free-for-all.
+
 ## Current Outputs
 
 ### Deep Validation
