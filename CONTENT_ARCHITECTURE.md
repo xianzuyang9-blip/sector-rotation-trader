@@ -76,6 +76,25 @@ Hook QA should penalize:
 
 The outcome should be a deterministic, inspectable first pass, not a creative free-for-all.
 
+## Algo Plain-English Layer
+
+When a signal has been seeded and backtested, its public display should also carry a plain-English description that says what the signal is trying to read, why it exists, and where it fails.
+
+That description is part of the algo copy registry and is rendered into each algo display file alongside the technical sections.
+
+The description should:
+
+- read like a real analyst wrote it;
+- be short enough for a non-quant reader to understand quickly;
+- stay tied to the actual seeded/backtested signal record;
+- update when the underlying signal changes.
+
+It should not:
+
+- drift away from the underlying signal;
+- turn into marketing copy;
+- invent a story that the backtest did not earn.
+
 ## Current Outputs
 
 ### Deep Validation

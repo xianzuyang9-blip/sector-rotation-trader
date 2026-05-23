@@ -5,6 +5,7 @@ Committed to repo → served via GitHub Pages.
 import json
 import os
 import html
+import re
 from datetime import date
 from config import STARTING_CASH, DASHBOARD_FILE
 from algo_copy_registry import lookup_algo_copy
@@ -27,7 +28,12 @@ def _algo_description(algo_name: str, meta: dict) -> str:
 
     copy = lookup_algo_copy(algo_id=algo_id, name=algo_name)
     if copy:
-        summary = str(copy.get("public_summary") or copy.get("thesis") or "").strip()
+        summary = str(
+            copy.get("plain_english_description")
+            or copy.get("public_summary")
+            or copy.get("thesis")
+            or ""
+        ).strip()
         if summary:
             return summary
 
@@ -91,14 +97,21 @@ def _render_brief_value(value) -> str:
     return f"<p>{_escape(value)}</p>"
 
 
+def _norm_text(value) -> str:
+    return re.sub(r"\s+", " ", str(value or "").strip())
+
+
 def _signal_brief_html(algo_name: str, meta: dict) -> str:
     algo_id = str(meta.get("algo_id", "") or "")
     copy = lookup_algo_copy(algo_id=algo_id, name=algo_name)
     if not copy:
         return ""
 
+    plain = copy.get("plain_english_description") or copy.get("public_summary") or copy.get("thesis")
+    thesis = copy.get("thesis")
     fields = [
-        ("Thesis", copy.get("thesis")),
+        ("Plain English Description", plain),
+        ("Thesis", thesis if _norm_text(thesis) != _norm_text(plain) else None),
         ("Universe", copy.get("universe")),
         ("Data Sources", copy.get("data_sources")),
         ("Signal Logic", copy.get("signal_logic")),

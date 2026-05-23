@@ -12,6 +12,7 @@ LEGACY_COPY_PATH = ROOT / "data" / "algos" / "legacy_copy.json"
 
 
 SECTION_KEYS = {
+    "Plain English Description": "plain_english_description",
     "Thesis": "thesis",
     "Universe": "universe",
     "Data Sources": "data_sources",
@@ -46,6 +47,12 @@ def _slugify(text: str) -> str:
 
 
 def _public_summary(record: dict) -> str:
+    plain = _clean_text(str(record.get("plain_english_description") or ""))
+    if plain:
+        return plain
+    summary = _clean_text(str(record.get("public_summary") or ""))
+    if summary:
+        return summary
     thesis = _clean_text(str(record.get("thesis") or ""))
     if thesis:
         return thesis
@@ -94,7 +101,9 @@ def _parse_markdown(path: Path, category: str) -> dict | None:
         else:
             record[key] = _clean_text(block)
 
-    record["public_summary"] = _public_summary(record)
+    summary = _public_summary(record)
+    record["plain_english_description"] = _clean_text(str(record.get("plain_english_description") or summary))
+    record["public_summary"] = summary
     return record
 
 
@@ -134,6 +143,7 @@ def build_algo_copy_registry() -> dict[str, dict]:
                 record.setdefault("algo_id", algo_id)
                 record.setdefault("title", algo_id)
                 record.setdefault("public_summary", _public_summary(record))
+                record.setdefault("plain_english_description", record.get("public_summary") or _public_summary(record))
                 records[str(algo_id)] = record
 
     for category, md_path in _iter_markdown_paths():
@@ -142,6 +152,7 @@ def build_algo_copy_registry() -> dict[str, dict]:
             continue
         algo_id = str(parsed["algo_id"])
         record = dict(parsed)
+        record.setdefault("plain_english_description", record.get("public_summary") or _public_summary(record))
         records[f"{category}:{algo_id}"] = record
         records[algo_id] = record
 
