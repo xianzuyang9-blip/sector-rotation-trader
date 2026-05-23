@@ -1,10 +1,10 @@
 {
   "run_date": "2026-05-23",
-  "generated_at": "2026-05-23T17:02:34Z",
+  "generated_at": "2026-05-23T17:10:40Z",
   "counts": {
-    "total": 339,
+    "total": 344,
     "normal": 5,
-    "crazy": 334,
+    "crazy": 339,
     "watchlist": 135,
     "promoted": 5,
     "graveyard": 26
@@ -15,11 +15,11 @@
     "live_only": 126,
     "parked": 25,
     "promoted": 5,
-    "sandbox": 178
+    "sandbox": 183
   },
   "by_evidence_class": {
     "live_receipts_only": 127,
-    "needs_history": 175,
+    "needs_history": 180,
     "pending_seed": 25,
     "v1_backtested": 12
   },

@@ -3,8 +3,8 @@
   "sector": "Industrials",
   "bullish": 13,
   "bearish": 43,
-  "neutral": 283,
-  "total_signals": 339,
+  "neutral": 288,
+  "total_signals": 344,
   "total_active": 56,
   "bullish_pct": 23,
   "composite": "13 of 56",
@@ -147,6 +147,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "healthcare-utilization-surge-from-seasonal-illness-wave",
+      "name": "Healthcare Utilization Surge From Seasonal Illness Wave",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "weekly-spike-in-google-trends-for-electric-vehicle-battery-r",
       "name": "Weekly Spike In Google Trends For Electric Vehicle Battery Replacement Signals Consumer Stress Lifting Industrial Sector",
       "algo_type": "crazy",
@@ -269,6 +278,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 82,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "travel-mobility-rebound-post-weather-system",
+      "name": "Travel Mobility Rebound Post Weather System",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -1209,6 +1227,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "utilities-volatility-spike-long-hedge-trade",
+      "name": "Utilities Volatility Spike Long Hedge Trade",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-jump-in-google-trends-for-food-poisoning-outbreak-boos",
       "name": "Daily Jump In Google Trends For Food Poisoning Outbreak Boosts Healthcare Sector Demand",
       "algo_type": "crazy",
@@ -1422,6 +1449,15 @@
       "direction": "BEARISH",
       "days_running": 96,
       "ytd_pct": -0.24,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "ev-charger-installation-boom-acceleration-signal",
+      "name": "Ev Charger Installation Boom Acceleration Signal",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -2429,6 +2465,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 89,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-home-heating-oil-shortage-s",
+      "name": "Daily Surge In Google Trends For Home Heating Oil Shortage Signals Energy Sector Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },

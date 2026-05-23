@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T17:02:34Z",
+  "generated_at": "2026-05-23T17:10:40Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -2259,6 +2259,30 @@
       "equity": 100005.77,
       "ytd_pct": 0.01,
       "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-05-23",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:healthcare-utilization-surge-from-seasonal-illness-wave",
+      "algo_type": "crazy",
+      "algo_id": "healthcare-utilization-surge-from-seasonal-illness-wave",
+      "name": "Healthcare Utilization Surge From Seasonal Illness Wave",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLV"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
       "positions": 0,
       "last_snapshot": "2026-05-23",
       "last_signal": null,
@@ -5690,6 +5714,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:daily-surge-in-google-trends-for-home-heating-oil-shortage-s",
+      "algo_type": "crazy",
+      "algo_id": "daily-surge-in-google-trends-for-home-heating-oil-shortage-s",
+      "name": "Daily Surge In Google Trends For Home Heating Oil Shortage Signals Energy Sector Stress",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLE"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-23",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:earthquake-activity-surge-in-oil-producing-regions-signals-s",
       "algo_type": "crazy",
       "algo_id": "earthquake-activity-surge-in-oil-producing-regions-signals-s",
@@ -5997,6 +6045,30 @@
       "rebalance_frequency": "daily",
       "universe": [
         "XLE"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-23",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:ev-charger-installation-boom-acceleration-signal",
+      "algo_type": "crazy",
+      "algo_id": "ev-charger-installation-boom-acceleration-signal",
+      "name": "Ev Charger Installation Boom Acceleration Signal",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLI"
       ],
       "equity": 100000.0,
       "ytd_pct": 0.0,
@@ -6682,6 +6754,30 @@
       "new_algo_date": null,
       "backtest_status": "UNSUPPORTED_DATA",
       "backtest_reason": "Uses non-price adapter: crazy.adapters.earthquake_activity",
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:utilities-volatility-spike-long-hedge-trade",
+      "algo_type": "crazy",
+      "algo_id": "utilities-volatility-spike-long-hedge-trade",
+      "name": "Utilities Volatility Spike Long Hedge Trade",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-23",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
       "backtest_alpha_vs_spy_pct": null,
       "backtest_trade_count": null
     },
@@ -8097,6 +8193,30 @@
       "equity": 99943.44,
       "ytd_pct": -0.06,
       "trade_count": 4,
+      "positions": 0,
+      "last_snapshot": "2026-05-23",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:travel-mobility-rebound-post-weather-system",
+      "algo_type": "crazy",
+      "algo_id": "travel-mobility-rebound-post-weather-system",
+      "name": "Travel Mobility Rebound Post Weather System",
+      "family": "travel_mobility",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
       "positions": 0,
       "last_snapshot": "2026-05-23",
       "last_signal": null,

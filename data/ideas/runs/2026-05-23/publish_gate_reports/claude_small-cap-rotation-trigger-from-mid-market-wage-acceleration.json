@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-05-23/publish/claude_small-cap-rotation-trigger-from-mid-market-wage-acceleration.md",
+  "target_file": "data/ideas/runs/2026-05-23/intervention/claude_small-cap-rotation-trigger-from-mid-market-wage-acceleration.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "frequency mismatch",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "uncertain data source mapping",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table",
+        "price_only"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1,
+        "price_only": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 1024,
+    "output_tokens": 90
+  },
+  "cost_usd": 0.00346,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Adapter mapping to FRED series MMNRNJ is uncertain and frequency mismatch between monthly wage data and weekly frequency needs review.\",\n  \"risk_flags\": [\"low adapter routing confidence\", \"frequency mismatch\", \"uncertain data source mapping\"]\n}\n```"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-05-23T17:02:34Z",
+  "generated_at": "2026-05-23T17:10:40Z",
   "families": {
     "attention_sentiment": {
       "family": "attention_sentiment",
@@ -200,16 +200,16 @@
     },
     "consumer_stress": {
       "family": "consumer_stress",
-      "count": 92,
+      "count": 93,
       "by_status": {
         "failed": 1,
         "live_only": 39,
         "parked": 4,
-        "sandbox": 48
+        "sandbox": 49
       },
       "by_evidence_class": {
         "live_receipts_only": 39,
-        "needs_history": 48,
+        "needs_history": 49,
         "pending_seed": 4,
         "v1_backtested": 1
       },
@@ -999,16 +999,16 @@
     },
     "macro_input_pressure": {
       "family": "macro_input_pressure",
-      "count": 73,
+      "count": 76,
       "by_status": {
         "backtest_weak": 1,
         "live_only": 23,
         "parked": 5,
-        "sandbox": 44
+        "sandbox": 47
       },
       "by_evidence_class": {
         "live_receipts_only": 23,
-        "needs_history": 42,
+        "needs_history": 45,
         "pending_seed": 5,
         "v1_backtested": 3
       },
@@ -1305,15 +1305,15 @@
     },
     "travel_mobility": {
       "family": "travel_mobility",
-      "count": 22,
+      "count": 23,
       "by_status": {
         "live_only": 4,
         "parked": 2,
-        "sandbox": 16
+        "sandbox": 17
       },
       "by_evidence_class": {
         "live_receipts_only": 4,
-        "needs_history": 16,
+        "needs_history": 17,
         "pending_seed": 2
       },
       "leaders": [

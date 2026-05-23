@@ -1,0 +1,16 @@
+{
+  "adapter": "google_trends",
+  "algo_file": "crazy/algos/healthcare_utilization_surge_from_seasonal_illness_wave.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "healthcare-utilization-surge-from-seasonal-illness-wave",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-05-23/build/claude_healthcare-utilization-surge-from-seasonal-illness-wave.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-05-23/algos/crazy/healthcare-utilization-surge-from-seasonal-illness-wave"
+}

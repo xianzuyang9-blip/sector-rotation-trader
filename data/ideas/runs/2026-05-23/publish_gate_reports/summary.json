@@ -1,0 +1,332 @@
+{
+  "publish_dir": "data/ideas/runs/2026-05-23/publish",
+  "output_dir": "data/ideas/runs/2026-05-23",
+  "model": "gpt-4.1-mini",
+  "dry_run": false,
+  "move": false,
+  "counts": {
+    "BUILD": 5,
+    "INTERVENTION": 17,
+    "REJECT": 0
+  },
+  "parse_failures": 0,
+  "costs": {
+    "openai": 0.07104249999999998,
+    "total": 0.07104249999999998
+  },
+  "files": [
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_consumer-stress-spike-in-google-trends-for-urgent-daycare-av.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_consumer-stress-spike-in-google-trends-for-urgent-daycare-av.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "requires shorting",
+        "short_trade_not_supported",
+        "signal threshold clarity",
+        "weekly frequency"
+      ],
+      "cost_usd": 0.003075,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_daily-spike-in-earthquake-activity-within-key-port-regions-s.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_daily-spike-in-earthquake-activity-within-key-port-regions-s.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "data source granularity unclear",
+        "location-specific filtering missing",
+        "requires short position",
+        "short_trade_not_supported"
+      ],
+      "cost_usd": 0.0031275,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_daily-spike-in-google-trends-for-truck-driver-strike-predict.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_daily-spike-in-google-trends-for-truck-driver-strike-predict.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "potential data source instability",
+        "requires short position",
+        "short_trade_not_supported",
+        "signal threshold and exit criteria need manual review"
+      ],
+      "cost_usd": 0.0031575,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_daily-spike-in-rss-news-counts-mentioning-warehouse-labor-sh.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_daily-spike-in-rss-news-counts-mentioning-warehouse-labor-sh.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "requires short position",
+        "short_trade_not_supported"
+      ],
+      "cost_usd": 0.0031525,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_daily-surge-in-google-trends-for-home-heating-oil-shortage-s.md",
+      "decision": "BUILD",
+      "target": "data/ideas/runs/2026-05-23/build/chatgpt_daily-surge-in-google-trends-for-home-heating-oil-shortage-s.md",
+      "reason": "Spec is clear, deterministic, uses a valid existing adapter with appropriate data source and frequency.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "regime shifts"
+      ],
+      "cost_usd": 0.003125,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_labor-jobs-weekly-surge-in-google-trends-for-gig-worker-stri.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_labor-jobs-weekly-surge-in-google-trends-for-gig-worker-stri.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "data source instability",
+        "requires shorting",
+        "short_trade_not_supported",
+        "weekly frequency"
+      ],
+      "cost_usd": 0.0031175,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_weekly-spike-in-political-insider-filings-of-executives-sell.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_weekly-spike-in-political-insider-filings-of-executives-sell.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "adapter mismatch",
+        "data source instability",
+        "requires insider selling volume data",
+        "requires short position",
+        "short_trade_not_supported",
+        "unsupported_template_adapter"
+      ],
+      "cost_usd": 0.0032425,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_weekly-surge-in-freight-logistics-google-trends-for-pallet-s.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_weekly-surge-in-freight-logistics-google-trends-for-pallet-s.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "no explicit volume data needed",
+        "position sizing with short exposure",
+        "short_trade_not_supported",
+        "shorting required"
+      ],
+      "cost_usd": 0.0032325,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_weekly-surge-in-google-trends-for-farming-equipment-breakdow.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_weekly-surge-in-google-trends-for-farming-equipment-breakdow.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "position sizing with short exposure",
+        "potential data source instability",
+        "short_trade_not_supported",
+        "shorting required"
+      ],
+      "cost_usd": 0.003175,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_weekly-surge-in-google-trends-for-industrial-water-shortage-.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_weekly-surge-in-google-trends-for-industrial-water-shortage-.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "requires short position",
+        "short_trade_not_supported",
+        "signal logic needs manual review",
+        "weekly frequency"
+      ],
+      "cost_usd": 0.0030975,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_weekly-surge-in-google-trends-for-solar-panel-inverter-failu.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_weekly-surge-in-google-trends-for-solar-panel-inverter-failu.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "entry/exit logic needs manual review",
+        "potential data source instability",
+        "requires short position",
+        "short_trade_not_supported"
+      ],
+      "cost_usd": 0.0031825,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/chatgpt_weekly-surge-in-google-trends-for-warehouse-automation-syste.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/chatgpt_weekly-surge-in-google-trends-for-warehouse-automation-syste.md",
+      "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+      "risk_flags": [
+        "no native short support",
+        "position sizing with short exposure",
+        "short_trade_not_supported",
+        "shorting required"
+      ],
+      "cost_usd": 0.003105,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_energy-commodity-input-cost-relief-trade.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/claude_energy-commodity-input-cost-relief-trade.md",
+      "reason": "Template builder does not support fred_series yet.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "low_adapter_confidence",
+        "regime shifts",
+        "unsupported_template_adapter"
+      ],
+      "cost_usd": 0.0033375,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_ev-charger-installation-boom-acceleration-signal.md",
+      "decision": "BUILD",
+      "target": "data/ideas/runs/2026-05-23/build/claude_ev-charger-installation-boom-acceleration-signal.md",
+      "reason": "Spec is clear, uses a real adapter with matching data source and frequency.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "regime shifts"
+      ],
+      "cost_usd": 0.0031975,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_freight-diesel-price-spike-margin-squeeze-play.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/claude_freight-diesel-price-spike-margin-squeeze-play.md",
+      "reason": "Template builder does not support fred_series yet.",
+      "risk_flags": [
+        "low adapter routing confidence",
+        "low_adapter_confidence",
+        "multi-asset lag comparison",
+        "short-covering rally logic",
+        "unsupported_template_adapter",
+        "volume data not specified"
+      ],
+      "cost_usd": 0.00344,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_healthcare-utilization-surge-from-seasonal-illness-wave.md",
+      "decision": "BUILD",
+      "target": "data/ideas/runs/2026-05-23/build/claude_healthcare-utilization-surge-from-seasonal-illness-wave.md",
+      "reason": "Spec is clear, uses a real adapter with matching data source and frequency.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "regime shifts"
+      ],
+      "cost_usd": 0.00326,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_regional-bank-stress-capitulation-bounce-after-outflows-paus.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/claude_regional-bank-stress-capitulation-bounce-after-outflows-paus.md",
+      "reason": "price_only currently provides close/value data, not volume.",
+      "risk_flags": [
+        "adapter_mismatch",
+        "manual_review_needed",
+        "price_only_volume_gap",
+        "volume_required"
+      ],
+      "cost_usd": 0.0033375,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_small-cap-rotation-trigger-from-mid-market-wage-acceleration.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/claude_small-cap-rotation-trigger-from-mid-market-wage-acceleration.md",
+      "reason": "Template builder does not support fred_series yet.",
+      "risk_flags": [
+        "frequency mismatch",
+        "low adapter routing confidence",
+        "low_adapter_confidence",
+        "uncertain data source mapping",
+        "unsupported_template_adapter"
+      ],
+      "cost_usd": 0.00346,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_tech-news-surge-contrarian-fade-after-earnings.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/claude_tech-news-surge-contrarian-fade-after-earnings.md",
+      "reason": "Template builder does not support html_table yet.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "needs new adapter",
+        "regime shifts",
+        "unsupported_template_adapter"
+      ],
+      "cost_usd": 0.0033725,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_travel-mobility-rebound-post-weather-system.md",
+      "decision": "BUILD",
+      "target": "data/ideas/runs/2026-05-23/build/claude_travel-mobility-rebound-post-weather-system.md",
+      "reason": "Spec is clear, uses a real weather adapter with appropriate data and logic.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "regime shifts"
+      ],
+      "cost_usd": 0.00329,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_unemployment-claims-surprise-beat-mean-reversion.md",
+      "decision": "INTERVENTION",
+      "target": "data/ideas/runs/2026-05-23/intervention/claude_unemployment-claims-surprise-beat-mean-reversion.md",
+      "reason": "Template builder does not support fred_series yet.",
+      "risk_flags": [
+        "entry logic depends on external consensus",
+        "fred_consensus_surprise_gap",
+        "low adapter routing confidence",
+        "low_adapter_confidence",
+        "missing prior consensus data",
+        "unsupported_template_adapter",
+        "weekly frequency timing"
+      ],
+      "cost_usd": 0.00326,
+      "parse_failed": false
+    },
+    {
+      "file": "data/ideas/runs/2026-05-23/publish/claude_utilities-volatility-spike-long-hedge-trade.md",
+      "decision": "BUILD",
+      "target": "data/ideas/runs/2026-05-23/build/claude_utilities-volatility-spike-long-hedge-trade.md",
+      "reason": "Spec is deterministic, uses existing price_only adapter correctly for XLU and VIX prices.",
+      "risk_flags": [
+        "data source instability",
+        "false positives",
+        "regime shifts"
+      ],
+      "cost_usd": 0.0032975,
+      "parse_failed": false
+    }
+  ]
+}

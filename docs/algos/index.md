@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-05-23T17:02:33
+Updated (UTC): 2026-05-23T17:10:40
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 334
+Crazy models: 339
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -350,3 +350,8 @@ Crazy models: 334
 | weekly-surge-in-google-trends-for-warehouse-automation-jobs- | Weekly Surge In Google Trends For Warehouse Automation Jobs Signals Industrial Tech Adoption | weekly |
 | renewable-energy-investment-thesis-rebound-from-policy-senti | Renewable Energy Investment Thesis Rebound From Policy Sentiment Surge | weekly |
 | utility-sector-rate-hike-anxiety-from-weather-driven-demand- | Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike | daily |
+| daily-surge-in-google-trends-for-home-heating-oil-shortage-s | Daily Surge In Google Trends For Home Heating Oil Shortage Signals Energy Sector Stress | daily |
+| ev-charger-installation-boom-acceleration-signal | Ev Charger Installation Boom Acceleration Signal | daily |
+| healthcare-utilization-surge-from-seasonal-illness-wave | Healthcare Utilization Surge From Seasonal Illness Wave | weekly |
+| travel-mobility-rebound-post-weather-system | Travel Mobility Rebound Post Weather System | daily |
+| utilities-volatility-spike-long-hedge-trade | Utilities Volatility Spike Long Hedge Trade | daily |

@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-05-23/publish/claude_tech-news-surge-contrarian-fade-after-earnings.md",
+  "target_file": "data/ideas/runs/2026-05-23/intervention/claude_tech-news-surge-contrarian-fade-after-earnings.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "rss_count",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support html_table yet.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "needs new adapter",
+      "regime shifts",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "rss_count": 2,
+        "html_table": 2,
+        "price_only": 1
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1049,
+    "output_tokens": 75
+  },
+  "cost_usd": 0.0033725,
+  "raw_llm_response": "{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"rss_count\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Requires RSS feed count adapter which does not currently exist\",\n  \"risk_flags\": [\"needs new adapter\", \"data source instability\", \"false positives\", \"regime shifts\"]\n}"
+}

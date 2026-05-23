@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-23T17:02:42.223494",
+  "as_of": "2026-05-23T17:10:39.491416",
   "spy_ret_30d": 0.04841044362716396,
   "entries": [
     {
@@ -299,6 +299,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "healthcare-utilization-surge-from-seasonal-illness-wave",
+      "name": "Healthcare Utilization Surge From Seasonal Illness Wave",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "weekly-spike-in-google-trends-for-electric-vehicle-battery-r",
       "name": "Weekly Spike In Google Trends For Electric Vehicle Battery Replacement Signals Consumer Stress Lifting Industrial Sector",
       "category": "crazy",
@@ -373,6 +381,14 @@
     {
       "algo_id": "health-insurance-deductible-shock-searches",
       "name": "Health Insurance Deductible Shock Searches",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "travel-mobility-rebound-post-weather-system",
+      "name": "Travel Mobility Rebound Post Weather System",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -931,6 +947,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "utilities-volatility-spike-long-hedge-trade",
+      "name": "Utilities Volatility Spike Long Hedge Trade",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-jump-in-google-trends-for-food-poisoning-outbreak-boos",
       "name": "Daily Jump In Google Trends For Food Poisoning Outbreak Boosts Healthcare Sector Demand",
       "category": "crazy",
@@ -1045,6 +1069,14 @@
     {
       "algo_id": "weekly-google-trends-spike-for-diy-car-repair-signals-bullis",
       "name": "Weekly Google Trends Spike For Diy Car Repair Signals Bullish Xly",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "ev-charger-installation-boom-acceleration-signal",
+      "name": "Ev Charger Installation Boom Acceleration Signal",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1717,6 +1749,14 @@
     {
       "algo_id": "weekly-surge-in-google-trends-for-diy-solar-panel-repair-sig",
       "name": "Weekly Surge In Google Trends For Diy Solar Panel Repair Signals Green Energy Sector Rebound",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-home-heating-oil-shortage-s",
+      "name": "Daily Surge In Google Trends For Home Heating Oil Shortage Signals Energy Sector Stress",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,

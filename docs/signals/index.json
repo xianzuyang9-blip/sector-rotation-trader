@@ -1,8 +1,8 @@
 {
   "generated": "2026-05-23",
   "lab_started": "2026-01-11",
-  "signal_count": 339,
-  "total_algos": 339,
+  "signal_count": 344,
+  "total_algos": 344,
   "ticker_count": 105,
   "top_bullish_etfs": [
     "XLK",
@@ -833,7 +833,7 @@
       "bullish_pct": 29
     }
   },
-  "idle_algos": 198,
+  "idle_algos": 203,
   "blocked_algos": [
     {
       "timestamp": "2026-05-23T16:55:25",

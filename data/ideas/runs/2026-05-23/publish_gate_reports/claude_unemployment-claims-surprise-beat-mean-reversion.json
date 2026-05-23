@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-05-23/publish/claude_unemployment-claims-surprise-beat-mean-reversion.md",
+  "target_file": "data/ideas/runs/2026-05-23/intervention/claude_unemployment-claims-surprise-beat-mean-reversion.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "entry logic depends on external consensus",
+      "fred_consensus_surprise_gap",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "missing prior consensus data",
+      "unsupported_template_adapter",
+      "weekly frequency timing"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series"
+      ],
+      "scores": {
+        "fred_series": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 960,
+    "output_tokens": 86
+  },
+  "cost_usd": 0.00326,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Low confidence in deterministic adapter routing and consensus data source missing\",\n  \"risk_flags\": [\"low adapter routing confidence\", \"missing prior consensus data\", \"weekly frequency timing\", \"entry logic depends on external consensus\"]\n}\n```"
+}

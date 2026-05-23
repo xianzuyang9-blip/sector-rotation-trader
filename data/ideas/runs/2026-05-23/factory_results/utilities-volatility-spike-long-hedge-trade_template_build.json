@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-23/build/claude_utilities-volatility-spike-long-hedge-trade.md",
+  "out": "crazy/algos/utilities_volatility_spike_long_hedge_trade.py",
+  "adapter": "price_only",
+  "idea_id": "utilities-volatility-spike-long-hedge-trade",
+  "name": "Utilities Volatility Spike Long Hedge Trade",
+  "universe": [
+    "XLU"
+  ],
+  "frequency": "daily",
+  "family": "macro_input_pressure",
+  "threshold": 0.1,
+  "direction": "down",
+  "hold_days": 7
+}

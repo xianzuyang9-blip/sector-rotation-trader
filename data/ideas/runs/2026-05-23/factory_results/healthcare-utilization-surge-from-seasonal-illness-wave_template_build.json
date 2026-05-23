@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-23/build/claude_healthcare-utilization-surge-from-seasonal-illness-wave.md",
+  "out": "crazy/algos/healthcare_utilization_surge_from_seasonal_illness_wave.py",
+  "adapter": "google_trends",
+  "idea_id": "healthcare-utilization-surge-from-seasonal-illness-wave",
+  "name": "Healthcare Utilization Surge From Seasonal Illness Wave",
+  "universe": [
+    "XLV"
+  ],
+  "frequency": "weekly",
+  "family": "consumer_stress",
+  "threshold": 0.4,
+  "direction": "up",
+  "hold_days": 8
+}
