@@ -1,0 +1,156 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-freight-logistics-google-trends-for-pallet-s",
+    "title": "Weekly Surge In Freight Logistics Google Trends For Pallet Shortage Signals Industrial Supply Chain Stress",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-rss-news-counts-mentioning-warehouse-labor-sh",
+    "title": "Daily Spike In Rss News Counts Mentioning Warehouse Labor Shortage Signals Xli Downside",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "consumer-stress-spike-in-google-trends-for-urgent-daycare-av",
+    "title": "Consumer Stress Spike In Google Trends For Urgent Daycare Availability Signals Xly Weakness",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-farming-equipment-breakdow",
+    "title": "Weekly Surge In Google Trends For Farming Equipment Breakdown Signals Xlb Supply Chain Risk",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "labor-jobs-weekly-surge-in-google-trends-for-gig-worker-stri",
+    "title": "Labor Jobs Weekly Surge In Google Trends For Gig Worker Strike Signals Xly Weakness",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-industrial-water-shortage-",
+    "title": "Weekly Surge In Google Trends For Industrial Water Shortage Signals Bearish Xlb",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-political-insider-filings-of-executives-sell",
+    "title": "Weekly Spike In Political Insider Filings Of Executives Selling Xlf Stocks Signals Financial Sector Caution",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-earthquake-activity-within-key-port-regions-s",
+    "title": "Daily Spike In Earthquake Activity Within Key Port Regions Signals Potential Short-term Xli Disruption",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-warehouse-automation-syste",
+    "title": "Weekly Surge In Google Trends For Warehouse Automation System Failure Signals Short-term Xli Volatility",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-truck-driver-strike-predict",
+    "title": "Daily Spike In Google Trends For Truck Driver Strike Predicts Bearish Xli",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-solar-panel-inverter-failu",
+    "title": "Weekly Surge In Google Trends For Solar Panel Inverter Failure Signals Bearish Xle",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-home-heating-oil-shortage-s",
+    "title": "Daily Surge In Google Trends For Home Heating Oil Shortage Signals Energy Sector Stress",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "tech-news-surge-contrarian-fade-after-earnings",
+    "title": "Tech News Surge Contrarian Fade After Earnings",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-installation-boom-acceleration-signal",
+    "title": "Ev Charger Installation Boom Acceleration Signal",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "travel-mobility-rebound-post-weather-system",
+    "title": "Travel Mobility Rebound Post Weather System",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "healthcare-utilization-surge-from-seasonal-illness-wave",
+    "title": "Healthcare Utilization Surge From Seasonal Illness Wave",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "regional-bank-stress-capitulation-bounce-after-outflows-paus",
+    "title": "Regional Bank Stress Capitulation Bounce After Outflows Pause",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "utilities-volatility-spike-long-hedge-trade",
+    "title": "Utilities Volatility Spike Long Hedge Trade",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-diesel-price-spike-margin-squeeze-play",
+    "title": "Freight Diesel Price Spike Margin Squeeze Play",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "small-cap-rotation-trigger-from-mid-market-wage-acceleration",
+    "title": "Small-cap Rotation Trigger From Mid-market Wage Acceleration",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "unemployment-claims-surprise-beat-mean-reversion",
+    "title": "Unemployment Claims Surprise Beat Mean Reversion",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "energy-commodity-input-cost-relief-trade",
+    "title": "Energy Commodity Input Cost Relief Trade",
+    "family": "macro_input_pressure",
+    "score": 100
+  }
+]

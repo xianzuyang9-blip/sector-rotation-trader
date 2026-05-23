@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-23",
+  "input_count": 25,
+  "kept_count": 22,
+  "duplicate_count": 3,
+  "kept_by_source": {
+    "chatgpt": 12,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-surge-in-google-trends-for-emergency-roadside-assistan",
+      "title": "Daily Surge In Google Trends For Emergency Roadside Assistance Signals Consumer Stress Lifting Xly",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.533,
+        "matched_title": "daily jump in google trends for emergency roadside assistance signals consumer stress impacting discretionary sector",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+        "matched_origin": "history:2026-05-12",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-surge-in-google-trends-for-emergency-roadside-assistan",
+        "title": "Daily Surge In Google Trends For Emergency Roadside Assistance Signals Consumer Stress Lifting Xly",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increased roadside assistance searches indicate rising consumer stress with transportation issues. Consumer discretionary sector benefits from increased emergency auto services spending.",
+        "data_sources": [
+          "Google Trends daily search interest for 'emergency roadside assistance'"
+        ],
+        "signal_logic": "Enter long XLY if daily searches rise 30% day-over-day",
+        "entry_exit": "Entry: Enter long XLY if daily searches rise 30% day-over-day Exit: Exit after 7 days or when growth falls below 10%",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'emergency roadside assistance' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Roadside assistance searches regularly spike due to seasonal travel and weather disruptions.",
+        "schema": {
+          "idea": "Daily surge in Google Trends for 'emergency roadside assistance' signals consumer stress lifting XLY",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'emergency roadside assistance'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Increased roadside assistance searches indicate rising consumer stress with transportation issues.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLY",
+            "rationale": "Consumer discretionary sector benefits from increased emergency auto services spending."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLY if daily searches rise 30% day-over-day",
+            "exit": "Exit after 7 days or when growth falls below 10%",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Roadside assistance searches regularly spike due to seasonal travel and weather disruptions.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-emergency-plumbing-repair-",
+      "title": "Weekly Surge In Google Trends For Emergency Plumbing Repair Signals Rising Consumer Stress Lifting Xly",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for emergency plumbing repair signals consumer stress lifting discretionary sector",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-emergency-plumbing-repair-",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-emergency-plumbing-repair-",
+        "title": "Weekly Surge In Google Trends For Emergency Plumbing Repair Signals Rising Consumer Stress Lifting Xly",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in emergency plumbing repair searches indicate rising household stress and non-discretionary spending. Consumer discretionary sector benefits from home repair spending.",
+        "data_sources": [
+          "Google Trends weekly search interest for 'emergency plumbing repair'"
+        ],
+        "signal_logic": "Enter long XLY if weekly searches grow 20% week-over-week",
+        "entry_exit": "Entry: Enter long XLY if weekly searches grow 20% week-over-week Exit: Exit after 4 weeks or when growth falls below 10%",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest for 'emergency plumbing repair' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Home emergency repair needs regularly spike due to weather or infrastructure failures.",
+        "schema": {
+          "idea": "Weekly surge in Google Trends for 'emergency plumbing repair' signals rising consumer stress lifting XLY",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends weekly search interest for 'emergency plumbing repair'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Spikes in emergency plumbing repair searches indicate rising household stress and non-discretionary spending.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLY",
+            "rationale": "Consumer discretionary sector benefits from home repair spending."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLY if weekly searches grow 20% week-over-week",
+            "exit": "Exit after 4 weeks or when growth falls below 10%",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Home emergency repair needs regularly spike due to weather or infrastructure failures.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
+      "title": "Daily Surge In Google Trends For Emergency Hvac Repair Signals Consumer Stress Lifting Xly",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily surge in google trends for emergency hvac repair signals consumer stress boosting home improvement",
+        "matched_idea_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
+        "title": "Daily Surge In Google Trends For Emergency Hvac Repair Signals Consumer Stress Lifting Xly",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in emergency HVAC repair searches indicate rising household repair stress and spending. Consumer discretionary benefits from increased home repair demand.",
+        "data_sources": [
+          "Google Trends daily search interest for 'emergency HVAC repair'"
+        ],
+        "signal_logic": "Enter long XLY if daily searches rise 30% day-over-day",
+        "entry_exit": "Entry: Enter long XLY if daily searches rise 30% day-over-day Exit: Exit after 7 days or when growth falls below 10%",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'emergency HVAC repair' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "HVAC emergencies spike during seasonal temperature shifts and infrastructure failures.",
+        "schema": {
+          "idea": "Daily surge in Google Trends for 'emergency HVAC repair' signals consumer stress lifting XLY",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'emergency HVAC repair'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in emergency HVAC repair searches indicate rising household repair stress and spending.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLY",
+            "rationale": "Consumer discretionary benefits from increased home repair demand."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLY if daily searches rise 30% day-over-day",
+            "exit": "Exit after 7 days or when growth falls below 10%",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "HVAC emergencies spike during seasonal temperature shifts and infrastructure failures.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
