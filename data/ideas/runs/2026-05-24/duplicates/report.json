@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-24",
+  "input_count": 25,
+  "kept_count": 23,
+  "duplicate_count": 2,
+  "kept_by_source": {
+    "chatgpt": 13,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-spike-in-usgs-earthquake-activity-near-major-ports-sig",
+      "title": "Daily Spike In Usgs Earthquake Activity Near Major Ports Signals Freight Disruption Risk",
+      "family": "freight_logistics",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily spike in usgs earthquake activity near major ports signals short-term freight logistics disruption and bearish xli",
+        "matched_idea_id": "daily-spike-in-usgs-earthquake-activity-near-major-ports-sig",
+        "matched_origin": "history:2026-04-30",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-spike-in-usgs-earthquake-activity-near-major-ports-sig",
+        "title": "Daily Spike In Usgs Earthquake Activity Near Major Ports Signals Freight Disruption Risk",
+        "family": "freight_logistics",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increased earthquake activity near key port hubs can predict imminent freight delays or logistic bottlenecks due to infrastructure damage or precautionary shutdowns. Industrial and logistics sectors are vulnerable to transport disruptions caused by natural disasters impacting supply chains.",
+        "data_sources": [
+          "USGS earthquake activity"
+        ],
+        "signal_logic": "If daily earthquake count or magnitude near top 5 US ports rises 50% above 30-day average",
+        "entry_exit": "Entry: If daily earthquake count or magnitude near top 5 US ports rises 50% above 30-day average Exit: After 7 days or once activity returns to baseline",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use USGS earthquake activity via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Earthquake clusters near ports are not uncommon and can appear suddenly, triggering logistic risk alerts.",
+        "schema": {
+          "idea": "Daily Spike In USGS Earthquake Activity Near Major Ports Signals Freight Disruption Risk",
+          "family": "freight_logistics",
+          "data": {
+            "source": "USGS earthquake activity",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Increased earthquake activity near key port hubs can predict imminent freight delays or logistic bottlenecks due to infrastructure damage or precautionary shutdowns.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Industrial and logistics sectors are vulnerable to transport disruptions caused by natural disasters impacting supply chains."
+          },
+          "trade_logic": {
+            "entry": "If daily earthquake count or magnitude near top 5 US ports rises 50% above 30-day average",
+            "exit": "After 7 days or once activity returns to baseline",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Earthquake clusters near ports are not uncommon and can appear suddenly, triggering logistic risk alerts.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-warehouse-worker-strike-si",
+      "title": "Weekly Surge In Google Trends For Warehouse Worker Strike Signals Labor Disruption Risk",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for warehouse worker strike signals freight logistics disruption",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-warehouse-worker-strike-si",
+        "matched_origin": "history:2026-04-28",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-warehouse-worker-strike-si",
+        "title": "Weekly Surge In Google Trends For Warehouse Worker Strike Signals Labor Disruption Risk",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in strike-related searches in logistics-heavy labor sectors can signal upcoming labor disruptions affecting supply chains. Industrial and logistics sectors are vulnerable to labor strikes causing operational delays and increased costs.",
+        "data_sources": [
+          "Google Trends weekly search interest"
+        ],
+        "signal_logic": "If weekly Google Trends for 'warehouse worker strike' rises by 30% above 4-week average",
+        "entry_exit": "Entry: If weekly Google Trends for 'warehouse worker strike' rises by 30% above 4-week average Exit: After 3 weeks or when search interest declines below baseline",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor disputes in logistics happen regularly and are covered extensively, creating search volume spikes.",
+        "schema": {
+          "idea": "Weekly Surge In Google Trends For 'Warehouse Worker Strike' Signals Labor Disruption Risk",
+          "family": "labor_jobs",
+          "data": {
+            "source": "Google Trends weekly search interest",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Spikes in strike-related searches in logistics-heavy labor sectors can signal upcoming labor disruptions affecting supply chains.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Industrial and logistics sectors are vulnerable to labor strikes causing operational delays and increased costs."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'warehouse worker strike' rises by 30% above 4-week average",
+            "exit": "After 3 weeks or when search interest declines below baseline",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor disputes in logistics happen regularly and are covered extensively, creating search volume spikes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
