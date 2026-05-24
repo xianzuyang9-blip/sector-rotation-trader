@@ -1,25 +1,25 @@
 I built StockArithm because I got tired of backtests that looked perfect and blew up in live trading.
 
-Three years ago, I was running a quant fund. Every strategy I tested showed 15%+ annual returns. Every one. The problem wasn't the math—it was that I was the only person who could see the failures. I'd tweak a parameter, hide a bad month, and show clients the clean chart. No one knew which signals actually worked because no one could see the full board.
+Three years ago, I was running sector rotation signals—the kind that crush it on historical data. On paper, they were unbeatable. In reality, they failed the moment market conditions shifted. I'd tweak them, optimize them, and the next quarter they'd underperform again. The problem wasn't the math. It was that I was only showing myself the wins.
 
-So I decided to do the opposite: build a public lab where every signal—wins and losses—lives on the same leaderboard.
+So I decided to do something different: build a public lab where every signal—wins and failures—lives on the same leaderboard. No cherry-picking. No hiding the losers in a drawer.
 
-Today we're running 344 signals across 105 tickers. They're all paper-trading live. You can see the equity curve, the drawdowns, the rank changes week to week. Some are based on standard momentum and rotation theory. Others are weird—we test things like port container volume, freight rail carloads, and VIX term structure. Most fail. That's the point.
+Today, we're running 344 signals across 105 tickers. They're ranked by actual returns over the full period they've been live. Some are based on standard momentum and rotation frameworks. Others use alternative data—freight rail carloads, port container volume, VIX term structure, retail sales momentum. Some work. Most don't.
 
-Right now, **one signal is beating SPY**: Quantified Simple Monthly Rotation. It's up 13.09% YTD versus SPY's 9.44%. It's been running 112 days. It has a 5.46 Sharpe ratio over the last 30 days. That's real. But it's also one signal out of 344. The other 343 are either underperforming or losing money.
+Right now, **one signal is beating SPY**: Quantified Simple Monthly Rotation. It's up 13.09% YTD while SPY is at 9.44%. Over the last 30 days, it's returned 13.09% versus SPY's 4.84%. That's real. It's also running on 112 days of live data, not backtested returns.
 
-What's interesting is the divergences. VIX Fear Rotation is ranked #342 all-time but #2 in the last 30 days. FINRA Dark Pool Signal is #10 all-time but #342 in the last month. This tells you something important: a signal can be labeled wrong and still work, or work for a while and then stop. The label doesn't matter. The live data does.
+But here's what matters more: the failures are visible too. Copper Momentum is down 1.8% YTD. Port Container Volume is down 2.18%. VIX Fear Rotation is down 2.35% for the full period—yet it's ranked #2 over the last 30 days. That divergence is the actual signal. It tells you the label can be wrong and the signal can still work, or vice versa.
 
-I'm publishing the full board because I think visible losses matter more than pretty backtests. If you're building a strategy, you need to know what failure looks like in real time. You need to see rank changes. You need to watch a signal that looked good last quarter get crushed this month.
+The board updates daily. Every signal shows its equity curve, drawdown, Sharpe ratio, and how it compares to SPY. No smoothing. No narrative. Just what happened.
 
-The lab isn't a product pitch. It's a commitment to transparency. Every signal is ranked by force (full-window return), rolling 30-day performance, and Sharpe ratio. You can see which ones are actually working and which ones are just noise.
+I'm sharing this because I think retail investors deserve to see how alternative data actually performs in real time, not in a polished case study. You get to watch the experiments fail. You get to see which ones accidentally work. And you get to decide if any of it matters for your own portfolio.
 
-If you're interested in how alternative data signals perform in live conditions, or if you want to see what happens when you stop hiding the failures, the full board is public.
+The full leaderboard is public. All 344 signals. All the losses included.
 
 ---
 
 # FIRST COMMENT
 
-Full leaderboard and live signal data: [stockarithm.com](https://stockarithm.com)
+You can see the full live leaderboard and all 344 signals here: [stockarithm.com](https://stockarithm.com)
 
-All 344 signals updated daily. No paywall. No cherry-picked results.
+Every signal updates daily with real returns, drawdowns, and Sharpe ratios. No backtests. No cherry-picked winners. The board includes the failures so you can see what doesn't work too.

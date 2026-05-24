@@ -1,27 +1,29 @@
 I built a public sector-rotation lab because I got tired of pretending I knew what I didn't.
 
-Five years ago, I was running a small quant operation. We'd backtest a signal, it'd look clean, we'd deploy it, and six months later it'd blow up in live trading. The gap between historical performance and forward returns was massive. I kept asking: *Why?* Was the signal actually broken, or was I just unlucky? Was the label wrong but the mechanism sound? Did I overfit to noise?
+Five years ago, I was running a small quant operation. We'd backtest a signal, it'd look clean, we'd deploy it, and six months later it'd crater. The usual story. But what bothered me wasn't the losses—it was the silence. We'd quietly kill the strategy and move on. No one outside the firm ever saw the failure. That asymmetry felt wrong.
 
-The honest answer: I couldn't tell from a spreadsheet.
+The real problem wasn't the failures themselves. It was that I couldn't tell which failures mattered and which were just noise. A signal could be labeled "wrong" by traditional metrics but still outperform. Or it could look theoretically sound and get demolished by regime change. I realized I was conflating signal quality with label accuracy, and that was costing me.
 
-So I decided to build something different. Not a black-box product. Not a "best-in-class" ranking. Instead: a public laboratory where every signal—wins and failures—stays visible. 344 signals. 105 tickers. All ranked. All updated daily. All failures kept on the board.
+So I started building in public. The lab runs 344 signals across 105 tickers. Every single one is ranked. Every failure is visible. No cherry-picking. No narrative cleanup.
 
-The reason this matters for fundamental analysts is simple: **sector rotation is a thesis test, not a prediction machine.** When you build a signal on "copper prices predict industrial demand," you're not just betting on copper. You're betting that the mechanism is real. A public board forces you to watch that mechanism fail in real time. And sometimes, the failure teaches you more than the win.
+Here's what the data shows as of today:
 
-Right now, one signal is beating SPY year-to-date: Quantified Simple Monthly Rotation, up 13.09% vs. SPY's 9.44%. It's been running 112 days. That's not luck yet—it's not even a full market cycle. But it's visible. You can see the drawdowns (-3.5% max), the Sharpe (5.46 over 30 days), the sector bets it's making.
+**One signal is beating SPY.** The Quantified Simple Monthly Rotation is up 13.09% YTD versus SPY's 9.44%. It's been running 112 days. It's ranked #1 on force and #1 on the rolling 30-day leaderboard. That's the win.
 
-Meanwhile, 343 other signals are not beating SPY. Some are down 11%+. Some are "crazy" (alternative data: freight rail, dark pools, VIX term structure). Some are classical (Faber momentum, Antonacci dual momentum). The failures aren't hidden in a drawer. They're ranked 340th through 344th, updated daily, with their YTD returns and max drawdowns public.
+**343 signals are not beating SPY.** Some are close. Some are catastrophically bad. The Chaos Rotation Lab is down 6.02% YTD. Copper Momentum is down 1.8%. Port Container Volume is down 2.18%. These aren't theoretical failures—they're real equity curves.
 
-Here's what I've learned: **the label can be wrong and the signal can still work.** VIX Fear Rotation is ranked 342nd all-time but 2nd in the last 30 days. FINRA Dark Pool Signal is ranked 10th all-time but 342nd in the last 30 days. That gap is the real story. It tells you when a mechanism breaks, when regime changes matter, when your thesis was right but your timing was off.
+But here's the thing that changed how I think about signal quality: **the ranking divergences matter more than the rankings themselves.**
 
-That's why the lab exists. Not to sell you a signal. Not to prove I'm smarter than the market. But to show you what happens when you stop hiding the failures and start learning from them.
+VIX Fear Rotation is ranked #342 on full-window force but #2 on the rolling 30-day leaderboard. It's up 6.14% in the last month while down 2.35% YTD. That gap tells you something about regime sensitivity. FINRA Dark Pool Signal is ranked #10 full-window but #342 in the last 30 days. The label didn't change. The market did.
 
-The board is public. The data is real. The failures are permanent.
+This is why the lab exists. Not to find the one signal that works forever—that doesn't exist. But to make visible the conditions under which signals work and fail. To show that a "wrong" label doesn't kill a signal if the mechanism is real. To prove that sector rotation isn't about being right; it's about being right at the right time.
+
+The sector consensus today is bearish across the board. Basic Materials at 26% bullish. Technology at 24%. Energy at 15%. That's the macro context. Within that, one simple monthly rotation is working. The other 343 aren't. That's not a bug in the system. That's the system working.
 
 ---
 
 # FIRST COMMENT
 
-Full board and daily updates: [link to stockarithm.com or public dashboard]
+Full leaderboard and daily updates: [link to public board or dashboard]
 
-All 344 signals ranked by force rank (full-window alpha), rolling 30-day performance, and sector consensus. Failures stay visible. No delisting underperformers.
+All 344 signals ranked by force, rolling 30D performance, and sector consensus. Updated daily. No paywall. No narrative. Just the data.

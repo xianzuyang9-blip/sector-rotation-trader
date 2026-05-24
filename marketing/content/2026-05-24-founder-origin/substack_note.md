@@ -2,8 +2,6 @@
 
 One public board, 1 winner, 343 losers. That is the point.
 
-Right now, 344 trading algorithms are running live. Only one—Quantified Simple Monthly Rotation—is beating SPY over the full window. The other 343 are not. Some lose money. Some underperform by double digits. And we publish all of it, every day, with no spin.
+Right now, 344 trading algorithms are running live. Only one—Quantified Simple Monthly Rotation—is beating SPY. The rest are underwater or treading water. We built StockArithm because the gap between "sounds smart" and "actually works" is where most money disappears. Not because we have all the answers. Because we're tired of watching people guess.
 
-Most trading labs hide their failures. StockArithm exists because someone needed to see them. Not to feel smarter. To actually learn what works and what doesn't, at scale, in real time.
-
-What would you want to know if you were building your own system?
+What would you want to know first: which algo is winning, or why the other 343 aren't?

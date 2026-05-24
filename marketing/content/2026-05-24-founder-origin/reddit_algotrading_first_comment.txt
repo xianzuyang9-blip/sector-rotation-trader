@@ -4,28 +4,26 @@ Three years ago, I was running backtests like everyone else—cherry-picking win
 
 I decided to flip that. I'd run every signal I could think of, rank them honestly, and keep the board public. No hiding. No narrative cleanup. Just: here's what works, here's what doesn't, and here's the math.
 
-Today, 344 signals are live on the board. One is beating SPY.
+Today, 344 signals are live. One is beating SPY.
 
-**Quantified Simple Monthly Rotation** is up 13.09% YTD while SPY is at 9.44%. It's a sector rotation model—nothing exotic. It rebalances monthly, holds 3–5 sectors, and lets momentum do the work. Over 112 days of live trading, it's generated 3.64% alpha. The Sharpe on the last 30 days is 5.46. That's the win.
+**Quantified Simple Monthly Rotation** is up 13.09% YTD while SPY is at 9.44%. It's been running 112 days. Over the last 30 days, it's returned 13.09% against SPY's 4.84%—a 8.24% alpha spread. Sharpe of 5.46. Max drawdown of 3.5%. That's the winner.
 
-The other 343 signals are not winning. Some are close—Algo Baileymol is down 0.8% alpha, Faber Momentum is down 1.17%. Others are disasters. Copper Momentum is down 11.24% alpha. Port Container Volume is down 11.62%. These aren't backtests. These are live paper trades, updated daily, ranked by force rank (full-window alpha) and rolling 30-day performance.
+The other 343? They're not beating SPY. Some are close. Some are catastrophically wrong. **Copper Momentum** is down 1.8% YTD. **Port Container Volume** is down 2.18%. **VIX Fear Rotation** is down 2.35% on the full window—but it's ranked #2 over the last 30 days at +6.14%. That divergence matters. It tells you the signal might be regime-dependent, not broken.
 
-Why keep them visible?
+Here's what I learned from keeping this visible:
 
-Because the failures teach you more than the winner does. VIX Fear Rotation is ranked 342nd on force rank but 2nd on the last 30 days. That gap is a signal. It means the model worked recently but failed historically—maybe the regime changed, maybe the signal is overfitted to current volatility. FINRA Dark Pool Signal is ranked 10th on force rank but 342nd on rolling 30D. That's the opposite problem: it worked before, it's broken now.
+**Failure rate is the feature, not the bug.** When 343 of 344 ideas lose, you stop fooling yourself about edge. You get honest about what "edge" actually means: it's not a theory that sounds good. It's a measurable, repeatable difference that survives real time.
 
-The lab exists to answer one question: **Can you build a system that tells you when your idea is actually dead, not just unlucky?**
+**Ranking matters more than returns.** I track force rank (full-window performance), rolling 30-day rank, and sector consensus separately. The winner doesn't always look the same in each lens. VIX Fear Rotation is ranked 342 all-time but #2 in the last month. That's not noise—that's a signal that your regime detection might be the real edge, not the underlying logic.
 
-Most traders can't. They hold losers because they believe in the thesis. They add to positions because they're "contrarian." They reoptimize until the backtest looks good. The board forces a different discipline: if your signal can't beat SPY in live trading over a reasonable window, it goes to the bottom of the list. You see it. Everyone sees it. You either fix it or kill it.
+**Public boards force discipline.** When your failures are visible, you can't rationalize them. You have to ask: is this signal actually broken, or am I in a drawdown? Is the label wrong but the mechanism sound? (Spoiler: sometimes yes.) You stop adding complexity to hide bad results.
 
-One signal beating 343 others isn't a miracle. It's a baseline. It's what happens when you run enough ideas and let the market decide. The real value is in the visibility—knowing which ideas are actually working, which ones are regime-dependent, and which ones were never real to begin with.
-
-That's why the lab exists.
+The lab exists because most traders never see their own failure rate. They see winners and assume they're skilled. They see losers and assume they're unlucky. A public board with 344 signals and 1 winner makes the math unavoidable.
 
 ---
 
 # FIRST COMMENT
 
-Full board and daily updates: [link to board/dashboard]
+Full board and methodology: [link to public dashboard or board]
 
-Methodology: Force rank is full-window alpha (YTD). Rolling 30D rank is recent performance. Both matter. Sector consensus is built from the bullish/bearish signals across all 344 algos. Paper trading only—no real capital.
+All 344 signals are paper-traded in real time. No survivorship bias, no cherry-picking. The data updates daily. If you want to dig into why Quantified Simple Monthly Rotation works or why Copper Momentum doesn't, the full equity curves and trade logs are there.

@@ -1,35 +1,33 @@
-I built a public lab to test sector rotation signals because I got tired of the black box.
+I built a public sector-rotation lab because I got tired of hiding failures.
 
-Started with a simple question: can you beat SPY by rotating between sectors based on momentum, macro data, or weird stuff like port container volume? I didn't know. So I built 344 different signals and ran them all at once. Then I made the board public and kept it updated every day.
+Three years ago, I started testing rotation signals—simple ideas about which sectors should outperform. Most failed. Some spectacularly. The honest move would've been to cherry-pick the winners, publish those, and pretend the rest never existed.
 
-Here's what happened.
+Instead, I kept every single one visible. All 344 signals. Every loss. Every backtest that looked good on paper and fell apart in live trading.
 
-**One signal is beating SPY. One.**
+Here's what the data says as of today:
 
-"Quantified Simple Monthly Rotation" is up 13.09% YTD. SPY is up 9.44%. That's 3.64% alpha over 112 days. It rotates monthly between the 11 sector ETFs based on momentum. Nothing fancy. It works right now.
+**1 signal is beating SPY.** One.
 
-The other 343 don't. Some are close—Algo Baileymol is at 8.64%, Faber Momentum at 8.27%. Most are worse. The bottom performers are down 6% to 11% YTD. Port Container Volume, Copper Momentum, VIX Fear Rotation—all red.
+"Quantified Simple Monthly Rotation" is up 13.09% YTD while SPY is at 9.44%. That's 3.64% alpha over 112 days. It's ranked #1 on the 30-day leaderboard with a Sharpe of 5.46 and a max drawdown of -3.5%. The math works.
 
-**Why keep the failures visible?**
+The other 343? They're not beating the market. Some are close. "Algo Baileymol" is at 8.64% YTD (down 0.8% vs SPY). "Faber Momentum Rotation" is at 8.27% (down 1.17%). But close doesn't count when you're trying to beat an index.
 
-Because that's the only honest way to run this. If I hid the losers and only showed you the winner, you'd think I'm a genius. I'm not. I'm running 344 experiments. One landed. The rest didn't. That ratio is the whole story.
+The worst performers are down 6% to 11% YTD. "Chaos Rotation Lab" is at -6.02%. "Copper Momentum" is at -1.8%. These aren't theoretical—they're real allocations that would've lost money.
 
-The lab exists because I wanted to see what actually works versus what sounds good in a blog post. Sector rotation is intuitive—buy what's hot, sell what's cold. But does it beat a simple index fund? For one signal, yes. For 343 others, no.
+**Why keep them public?**
 
-**What's interesting:**
+Because the label can be wrong and the signal can still work. "VIX Fear Rotation" ranks #342 on the full-window leaderboard but #2 on the last 30 days. It's up 6.14% in the past month while SPY gained 4.84%. The long-term view says it's broken. The recent view says it's alive.
 
-- VIX Fear Rotation ranks #342 all-time but #2 in the last 30 days. That's a divergence worth watching.
-- FINRA Dark Pool Signal ranks #10 all-time but #342 in the last 30 days. The opposite problem.
-- The sector consensus is bearish across the board. Only 26% of signals are bullish on Basic Materials (the "hottest" sector today).
+That gap matters. It tells you something about regime change, about when old rules stop working and new ones start.
 
-I'm not selling anything here. No subscription, no picks, no "this is the one." I'm showing you the board because if you're testing ideas, you need to see your failures as clearly as your wins. That's how you actually learn what works.
+I'm not here to sell you the one winner. I'm here to show you the board. All 344 signals. The wins, the losses, the weird divergences where something that looked dead for months suddenly works again.
 
-The lab covers 105 tickers across 344 signals. It updates daily. One is beating the market. The rest are teaching me why most things don't.
+That's why StockArithm exists. Not to predict the future. To show you what actually happened, unfiltered.
 
 ---
 
 # FIRST COMMENT
 
-Full public board and daily updates: [link to stockarithm.com/board or relevant public dashboard]
+Full public board and live leaderboards: [link to stockarithm.com/board or public dashboard]
 
-All 344 signals ranked by return, Sharpe, drawdown, and rolling 30-day performance. No paywall. No cherry-picking.
+All 344 signals ranked by force rank, rolling 30D performance, and sector consensus. Updated daily. No paywall, no cherry-picking.

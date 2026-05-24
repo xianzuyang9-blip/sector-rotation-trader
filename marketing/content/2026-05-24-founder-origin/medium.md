@@ -2,62 +2,62 @@
 
 I built StockArithm because I got tired of pretending that most trading signals work.
 
-For years, I watched the industry sell confidence. Backtests that looked perfect. Strategies with names that sounded scientific. Promises wrapped in complexity. And then reality: most of them underperformed a simple index fund.
+For years, I watched the industry sell conviction. Backtests that looked perfect. Strategies with names that sounded smart. Newsletters promising alpha. And then—in real time—they'd fail quietly, or the author would pivot to a new idea before anyone noticed.
 
-The frustration wasn't academic. It was personal. I wanted to know which ideas actually held up. Not in theory. In practice. Over time. Against real benchmarks.
+The worst part wasn't the failures. It was the invisibility of them.
 
-So I started running them all at once.
+So I decided to run an experiment: what if we tested *everything*, ranked *everything*, and showed *all* the results—wins and losses—side by side?
 
-## The Lab, Not the Product
+## The Lab Setup
 
-StockArithm isn't a trading service. It's a lab. A place where 344 different signals—from the boring to the bizarre—run side by side, every single day, and we publish exactly what happens. No cherry-picking. No hiding the losers.
+Today, StockArithm is running 344 signals across 105 tickers. Some are based on published research. Some are variations on classics like momentum and mean reversion. Some are weird—copper prices, port container volume, VIX term structure. A few are just chaos.
 
-Right now, as of May 24, 2026, only **1 of those 344 signals is beating SPY**. One.
+They all run live. They all get ranked. And they all stay visible, even when they're losing.
 
-That's the Quantified Simple Monthly Rotation. It's up 13.09% year-to-date while SPY is up 9.44%. It's been running for 112 days. It has a Sharpe ratio of 5.46 over the last 30 days. Those are the facts.
+As of May 24, 2026, here's what the data shows:
 
-The other 343? Most are losing. Some are losing badly. The Chaos Rotation Lab is down 6.02% year-to-date. Copper Momentum is down 1.8%. Port Container Volume is down 2.18%. These aren't theoretical failures. These are real dollars that would have been better off in an index.
+**One signal is beating SPY.** Just one.
 
-And we show all of it.
+The "Quantified Simple Monthly Rotation" is up 13.09% year-to-date, versus SPY's 9.44%. Over the last 30 days, it's returned 13.09% while SPY returned 4.84%—a gap of 8.24 percentage points. It's been running for 112 days. It's ranked #1 on both the full-window leaderboard and the rolling 30-day leaderboard.
+
+**343 signals are not beating SPY.**
+
+Some are close. The "Algo Baileymol" (a chaos experiment) is at 8.64% YTD, only 0.8 percentage points behind the market. The "Faber Momentum Rotation," a published strategy, is at 8.27% YTD. But close doesn't count. They're ranked #2 and #3 because they didn't beat the benchmark.
+
+At the bottom, things get ugly. "Copper Momentum" is down 1.8% YTD. "Port Container Volume" is down 2.18%. "VIX Fear Rotation" is down 2.35%. These aren't small misses—they're real losses, and they're all ranked where they belong: near the bottom.
 
 ## Why This Matters
 
-The financial industry has a visibility problem. Winners get promoted. Losers disappear. A strategy that worked for three years gets quietly retired when it stops working, and nobody talks about it again. The narrative stays clean. The track record stays impressive.
+The reason I built this lab is simple: **most trading ideas fail, and we should see that failure in real time.**
 
-But that's not how markets work. Markets are messy. Strategies fail. Good ideas stop working. And if you're going to bet your money on something, you need to see the full picture—not just the highlight reel.
+Not in a blog post six months later. Not in a retro-fitted explanation. Not hidden behind a paywall or a "this strategy works in certain market conditions" caveat.
 
-That's why the lab exists. To answer a simple question: **What actually works right now?**
+Right now, on the leaderboard, you can see that "VIX Fear Rotation" is ranked #342 on the full-window force rank but #2 on the rolling 30-day rank. That's a 340-position gap. It means the strategy was terrible for months, then got hot in the last month. Is that a reversal or a fluke? The data doesn't lie, but it also doesn't predict. You get to decide.
 
-Not what worked in 2015. Not what looks good on paper. What's working *today*, measured against the same benchmark (SPY), with the same time horizon, with the same rules applied to every single signal.
+You can see that "FINRA Dark Pool Signal" is ranked #10 overall but #342 in the last 30 days. It was working. Now it's not. That's the opposite problem—and it's equally important to know.
 
-## The Honest Leaderboard
+The point isn't to find the one winner and ignore the rest. The point is to stop pretending that trading is a solved problem. It isn't. Most ideas don't work. A few do, for a while. And the only way to know which is which is to test them all, rank them honestly, and keep the losers visible.
 
-Look at the rolling 30-day rankings. The top performers include some expected names—Simple Monthly Rotation is still #1. But you'll also see VIX Fear Rotation at #2, up 6.14% in the last month, despite being ranked #342 over the full window. That's a divergence worth understanding.
+## What We're Not Doing
 
-Meanwhile, FINRA Dark Pool Signal is ranked #10 all-time but #342 in the last 30 days. It's up 0.27% year-to-date but down 1.38% in the last month. The strategy that worked isn't working now.
+StockArithm is not a robo-advisor. We're not telling you what to buy. We're not claiming that the #1 signal will stay #1 next month. We're not selling a subscription to the "secret" strategy.
 
-This is the real conversation. Not "which strategy is best?" but "which strategy is working *right now*, and why might that change tomorrow?"
+We're showing you the scoreboard. That's it.
 
-The bottom performers are visible too. Freight Rail Carloads, FINRA Dark Pool Signal, and Copper Momentum are the three worst over the last 30 days. They're down between 1% and 1.8% while SPY is up 4.84%. If you'd been following those signals, you'd know it immediately. No excuses. No waiting for the next quarterly report.
+The "Quantified Simple Monthly Rotation" is beating SPY right now. But it's been running for 112 days. That's not a long track record. It could reverse tomorrow. The data doesn't promise anything—it just shows what happened.
 
-## What This Teaches
+## The Real Experiment
 
-Running 344 signals teaches you something that no single strategy can: **most ideas don't work, and the ones that do work for shorter periods than you'd like.**
+What I'm actually testing is whether transparency changes how people think about trading.
 
-The Simple Monthly Rotation is beating SPY right now. But it's also down 3.48% from its peak in the last 30 days. It could stop working tomorrow. The lab doesn't pretend otherwise.
+If you can see that 343 out of 344 signals are underperforming the market, does that change your confidence in the next "breakthrough" strategy you read about? If you can watch a signal go from #2 to #342 in 30 days, does that make you more skeptical of backtests?
 
-What it does do is make that visible the moment it happens. No lag. No spin. Just data.
+I think it should. And I think that skepticism is the most valuable thing StockArithm can offer.
 
-## The Real Origin
+The lab will keep running. New signals will be added. Some will work for a while. Most won't. And all of them will stay ranked, visible, and honest.
 
-I built this because I wanted to know the truth. Not the comfortable version. Not the version that sells subscriptions or justifies past decisions. The actual, measurable, updated-daily truth about which signals are working and which aren't.
-
-If you're serious about trading or investing, you need that. Not because any single signal will make you rich, but because understanding what's actually working—and what isn't—is the only honest starting point.
-
-The lab is open. The leaderboard is real. And yes, most of the signals are losing.
-
-That's the point.
+That's why StockArithm exists.
 
 ---
 
-*For the full daily breakdown, signal rankings, and sector consensus, visit the canonical analysis on Substack. StockArithm publishes live leaderboards and detailed performance data every trading day.*
+*For the full breakdown of today's signals, sector consensus, and notable divergences, read the full report on Substack.*

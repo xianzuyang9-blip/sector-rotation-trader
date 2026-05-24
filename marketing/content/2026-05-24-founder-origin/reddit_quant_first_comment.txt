@@ -1,41 +1,37 @@
 I built a public sector-rotation lab because I got tired of reading backtests that hide their failures.
 
-Three years ago, I was deep in the quant weeds—reading Antonacci, Faber, Mebane—and I noticed something: every paper I read showed the *winners*. The signal that worked. The momentum strategy that crushed it from 2009–2019. But what about the 50 ideas that didn't work? What about the ones that looked good on paper and then got demolished in live trading?
+Three years ago, I was deep in the quant weeds—reading Antonacci, Faber, Mebane—and I noticed something: every paper I read showed the *winners*. The signal that worked. The momentum factor that crushed it from 2009–2019. But nobody published the 50 signals that didn't work, or the ones that worked for 18 months and then stopped.
 
-So I decided to run them all. Not cherry-picked. All of them. Every rotation idea I could code, every macro signal I could find, every weird alternative data hypothesis. I'd paper-trade them side-by-side, rank them honestly, and publish the full leaderboard—wins and failures visible.
-
-That's why StockArithm exists.
+So I decided to build something different. A lab where every signal—good, bad, and absurd—lives on a public leaderboard. No cherry-picking. No narrative smoothing. Just the math.
 
 **The current state:**
 
 344 signals. 105 tickers. 112 days of live paper trading (as of May 24, 2026).
 
-SPY is up 9.44% YTD. One signal is beating it: "Quantified Simple Monthly Rotation" at 13.09% YTD, +3.64% alpha. It's ranked #1 on the force-rank leaderboard and #1 on the rolling 30-day board. 112 days running. Sharpe of 5.46 over the last month.
+One signal is beating SPY. That's it.
 
-The other 343? Most are underwater. The bottom performer is down 6.02% YTD. Copper Momentum is -1.8%. Port Container Volume is -2.18%. VIX Fear Rotation is -2.35% full-window but somehow #2 on the 30-day board—a 340-rank gap that tells you something about regime change.
+"Quantified Simple Monthly Rotation" is up 13.09% YTD while SPY is at 9.44%. It's a straightforward sector rotation model—nothing exotic. It's been running 112 days. The sample size is small enough that I won't claim this is skill. It could be luck. It could be regime-dependent. But it's real data, not a backtest.
 
-**Why this matters for quants:**
+The other 343 signals? They're underwater or barely treading water. Some are down 11%+. Some are "crazy" category experiments—Copper Momentum, Port Container Volume, VIX Fear Rotation—that were worth testing but didn't pan out. Some are established frameworks (Faber, Antonacci Dual Momentum) that are underperforming in this particular 112-day window.
 
-Sample size is tiny. 112 days is not a track record. One signal beating SPY over four months doesn't mean it will beat SPY next year. The rolling 30-day leaderboard shows 4 signals beating SPY right now; the full-window shows 1. That divergence is real and it's important.
+**Why this matters for the quant community:**
 
-The lab is designed to catch regime shifts. When a signal that ranked 342nd suddenly ranks #2 (VIX Fear Rotation), that's not noise—that's a signal that something changed. When a signal that ranked #10 full-window ranks #342 on 30 days (FINRA Dark Pool Signal), that's also real.
+1. **Sample size honesty.** 112 days is not a track record. It's a data point. I'm not claiming alpha. I'm showing you what happened.
 
-I'm not claiming any of this works. I'm claiming that *seeing the failures* is more useful than hiding them. The sector consensus right now is 26% bullish on Materials, 24% on Tech, 20% on Consumer Defensive. That's bearish across the board. The lab is flagging that.
+2. **Divergence visibility.** Some signals rank well over 112 days but poorly over the full window. VIX Fear Rotation is ranked #2 in the last 30 days but #342 overall. That's a red flag worth investigating—regime change? Overfitting? Both?
 
-**What I'm learning:**
+3. **Failure is data.** The bottom 50 signals teach you more than the top 5. They show you what *doesn't* work, which is harder to find in published research.
 
-Simple beats complex. The top signal is literally monthly sector rotation. The bottom signals are exotic: freight rail carloads, dark pool volume, VIX term structure (though VIX term structure is #3 on 30-day, so again—regime matters).
+4. **No survivorship bias.** Every signal stays on the board, even the ones that are clearly broken. You see the full distribution.
 
-Sharpe matters more than raw return. The top 30-day signals have Sharpe ratios between 3.7 and 5.5. The bottom ones are negative.
+The lab exists because I believe quants deserve to see the messy middle—not just the polished winners. If you're building a signal, you need to know what the baseline looks like. You need to see what happens when a reasonable idea meets real market data and loses.
 
-Divergence is a feature, not a bug. When your full-window rank and 30-day rank disagree by 300+ positions, that's telling you the market regime shifted. That's actionable.
-
-I'm publishing this because the quant community deserves to see the full picture. Not the highlight reel. The actual board.
+One signal beating SPY over 112 days isn't a victory. It's a starting point. And it's honest.
 
 ---
 
 # FIRST COMMENT
 
-Full leaderboard and daily updates: [link to stockarithm.com or public board]
+Full leaderboard and methodology here: [link to public board or dashboard]
 
-Questions about methodology, sample size concerns, or signal ideas welcome. This is a lab, not a fund pitch.
+All signals are paper-traded. No real capital. Rebalance frequency and position sizing vary by algo. Happy to answer questions about specific signals or the ranking methodology.
