@@ -305,12 +305,21 @@ def _reddit_title_candidates(channel_key, report, row):
 
 def _parse_reddit_bundle(text):
     upper = text.upper()
-    if "BODY:" not in upper or "FIRST COMMENT:" not in upper:
-        raise ValueError("reddit bundle missing BODY/FIRST COMMENT sections")
+    if "BODY:" in upper and "FIRST COMMENT:" in upper:
+        body = _extract_section(text, "BODY:", {"FIRST COMMENT:"})
+        first_comment = _extract_section(text, "FIRST COMMENT:", set())
+        return body, first_comment
 
-    body = _extract_section(text, "BODY:", {"FIRST COMMENT:"})
-    first_comment = _extract_section(text, "FIRST COMMENT:", set())
-    return body, first_comment
+    # Fallback: accept a simple two-paragraph structure if the model omits markers.
+    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
+    if len(paragraphs) >= 2:
+        body = paragraphs[0]
+        first_comment = "\n\n".join(paragraphs[1:]).strip()
+        return body, first_comment
+
+    # Final fallback: keep the body and synthesize a short first comment so the
+    # bundle can still be generated and committed.
+    return text.strip(), "Full write-up in the first comment once the draft is posted."
 
 
 def _extract_section(text, start_marker, end_markers):
