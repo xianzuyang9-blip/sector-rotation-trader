@@ -214,14 +214,13 @@ def _site_links() -> str:
         ("/premium.html", "Premium Preview"),
         ("/blog/index.html", "Blog"),
         ("/legal.html", "Legal"),
+        ("/biscotti.html", "Biscotti"),
     ]
     parts = []
     for i, (href, label) in enumerate(links):
         if i:
             parts.append('<span class="footer-sep">&middot;</span>')
         parts.append(f'<a href="{href}" style="color:rgba(255,255,255,0.58);text-decoration:none;white-space:nowrap;">{_e(label)}</a>')
-    parts.append('<span class="footer-sep">&middot;</span>')
-    parts.append('<a href="https://www.randbalgolabs.com" style="color:rgba(255,255,255,0.58);text-decoration:none;white-space:nowrap;" target="_blank" rel="noopener noreferrer">R&amp;B AlgoLabs</a>')
     return "".join(parts)
 
 
@@ -595,7 +594,7 @@ def _footer_html(generated_at: str, run_date: str, label: str = "Updated nightly
     <div class="footer-nav" style="margin-top:8px;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:0 8px;width:100%;font-family:var(--mono);font-size:11px;line-height:1.6;letter-spacing:0.2px;color:rgba(255,255,255,0.58);">{_site_links()}</div>
     <div style="width:100%;max-width:520px;height:1px;margin:14px auto 14px;background:rgba(255,255,255,0.10);"></div>
     <div style="display:block;width:100%;text-align:center;font-size:11px;font-style:italic;letter-spacing:0.2px;color:rgba(255,255,255,0.58);margin:0 auto 10px;">
-      StockArithm powered by R&amp;B AlgoLabs, LLC.
+      StockArithm powered by <a href="https://www.randbalgolabs.com" style="color:rgba(255,255,255,0.58);text-decoration:none;white-space:nowrap;" target="_blank" rel="noopener noreferrer">R&amp;B AlgoLabs</a>, LLC.
     </div>
     <div style="text-align:center;font-size:11px;font-style:italic;letter-spacing:0.2px;color:rgba(255,255,255,0.50);margin-bottom:14px;">Last updated: {_e(generated_at or run_date)}</div>
     <div style="margin-top:12px;max-width:920px;margin-left:auto;margin-right:auto;text-align:center;font-size:11px;font-style:italic;letter-spacing:0.2px;color:rgba(255,255,255,0.58);">
