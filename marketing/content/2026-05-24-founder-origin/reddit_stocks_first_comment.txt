@@ -1,0 +1,35 @@
+I built a public lab to test sector rotation signals because I got tired of the black box.
+
+Started with a simple question: can you beat SPY by rotating between sectors based on momentum, macro data, or weird stuff like port container volume? I didn't know. So I built 344 different signals and ran them all at once. Then I made the board public and kept it updated every day.
+
+Here's what happened.
+
+**One signal is beating SPY. One.**
+
+"Quantified Simple Monthly Rotation" is up 13.09% YTD. SPY is up 9.44%. That's 3.64% alpha over 112 days. It rotates monthly between the 11 sector ETFs based on momentum. Nothing fancy. It works right now.
+
+The other 343 don't. Some are close—Algo Baileymol is at 8.64%, Faber Momentum at 8.27%. Most are worse. The bottom performers are down 6% to 11% YTD. Port Container Volume, Copper Momentum, VIX Fear Rotation—all red.
+
+**Why keep the failures visible?**
+
+Because that's the only honest way to run this. If I hid the losers and only showed you the winner, you'd think I'm a genius. I'm not. I'm running 344 experiments. One landed. The rest didn't. That ratio is the whole story.
+
+The lab exists because I wanted to see what actually works versus what sounds good in a blog post. Sector rotation is intuitive—buy what's hot, sell what's cold. But does it beat a simple index fund? For one signal, yes. For 343 others, no.
+
+**What's interesting:**
+
+- VIX Fear Rotation ranks #342 all-time but #2 in the last 30 days. That's a divergence worth watching.
+- FINRA Dark Pool Signal ranks #10 all-time but #342 in the last 30 days. The opposite problem.
+- The sector consensus is bearish across the board. Only 26% of signals are bullish on Basic Materials (the "hottest" sector today).
+
+I'm not selling anything here. No subscription, no picks, no "this is the one." I'm showing you the board because if you're testing ideas, you need to see your failures as clearly as your wins. That's how you actually learn what works.
+
+The lab covers 105 tickers across 344 signals. It updates daily. One is beating the market. The rest are teaching me why most things don't.
+
+---
+
+# FIRST COMMENT
+
+Full public board and daily updates: [link to stockarithm.com/board or relevant public dashboard]
+
+All 344 signals ranked by return, Sharpe, drawdown, and rolling 30-day performance. No paywall. No cherry-picking.

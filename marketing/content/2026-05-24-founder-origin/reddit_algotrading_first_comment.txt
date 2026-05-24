@@ -1,0 +1,31 @@
+I built a public lab because I got tired of watching algo ideas die in private spreadsheets.
+
+Three years ago, I was running backtests like everyone else—cherry-picking winners, burying losers, telling myself the next tweak would fix it. The problem wasn't the work. It was the invisibility. No one sees your failures except you, so you rationalize them away.
+
+I decided to flip that. I'd run every signal I could think of, rank them honestly, and keep the board public. No hiding. No narrative cleanup. Just: here's what works, here's what doesn't, and here's the math.
+
+Today, 344 signals are live on the board. One is beating SPY.
+
+**Quantified Simple Monthly Rotation** is up 13.09% YTD while SPY is at 9.44%. It's a sector rotation model—nothing exotic. It rebalances monthly, holds 3–5 sectors, and lets momentum do the work. Over 112 days of live trading, it's generated 3.64% alpha. The Sharpe on the last 30 days is 5.46. That's the win.
+
+The other 343 signals are not winning. Some are close—Algo Baileymol is down 0.8% alpha, Faber Momentum is down 1.17%. Others are disasters. Copper Momentum is down 11.24% alpha. Port Container Volume is down 11.62%. These aren't backtests. These are live paper trades, updated daily, ranked by force rank (full-window alpha) and rolling 30-day performance.
+
+Why keep them visible?
+
+Because the failures teach you more than the winner does. VIX Fear Rotation is ranked 342nd on force rank but 2nd on the last 30 days. That gap is a signal. It means the model worked recently but failed historically—maybe the regime changed, maybe the signal is overfitted to current volatility. FINRA Dark Pool Signal is ranked 10th on force rank but 342nd on rolling 30D. That's the opposite problem: it worked before, it's broken now.
+
+The lab exists to answer one question: **Can you build a system that tells you when your idea is actually dead, not just unlucky?**
+
+Most traders can't. They hold losers because they believe in the thesis. They add to positions because they're "contrarian." They reoptimize until the backtest looks good. The board forces a different discipline: if your signal can't beat SPY in live trading over a reasonable window, it goes to the bottom of the list. You see it. Everyone sees it. You either fix it or kill it.
+
+One signal beating 343 others isn't a miracle. It's a baseline. It's what happens when you run enough ideas and let the market decide. The real value is in the visibility—knowing which ideas are actually working, which ones are regime-dependent, and which ones were never real to begin with.
+
+That's why the lab exists.
+
+---
+
+# FIRST COMMENT
+
+Full board and daily updates: [link to board/dashboard]
+
+Methodology: Force rank is full-window alpha (YTD). Rolling 30D rank is recent performance. Both matter. Sector consensus is built from the bullish/bearish signals across all 344 algos. Paper trading only—no real capital.

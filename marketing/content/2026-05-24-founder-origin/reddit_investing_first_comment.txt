@@ -1,0 +1,25 @@
+I built StockArithm because I got tired of backtests that looked perfect and blew up in live trading.
+
+Three years ago, I was running a quant fund. Every strategy I tested showed 15%+ annual returns. Every one. The problem wasn't the math—it was that I was the only person who could see the failures. I'd tweak a parameter, hide a bad month, and show clients the clean chart. No one knew which signals actually worked because no one could see the full board.
+
+So I decided to do the opposite: build a public lab where every signal—wins and losses—lives on the same leaderboard.
+
+Today we're running 344 signals across 105 tickers. They're all paper-trading live. You can see the equity curve, the drawdowns, the rank changes week to week. Some are based on standard momentum and rotation theory. Others are weird—we test things like port container volume, freight rail carloads, and VIX term structure. Most fail. That's the point.
+
+Right now, **one signal is beating SPY**: Quantified Simple Monthly Rotation. It's up 13.09% YTD versus SPY's 9.44%. It's been running 112 days. It has a 5.46 Sharpe ratio over the last 30 days. That's real. But it's also one signal out of 344. The other 343 are either underperforming or losing money.
+
+What's interesting is the divergences. VIX Fear Rotation is ranked #342 all-time but #2 in the last 30 days. FINRA Dark Pool Signal is #10 all-time but #342 in the last month. This tells you something important: a signal can be labeled wrong and still work, or work for a while and then stop. The label doesn't matter. The live data does.
+
+I'm publishing the full board because I think visible losses matter more than pretty backtests. If you're building a strategy, you need to know what failure looks like in real time. You need to see rank changes. You need to watch a signal that looked good last quarter get crushed this month.
+
+The lab isn't a product pitch. It's a commitment to transparency. Every signal is ranked by force (full-window return), rolling 30-day performance, and Sharpe ratio. You can see which ones are actually working and which ones are just noise.
+
+If you're interested in how alternative data signals perform in live conditions, or if you want to see what happens when you stop hiding the failures, the full board is public.
+
+---
+
+# FIRST COMMENT
+
+Full leaderboard and live signal data: [stockarithm.com](https://stockarithm.com)
+
+All 344 signals updated daily. No paywall. No cherry-picked results.
