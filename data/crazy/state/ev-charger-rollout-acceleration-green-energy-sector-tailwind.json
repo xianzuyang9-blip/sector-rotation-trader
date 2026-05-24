@@ -686,19 +686,29 @@
       "positions": {},
       "sector": "Ev Charger Rollout Acceleration Green Energy Sector Tailwind",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Ev Charger Rollout Acceleration Green Energy Sector Tailwind",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-19",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "ev-charger-rollout-acceleration-green-energy-sector-tailwind": {
       "signal_label": "HOLD",
-      "latest_value": 10499480.0,
-      "prior_avg": 10735636.6929,
-      "signal_change": -0.022,
+      "latest_value": 9963359.0,
+      "prior_avg": 10729786.5071,
+      "signal_change": -0.0714,
       "name": "Ev Charger Rollout Acceleration Green Energy Sector Tailwind",
       "last_signal": "HOLD",
-      "last_run": "2026-05-23"
+      "last_run": "2026-05-24"
     }
   }
 }

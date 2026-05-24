@@ -1,19 +1,10 @@
 {
-  "cash": 94882.5742703828,
+  "cash": 99866.70026719841,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 231.80116727900327,
+  "fees_paid": 242.0185531151273,
   "taxes_paid": 52.15549200725456,
-  "positions": {
-    "XLP": {
-      "shares": 58.89555663816924,
-      "entry_price": 84.80000305175781,
-      "entry_date": "2026-05-23",
-      "cost": 4994.343382651727,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-03",
@@ -288,6 +279,20 @@
       "cost": 4994.34,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-24",
+      "action": "SELL",
+      "ticker": "XLP",
+      "shares": 58.8956,
+      "price": 84.8,
+      "proceeds": 4984.13,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -10.22,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-23",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1290,20 +1295,30 @@
       },
       "sector": "Rss News Volume Spike On Food Supply Chain Disruptions",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99866.7,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99866.7,
+      "positions": {},
+      "sector": "Rss News Volume Spike On Food Supply Chain Disruptions",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-01",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "rss-news-volume-spike-on-food-supply-chain-disruptions": {
-      "latest_value": 5.0,
-      "prior_avg": 3.0714,
-      "signal_change": 0.6279,
+      "latest_value": 4.0,
+      "prior_avg": 2.8667,
+      "signal_change": 0.3953,
       "entry_date": "2026-05-23",
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Rss News Volume Spike On Food Supply Chain Disruptions",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-23"
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24"
     }
   }
 }

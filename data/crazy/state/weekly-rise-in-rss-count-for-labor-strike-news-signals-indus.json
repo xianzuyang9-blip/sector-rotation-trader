@@ -1,19 +1,10 @@
 {
-  "cash": 94893.79153106008,
+  "cash": 99878.51682540543,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 130.9036769446465,
+  "fees_paid": 141.112147391937,
   "taxes_paid": 15.365587841003752,
-  "positions": {
-    "XLI": {
-      "shares": 29.079196836193184,
-      "entry_price": 171.77000427246094,
-      "entry_date": "2026-05-23",
-      "cost": 4994.933764792636,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-13",
@@ -168,6 +159,20 @@
       "cost": 4994.93,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-24",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.0792,
+      "price": 171.77,
+      "proceeds": 4984.73,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-23",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1020,20 +1025,29 @@
       },
       "sector": "Weekly Rise In Rss Count For Labor Strike News Signals Industrial Sector Risk",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99878.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99878.52,
+      "positions": {},
+      "sector": "Weekly Rise In Rss Count For Labor Strike News Signals Industrial Sector Risk",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-11",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "weekly-rise-in-rss-count-for-labor-strike-news-signals-indus": {
-      "latest_value": 9.0,
-      "prior_avg": 6.6429,
-      "signal_change": 0.3548,
-      "entry_date": "2026-05-23",
-      "signal_label": "RISK_ON",
+      "latest_value": 6.0,
+      "prior_avg": 6.7143,
+      "signal_change": -0.1064,
+      "signal_label": "RISK_OFF",
       "name": "Weekly Rise In Rss Count For Labor Strike News Signals Industrial Sector Risk",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-23"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-05-24"
     }
   }
 }

@@ -2449,6 +2449,35 @@
       },
       "sector": "Electricity Consumption",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 19556.59,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 95748.28,
+      "positions": {
+        "XLI": {
+          "shares": 251.6403,
+          "entry_price": 175.04,
+          "current_price": 171.77,
+          "market_value": 43224.25,
+          "unrealized_pnl": -822.86,
+          "entry_date": "2026-05-11",
+          "margin": false
+        },
+        "XLB": {
+          "shares": 655.5466,
+          "entry_price": 52.26,
+          "current_price": 50.29,
+          "market_value": 32967.44,
+          "unrealized_pnl": -1291.43,
+          "entry_date": "2026-05-11",
+          "margin": false
+        }
+      },
+      "sector": "Electricity Consumption",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

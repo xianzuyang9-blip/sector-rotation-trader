@@ -1256,19 +1256,29 @@
       "positions": {},
       "sector": "Utility Power Grid Stress",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99938.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99938.31,
+      "positions": {},
+      "sector": "Utility Power Grid Stress",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "utility-power-grid-stress": {
       "signal_label": "HOLD",
       "name": "Utility Power Grid Stress",
       "last_signal": "HOLD",
-      "last_run": "2026-05-23",
-      "latest_value": 10499480.0,
-      "prior_avg": 10735636.6929,
-      "signal_change": -0.022,
+      "last_run": "2026-05-24",
+      "latest_value": 9963359.0,
+      "prior_avg": 10729786.5071,
+      "signal_change": -0.0714,
       "entry_date": "2026-05-20"
     }
   }

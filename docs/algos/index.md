@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-05-23T17:10:40
+Updated (UTC): 2026-05-24T13:23:06
 
 Normal models: 5
 

@@ -1,19 +1,10 @@
 {
-  "cash": 95030.14333083868,
+  "cash": 100022.04508181101,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 151.08009193654524,
+  "fees_paid": 161.28851627150758,
   "taxes_paid": 121.48045839059769,
-  "positions": {
-    "XLK": {
-      "shares": 27.729420656533033,
-      "entry_price": 180.38999938964844,
-      "entry_date": "2026-05-23",
-      "cost": 5002.110175307299,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-02-10",
@@ -192,6 +183,20 @@
       "cost": 5002.11,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-24",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 27.7294,
+      "price": 180.39,
+      "proceeds": 4991.9,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-23",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1174,19 +1179,29 @@
       },
       "sector": "Weekly Surge In Google Trends For Diy Electronics Repair Signals Bullish Xlk",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 100022.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100022.05,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Diy Electronics Repair Signals Bullish Xlk",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-29",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "weekly-surge-in-google-trends-for-diy-electronics-repair-sig": {
-      "latest_value": 64.0,
-      "prior_avg": 32.1786,
-      "signal_change": 0.9889,
-      "signal_label": "RISK_ON",
+      "latest_value": 9.0,
+      "prior_avg": 5.1071,
+      "signal_change": 0.7622,
+      "signal_label": "HOLD",
       "name": "Weekly Surge In Google Trends For Diy Electronics Repair Signals Bullish Xlk",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-23",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24",
       "entry_date": "2026-05-23"
     }
   }

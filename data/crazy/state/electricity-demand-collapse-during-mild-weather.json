@@ -811,19 +811,29 @@
       "positions": {},
       "sector": "Electricity Demand Collapse During Mild Weather",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99979.82,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99979.82,
+      "positions": {},
+      "sector": "Electricity Demand Collapse During Mild Weather",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-12",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "electricity-demand-collapse-during-mild-weather": {
       "signal_label": "HOLD",
-      "latest_value": 10499480.0,
-      "prior_avg": 11372275.1143,
-      "signal_change": -0.0767,
+      "latest_value": 9963359.0,
+      "prior_avg": 11284346.6571,
+      "signal_change": -0.1171,
       "name": "Electricity Demand Collapse During Mild Weather",
       "last_signal": "HOLD",
-      "last_run": "2026-05-23",
+      "last_run": "2026-05-24",
       "entry_date": "2026-05-19"
     }
   }

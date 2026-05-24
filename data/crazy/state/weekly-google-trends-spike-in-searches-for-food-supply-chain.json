@@ -1,11 +1,31 @@
 {
-  "cash": 100000,
+  "cash": 94990.05,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 0.0,
+  "fees_paid": 9.95,
   "taxes_paid": 0.0,
-  "positions": {},
-  "trade_log": [],
+  "positions": {
+    "XLP": {
+      "shares": 58.962262029026604,
+      "entry_price": 84.80000305175781,
+      "entry_date": "2026-05-24",
+      "cost": 5000.0,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-24",
+      "action": "BUY",
+      "ticker": "XLP",
+      "shares": 58.9623,
+      "price": 84.8,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-02-04",
@@ -836,16 +856,40 @@
       "positions": {},
       "sector": "Weekly Google Trends Spike In Searches For Food Supply Chain Disruptions",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLP": {
+          "shares": 58.9623,
+          "entry_price": 84.8,
+          "current_price": 84.8,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-24",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Google Trends Spike In Searches For Food Supply Chain Disruptions",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "weekly-google-trends-spike-in-searches-for-food-supply-chain": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Weekly Google Trends Spike In Searches For Food Supply Chain Disruptions",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-23"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-24",
+      "latest_value": 8.0,
+      "prior_avg": 3.1786,
+      "signal_change": 1.5169,
+      "entry_date": "2026-05-24"
     }
   }
 }

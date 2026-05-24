@@ -833,6 +833,16 @@
       "positions": {},
       "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99978.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99978.35,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-18"

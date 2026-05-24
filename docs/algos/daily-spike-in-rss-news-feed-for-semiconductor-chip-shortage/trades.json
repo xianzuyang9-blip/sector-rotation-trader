@@ -57,6 +57,20 @@
       "cost": 5001.36,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-24",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 27.7253,
+      "price": 180.39,
+      "proceeds": 4991.15,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-23",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -839,6 +853,16 @@
       },
       "sector": "Daily Spike In Rss News Feed For Semiconductor Chip Shortage Signals Tech Sector Volatility",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 100007.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100007.01,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Feed For Semiconductor Chip Shortage Signals Tech Sector Volatility",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-16"

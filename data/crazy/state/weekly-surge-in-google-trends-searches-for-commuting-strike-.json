@@ -1,19 +1,10 @@
 {
-  "cash": 94801.36952327704,
+  "cash": 99781.226907391,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 151.08589580770382,
+  "fees_paid": 161.29796028727182,
   "taxes_paid": 29.253874960453984,
-  "positions": {
-    "XLY": {
-      "shares": 41.87002379439345,
-      "entry_price": 119.18000030517578,
-      "entry_date": "2026-05-23",
-      "cost": 4990.069448593528,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-27",
@@ -192,6 +183,20 @@
       "cost": 4990.07,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-24",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.87,
+      "price": 119.18,
+      "proceeds": 4979.86,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-23",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1234,19 +1239,29 @@
       },
       "sector": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99781.23,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99781.23,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "weekly-surge-in-google-trends-searches-for-commuting-strike-": {
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-23",
-      "latest_value": 62.0,
-      "prior_avg": 26.6429,
-      "signal_change": 1.3271,
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24",
+      "latest_value": 10.0,
+      "prior_avg": 3.0714,
+      "signal_change": 2.2558,
       "entry_date": "2026-05-23"
     }
   }

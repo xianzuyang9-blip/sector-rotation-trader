@@ -143,6 +143,16 @@
       "pnl_pct": -0.97,
       "entry_date": "2026-05-01",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-24",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.883,
+      "price": 119.18,
+      "cost": 4991.62,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1035,6 +1045,26 @@
       "positions": {},
       "sector": "Daily Jump In Google Trends Searches For Emergency Dental Care",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 94830.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99822.39,
+      "positions": {
+        "XLY": {
+          "shares": 41.883,
+          "entry_price": 119.18,
+          "current_price": 119.18,
+          "market_value": 4991.62,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-24",
+          "margin": false
+        }
+      },
+      "sector": "Daily Jump In Google Trends Searches For Emergency Dental Care",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04"

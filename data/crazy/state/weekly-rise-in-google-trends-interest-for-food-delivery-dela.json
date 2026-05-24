@@ -1,19 +1,10 @@
 {
-  "cash": 94767.09485719675,
+  "cash": 99745.14331555551,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 191.45802861046334,
+  "fees_paid": 201.67508905151874,
   "taxes_paid": 51.52079003656354,
-  "positions": {
-    "XLP": {
-      "shares": 58.82388371796677,
-      "entry_price": 84.80000305175781,
-      "entry_date": "2026-05-23",
-      "cost": 4988.265518799829,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-02-10",
@@ -240,6 +231,20 @@
       "cost": 4988.27,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-24",
+      "action": "SELL",
+      "ticker": "XLP",
+      "shares": 58.8239,
+      "price": 84.8,
+      "proceeds": 4978.05,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -10.22,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-23",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1302,20 +1307,30 @@
       },
       "sector": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99745.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99745.14,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-05-23",
+  "last_run": "2026-05-24",
   "meta": {
     "weekly-rise-in-google-trends-interest-for-food-delivery-dela": {
-      "signal_label": "RISK_ON",
-      "latest_value": 11.0,
-      "prior_avg": 6.3929,
-      "signal_change": 0.7207,
+      "signal_label": "HOLD",
+      "latest_value": 9.0,
+      "prior_avg": 7.6071,
+      "signal_change": 0.1831,
       "entry_date": "2026-05-23",
       "name": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-23"
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24"
     }
   }
 }
