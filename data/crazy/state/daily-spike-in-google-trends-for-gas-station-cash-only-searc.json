@@ -1,0 +1,787 @@
+{
+  "cash": 99929.35865963953,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 60.526262630289715,
+  "taxes_paid": 17.894569762011187,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-05-12",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 86.8508,
+      "price": 57.57,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-13",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 86.8508,
+      "price": 57.63,
+      "proceeds": 4994.98,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -5.02,
+      "pnl_pct": -0.1,
+      "entry_date": "2026-05-12",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-18",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 82.5231,
+      "price": 60.58,
+      "cost": 4999.25,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-19",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 82.5231,
+      "price": 61.29,
+      "proceeds": 5047.62,
+      "fees": 10.23,
+      "tax": 17.89,
+      "pnl": 30.47,
+      "pnl_pct": 0.61,
+      "entry_date": "2026-05-18",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-20",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 83.6167,
+      "price": 59.8,
+      "cost": 5000.28,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-21",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 83.6167,
+      "price": 59.13,
+      "proceeds": 4934.03,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -66.25,
+      "pnl_pct": -1.32,
+      "entry_date": "2026-05-20",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-02-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLE": {
+          "shares": 86.8508,
+          "entry_price": 57.57,
+          "current_price": 57.57,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-12",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99985.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99985.03,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99985.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99985.03,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99985.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99985.03,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 94975.83,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99975.08,
+      "positions": {
+        "XLE": {
+          "shares": 82.5231,
+          "entry_price": 60.58,
+          "current_price": 60.58,
+          "market_value": 4999.25,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-18",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 100005.55,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.55,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 94995.33,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99995.6,
+      "positions": {
+        "XLE": {
+          "shares": 83.6167,
+          "entry_price": 59.8,
+          "current_price": 59.8,
+          "market_value": 5000.28,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-20",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99929.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99929.36,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99929.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99929.36,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99929.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99929.36,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-02-22",
+  "last_run": "2026-05-24",
+  "meta": {
+    "daily-spike-in-google-trends-for-gas-station-cash-only-searc": {
+      "signal_label": "HOLD",
+      "latest_value": 0.0,
+      "prior_avg": 32.0,
+      "signal_change": -1.0,
+      "name": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24"
+    }
+  }
+}

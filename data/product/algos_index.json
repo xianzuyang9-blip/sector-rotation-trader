@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T13:23:07Z",
+  "generated_at": "2026-05-24T13:32:14Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -1501,6 +1501,54 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:daily-spike-in-google-trends-for-diy-home-security-installat",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-diy-home-security-installat",
+      "name": "Daily Spike In Google Trends For Diy Home Security Installation Signals Consumer Tech Caution",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLC"
+      ],
+      "equity": 99906.95,
+      "ytd_pct": -0.09,
+      "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-childcare-searche",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-searche",
+      "name": "Daily Spike In Google Trends For Emergency Childcare Searches Signals Working Parent Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99893.36,
+      "ytd_pct": -0.11,
+      "trade_count": 14,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:daily-spike-in-google-trends-for-emergency-dental-care-signa",
       "algo_type": "crazy",
       "algo_id": "daily-spike-in-google-trends-for-emergency-dental-care-signa",
@@ -1683,6 +1731,30 @@
       "equity": 100000.0,
       "ytd_pct": 0.0,
       "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-google-trends-for-gas-station-cash-only-searc",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-gas-station-cash-only-searc",
+      "name": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLE"
+      ],
+      "equity": 99929.36,
+      "ytd_pct": -0.07,
+      "trade_count": 6,
       "positions": 0,
       "last_snapshot": "2026-05-24",
       "last_signal": null,
@@ -2245,6 +2317,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:healthcare-cost-urgency-spike",
+      "algo_type": "crazy",
+      "algo_id": "healthcare-cost-urgency-spike",
+      "name": "Healthcare Cost Urgency Spike",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLV"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:healthcare-procedure-google-trends-demand-resurgence",
       "algo_type": "crazy",
       "algo_id": "healthcare-procedure-google-trends-demand-resurgence",
@@ -2380,6 +2476,30 @@
       "rebalance_frequency": "weekly",
       "universe": [
         "XLV"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:real-time-retail-traffic-collapse",
+      "algo_type": "crazy",
+      "algo_id": "real-time-retail-traffic-collapse",
+      "name": "Real-time Retail Traffic Collapse",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLY"
       ],
       "equity": 100000.0,
       "ytd_pct": 0.0,
@@ -3887,6 +4007,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-google-trends-for-supply-chain-delay-searche",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-supply-chain-delay-searche",
+      "name": "Weekly Surge In Google Trends For Supply Chain Delay Searches Signals Industrial Sector Risk",
+      "family": "freight_logistics",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-google-trends-searches-for-freight-container",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-searches-for-freight-container",
@@ -3969,6 +4113,54 @@
       "rebalance_frequency": "daily",
       "universe": [
         "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-rss-counts-for-corporate-layoff-announcements",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
+      "name": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-rss-counts-for-new-labor-union-formations-sig",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-rss-counts-for-new-labor-union-formations-sig",
+      "name": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLF"
       ],
       "equity": 100000.0,
       "ytd_pct": 0.0,
@@ -4485,6 +4677,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-rise-in-google-trends-for-unemployment-benefits-searc",
+      "algo_type": "crazy",
+      "algo_id": "weekly-rise-in-google-trends-for-unemployment-benefits-searc",
+      "name": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLF"
+      ],
+      "equity": 99932.89,
+      "ytd_pct": -0.07,
+      "trade_count": 10,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-rise-in-rss-count-for-labor-strike-news-signals-indus",
       "algo_type": "crazy",
       "algo_id": "weekly-rise-in-rss-count-for-labor-strike-news-signals-indus",
@@ -4928,6 +5144,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:earthquake-aftershock-capital-flight",
+      "algo_type": "crazy",
+      "algo_id": "earthquake-aftershock-capital-flight",
+      "name": "Earthquake Aftershock Capital Flight",
+      "family": "local_economy_weirdness",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLB"
+      ],
+      "equity": 99937.78,
+      "ytd_pct": -0.06,
+      "trade_count": 8,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:earthquake-aftershock-insurance-claims-spike",
       "algo_type": "crazy",
       "algo_id": "earthquake-aftershock-insurance-claims-spike",
@@ -5317,6 +5557,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-increase-in-open-charge-map-ev-charger-installations-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-increase-in-open-charge-map-ev-charger-installations-",
+      "name": "Weekly Increase In Open Charge Map Ev Charger Installations Signals Green Tech Growth",
+      "family": "local_economy_weirdness",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLC"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-jump-in-google-trends-for-home-moving-truck-rental-de",
       "algo_type": "crazy",
       "algo_id": "weekly-jump-in-google-trends-for-home-moving-truck-rental-de",
@@ -5686,6 +5950,30 @@
       "new_algo_date": null,
       "backtest_status": "UNSUPPORTED_DATA",
       "backtest_reason": "V1 only supports SPY/sector ETFs; unsupported tickers: BTC-USD, ETH-USD, LINK-USD, LTC-USD, XRP-USD",
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-jump-in-weather-series-temperature-volatility-signals-",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-weather-series-temperature-volatility-signals-",
+      "name": "Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
       "backtest_alpha_vs_spy_pct": null,
       "backtest_trade_count": null
     },
@@ -6772,6 +7060,30 @@
       "equity": 100000.0,
       "ytd_pct": 0.0,
       "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:utility-demand-spike-from-weather-extremes",
+      "algo_type": "crazy",
+      "algo_id": "utility-demand-spike-from-weather-extremes",
+      "name": "Utility Demand Spike From Weather Extremes",
+      "family": "macro_input_pressure",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 100001.85,
+      "ytd_pct": 0.0,
+      "trade_count": 4,
       "positions": 0,
       "last_snapshot": "2026-05-24",
       "last_signal": null,
@@ -8131,6 +8443,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:ev-charging-network-saturation-surge",
+      "algo_type": "crazy",
+      "algo_id": "ev-charging-network-saturation-surge",
+      "name": "Ev Charging Network Saturation Surge",
+      "family": "travel_mobility",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLK"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:google-trends-surge-in-flight-delay-complaints",
       "algo_type": "crazy",
       "algo_id": "google-trends-surge-in-flight-delay-complaints",
@@ -8419,6 +8755,30 @@
       "equity": 100000.0,
       "ytd_pct": 0.0,
       "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+      "name": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Travel Demand Spike",
+      "family": "travel_mobility",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99975.65,
+      "ytd_pct": -0.02,
+      "trade_count": 8,
       "positions": 0,
       "last_snapshot": "2026-05-24",
       "last_signal": null,

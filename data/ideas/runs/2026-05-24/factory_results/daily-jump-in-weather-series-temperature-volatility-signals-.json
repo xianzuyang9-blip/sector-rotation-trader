@@ -1,0 +1,16 @@
+{
+  "adapter": "eia_electricity",
+  "algo_file": "crazy/algos/daily_jump_in_weather_series_temperature_volatility_signals_.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "daily-jump-in-weather-series-temperature-volatility-signals-",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-05-24/build/chatgpt_daily-jump-in-weather-series-temperature-volatility-signals-.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.eia_electricity",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-05-24/algos/crazy/daily-jump-in-weather-series-temperature-volatility-signals-"
+}

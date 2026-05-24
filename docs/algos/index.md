@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-05-24T13:23:06
+Updated (UTC): 2026-05-24T13:32:13
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 339
+Crazy models: 354
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -355,3 +355,18 @@ Crazy models: 339
 | healthcare-utilization-surge-from-seasonal-illness-wave | Healthcare Utilization Surge From Seasonal Illness Wave | weekly |
 | travel-mobility-rebound-post-weather-system | Travel Mobility Rebound Post Weather System | daily |
 | utilities-volatility-spike-long-hedge-trade | Utilities Volatility Spike Long Hedge Trade | daily |
+| daily-jump-in-weather-series-temperature-volatility-signals- | Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges | daily |
+| daily-spike-in-google-trends-for-diy-home-security-installat | Daily Spike In Google Trends For Diy Home Security Installation Signals Consumer Tech Caution | daily |
+| daily-spike-in-google-trends-for-emergency-childcare-searche | Daily Spike In Google Trends For Emergency Childcare Searches Signals Working Parent Stress | daily |
+| daily-spike-in-google-trends-for-gas-station-cash-only-searc | Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress | daily |
+| daily-spike-in-rss-counts-for-corporate-layoff-announcements | Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind | daily |
+| daily-spike-in-rss-counts-for-new-labor-union-formations-sig | Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift | daily |
+| weekly-increase-in-open-charge-map-ev-charger-installations- | Weekly Increase In Open Charge Map Ev Charger Installations Signals Green Tech Growth | weekly |
+| weekly-rise-in-google-trends-for-unemployment-benefits-searc | Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress | weekly |
+| weekly-surge-in-google-trends-for-last-minute-vacation-booki | Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Travel Demand Spike | weekly |
+| weekly-surge-in-google-trends-for-supply-chain-delay-searche | Weekly Surge In Google Trends For Supply Chain Delay Searches Signals Industrial Sector Risk | weekly |
+| earthquake-aftershock-capital-flight | Earthquake Aftershock Capital Flight | daily |
+| ev-charging-network-saturation-surge | Ev Charging Network Saturation Surge | weekly |
+| healthcare-cost-urgency-spike | Healthcare Cost Urgency Spike | weekly |
+| real-time-retail-traffic-collapse | Real-time Retail Traffic Collapse | weekly |
+| utility-demand-spike-from-weather-extremes | Utility Demand Spike From Weather Extremes | daily |

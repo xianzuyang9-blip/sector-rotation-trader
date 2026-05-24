@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-05-24/publish/claude_freight-rate-volatility-crush-signal.md",
+  "target_file": "data/ideas/runs/2026-05-24/intervention/claude_freight-rate-volatility-crush-signal.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "low_adapter_confidence",
+      "regime shifts",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 952,
+    "output_tokens": 78
+  },
+  "cost_usd": 0.00316,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec is clear, uses a real FRED series adapter with deterministic data source mapping.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}\n```"
+}

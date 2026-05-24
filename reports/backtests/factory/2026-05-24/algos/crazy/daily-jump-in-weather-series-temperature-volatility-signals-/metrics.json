@@ -1,0 +1,9 @@
+{
+  "algo_id": "daily-jump-in-weather-series-temperature-volatility-signals-",
+  "name": "Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.eia_electricity",
+  "metrics": {},
+  "run_date": "2026-05-24"
+}

@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-05-24/publish/claude_commodity-input-price-shock-cascade.md",
+  "target_file": "data/ideas/runs/2026-05-24/intervention/claude_commodity-input-price-shock-cascade.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "unclear adapter coverage for XLE price and MA",
+      "unsupported_template_adapter",
+      "weekly frequency with mixed data sources"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table",
+        "price_only"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1,
+        "price_only": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 967,
+    "output_tokens": 94
+  },
+  "cost_usd": 0.0033575,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Low confidence in adapter routing and unclear if price_only adapter covers XLE price and MA logic\",\n  \"risk_flags\": [\"low adapter routing confidence\", \"unclear adapter coverage for XLE price and MA\", \"weekly frequency with mixed data sources\"]\n}\n```"
+}

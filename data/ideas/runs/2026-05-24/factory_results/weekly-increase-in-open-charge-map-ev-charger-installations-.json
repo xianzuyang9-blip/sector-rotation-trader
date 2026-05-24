@@ -1,0 +1,16 @@
+{
+  "adapter": "openchargemap",
+  "algo_file": "crazy/algos/weekly_increase_in_open_charge_map_ev_charger_installations_.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "weekly-increase-in-open-charge-map-ev-charger-installations-",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-05-24/build/chatgpt_weekly-increase-in-open-charge-map-ev-charger-installations-.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-05-24/algos/crazy/weekly-increase-in-open-charge-map-ev-charger-installations-"
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T13:23:07Z",
+  "generated_at": "2026-05-24T13:32:14Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -593,6 +593,54 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:daily-spike-in-google-trends-for-diy-home-security-installat",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-diy-home-security-installat",
+      "name": "Daily Spike In Google Trends For Diy Home Security Installation Signals Consumer Tech Caution",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLC"
+      ],
+      "equity": 99906.95,
+      "ytd_pct": -0.09,
+      "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-childcare-searche",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-searche",
+      "name": "Daily Spike In Google Trends For Emergency Childcare Searches Signals Working Parent Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99893.36,
+      "ytd_pct": -0.11,
+      "trade_count": 14,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:daily-spike-in-google-trends-for-emergency-dental-care-signa",
       "algo_type": "crazy",
       "algo_id": "daily-spike-in-google-trends-for-emergency-dental-care-signa",
@@ -655,6 +703,30 @@
       "equity": 99572.85,
       "ytd_pct": -0.43,
       "trade_count": 26,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-google-trends-for-gas-station-cash-only-searc",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-gas-station-cash-only-searc",
+      "name": "Daily Spike In Google Trends For Gas Station Cash Only Searches Indicates Consumer Payment Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLE"
+      ],
+      "equity": 99929.36,
+      "ytd_pct": -0.07,
+      "trade_count": 6,
       "positions": 0,
       "last_snapshot": "2026-05-24",
       "last_signal": null,
@@ -1870,6 +1942,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-rise-in-google-trends-for-unemployment-benefits-searc",
+      "algo_type": "crazy",
+      "algo_id": "weekly-rise-in-google-trends-for-unemployment-benefits-searc",
+      "name": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLF"
+      ],
+      "equity": 99932.89,
+      "ytd_pct": -0.07,
+      "trade_count": 10,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-rise-in-rss-count-for-labor-strike-news-signals-indus",
       "algo_type": "crazy",
       "algo_id": "weekly-rise-in-rss-count-for-labor-strike-news-signals-indus",
@@ -2075,6 +2171,30 @@
       ],
       "equity": 99651.01,
       "ytd_pct": -0.35,
+      "trade_count": 8,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:earthquake-aftershock-capital-flight",
+      "algo_type": "crazy",
+      "algo_id": "earthquake-aftershock-capital-flight",
+      "name": "Earthquake Aftershock Capital Flight",
+      "family": "local_economy_weirdness",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLB"
+      ],
+      "equity": 99937.78,
+      "ytd_pct": -0.06,
       "trade_count": 8,
       "positions": 0,
       "last_snapshot": "2026-05-24",
@@ -2759,6 +2879,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:utility-demand-spike-from-weather-extremes",
+      "algo_type": "crazy",
+      "algo_id": "utility-demand-spike-from-weather-extremes",
+      "name": "Utility Demand Spike From Weather Extremes",
+      "family": "macro_input_pressure",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 100001.85,
+      "ytd_pct": 0.0,
+      "trade_count": 4,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:utility-power-grid-stress",
       "algo_type": "crazy",
       "algo_id": "utility-power-grid-stress",
@@ -3219,6 +3363,30 @@
       "equity": 99793.96,
       "ytd_pct": -0.21,
       "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-05-24",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+      "name": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Travel Demand Spike",
+      "family": "travel_mobility",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99975.65,
+      "ytd_pct": -0.02,
+      "trade_count": 8,
       "positions": 0,
       "last_snapshot": "2026-05-24",
       "last_signal": null,

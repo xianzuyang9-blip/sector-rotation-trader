@@ -1,0 +1,9 @@
+{
+  "algo_id": "daily-spike-in-rss-counts-for-new-labor-union-formations-sig",
+  "name": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-24"
+}

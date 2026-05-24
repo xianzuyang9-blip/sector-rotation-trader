@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-24/build/chatgpt_daily-spike-in-rss-counts-for-new-labor-union-formations-sig.md",
+  "out": "crazy/algos/daily_spike_in_rss_counts_for_new_labor_union_formations_sig.py",
+  "adapter": "rss_count",
+  "idea_id": "daily-spike-in-rss-counts-for-new-labor-union-formations-sig",
+  "name": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+  "universe": [
+    "XLF"
+  ],
+  "frequency": "daily",
+  "family": "labor_jobs",
+  "threshold": 0.4,
+  "direction": "up",
+  "hold_days": 14
+}

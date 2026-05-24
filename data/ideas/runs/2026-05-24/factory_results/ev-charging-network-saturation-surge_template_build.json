@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-24/build/claude_ev-charging-network-saturation-surge.md",
+  "out": "crazy/algos/ev_charging_network_saturation_surge.py",
+  "adapter": "openchargemap",
+  "idea_id": "ev-charging-network-saturation-surge",
+  "name": "Ev Charging Network Saturation Surge",
+  "universe": [
+    "XLK"
+  ],
+  "frequency": "weekly",
+  "family": "travel_mobility",
+  "threshold": 0.08,
+  "direction": "up",
+  "hold_days": 10
+}

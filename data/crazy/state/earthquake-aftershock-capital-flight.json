@@ -1,0 +1,822 @@
+{
+  "cash": 99937.78101956473,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 80.71848366680787,
+  "taxes_paid": 30.826544543035418,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-04-28",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 97.2763,
+      "price": 51.4,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-29",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 97.2763,
+      "price": 50.96,
+      "proceeds": 4946.97,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -53.03,
+      "pnl_pct": -1.06,
+      "entry_date": "2026-04-28",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 97.0828,
+      "price": 51.47,
+      "cost": 4996.85,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-01",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 97.0828,
+      "price": 51.35,
+      "proceeds": 4974.97,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -21.88,
+      "pnl_pct": -0.44,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-05",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 96.9389,
+      "price": 51.53,
+      "cost": 4995.26,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-06",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 96.9389,
+      "price": 52.41,
+      "proceeds": 5070.33,
+      "fees": 10.23,
+      "tax": 27.78,
+      "pnl": 47.3,
+      "pnl_pct": 0.95,
+      "entry_date": "2026-05-05",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-07",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 97.2204,
+      "price": 51.4,
+      "cost": 4997.13,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-08",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 97.2204,
+      "price": 51.59,
+      "proceeds": 5005.37,
+      "fees": 10.23,
+      "tax": 3.05,
+      "pnl": 5.19,
+      "pnl_pct": 0.1,
+      "entry_date": "2026-05-07",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-02-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLB": {
+          "shares": 97.2763,
+          "entry_price": 51.4,
+          "current_price": 51.4,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-28",
+          "margin": false
+        }
+      },
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 99937.02,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.02,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 94930.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99927.07,
+      "positions": {
+        "XLB": {
+          "shares": 97.0828,
+          "entry_price": 51.47,
+          "current_price": 51.47,
+          "market_value": 4996.85,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-30",
+          "margin": false
+        }
+      },
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 99905.19,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99905.19,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99905.19,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99905.19,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 94899.98,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99895.24,
+      "positions": {
+        "XLB": {
+          "shares": 96.9389,
+          "entry_price": 51.53,
+          "current_price": 51.53,
+          "market_value": 4995.26,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-05",
+          "margin": false
+        }
+      },
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99942.54,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99942.54,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 94935.46,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.59,
+      "positions": {
+        "XLB": {
+          "shares": 97.2204,
+          "entry_price": 51.4,
+          "current_price": 51.4,
+          "market_value": 4997.13,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-07",
+          "margin": false
+        }
+      },
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-02-22",
+  "last_run": "2026-05-24",
+  "meta": {
+    "earthquake-aftershock-capital-flight": {
+      "signal_label": "HOLD",
+      "latest_value": 131.0,
+      "prior_avg": 271.5714,
+      "signal_change": -0.5176,
+      "entry_date": "2026-05-07",
+      "name": "Earthquake Aftershock Capital Flight",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24"
+    }
+  }
+}

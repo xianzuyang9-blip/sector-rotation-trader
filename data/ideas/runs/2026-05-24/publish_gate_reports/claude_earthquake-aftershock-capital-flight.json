@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-05-24/publish/claude_earthquake-aftershock-capital-flight.md",
+  "target_file": "data/ideas/runs/2026-05-24/build/claude_earthquake-aftershock-capital-flight.md",
+  "verdict": {
+    "decision": "BUILD",
+    "adapter_ok": true,
+    "selected_adapter": "earthquake_activity",
+    "needs_new_adapter": false,
+    "reason": "Spec is deterministic, uses correct earthquake_activity adapter, and is structurally valid.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "regime shifts"
+    ],
+    "route": {
+      "adapters": [
+        "earthquake_activity"
+      ],
+      "scores": {
+        "earthquake_activity": 3,
+        "rss_count": 1,
+        "html_table": 1,
+        "price_only": 2
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 992,
+    "output_tokens": 78
+  },
+  "cost_usd": 0.00326,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"earthquake_activity\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec is deterministic, uses correct earthquake_activity adapter, and is structurally valid.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}\n```"
+}

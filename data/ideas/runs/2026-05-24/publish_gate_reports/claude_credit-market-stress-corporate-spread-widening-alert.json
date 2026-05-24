@@ -1,0 +1,37 @@
+{
+  "source_file": "data/ideas/runs/2026-05-24/publish/claude_credit-market-stress-corporate-spread-widening-alert.md",
+  "target_file": "data/ideas/runs/2026-05-24/intervention/claude_credit-market-stress-corporate-spread-widening-alert.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "entry/exit logic requires price data not confirmed from adapter",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "price data for XLF not clearly sourced",
+      "unsupported_template_adapter",
+      "volume or OHLC data needed for MA calculation"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 978,
+    "output_tokens": 113
+  },
+  "cost_usd": 0.003575,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Low confidence in adapter mapping and volume data missing for XLF price and MA calculation\",\n  \"risk_flags\": [\n    \"low adapter routing confidence\",\n    \"price data for XLF not clearly sourced\",\n    \"volume or OHLC data needed for MA calculation\",\n    \"entry/exit logic requires price data not confirmed from adapter\"\n  ]\n}\n```"
+}

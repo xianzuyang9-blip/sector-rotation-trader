@@ -1,0 +1,34 @@
+{
+  "source_file": "data/ideas/runs/2026-05-24/publish/chatgpt_weekly-surge-in-political-insider-filings-for-buy-transactio.md",
+  "target_file": "data/ideas/runs/2026-05-24/intervention/chatgpt_weekly-surge-in-political-insider-filings-for-buy-transactio.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "html_table",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support html_table yet.",
+    "risk_flags": [
+      "data source mismatch",
+      "needs new adapter",
+      "unsupported_template_adapter",
+      "volume required",
+      "weekly frequency"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "html_table": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 903,
+    "output_tokens": 78
+  },
+  "cost_usd": 0.0030375,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"html_table\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"No existing adapter directly measures political insider filings data source.\",\n  \"risk_flags\": [\"data source mismatch\", \"needs new adapter\", \"weekly frequency\", \"volume required\"]\n}\n```"
+}

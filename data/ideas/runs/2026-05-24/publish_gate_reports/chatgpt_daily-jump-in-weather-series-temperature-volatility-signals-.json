@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-05-24/publish/chatgpt_daily-jump-in-weather-series-temperature-volatility-signals-.md",
+  "target_file": "data/ideas/runs/2026-05-24/build/chatgpt_daily-jump-in-weather-series-temperature-volatility-signals-.md",
+  "verdict": {
+    "decision": "BUILD",
+    "adapter_ok": true,
+    "selected_adapter": "weather_series",
+    "needs_new_adapter": false,
+    "reason": "Spec is clear, deterministic, uses a valid weather_series adapter with daily temperature data.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "regime shifts"
+    ],
+    "route": {
+      "adapters": [
+        "eia_electricity",
+        "weather_series"
+      ],
+      "scores": {
+        "weather_series": 2,
+        "html_table": 1,
+        "eia_electricity": 1,
+        "price_only": 1
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 935,
+    "output_tokens": 78
+  },
+  "cost_usd": 0.0031175,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"weather_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec is clear, deterministic, uses a valid weather_series adapter with daily temperature data.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}\n```"
+}

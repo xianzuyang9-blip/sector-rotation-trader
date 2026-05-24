@@ -1,0 +1,856 @@
+{
+  "cash": 99932.88614208184,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 100.90185075017651,
+  "taxes_paid": 34.83867545500906,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-03-02",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 97.9669,
+      "price": 51.0376,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-03",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.9669,
+      "price": 50.9481,
+      "proceeds": 4981.0,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -19.0,
+      "pnl_pct": -0.38,
+      "entry_date": "2026-03-02",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-30",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 103.3613,
+      "price": 48.36,
+      "cost": 4998.55,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-31",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 103.3613,
+      "price": 49.37,
+      "proceeds": 5092.71,
+      "fees": 10.24,
+      "tax": 34.84,
+      "pnl": 59.32,
+      "pnl_pct": 1.19,
+      "entry_date": "2026-03-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-06",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 100.261,
+      "price": 49.88,
+      "cost": 5001.02,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-07",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 100.261,
+      "price": 49.88,
+      "proceeds": 4990.79,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -10.23,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-04-06",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-04",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 96.937,
+      "price": 51.58,
+      "cost": 5000.01,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-05",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.937,
+      "price": 51.59,
+      "proceeds": 4990.75,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -9.26,
+      "pnl_pct": -0.19,
+      "entry_date": "2026-05-04",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-06",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 96.4323,
+      "price": 51.84,
+      "cost": 4999.05,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-07",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.4323,
+      "price": 51.55,
+      "proceeds": 4960.86,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -38.19,
+      "pnl_pct": -0.76,
+      "entry_date": "2026-05-06",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-02-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-02",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLF": {
+          "shares": 97.9669,
+          "entry_price": 51.0376,
+          "current_price": 51.0376,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-02",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-03",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-04",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 99971.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.05,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 94962.55,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99961.1,
+      "positions": {
+        "XLF": {
+          "shares": 103.3613,
+          "entry_price": 48.36,
+          "current_price": 48.36,
+          "market_value": 4998.55,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-30",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 100020.42,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100020.42,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 100020.42,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100020.42,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 100020.42,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100020.42,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 100020.42,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100020.42,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 95009.45,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100010.47,
+      "positions": {
+        "XLF": {
+          "shares": 100.261,
+          "entry_price": 49.88,
+          "current_price": 49.88,
+          "market_value": 5001.02,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-06",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 100000.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.24,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 94990.28,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.29,
+      "positions": {
+        "XLF": {
+          "shares": 96.937,
+          "entry_price": 51.58,
+          "current_price": 51.58,
+          "market_value": 5000.01,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-04",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 99981.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99981.03,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 94972.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.08,
+      "positions": {
+        "XLF": {
+          "shares": 96.4323,
+          "entry_price": 51.84,
+          "current_price": 51.84,
+          "market_value": 4999.05,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-06",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-24",
+      "cash": 99932.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.89,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-02-22",
+  "last_run": "2026-05-24",
+  "meta": {
+    "weekly-rise-in-google-trends-for-unemployment-benefits-searc": {
+      "latest_value": 26.0,
+      "prior_avg": 41.1071,
+      "signal_change": -0.3675,
+      "signal_label": "HOLD",
+      "entry_date": "2026-05-06",
+      "name": "Weekly Rise In Google Trends For Unemployment Benefits Searches Signals Labor Market Stress",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-24"
+    }
+  }
+}
