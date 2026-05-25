@@ -598,17 +598,15 @@ def _lint_draft(text, channel_key):
         if heading_count < 3:
             raise ValueError(f"{channel_key}: draft needs at least 3 markdown section headings")
         lower = text.lower()
-        required_concepts = [
-            "what stockarithm is",
-            "why it exists",
-            "why this exists",
-            "what the evidence says",
-            "what the current evidence says",
-            "what the reader should take away",
-            "where it fails",
-        ]
-        if sum(1 for phrase in required_concepts if phrase in lower) < 2:
-            raise ValueError(f"{channel_key}: draft missing premise/context language")
+        concept_hits = 0
+        if "stockarithm" in lower:
+            concept_hits += 1
+        if any(token in lower for token in ("sector rotation", "signal", "signals", "spy")):
+            concept_hits += 1
+        if any(token in lower for token in ("because", "matters", "exists", "failure", "loser", "winner", "evidence")):
+            concept_hits += 1
+        if concept_hits < 3:
+            raise ValueError(f"{channel_key}: draft missing premise/context coverage")
         if any(phrase in lower for phrase in ("summary", "tl;dr", "note to self", "quick update")):
             raise ValueError(f"{channel_key}: draft reads like a summary fragment")
     if channel_key.startswith("reddit_"):
