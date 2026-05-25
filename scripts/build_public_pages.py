@@ -214,6 +214,8 @@ def _site_links() -> str:
         ("/premium.html", "Premium Preview"),
         ("/blog/index.html", "Blog"),
         ("/legal.html", "Legal"),
+        ("/public-changelog.html", "Public Changelog"),
+        ("/algo-changelog.html", "Algo Changelog"),
         ("/biscotti.html", "Biscotti"),
     ]
     parts = []
@@ -1892,6 +1894,111 @@ def build_legal_page() -> str:
 </html>"""
 
 
+def _render_markdown_basic(markdown_text: str) -> str:
+    parts = []
+    in_list = False
+    in_code = False
+    code_lines = []
+
+    def close_list():
+        nonlocal in_list
+        if in_list:
+            parts.append("</ul>")
+            in_list = False
+
+    def close_code():
+        nonlocal in_code, code_lines
+        if in_code:
+            parts.append("<pre><code>" + _e("\n".join(code_lines)) + "</code></pre>")
+            in_code = False
+            code_lines = []
+
+    for raw in markdown_text.splitlines():
+        line = raw.rstrip()
+        stripped = line.strip()
+
+        if stripped.startswith("```"):
+            close_list()
+            if in_code:
+                close_code()
+            else:
+                in_code = True
+                code_lines = []
+            continue
+
+        if in_code:
+            code_lines.append(line)
+            continue
+
+        if not stripped:
+            close_list()
+            continue
+
+        if stripped.startswith("# "):
+            close_list()
+            parts.append(f"<h1 class=\"section-title\">{_e(stripped[2:].strip())}</h1>")
+            continue
+
+        if stripped.startswith("## "):
+            close_list()
+            parts.append(f"<h2 class=\"section-title\">{_e(stripped[3:].strip())}</h2>")
+            continue
+
+        if stripped.startswith("### "):
+            close_list()
+            parts.append(f"<h3 class=\"section-subtitle\">{_e(stripped[4:].strip())}</h3>")
+            continue
+
+        if stripped.startswith("- "):
+            if not in_list:
+                parts.append("<ul class=\"changelog-list\">")
+                in_list = True
+            parts.append(f"<li>{_e(stripped[2:].strip())}</li>")
+            continue
+
+        close_list()
+        parts.append(f"<p>{_e(stripped)}</p>")
+
+    close_code()
+    close_list()
+    return "\n".join(parts)
+
+
+def build_markdown_page(source_path: Path, page_title: str, hero_title: str, hero_sub: str, footer_label: str) -> str:
+    body_html = _render_markdown_basic(source_path.read_text(encoding="utf-8"))
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{_e(page_title)}</title>
+<style>{REPORT_CSS}</style>
+<style>
+  .markdown-page .wrap {{ max-width: 920px; }}
+  .markdown-page .section-title {{ text-align: left; margin-bottom: 14px; }}
+  .markdown-page .section-subtitle {{ font-size: 18px; margin: 26px 0 10px; color: var(--text); }}
+  .markdown-page p {{ margin: 0 0 14px; color: var(--text); }}
+  .markdown-page pre {{ overflow-x: auto; padding: 16px; border: 1px solid var(--border); background: rgba(0,0,0,0.22); border-radius: 14px; margin: 14px 0; }}
+  .markdown-page code {{ font-family: var(--mono); font-size: 12px; }}
+  .changelog-list {{ margin: 0 0 18px 20px; color: var(--text); }}
+  .changelog-list li {{ margin: 0 0 10px; }}
+</style>
+</head>
+<body class="markdown-page">
+<div class="hero">
+  <h1>{_e(hero_title)}</h1>
+  <p class="hero-sub">{_e(hero_sub)}</p>
+</div>
+<section>
+  <div class="wrap">
+    {body_html}
+  </div>
+</section>
+{_footer_html('', '', footer_label)}
+</body>
+</html>"""
+
+
 PRICING_SECTION = """
     <div class="card" id="pricing" style="border-color: rgba(25,211,143,0.3);">
       <h2>Premium is not open yet</h2>
@@ -1944,6 +2051,32 @@ def build_main():
     out_legal = REPO / "docs" / "legal.html"
     out_legal.write_text(build_legal_page(), encoding="utf-8")
     print(f"[pages] wrote {out_legal}")
+
+    out_public_changelog = REPO / "docs" / "public-changelog.html"
+    out_public_changelog.write_text(
+        build_markdown_page(
+            REPO / "PUBLIC_CHANGELOG.md",
+            "StockArithm — Public Changelog",
+            "Public changelog",
+            "Meaningful product, methodology, data-hygiene, and public-reliability changes.",
+            "Public changelog",
+        ),
+        encoding="utf-8",
+    )
+    print(f"[pages] wrote {out_public_changelog}")
+
+    out_algo_changelog = REPO / "docs" / "algo-changelog.html"
+    out_algo_changelog.write_text(
+        build_markdown_page(
+            REPO / "ALGO_CHANGELOG.md",
+            "StockArithm — Algo Changelog",
+            "Algo changelog",
+            "Signal-board additions, renames, retirements, and metadata changes.",
+            "Algo changelog",
+        ),
+        encoding="utf-8",
+    )
+    print(f"[pages] wrote {out_algo_changelog}")
 
     out_biscotti = REPO / "docs" / "biscotti.html"
     out_biscotti.write_text(build_biscotti_page(biscotti), encoding="utf-8")

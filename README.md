@@ -99,6 +99,9 @@ Reports and content:
 
 - `reports/deep_validation/`: standalone validation reports for content generation.
 - `content/`: generated text content for daily posts, spotlights, failures, calls, and weekly summaries.
+- `PUBLIC_CHANGELOG.md`: curated public-facing product, methodology, and ops changes.
+- `ALGO_CHANGELOG.md`: curated signal-board inventory and rename/change log.
+- `CHANGELOG.md`: full internal engineering log.
 
 ## Setup
 

@@ -701,6 +701,8 @@ def generate_dashboard(state: dict, current_px: dict, sector: str,
       <a href="/premium.html">Premium Preview</a><span class="footer-sep">&middot;</span>
       <a href="/blog/index.html">Blog</a><span class="footer-sep">&middot;</span>
       <a href="/legal.html">Legal</a><span class="footer-sep">&middot;</span>
+      <a href="/public-changelog.html">Public Changelog</a><span class="footer-sep">&middot;</span>
+      <a href="/algo-changelog.html">Algo Changelog</a><span class="footer-sep">&middot;</span>
       <a href="/biscotti.html">Biscotti</a>
     </div>
     <div style="width:100%;max-width:520px;height:1px;margin:14px auto 14px;background:rgba(255,255,255,0.10);"></div>

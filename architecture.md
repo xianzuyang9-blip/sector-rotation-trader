@@ -31,6 +31,14 @@ nightly runs compute facts once
 
 This repo remains the private system of record. The public site should be a rendered view, not a browser-side reconstruction of internal state.
 
+There is also a transparency rule for change history:
+
+```text
+product/methodology changes -> PUBLIC_CHANGELOG.md
+signal inventory changes ----> ALGO_CHANGELOG.md
+full engineering history ----> CHANGELOG.md
+```
+
 ## System Map
 
 ```text
