@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-25",
+  "input_count": 25,
+  "kept_count": 22,
+  "duplicate_count": 3,
+  "kept_by_source": {
+    "chatgpt": 13,
+    "claude": 9
+  },
+  "duplicates": [
+    {
+      "source": "claude",
+      "idea_id": "labor-force-participation-drop-via-jobs-report-surprise",
+      "title": "Labor Force Participation Drop Via Jobs Report Surprise",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.506,
+        "matched_title": "fred labor force participation cliff drop",
+        "matched_idea_id": "fred-labor-force-participation-cliff-drop",
+        "matched_origin": "history:2026-05-04",
+        "matched_source": "claude"
+      },
+      "idea": {
+        "idea_id": "labor-force-participation-drop-via-jobs-report-surprise",
+        "title": "Labor Force Participation Drop Via Jobs Report Surprise",
+        "family": "labor_jobs",
+        "source_provider": "anthropic",
+        "source_model": "claude-haiku-4-5-20251001",
+        "thesis": "Sudden drops in labor force participation (>0.2% weekly decline) signal worker discouragement or health/demographic shocks, bearish for consumer discretionary. Lower participation reduces wage pressure and consumer spending capacity; discretionary companies face demand headwinds.",
+        "data_sources": [
+          "FRED series CIVPART (civilian labor force participation rate) weekly through fred_series adapter"
+        ],
+        "signal_logic": "When weekly FRED CIVPART reading drops >0.2 percentage points from prior week AND is below 20-week moving average",
+        "entry_exit": "Entry: When weekly FRED CIVPART reading drops >0.2 percentage points from prior week AND is below 20-week moving average Exit: After 10 trading days or when CIVPART rebounds above 20-week MA",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use FRED series CIVPART (civilian labor force participation rate) weekly through fred_series adapter via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "monthly",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor force participation fluctuates seasonally and cyclically; drops >0.2% occur several times per year during economic transitions.",
+        "schema": {
+          "idea": "Labor Force Participation Drop via Jobs Report Surprise",
+          "family": "labor_jobs",
+          "data": {
+            "source": "FRED series CIVPART (civilian labor force participation rate) weekly through fred_series adapter",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Sudden drops in labor force participation (>0.2% weekly decline) signal worker discouragement or health/demographic shocks, bearish for consumer discretionary.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLY",
+            "rationale": "Lower participation reduces wage pressure and consumer spending capacity; discretionary companies face demand headwinds."
+          },
+          "trade_logic": {
+            "entry": "When weekly FRED CIVPART reading drops >0.2 percentage points from prior week AND is below 20-week moving average",
+            "exit": "After 10 trading days or when CIVPART rebounds above 20-week MA",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "monthly",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor force participation fluctuates seasonally and cyclically; drops >0.2% occur several times per year during economic transitions.",
+          "source_provider": "anthropic",
+          "source_model": "claude-haiku-4-5-20251001"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-surge-in-consumerstress-google-trends-for-auto-loan-de",
+      "title": "Daily Surge In Consumerstress Google Trends For Auto Loan Default Signals Rising Credit Stress Impacting Financial Sector",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.586,
+        "matched_title": "daily spike in consumerstress google trends for unemployment benefits application signals rising labor market weakness",
+        "matched_idea_id": "daily-spike-in-consumerstress-google-trends-for-unemployment",
+        "matched_origin": "current_run",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-surge-in-consumerstress-google-trends-for-auto-loan-de",
+        "title": "Daily Surge In Consumerstress Google Trends For Auto Loan Default Signals Rising Credit Stress Impacting Financial Sector",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "A spike in searches for auto loan default indicates increasing consumer credit stress, pressuring financial stocks. Rising defaults increase loan losses and reduce bank profitability.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "If daily Google Trends for 'auto loan default' rises over 20% compared to 7-day average",
+        "entry_exit": "Entry: If daily Google Trends for 'auto loan default' rises over 20% compared to 7-day average Exit: After 7 days or when trend falls below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLF"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Consumer credit stress indicators fluctuate frequently with economic conditions.",
+        "schema": {
+          "idea": "Daily surge in consumer_stress Google Trends for 'auto loan default' signals rising credit stress impacting financial sector",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "A spike in searches for auto loan default indicates increasing consumer credit stress, pressuring financial stocks.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLF",
+            "rationale": "Rising defaults increase loan losses and reduce bank profitability."
+          },
+          "trade_logic": {
+            "entry": "If daily Google Trends for 'auto loan default' rises over 20% compared to 7-day average",
+            "exit": "After 7 days or when trend falls below 10% increase",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Consumer credit stress indicators fluctuate frequently with economic conditions.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-rise-in-travelmobility-google-trends-for-car-rental-s",
+      "title": "Weekly Rise In Travelmobility Google Trends For Car Rental Surge Signals Consumer Discretionary Travel Rebound",
+      "family": "travel_mobility",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.492,
+        "matched_title": "weekly rise in travelmobility google trends for last minute flight booking signals near-term travel demand rebound",
+        "matched_idea_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+        "matched_origin": "current_run",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-rise-in-travelmobility-google-trends-for-car-rental-s",
+        "title": "Weekly Rise In Travelmobility Google Trends For Car Rental Surge Signals Consumer Discretionary Travel Rebound",
+        "family": "travel_mobility",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "A surge in car rental search interest signals increased travel plans and discretionary spending on leisure. Car rental demand is a proxy for travel and tourism sector strength.",
+        "data_sources": [
+          "Google Trends weekly search interest"
+        ],
+        "signal_logic": "If weekly Google Trends for 'car rental surge' rises by more than 25% WoW",
+        "entry_exit": "Entry: If weekly Google Trends for 'car rental surge' rises by more than 25% WoW Exit: After 3 weeks or if trend falls below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Car rental demand varies weekly with travel seasons and events.",
+        "schema": {
+          "idea": "Weekly rise in travel_mobility Google Trends for 'car rental surge' signals consumer discretionary travel rebound",
+          "family": "travel_mobility",
+          "data": {
+            "source": "Google Trends weekly search interest",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "A surge in car rental search interest signals increased travel plans and discretionary spending on leisure.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLY",
+            "rationale": "Car rental demand is a proxy for travel and tourism sector strength."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'car rental surge' rises by more than 25% WoW",
+            "exit": "After 3 weeks or if trend falls below 10% increase",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Car rental demand varies weekly with travel seasons and events.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}

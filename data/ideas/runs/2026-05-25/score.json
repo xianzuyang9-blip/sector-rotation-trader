@@ -1,0 +1,156 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "title": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "title": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-freightlogistics-google-trends-for-warehouse",
+    "title": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+    "title": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-consumerstress-google-trends-for-unemployment",
+    "title": "Daily Spike In Consumerstress Google Trends For Unemployment Benefits Application Signals Rising Labor Market Weakness",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "title": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-macroinputpressure-fredseries-for-industrial-c",
+    "title": "Daily Jump In Macroinputpressure Fredseries For Industrial Commodity Price Index Signals Inflationary Pressure On Materials Sector",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-politicalinsiderfiling-submissions-for-consum",
+    "title": "Weekly Jump In Politicalinsiderfiling Submissions For Consumer Discretionary Sector Signals Possible Insider Buying Opportunity",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-macroinputpressure-fredseries-for-crude-oil-in",
+    "title": "Daily Jump In Macroinputpressure Fredseries For Crude Oil Inventory Change Signals Energy Sector Momentum",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+    "title": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio",
+    "title": "Weekly Spike In Localeconomyweirdness Rss News Counts Mentioning Small Town Retail Closures Signals Consumer Discretionary Softness",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+    "title": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+    "title": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "retail-store-closure-announcements-via-news-count-spike",
+    "title": "Retail Store Closure Announcements Via News Count Spike",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "corporate-debt-issuance-volume-drop-via-bond-market-stress",
+    "title": "Corporate Debt Issuance Volume Drop Via Bond Market Stress",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-network-growth-slowdown-signals-green-energy-weak",
+    "title": "Ev Charger Network Growth Slowdown Signals Green Energy Weakness",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+    "title": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+    "title": "Natural Gas Heating Demand Spike Via Weather Extremes",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-railroad-operational-delays-via-weekly-shipping-news",
+    "title": "Freight Railroad Operational Delays Via Weekly Shipping News Volume",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "title": "Earthquake Activity Surge Triggers Defensive Rotation",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "google-trends-surge-in-pest-control-searches-signals-consume",
+    "title": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airline-seat-load-factor-compression-signals-travel-weakness",
+    "title": "Airline Seat Load Factor Compression Signals Travel Weakness",
+    "family": "travel_mobility",
+    "score": 100
+  }
+]
