@@ -1,55 +1,67 @@
 # Why StockArithm exists
 
-I built StockArithm because I got tired of watching smart people lose money to their own certainty.
+I built StockArithm because I got tired of watching smart people lose money to ideas that sounded good but didn't work.
 
-Not because they were dumb. Because they were confident. They'd find a pattern—a sector rotation that worked in 2015, a momentum signal that crushed it in 2021, a macro thesis that made perfect sense on a whiteboard—and they'd commit. Hard. They'd backtest it, optimize it, convince themselves it was the edge. Then the market would shift, the pattern would break, and they'd be left explaining why their "proven" system suddenly didn't work.
+Not because they were stupid. Because they had no way to know.
 
-The real problem wasn't the ideas. It was the blindness. They couldn't see what was actually happening *right now* because they were too invested in what *used to* work.
+## The problem I kept running into
 
-I spent years in quant research watching this cycle repeat. Brilliant analysts building beautiful models. Markets humbling them anyway. And the worst part: they never had a clear, honest way to know when to trust their own work and when to abandon it. They'd hold on too long or bail too early, driven by ego or fear instead of evidence.
+For years, I watched traders and investors operate on conviction. Someone reads a paper on momentum rotation. Another person discovers a correlation between copper prices and equity returns. A third notices that VIX term structure seems to predict market moves. All of these ideas have logic. Some have academic backing. Many have worked in the past.
 
-That's the gap StockArithm exists to fill.
+But here's what I never saw: a systematic way to test whether they actually work *right now*, across a real portfolio, against a real benchmark, with honest accounting for when they fail.
 
-## The lab, not the product
+Instead, I saw:
+- Backtests that looked great because they were optimized on the exact data they were tested against.
+- Strategies that worked for three years and then stopped, with no warning.
+- Traders who believed in their edge so much they didn't notice it had evaporated.
+- A lot of money moving based on plausible stories rather than evidence.
 
-We're not here to sell you a trading system or promise you alpha. We're here to run a live laboratory where trading ideas—hundreds of them—compete in real time against actual market conditions. No backtesting theater. No cherry-picked time windows. No story-telling after the fact.
+The worst part? There was no central place to see the graveyard. No dashboard showing which ideas were actually beating the market and which ones were just noise dressed up as insight.
 
-Right now, we're tracking 344 algorithmic strategies across 105 tickers. Some are classical—Faber momentum rotation, dual momentum sector strategies, simple monthly rebalancing. Others are experimental: VIX term structure signals, retail sales momentum, port container volume as a leading indicator. Some work. Most don't. A few are failing spectacularly.
+## What StockArithm actually does
 
-And that's the point.
+StockArithm is a live laboratory. It runs 344 different trading algorithms—some based on published academic research, some on market folklore, some on pure experimentation—and ranks them in real time against each other and against the S&P 500.
 
-On May 24, 2026, our top performer—Quantified Simple Monthly Rotation—is up 13.09% year-to-date, beating SPY by 3.64 percentage points. It's been running for 112 days. It's ranked #1 on our rolling 30-day leaderboard with a Sharpe ratio of 5.46. That's real. That's happening now.
+Every algorithm gets the same $100,000 starting capital. Every one is measured the same way: did it beat SPY? By how much? How much did it lose on its worst day? What's the Sharpe ratio?
 
-But our worst performer—Chaos Rotation Lab—is down 6.02% year-to-date. It's ranked dead last. It's failing. And we're publishing that too, because the failure is as important as the win. It tells you something about what doesn't work in this market, right now.
+No cherry-picking. No survivorship bias. No story that makes it sound better than it is.
+
+As of today, May 24, 2026, we're tracking 105 different stock tickers across those 344 algorithms. In the last 30 days, only 4 of them beat the S&P 500. SPY returned 4.84% in that window. The best algorithm—Quantified Simple Monthly Rotation—returned 13.09% year-to-date and is up 3.64% relative to the market.
+
+But here's the honest part: the worst algorithm is down 6.02% year-to-date. Some of the "crazy" category strategies—the experimental ones—are losing 11% or more while the market is up.
 
 ## Why this matters
 
-Most trading research lives in a graveyard of unpublished backtests and private portfolios. You never see the failures. You only hear about the winners, usually years after they've stopped working. Survivorship bias becomes the entire narrative.
+The financial industry has a massive incentive to make things sound complicated. Complexity sells. It justifies fees. It makes people feel like they're getting something special.
 
-StockArithm inverts that. We run everything live. We rank everything honestly. We show you the winners and the losers on the same leaderboard, updated daily. We track divergences—strategies that are crushing it in the last 30 days but have been underwater for months, or vice versa. We measure what actually beats the market, not what *should* beat it in theory.
+But the evidence keeps showing the same thing: most active strategies underperform simple benchmarks. Most traders underperform buy-and-hold. Most "edge" is just luck with a good story attached.
 
-This is useful for three kinds of people:
+That doesn't mean all strategies fail. It means you need to *measure* them honestly, *compare* them fairly, and *update* your beliefs when the data changes.
 
-**For traders and portfolio managers:** You get a real-time signal of what's working in the current regime. Not what worked in 2008 or 2020. What's working *now*. You can see when a strategy that's been solid for months suddenly starts to break. You can spot emerging patterns before they're obvious.
+Right now, our data shows that simple monthly rotation is working. VIX-based strategies are having a good month. Copper momentum is getting crushed. Port container volume is getting crushed worse. The FINRA Dark Pool Signal is ranked #10 overall but #342 in the last 30 days—a massive divergence that suggests it worked in the past but isn't working now.
 
-**For researchers:** You get a testing ground. You can submit an idea, watch it compete against 343 others, and get honest feedback from the market in real time. No more wondering if your backtest was lucky. You'll know in weeks.
+That's the kind of information that matters. Not because it tells you what to do, but because it tells you what's actually happening versus what you *think* is happening.
 
-**For anyone trying to understand markets:** You get to see the honest distribution of outcomes. Most strategies fail. A few work. The ones that work often work for reasons that aren't obvious. By watching the live rankings, you start to see the actual structure of what moves prices, not the narrative structure of what *should* move prices.
+## A concrete example of why this exists
 
-## The hard part
+Take the Faber Momentum Rotation strategy. It's ranked #3 overall with 112 days of live trading. Year-to-date, it's up 8.27%. That sounds good.
 
-Building this lab is harder than building a product. Products have customers who want to believe in them. Labs have to publish results that contradict themselves. We have to show you when our own ideas don't work. We have to update rankings daily even when the updates are ugly.
+But in the last 30 days, it's returned 4.26% while SPY returned 4.84%. It's underperforming. The algorithm that looked solid over a longer window is lagging right now.
 
-Right now, 4 out of 345 strategies are beating SPY over the last 30 days. That's 1.2%. The market is not cooperating with most of our hypotheses. That's fine. That's the data. That's what we publish.
+Without a system like this, you'd either:
+1. Keep believing in it because it worked before, and miss the fact that it's stopped working.
+2. Abandon it because of one bad month, and miss the fact that it's still solid long-term.
 
-We're also tracking notable divergences—strategies like VIX Fear Rotation that are ranked #2 on the 30-day leaderboard but #342 on the full-window force rank. That gap tells you something important: recent conditions are very different from the longer-term regime. That's a signal. That's why the lab exists.
+With real-time ranking and honest measurement, you can see both truths at once. You can ask: is this a temporary drawdown or a regime change? The data doesn't answer that for you, but it gives you the right question to ask.
 
-## What comes next
+## What you should take away
 
-We're going to keep running this. We're going to keep adding strategies—some classical, some crazy, some that will fail spectacularly. We're going to keep publishing the results, good and bad. We're going to keep showing you what actually works in real time, not what worked in hindsight.
+StockArithm exists because the gap between "plausible idea" and "profitable strategy" is wider than most people think. And that gap is invisible unless you measure it.
 
-If you're interested in seeing how trading ideas actually perform when they're exposed to real markets, without the backtest polish or the survivorship bias, come watch the lab work.
+We're not here to tell you which strategy to use. We're here to show you which ones are actually working, which ones have stopped, and which ones never worked at all. We're here to replace conviction with evidence.
 
-Visit **[stockarithm.com](https://www.stockarithm.com)** to see the live rankings, the daily signals, and the honest distribution of wins and failures.
+Some strategies will beat the market. Most won't. The ones that do will eventually stop. That's not a failure of the system—it's how markets work. But you can't navigate that reality without seeing it clearly.
 
-The market doesn't care about your certainty. But it will show you the truth if you're willing to look.
+If you want to watch this in real time, see which algorithms are beating SPY this month, and understand why some strategies work while others fail, come see what we're building.
+
+**[Visit StockArithm](https://www.stockarithm.com)** to see the live leaderboard, track algorithm performance, and test your own ideas against the data.
