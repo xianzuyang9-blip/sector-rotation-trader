@@ -619,19 +619,11 @@ def _lint_draft(text, channel_key):
             raise ValueError(f"{channel_key}: Reddit body must not contain stockarithm.com")
 
 
-def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, selected_hook=None, title_options=None):
-    prompt = _channel_prompt(channel_key, row, selected_hook=selected_hook, title_options=title_options)
-    user_message = (
-        f"Schedule row for {run_date}:\n"
-        f"{json.dumps(row, indent=2, sort_keys=True)}\n\n"
-        f"Locked facts:\n```json\n{facts_block}\n```\n\n"
-        f"Write the draft for {channel_key} now."
-    )
-
+def _request_draft(client, prompt, user_message, channel_key):
     max_tokens = {
         "x": 256,
         "medium": 1400,
-        "substack": 1800,
+        "substack": 2600,
         "substack_note": 512,
         "reddit_algotrading": 1100,
         "reddit_investing": 900,
@@ -647,10 +639,47 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, 
         system=prompt,
         messages=[{"role": "user", "content": user_message}],
     )
-    draft = message.content[0].text.strip()
+    return message.content[0].text.strip()
+
+
+def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, selected_hook=None, title_options=None):
+    prompt = _channel_prompt(channel_key, row, selected_hook=selected_hook, title_options=title_options)
+    base_user_message = (
+        f"Schedule row for {run_date}:\n"
+        f"{json.dumps(row, indent=2, sort_keys=True)}\n\n"
+        f"Locked facts:\n```json\n{facts_block}\n```\n\n"
+        f"Write the draft for {channel_key} now."
+    )
+
+    attempts = 3 if channel_key in {"substack", "medium"} or channel_key.startswith("reddit_") else 2
+    draft = ""
+    body = ""
+    first_comment = ""
+    last_error = None
+    feedback = ""
+    for _ in range(attempts):
+        user_message = base_user_message + feedback
+        draft = _request_draft(client, prompt, user_message, channel_key)
+        try:
+            if channel_key.startswith("reddit_"):
+                body, first_comment = _parse_reddit_bundle(draft)
+                _lint_draft(body, channel_key)
+            else:
+                _lint_draft(draft, channel_key)
+            last_error = None
+            break
+        except ValueError as exc:
+            last_error = exc
+            feedback = (
+                "\n\nThe previous draft failed validation.\n"
+                f"Failure: {exc}\n"
+                "Rewrite from scratch and satisfy the failing requirement exactly.\n"
+                "Do not summarize the prior draft. Produce a full replacement.\n"
+            )
+    if last_error is not None:
+        raise last_error
+
     if channel_key.startswith("reddit_"):
-        body, first_comment = _parse_reddit_bundle(draft)
-        _lint_draft(body, channel_key)
         body_path = bundle_dir / f"{channel_key}.md"
         titles_path = bundle_dir / f"{channel_key}_titles.md"
         comment_path = bundle_dir / f"{channel_key}_first_comment.txt"
@@ -661,8 +690,6 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, 
         print(f"[stockarithm-content] wrote {titles_path}")
         print(f"[stockarithm-content] wrote {comment_path}")
         return
-
-    _lint_draft(draft, channel_key)
 
     filename = {
         "x": "x.md",
