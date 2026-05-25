@@ -304,10 +304,9 @@ def _reddit_title_candidates(channel_key, report, row):
 
 
 def _parse_reddit_bundle(text):
-    upper = text.upper()
-    if "BODY:" in upper and "FIRST COMMENT:" in upper:
-        body = _extract_section(text, "BODY:", {"FIRST COMMENT:"})
-        first_comment = _extract_section(text, "FIRST COMMENT:", set())
+    body = _extract_named_section(text, "body", ["first comment"])
+    first_comment = _extract_named_section(text, "first comment", [])
+    if body and first_comment:
         return body, first_comment
 
     # Fallback: accept a simple two-paragraph structure if the model omits markers.
@@ -315,6 +314,9 @@ def _parse_reddit_bundle(text):
     if len(paragraphs) >= 2:
         body = paragraphs[0]
         first_comment = "\n\n".join(paragraphs[1:]).strip()
+        if body.lstrip("# ").strip().lower() == "body":
+            body = first_comment
+            first_comment = "Full write-up in the first comment once the draft is posted."
         return body, first_comment
 
     # Final fallback: keep the body and synthesize a short first comment so the
@@ -322,20 +324,25 @@ def _parse_reddit_bundle(text):
     return text.strip(), "Full write-up in the first comment once the draft is posted."
 
 
-def _extract_section(text, start_marker, end_markers):
+def _is_named_heading(line, name):
+    normalized = re.sub(r"^[#>\-\s]+", "", line.strip())
+    normalized = normalized.rstrip(":").strip().lower()
+    return normalized == name.lower()
+
+
+def _extract_named_section(text, section_name, next_sections):
     lines = text.splitlines()
     start = None
     for idx, line in enumerate(lines):
-        if line.strip().upper() == start_marker:
+        if _is_named_heading(line, section_name):
             start = idx + 1
             break
     if start is None:
-        raise ValueError(f"missing section: {start_marker}")
+        return ""
 
     end = len(lines)
     for idx in range(start, len(lines)):
-        marker = lines[idx].strip().upper()
-        if marker in end_markers:
+        if any(_is_named_heading(lines[idx], section) for section in next_sections):
             end = idx
             break
     return "\n".join(lines[start:end]).strip()
@@ -605,6 +612,9 @@ def _lint_draft(text, channel_key):
         if any(phrase in lower for phrase in ("summary", "tl;dr", "note to self", "quick update")):
             raise ValueError(f"{channel_key}: draft reads like a summary fragment")
     if channel_key.startswith("reddit_"):
+        cleaned = re.sub(r"^[#>\-\s]+", "", text.strip(), flags=re.MULTILINE).strip().lower()
+        if cleaned in {"body", "first comment"} or len(text.strip()) < 80:
+            raise ValueError(f"{channel_key}: Reddit body is too thin to publish")
         if re.search(r"https?://|www\.", text, re.IGNORECASE):
             raise ValueError(f"{channel_key}: Reddit body must not contain URLs")
         if "stockarithm.com" in text.lower():
