@@ -29,6 +29,8 @@ ALLOWLIST_FILES = [
     "docs/daily.html",
     "docs/premium.html",
     "docs/legal.html",
+    "docs/public-changelog.html",
+    "docs/algo-changelog.html",
     "docs/biscotti.html",
     "docs/biscotti.jpg",
     "docs/app.html",
