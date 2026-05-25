@@ -307,21 +307,21 @@ def _parse_reddit_bundle(text):
     body = _extract_named_section(text, "body", ["first comment"])
     first_comment = _extract_named_section(text, "first comment", [])
     if body and first_comment:
-        return body, first_comment
+        return _normalize_reddit_sections(body, first_comment)
 
     # Fallback: accept a simple two-paragraph structure if the model omits markers.
     paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
     if len(paragraphs) >= 2:
         body = paragraphs[0]
         first_comment = "\n\n".join(paragraphs[1:]).strip()
-        if body.lstrip("# ").strip().lower() == "body":
-            body = first_comment
-            first_comment = "Full write-up in the first comment once the draft is posted."
-        return body, first_comment
+        return _normalize_reddit_sections(body, first_comment)
 
     # Final fallback: keep the body and synthesize a short first comment so the
     # bundle can still be generated and committed.
-    return text.strip(), "Full write-up in the first comment once the draft is posted."
+    return _normalize_reddit_sections(
+        text.strip(),
+        "Full write-up in the first comment once the draft is posted.",
+    )
 
 
 def _is_named_heading(line, name):
@@ -346,6 +346,41 @@ def _extract_named_section(text, section_name, next_sections):
             end = idx
             break
     return "\n".join(lines[start:end]).strip()
+
+
+def _strip_leading_reddit_heading(text):
+    lines = text.splitlines()
+    while lines and not lines[0].strip():
+        lines.pop(0)
+    if lines and _is_named_heading(lines[0], "body"):
+        lines = lines[1:]
+    if lines and _is_named_heading(lines[0], "first comment"):
+        lines = lines[1:]
+    return "\n".join(lines).strip()
+
+
+def _word_count(text):
+    return len(re.findall(r"\b[\w'-]+\b", text))
+
+
+def _normalize_reddit_sections(body, first_comment):
+    body = _strip_leading_reddit_heading(body)
+    first_comment = _strip_leading_reddit_heading(first_comment)
+
+    body_words = _word_count(body)
+    first_comment_words = _word_count(first_comment)
+
+    # If the model dumped the real post into FIRST COMMENT and left BODY empty,
+    # recover the post instead of committing a garbage bundle.
+    if body_words < 40 and first_comment_words >= 120:
+        body = first_comment
+        first_comment = "Linking the full write-up in the first comment after posting."
+
+    # Keep first comments short and operational rather than duplicating the post.
+    if first_comment_words > 120:
+        first_comment = "Linking the full write-up in the first comment after posting."
+
+    return body.strip(), first_comment.strip()
 
 
 def _channel_prompt(channel_key, schedule_row, selected_hook=None, title_options=None):
@@ -503,9 +538,12 @@ FIRST COMMENT:
 ...
 
 Rules:
+- Do not use markdown heading markers like "# BODY" or "## FIRST COMMENT". Use the plain labels exactly once.
 - The BODY must be native-value and link-free.
+- The BODY must contain the actual post, not a placeholder heading.
 - Do not include any URLs in the BODY.
 - Do not include stockarithm.com or substack.com in the BODY.
+- The FIRST COMMENT must be short: 1-2 sentences only. It is not the post body.
 - The FIRST COMMENT can hold the link placeholder for the later manual post or the actual outbound link text.
 - The selected title should be the hook QA winner from the title candidates above.
 Length: {length} to 550 words depending on the subreddit.
@@ -619,6 +657,14 @@ def _lint_draft(text, channel_key):
             raise ValueError(f"{channel_key}: Reddit body must not contain stockarithm.com")
 
 
+def _lint_reddit_first_comment(text, channel_key):
+    words = _word_count(text)
+    if words < 4:
+        raise ValueError(f"{channel_key}: Reddit first comment is too thin")
+    if words > 40:
+        raise ValueError(f"{channel_key}: Reddit first comment is too long and is duplicating the post")
+
+
 def _request_draft(client, prompt, user_message, channel_key):
     max_tokens = {
         "x": 256,
@@ -664,6 +710,7 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, 
             if channel_key.startswith("reddit_"):
                 body, first_comment = _parse_reddit_bundle(draft)
                 _lint_draft(body, channel_key)
+                _lint_reddit_first_comment(first_comment, channel_key)
             else:
                 _lint_draft(draft, channel_key)
             last_error = None
