@@ -816,10 +816,20 @@
       "positions": {},
       "sector": "Airline Fuel Cost Volatility Expansion",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Airline Fuel Cost Volatility Expansion",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-09",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "airline-fuel-cost-volatility-expansion": {
       "latest_value": 119.18,
@@ -828,7 +838,7 @@
       "signal_label": "HOLD",
       "name": "Airline Fuel Cost Volatility Expansion",
       "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_run": "2026-05-25"
     }
   }
 }

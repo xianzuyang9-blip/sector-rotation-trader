@@ -1,10 +1,19 @@
 {
-  "cash": 99917.96615244164,
+  "cash": 94912.11784481957,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 100.90155349702606,
+  "fees_paid": 110.85155349702606,
   "taxes_paid": 6.192262391324839,
-  "positions": {},
+  "positions": {
+    "XLB": {
+      "shares": 99.34178199785177,
+      "entry_price": 50.290000915527344,
+      "entry_date": "2026-05-25",
+      "cost": 4995.898307622083,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-05-15",
@@ -125,6 +134,16 @@
       "pnl_pct": 0.21,
       "entry_date": "2026-05-21",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-25",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 99.3418,
+      "price": 50.29,
+      "cost": 4995.9,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -947,20 +966,40 @@
       "positions": {},
       "sector": "Commodity Shortage News Volume Burst",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 94912.12,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99908.02,
+      "positions": {
+        "XLB": {
+          "shares": 99.3418,
+          "entry_price": 50.29,
+          "current_price": 50.29,
+          "market_value": 4995.9,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Commodity Shortage News Volume Burst",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-13",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "commodity-shortage-news-volume-burst": {
-      "latest_value": 8.0,
-      "prior_avg": 14.6,
-      "signal_change": -0.4521,
-      "entry_date": "2026-05-21",
-      "signal_label": "HOLD",
+      "latest_value": 61.0,
+      "prior_avg": 4.3333,
+      "signal_change": 13.0769,
+      "entry_date": "2026-05-25",
+      "signal_label": "RISK_ON",
       "name": "Commodity Shortage News Volume Burst",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-25"
     }
   }
 }

@@ -895,19 +895,29 @@
       "positions": {},
       "sector": "Regional Earthquake Cluster Insurance Demand Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99975.83,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99975.83,
+      "positions": {},
+      "sector": "Regional Earthquake Cluster Insurance Demand Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-06",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "regional-earthquake-cluster-insurance-demand-spike": {
       "signal_label": "HOLD",
-      "latest_value": 128.0,
-      "prior_avg": 271.5714,
-      "signal_change": -0.5287,
+      "latest_value": 205.0,
+      "prior_avg": 268.5714,
+      "signal_change": -0.2367,
       "name": "Regional Earthquake Cluster Insurance Demand Spike",
       "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_run": "2026-05-25"
     }
   }
 }

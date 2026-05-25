@@ -949,20 +949,30 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends Searches For Electric Vehicle Battery Replacement",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99921.33,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99921.33,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends Searches For Electric Vehicle Battery Replacement",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "daily-spike-in-google-trends-searches-for-electric-vehicle-b": {
       "signal_label": "HOLD",
-      "latest_value": 25.0,
-      "prior_avg": 22.8571,
-      "signal_change": 0.0937,
+      "latest_value": 24.0,
+      "prior_avg": 27.7143,
+      "signal_change": -0.134,
       "entry_date": "2026-03-04",
       "name": "Daily Spike In Google Trends Searches For Electric Vehicle Battery Replacement",
       "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_run": "2026-05-25"
     }
   }
 }

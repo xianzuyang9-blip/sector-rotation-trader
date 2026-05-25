@@ -735,20 +735,30 @@
       "positions": {},
       "sector": "Utility Demand Spike From Weather Extremes",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 100001.85,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100001.85,
+      "positions": {},
+      "sector": "Utility Demand Spike From Weather Extremes",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "utility-demand-spike-from-weather-extremes": {
       "signal_label": "HOLD",
-      "latest_value": 9963359.0,
-      "prior_avg": 11284346.6571,
-      "signal_change": -0.1171,
+      "latest_value": 10006902.0,
+      "prior_avg": 11156846.1143,
+      "signal_change": -0.1031,
       "entry_date": "2026-05-18",
       "name": "Utility Demand Spike From Weather Extremes",
       "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_run": "2026-05-25"
     }
   }
 }

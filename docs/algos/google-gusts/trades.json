@@ -263,6 +263,16 @@
       "pnl_pct": -0.76,
       "entry_date": "2026-05-21",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-25",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 43.1309,
+      "price": 115.46,
+      "cost": 4979.9,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1445,6 +1455,26 @@
       "positions": {},
       "sector": "Google Gusts",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 94608.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99587.98,
+      "positions": {
+        "XLC": {
+          "shares": 43.1309,
+          "entry_price": 115.46,
+          "current_price": 115.46,
+          "market_value": 4979.9,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Google Gusts",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18"

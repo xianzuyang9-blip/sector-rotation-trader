@@ -3380,5 +3380,125 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-05-25",
+    "generated_at": "2026-05-25T23:50:19.281074Z",
+    "comparators": {
+      "momentum_5d": {
+        "XLK": {
+          "direction": "UP",
+          "return_pct": 2.343,
+          "confidence": 0.469
+        },
+        "XLF": {
+          "direction": "UP",
+          "return_pct": 1.644,
+          "confidence": 0.329
+        },
+        "XLY": {
+          "direction": "UP",
+          "return_pct": 2.274,
+          "confidence": 0.455
+        },
+        "XLP": {
+          "direction": "UP",
+          "return_pct": 0.189,
+          "confidence": 0.038
+        },
+        "XLU": {
+          "direction": "UP",
+          "return_pct": 3.374,
+          "confidence": 0.675
+        },
+        "XLV": {
+          "direction": "UP",
+          "return_pct": 3.301,
+          "confidence": 0.66
+        },
+        "XLI": {
+          "direction": "UP",
+          "return_pct": 0.216,
+          "confidence": 0.043
+        },
+        "XLB": {
+          "direction": "DOWN",
+          "return_pct": -0.02,
+          "confidence": 0.004
+        },
+        "XLRE": {
+          "direction": "UP",
+          "return_pct": 3.077,
+          "confidence": 0.615
+        },
+        "XLC": {
+          "direction": "DOWN",
+          "return_pct": -0.534,
+          "confidence": 0.107
+        },
+        "XLE": {
+          "direction": "UP",
+          "return_pct": 0.084,
+          "confidence": 0.017
+        }
+      },
+      "momentum_20d": {
+        "XLK": {
+          "direction": "UP",
+          "return_pct": 12.589,
+          "confidence": 1.0
+        },
+        "XLF": {
+          "direction": "UP",
+          "return_pct": 1.011,
+          "confidence": 0.202
+        },
+        "XLY": {
+          "direction": "UP",
+          "return_pct": 0.413,
+          "confidence": 0.083
+        },
+        "XLP": {
+          "direction": "UP",
+          "return_pct": 1.886,
+          "confidence": 0.377
+        },
+        "XLU": {
+          "direction": "DOWN",
+          "return_pct": -1.797,
+          "confidence": 0.359
+        },
+        "XLV": {
+          "direction": "UP",
+          "return_pct": 3.96,
+          "confidence": 0.792
+        },
+        "XLI": {
+          "direction": "DOWN",
+          "return_pct": -0.406,
+          "confidence": 0.081
+        },
+        "XLB": {
+          "direction": "DOWN",
+          "return_pct": -3.139,
+          "confidence": 0.628
+        },
+        "XLRE": {
+          "direction": "UP",
+          "return_pct": 1.666,
+          "confidence": 0.333
+        },
+        "XLC": {
+          "direction": "DOWN",
+          "return_pct": -0.069,
+          "confidence": 0.014
+        },
+        "XLE": {
+          "direction": "UP",
+          "return_pct": 4.607,
+          "confidence": 0.921
+        }
+      }
+    }
   }
 ]

@@ -23,6 +23,16 @@
       "pnl_pct": -2.11,
       "entry_date": "2026-03-05",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-25",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 99.3084,
+      "price": 50.29,
+      "cost": 4994.22,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -875,6 +885,26 @@
       "positions": {},
       "sector": "Daily Jump In Google Trends Searches For Home Renovation Permits",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 94880.24,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99874.46,
+      "positions": {
+        "XLB": {
+          "shares": 99.3084,
+          "entry_price": 50.29,
+          "current_price": 50.29,
+          "market_value": 4994.22,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Daily Jump In Google Trends Searches For Home Renovation Permits",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04"

@@ -191,6 +191,16 @@
       "pnl_pct": -0.2,
       "entry_date": "2026-05-23",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-25",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.0685,
+      "price": 171.77,
+      "cost": 4993.1,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1430,6 +1440,26 @@
       "positions": {},
       "sector": "Port Congestion Squeeze",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 94858.91,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99852.0,
+      "positions": {
+        "XLI": {
+          "shares": 29.0685,
+          "entry_price": 171.77,
+          "current_price": 171.77,
+          "market_value": 4993.1,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Port Congestion Squeeze",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18"

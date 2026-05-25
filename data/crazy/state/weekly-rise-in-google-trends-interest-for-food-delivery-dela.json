@@ -1,10 +1,19 @@
 {
-  "cash": 99745.14331555551,
+  "cash": 94747.93614977774,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 201.67508905151874,
+  "fees_paid": 211.62508905151873,
   "taxes_paid": 51.52079003656354,
-  "positions": {},
+  "positions": {
+    "XLP": {
+      "shares": 58.81199276294596,
+      "entry_price": 84.80000305175781,
+      "entry_date": "2026-05-25",
+      "cost": 4987.257165777776,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-02-10",
@@ -245,6 +254,16 @@
       "pnl_pct": -0.2,
       "entry_date": "2026-05-23",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-25",
+      "action": "BUY",
+      "ticker": "XLP",
+      "shares": 58.812,
+      "price": 84.8,
+      "cost": 4987.26,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1317,20 +1336,40 @@
       "positions": {},
       "sector": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 94747.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99735.19,
+      "positions": {
+        "XLP": {
+          "shares": 58.812,
+          "entry_price": 84.8,
+          "current_price": 84.8,
+          "market_value": 4987.26,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "weekly-rise-in-google-trends-interest-for-food-delivery-dela": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "latest_value": 9.0,
-      "prior_avg": 7.6071,
-      "signal_change": 0.1831,
-      "entry_date": "2026-05-23",
+      "prior_avg": 6.3929,
+      "signal_change": 0.4078,
+      "entry_date": "2026-05-25",
       "name": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-25"
     }
   }
 }

@@ -1213,19 +1213,29 @@
       "positions": {},
       "sector": "Tremor Tension",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99864.21,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99864.21,
+      "positions": {},
+      "sector": "Tremor Tension",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "tremor-tension": {
       "signal_label": "HOLD",
-      "latest_value": 128.0,
-      "prior_avg": 271.5714,
-      "signal_change": -0.5287,
+      "latest_value": 205.0,
+      "prior_avg": 268.5714,
+      "signal_change": -0.2367,
       "name": "Tremor Tension",
       "last_signal": "HOLD",
-      "last_run": "2026-05-24"
+      "last_run": "2026-05-25"
     }
   }
 }

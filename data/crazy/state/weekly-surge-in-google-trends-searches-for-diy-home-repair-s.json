@@ -1609,19 +1609,29 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends Searches For Diy Home Repair Signals Consumer Stress Lifting Xly",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99212.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99212.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends Searches For Diy Home Repair Signals Consumer Stress Lifting Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-22",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "weekly-surge-in-google-trends-searches-for-diy-home-repair-s": {
       "latest_value": 12.0,
-      "prior_avg": 45.0357,
-      "signal_change": -0.7335,
+      "prior_avg": 44.9643,
+      "signal_change": -0.7331,
       "signal_label": "HOLD",
       "name": "Weekly Surge In Google Trends Searches For Diy Home Repair Signals Consumer Stress Lifting Xly",
       "last_signal": "HOLD",
-      "last_run": "2026-05-24",
+      "last_run": "2026-05-25",
       "entry_date": "2026-05-07"
     }
   }

@@ -1,19 +1,10 @@
 {
-  "cash": 94906.46194588272,
+  "cash": 99891.8540696582,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 90.58450976637313,
+  "fees_paid": 100.79301472155271,
   "taxes_paid": 9.661691326205318,
-  "positions": {
-    "XLI": {
-      "shares": 29.08307914347296,
-      "entry_price": 171.77000427246094,
-      "entry_date": "2026-05-24",
-      "cost": 4995.60062873067,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-24",
@@ -120,6 +111,20 @@
       "cost": 4995.6,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-25",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.0831,
+      "price": 171.77,
+      "proceeds": 4985.39,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-05-24",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1142,20 +1147,30 @@
       },
       "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99891.85,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99891.85,
+      "positions": {},
+      "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-05-24",
+  "last_run": "2026-05-25",
   "meta": {
     "weekly-surge-in-job-postings-for-warehouse-workers-signals-b": {
       "latest_value": 2.0,
       "prior_avg": 1.2,
       "signal_change": 0.6667,
       "entry_date": "2026-05-24",
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-24"
+      "last_signal": "HOLD",
+      "last_run": "2026-05-25"
     }
   }
 }
