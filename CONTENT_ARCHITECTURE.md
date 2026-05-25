@@ -76,6 +76,26 @@ Hook QA should penalize:
 
 The outcome should be a deterministic, inspectable first pass, not a creative free-for-all.
 
+## Substack Quality Gate
+
+The Substack article is the canonical long-form output and must pass a stricter completeness test than the other channels.
+
+It should:
+
+- stand alone for a reader who has never seen StockArithm before;
+- explain the premise, the current evidence, and why the work matters;
+- read like a finished essay, not a summary fragment;
+- end with a clear CTA back to `https://www.stockarithm.com`.
+
+It should not:
+
+- assume prior knowledge of the repo, dashboard, or internal workflow;
+- read like a note to the operator;
+- depend on another channel for basic context;
+- devolve into thin summary copy or marketing filler.
+
+If the Substack draft cannot validate the premise on its own, the draft is not done.
+
 ## Algo Plain-English Layer
 
 When a signal has been seeded and backtested, its public display should also carry a plain-English description that says what the signal is trying to read, why it exists, and where it fails.

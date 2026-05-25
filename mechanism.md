@@ -127,7 +127,7 @@ The scoring should penalize:
 |---------|---------|------|
 | X | Short hook and reach | Fast, sharp, direct. Tease the longer Substack piece. |
 | Medium | Secondary funnel | Optional broader reach and teaser surface. |
-| Substack | Home base | Full long-form article and canonical CTA to `https://www.stockarithm.com`. |
+| Substack | Home base | Full long-form article, self-contained premise validation, and canonical CTA to `https://www.stockarithm.com`. |
 | Substack Note | Discovery | Short teaser or question. |
 | Reddit | Community discussion | Targeted, subreddit-specific version with no links in the body. First comment can carry the outbound link manually. |
 
@@ -145,10 +145,19 @@ The generator should:
 Channel-specific link rules:
 
 - `substack.md` is the canonical long-form article and should link back to `https://www.stockarithm.com`.
+- `substack.md` must be self-contained: it needs its own context, premise, and explanation of why the reader should care.
+- `substack.md` must not depend on prior knowledge of StockArithm, the dashboard, or the internal repo structure.
+- If the draft is only a thin summary of the schedule row or the leaderboard, the generator should treat it as incomplete.
 - `reddit_*.md` bodies must be link-free and native to the subreddit.
 - `reddit_*_first_comment.txt` exists for the manual outbound link after posting.
 - `x.md` should be short and controversial enough to push the reader to the longer piece.
 - `medium.md` should act as a teaser/discovery surface, not a second canonical home.
+
+Substack quality gate:
+
+- The generator should only consider a Substack draft complete if it can stand alone as an essay.
+- The article should answer: what StockArithm is, why it exists, what the evidence says, and why it matters.
+- If the output reads like a post-it note for the operator, it should fail the content gate.
 
 ## What The Generator Should Not Do
 

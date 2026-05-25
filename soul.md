@@ -37,6 +37,14 @@ Channel-specific intent:
 - `Medium` is a teaser/discovery surface, useful for reach and SEO, but not the canonical home.
 - `Substack Notes` are hook surfaces that support the main article.
 
+Substack-specific rule:
+
+- The Substack post must be a complete essay, not a summary fragment.
+- It must carry its own context and premise.
+- It must not assume the reader already knows the repo, the dashboard, or why the lab exists.
+- It should explain what StockArithm is, why it matters, what the current evidence says, and what the reader should take away.
+- If the draft reads like a note to the operator instead of an article for a reader, it is not finished.
+
 ## Voice
 
 StockArithm content should:
@@ -90,6 +98,9 @@ A good post should do at least one of these:
 
 The post should not just dump data.
 It needs a claim.
+
+For Substack specifically, the claim must be supported by enough context that a new reader can follow the argument end-to-end without prior familiarity with StockArithm.
+Thin summary-style output does not count as a finished Substack article.
 
 ## Desired Audience Reaction
 

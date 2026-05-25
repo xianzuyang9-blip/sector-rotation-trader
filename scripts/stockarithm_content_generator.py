@@ -403,7 +403,25 @@ Context:
 
 Selected hook: {selected_hook or "n/a"}
 
-Write the canonical long-form post. Put the title on the first line, then the body. Make it feel like a real analyst's field note with a clear point of view. End with a short CTA that links back to https://www.stockarithm.com.
+Write the canonical long-form post. Put the title on the first line, then the body.
+
+This draft must be a complete essay, not a summary fragment.
+It must stand on its own for a reader who has never seen StockArithm before.
+
+Required content:
+- explain what StockArithm is in plain English;
+- explain why it exists or why the question matters;
+- explain what the current evidence says;
+- include at least one concrete example, contrast, or failure mode;
+- explain what the reader should take away;
+- end with a short CTA that links back to https://www.stockarithm.com.
+
+Structure guidance:
+- use 3-6 short sections with headings;
+- make the first section immediately orient the reader;
+- keep the writing like a real analyst's field note, not a teaser or a memo;
+- do not assume prior knowledge of the repo, dashboard, or internal workflow.
+
 Length: 900-1300 words.
 Return markdown only.
 """
@@ -565,6 +583,27 @@ def _lint_draft(text, channel_key):
         raise ValueError(f"{channel_key}: X draft exceeds 280 characters")
     if channel_key == "substack" and "stockarithm.com" not in text.lower():
         raise ValueError(f"{channel_key}: missing stockarithm.com URL")
+    if channel_key == "substack":
+        words = re.findall(r"\b[\w'-]+\b", text)
+        if len(words) < 850:
+            raise ValueError(f"{channel_key}: draft too short to qualify as a full essay")
+        heading_count = len(re.findall(r"(?m)^##\s+\S", text))
+        if heading_count < 3:
+            raise ValueError(f"{channel_key}: draft needs at least 3 markdown section headings")
+        lower = text.lower()
+        required_concepts = [
+            "what stockarithm is",
+            "why it exists",
+            "why this exists",
+            "what the evidence says",
+            "what the current evidence says",
+            "what the reader should take away",
+            "where it fails",
+        ]
+        if sum(1 for phrase in required_concepts if phrase in lower) < 2:
+            raise ValueError(f"{channel_key}: draft missing premise/context language")
+        if any(phrase in lower for phrase in ("summary", "tl;dr", "note to self", "quick update")):
+            raise ValueError(f"{channel_key}: draft reads like a summary fragment")
     if channel_key.startswith("reddit_"):
         if re.search(r"https?://|www\.", text, re.IGNORECASE):
             raise ValueError(f"{channel_key}: Reddit body must not contain URLs")
