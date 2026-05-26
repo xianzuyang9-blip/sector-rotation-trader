@@ -9,6 +9,20 @@
       "cost": 5000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-26",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.1087,
+      "price": 174.3,
+      "proceeds": 5063.43,
+      "fees": 10.21,
+      "tax": 23.47,
+      "pnl": 39.96,
+      "pnl_pct": 0.8,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -871,6 +885,16 @@
       },
       "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 100030.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100030.01,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04"

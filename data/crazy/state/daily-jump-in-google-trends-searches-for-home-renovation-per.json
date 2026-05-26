@@ -1,19 +1,10 @@
 {
-  "cash": 94880.23853988004,
+  "cash": 99911.80727258191,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.124870559865094,
-  "taxes_paid": 0.0,
-  "positions": {
-    "XLB": {
-      "shares": 99.30841834455755,
-      "entry_price": 50.290000915527344,
-      "entry_date": "2026-05-25",
-      "cost": 4994.2204494673715,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 40.35784990627221,
+  "taxes_paid": 21.934706026604918,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-03-05",
@@ -48,6 +39,20 @@
       "cost": 4994.22,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-26",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 99.3084,
+      "price": 50.99,
+      "proceeds": 5053.5,
+      "fees": 10.23,
+      "tax": 21.93,
+      "pnl": 37.35,
+      "pnl_pct": 0.75,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -920,19 +925,29 @@
       },
       "sector": "Daily Jump In Google Trends Searches For Home Renovation Permits",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99911.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99911.81,
+      "positions": {},
+      "sector": "Daily Jump In Google Trends Searches For Home Renovation Permits",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-05-25",
+  "last_run": "2026-05-26",
   "meta": {
     "daily-jump-in-google-trends-searches-for-home-renovation-per": {
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "latest_value": 20.0,
       "prior_avg": 12.5714,
       "signal_change": 0.5909,
       "name": "Daily Jump In Google Trends Searches For Home Renovation Permits",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-25",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-26",
       "entry_date": "2026-05-25"
     }
   }

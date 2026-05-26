@@ -3346,14 +3346,24 @@
       "positions": {},
       "sector": "Algo Baileymol (Chaos Monger)",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 108161.29,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 108161.29,
+      "positions": {},
+      "sector": "Algo Baileymol (Chaos Monger)",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-11",
-  "last_run": "2026-05-25",
+  "last_run": "2026-05-26",
   "meta": {
     "baileymol": {
       "name": "Algo Baileymol (Chaos Monger)",
-      "last_run": "2026-05-25",
+      "last_run": "2026-05-26",
       "last_signal": "CASH"
     }
   }

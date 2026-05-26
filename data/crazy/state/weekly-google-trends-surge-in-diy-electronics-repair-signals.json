@@ -1,10 +1,19 @@
 {
-  "cash": 100076.07640631794,
+  "cash": 95062.32258600205,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 262.09979150416746,
+  "fees_paid": 272.04979150416744,
   "taxes_paid": 245.97827172240642,
-  "positions": {},
+  "positions": {
+    "XLK": {
+      "shares": 27.027135339807455,
+      "entry_price": 185.13999938964844,
+      "entry_date": "2026-05-26",
+      "cost": 5003.803820315898,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-02-26",
@@ -317,6 +326,16 @@
       "pnl_pct": -0.2,
       "entry_date": "2026-05-23",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-26",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 27.0271,
+      "price": 185.14,
+      "cost": 5003.8,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1389,20 +1408,40 @@
       "positions": {},
       "sector": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 95062.32,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100066.13,
+      "positions": {
+        "XLK": {
+          "shares": 27.0271,
+          "entry_price": 185.14,
+          "current_price": 185.14,
+          "market_value": 5003.8,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-26",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-27",
-  "last_run": "2026-05-25",
+  "last_run": "2026-05-26",
   "meta": {
     "weekly-google-trends-surge-in-diy-electronics-repair-signals": {
-      "signal_label": "HOLD",
-      "latest_value": 6.0,
-      "prior_avg": 5.3214,
-      "signal_change": 0.1275,
+      "signal_label": "RISK_ON",
+      "latest_value": 8.0,
+      "prior_avg": 5.0,
+      "signal_change": 0.6,
       "name": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-25",
-      "entry_date": "2026-05-23"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-26",
+      "entry_date": "2026-05-26"
     }
   }
 }

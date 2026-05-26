@@ -666,6 +666,16 @@
       "positions": {},
       "sector": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23",
@@ -673,8 +683,8 @@
   "meta": {
     "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta": {
       "latest_value": 1.0,
-      "prior_avg": 2.0,
-      "signal_change": -0.5,
+      "prior_avg": 1.6667,
+      "signal_change": -0.4,
       "signal_label": "HOLD",
       "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
       "last_signal": "HOLD",

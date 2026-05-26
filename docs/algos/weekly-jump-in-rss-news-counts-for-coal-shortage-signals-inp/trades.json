@@ -23,6 +23,16 @@
       "pnl_pct": -0.12,
       "entry_date": "2026-05-20",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-26",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 98.0426,
+      "price": 50.99,
+      "cost": 4999.19,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -785,6 +795,26 @@
       "positions": {},
       "sector": "Weekly Jump In Rss News Counts For Coal Shortage Signals Input Cost Pressure In Materials",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 94974.7,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99973.9,
+      "positions": {
+        "XLB": {
+          "shares": 98.0426,
+          "entry_price": 50.99,
+          "current_price": 50.99,
+          "market_value": 4999.19,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-26",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Jump In Rss News Counts For Coal Shortage Signals Input Cost Pressure In Materials",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-18"

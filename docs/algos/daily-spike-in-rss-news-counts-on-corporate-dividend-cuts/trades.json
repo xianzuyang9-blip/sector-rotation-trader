@@ -81,6 +81,20 @@
       "cost": 4998.92,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-26",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.2441,
+      "price": 51.85,
+      "proceeds": 4980.03,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -18.89,
+      "pnl_pct": -0.38,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -873,6 +887,16 @@
       },
       "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99949.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99949.51,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-18"

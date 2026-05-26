@@ -1,19 +1,10 @@
 {
-  "cash": 94996.24635174473,
+  "cash": 100036.53798997616,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.11061397634579,
-  "taxes_paid": 9.674311020124396,
-  "positions": {
-    "XLI": {
-      "shares": 29.110589738616643,
-      "entry_price": 171.77000427246094,
-      "entry_date": "2026-05-25",
-      "cost": 5000.326123776038,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 40.323045947281344,
+  "taxes_paid": 33.146121097103816,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-21",
@@ -48,6 +39,20 @@
       "cost": 5000.33,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-26",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.1106,
+      "price": 174.3,
+      "proceeds": 5063.76,
+      "fees": 10.21,
+      "tax": 23.47,
+      "pnl": 39.97,
+      "pnl_pct": 0.8,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -770,20 +775,29 @@
       },
       "sector": "Rss Count Surge For Supply Chain Bottleneck News",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 100036.54,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100036.54,
+      "positions": {},
+      "sector": "Rss Count Surge For Supply Chain Bottleneck News",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-19",
-  "last_run": "2026-05-25",
+  "last_run": "2026-05-26",
   "meta": {
     "rss-count-surge-for-supply-chain-bottleneck-news": {
-      "latest_value": 10.0,
-      "prior_avg": 1.3333,
-      "signal_change": 6.5,
-      "signal_label": "RISK_ON",
+      "latest_value": 2.0,
+      "prior_avg": 4.3333,
+      "signal_change": -0.5385,
+      "signal_label": "RISK_OFF",
       "name": "Rss Count Surge For Supply Chain Bottleneck News",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-25",
-      "entry_date": "2026-05-25"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-05-26"
     }
   }
 }

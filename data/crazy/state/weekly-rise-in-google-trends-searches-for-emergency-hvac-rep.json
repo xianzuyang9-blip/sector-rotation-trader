@@ -1,19 +1,10 @@
 {
-  "cash": 94990.05,
+  "cash": 100030.0124990498,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 9.95,
-  "taxes_paid": 0.0,
-  "positions": {
-    "XLI": {
-      "shares": 29.108691131363184,
-      "entry_price": 171.77000427246094,
-      "entry_date": "2026-05-25",
-      "cost": 5000.0,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 20.16241485499087,
+  "taxes_paid": 23.470039124486338,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-25",
@@ -24,6 +15,20 @@
       "cost": 5000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-26",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.1087,
+      "price": 174.3,
+      "proceeds": 5063.43,
+      "fees": 10.21,
+      "tax": 23.47,
+      "pnl": 39.96,
+      "pnl_pct": 0.8,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -886,16 +891,26 @@
       },
       "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 100030.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100030.01,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-05-25",
+  "last_run": "2026-05-26",
   "meta": {
     "weekly-rise-in-google-trends-searches-for-emergency-hvac-rep": {
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-25",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-26",
       "latest_value": 56.0,
       "prior_avg": 46.5357,
       "signal_change": 0.2034,
