@@ -1,1 +1,1 @@
-Backtests are easy. Keeping every winner and loser visible is harder. StockArithm has 359 live signals on the board today, and only 1 is ahead of SPY.
+1 of 359 signals is beating SPY. The other 358? Visible in the lab. Simple Monthly Rotation up 13.09% YTD while most algos lag. The losers stay public—that's how we learn.
