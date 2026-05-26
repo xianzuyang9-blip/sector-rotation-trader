@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-25T23:50:23.118302",
+  "as_of": "2026-05-26T00:03:23.957627",
   "spy_ret_30d": 0.04841044362716396,
   "entries": [
     {
@@ -197,6 +197,14 @@
     {
       "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-shortage-",
       "name": "Weekly Surge In Google Trends For Home Heating Oil Shortage Signals Bullish Xle",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "google-trends-surge-in-pest-control-searches-signals-consume",
+      "name": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -923,6 +931,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio",
+      "name": "Weekly Spike In Localeconomyweirdness Rss News Counts Mentioning Small Town Retail Closures Signals Consumer Discretionary Softness",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "weekly-surge-in-google-trends-for-used-car-price-searches-si",
       "name": "Weekly Surge In Google Trends For Used Car Price Searches Signaling Consumer Cost Pressure",
       "category": "crazy",
@@ -1307,6 +1323,22 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+      "name": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "ev-charger-network-growth-slowdown-signals-green-energy-weak",
+      "name": "Ev Charger Network Growth Slowdown Signals Green Energy Weakness",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "weekly-jump-in-google-trends-for-warehouse-automation-jobs-s",
       "name": "Weekly Jump In Google Trends For Warehouse Automation Jobs Signals Labor Substitution Pressure",
       "category": "crazy",
@@ -1333,6 +1365,14 @@
     {
       "algo_id": "weekly-increase-in-google-trends-for-industrial-machinery-br",
       "name": "Weekly Increase In Google Trends For Industrial Machinery Breakdown Signals Rising Repair Demand",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "weekly-surge-in-freightlogistics-google-trends-for-warehouse",
+      "name": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1547,6 +1587,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-unemployment",
+      "name": "Daily Spike In Consumerstress Google Trends For Unemployment Benefits Application Signals Rising Labor Market Weakness",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "retail-rush-ahead-of-holidays",
       "name": "Retail Rush Ahead Of Holidays",
       "category": "crazy",
@@ -1683,6 +1731,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+      "name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-spike-in-google-trends-searches-for-home-heating-syste",
       "name": "Daily Spike In Google Trends Searches For Home Heating System Failure Signals Winter Utility Stress",
       "category": "crazy",
@@ -1725,6 +1781,14 @@
     {
       "algo_id": "reddit-subreddit-mention-spike",
       "name": "Reddit Subreddit Mention Spike",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+      "name": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1971,6 +2035,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+      "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-jump-in-google-trends-for-bank-account-overdraft-fees",
       "name": "Daily Jump In Google Trends For Bank Account Overdraft Fees",
       "category": "crazy",
@@ -2045,6 +2117,14 @@
     {
       "algo_id": "healthcare-procedure-google-trends-demand-resurgence",
       "name": "Healthcare Procedure Google Trends Demand Resurgence",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+      "name": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2141,6 +2221,14 @@
     {
       "algo_id": "superbowl-futures-trade",
       "name": "Superbowl Futures Trade",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+      "name": "Natural Gas Heating Demand Spike Via Weather Extremes",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2331,6 +2419,14 @@
       "max_dd_30d": -0.0001989999999999418
     },
     {
+      "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+      "name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+      "category": "crazy",
+      "ret_30d": -0.00020160000000002398,
+      "sharpe_30d": -96.51153661598579,
+      "max_dd_30d": -0.00020160000000003493
+    },
+    {
       "algo_id": "natural-gas-futures-volatility-pump-rotation",
       "name": "Natural Gas Futures Volatility Pump Rotation",
       "category": "crazy",
@@ -2475,6 +2571,14 @@
       "max_dd_30d": -0.00041097944232616675
     },
     {
+      "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+      "name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "category": "crazy",
+      "ret_30d": -0.00046480255989067576,
+      "sharpe_30d": -11.676330784755791,
+      "max_dd_30d": -0.0014205314724887287
+    },
+    {
       "algo_id": "daily-spike-in-rss-news-counts-around-labor-union-contract-n",
       "name": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf",
       "category": "crazy",
@@ -2611,6 +2715,14 @@
       "max_dd_30d": -0.0009305000000000291
     },
     {
+      "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+      "name": "Earthquake Activity Surge Triggers Defensive Rotation",
+      "category": "crazy",
+      "ret_30d": -0.0009938988929398818,
+      "sharpe_30d": -21.30387307644349,
+      "max_dd_30d": -0.0009938988929398941
+    },
+    {
       "algo_id": "daily-spike-in-rss-news-counts-mentioning-politician-insider",
       "name": "Daily Spike In Rss News Counts Mentioning Politician Insider Buying Tech Stock Signals Bullish Xlk",
       "category": "crazy",
@@ -2681,6 +2793,14 @@
       "ret_30d": -0.0015872566083874329,
       "sharpe_30d": -14.667524154815922,
       "max_dd_30d": -0.0017808625104865504
+    },
+    {
+      "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+      "name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
+      "category": "crazy",
+      "ret_30d": -0.0020111999999999908,
+      "sharpe_30d": -18.604787405861867,
+      "max_dd_30d": -0.0020111999999999535
     },
     {
       "algo_id": "weekly-surge-in-google-trends-for-hotel-room-shortage-signal",

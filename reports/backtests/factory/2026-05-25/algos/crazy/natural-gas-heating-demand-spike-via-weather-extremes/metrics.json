@@ -1,0 +1,9 @@
+{
+  "algo_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+  "name": "Natural Gas Heating Demand Spike Via Weather Extremes",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.weather_series",
+  "metrics": {},
+  "run_date": "2026-05-25"
+}

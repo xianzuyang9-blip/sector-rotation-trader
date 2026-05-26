@@ -5266,6 +5266,18 @@
   {
     "date": "2026-02-24",
     "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.3312,
+    "price": 176.4841,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-02-24",
+    "action": "BUY",
     "ticker": "XLY",
     "shares": 42.9163,
     "price": 116.506,
@@ -5458,6 +5470,22 @@
     "fees": 9.95,
     "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
     "algo_name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples"
+  },
+  {
+    "date": "2026-02-25",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.3312,
+    "price": 175.108,
+    "proceeds": 4950.81,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -49.19,
+    "pnl_pct": -0.98,
+    "entry_date": "2026-02-24",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-02-25",
@@ -5758,6 +5786,18 @@
     "reason": "rebalance",
     "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
     "algo_name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples"
+  },
+  {
+    "date": "2026-02-26",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.3593,
+    "price": 176.2049,
+    "cost": 4997.04,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-02-26",
@@ -6106,6 +6146,22 @@
   {
     "date": "2026-02-27",
     "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.3593,
+    "price": 176.6436,
+    "proceeds": 4999.28,
+    "fees": 10.21,
+    "tax": 0.83,
+    "pnl": 1.41,
+    "pnl_pct": 0.03,
+    "entry_date": "2026-02-26",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-02-27",
+    "action": "SELL",
     "ticker": "XLY",
     "shares": 42.7996,
     "price": 116.6257,
@@ -6118,6 +6174,18 @@
     "reason": "rebalance",
     "algo_id": "daily-jump-in-google-trends-for-emergency-plumber-near-me-si",
     "algo_name": "Daily Jump In Google Trends For Emergency Plumber Near Me Signals Consumer Home Repair Stress"
+  },
+  {
+    "date": "2026-02-27",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.8722,
+    "price": 116.6257,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-02-27",
@@ -6414,6 +6482,34 @@
     "reason": "rebalance",
     "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
     "algo_name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples"
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.0081,
+    "price": 178.3987,
+    "cost": 4996.62,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.8722,
+    "price": 115.1886,
+    "proceeds": 4928.18,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -71.82,
+    "pnl_pct": -1.44,
+    "entry_date": "2026-02-27",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-02",
@@ -6738,6 +6834,34 @@
   {
     "date": "2026-03-03",
     "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.0081,
+    "price": 174.9484,
+    "proceeds": 4889.78,
+    "fees": 10.2,
+    "tax": 0.0,
+    "pnl": -106.84,
+    "pnl_pct": -2.14,
+    "entry_date": "2026-03-02",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-03",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 43.7736,
+    "price": 114.1307,
+    "cost": 4995.91,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
+  },
+  {
+    "date": "2026-03-03",
+    "action": "SELL",
     "ticker": "XLRE",
     "shares": 114.6085,
     "price": 43.4082,
@@ -6902,6 +7026,22 @@
     "fees": 9.95,
     "algo_id": "daily-surge-in-google-trends-for-electric-bike-repair-signal",
     "algo_name": "Daily Surge In Google Trends For Electric Bike Repair Signals Bullish Consumer Discretionary"
+  },
+  {
+    "date": "2026-03-04",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 43.7736,
+    "price": 116.1567,
+    "proceeds": 5074.38,
+    "fees": 10.22,
+    "tax": 29.03,
+    "pnl": 49.43,
+    "pnl_pct": 0.99,
+    "entry_date": "2026-03-03",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-04",
@@ -7227,6 +7367,18 @@
     "date": "2026-03-06",
     "action": "BUY",
     "ticker": "XLY",
+    "shares": 43.7603,
+    "price": 114.2106,
+    "cost": 4997.89,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
+  },
+  {
+    "date": "2026-03-06",
+    "action": "BUY",
+    "ticker": "XLY",
     "shares": 43.7741,
     "price": 114.2106,
     "cost": 4999.46,
@@ -7423,6 +7575,22 @@
     "date": "2026-03-09",
     "action": "SELL",
     "ticker": "XLY",
+    "shares": 43.7603,
+    "price": 114.3603,
+    "proceeds": 4994.22,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -3.66,
+    "pnl_pct": -0.07,
+    "entry_date": "2026-03-06",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
+  },
+  {
+    "date": "2026-03-09",
+    "action": "SELL",
+    "ticker": "XLY",
     "shares": 43.7741,
     "price": 114.3603,
     "proceeds": 4995.8,
@@ -7593,6 +7761,18 @@
   },
   {
     "date": "2026-03-10",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 29.4365,
+    "price": 169.5436,
+    "cost": 4990.78,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-10",
     "action": "SELL",
     "ticker": "XLY",
     "shares": 43.7061,
@@ -7718,6 +7898,22 @@
     "fees": 9.95,
     "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
     "algo_name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples"
+  },
+  {
+    "date": "2026-03-11",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 29.4365,
+    "price": 169.0151,
+    "proceeds": 4965.01,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -25.77,
+    "pnl_pct": -0.52,
+    "entry_date": "2026-03-10",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-03-11",
@@ -7934,6 +8130,18 @@
     "reason": "rebalance",
     "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
     "algo_name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples"
+  },
+  {
+    "date": "2026-03-12",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 30.2772,
+    "price": 164.777,
+    "cost": 4988.99,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-03-12",
@@ -8210,6 +8418,22 @@
     "fees": 9.95,
     "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
     "algo_name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples"
+  },
+  {
+    "date": "2026-03-13",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 30.2772,
+    "price": 164.1886,
+    "proceeds": 4960.97,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -28.02,
+    "pnl_pct": -0.56,
+    "entry_date": "2026-03-12",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-03-13",
@@ -8650,6 +8874,18 @@
   {
     "date": "2026-03-17",
     "action": "BUY",
+    "ticker": "XLI",
+    "shares": 30.0367,
+    "price": 166.0335,
+    "cost": 4987.09,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-17",
+    "action": "BUY",
     "ticker": "XLV",
     "shares": 33.463,
     "price": 149.0274,
@@ -8726,6 +8962,34 @@
     "fees": 9.95,
     "algo_id": "xlu-daily-electricity-demand-surge",
     "algo_name": "Xlu Daily Electricity Demand Surge"
+  },
+  {
+    "date": "2026-03-18",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 30.0367,
+    "price": 164.7172,
+    "proceeds": 4937.35,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -49.74,
+    "pnl_pct": -1.0,
+    "entry_date": "2026-03-17",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-18",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 45.2857,
+    "price": 110.3483,
+    "cost": 4997.2,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-18",
@@ -8918,6 +9182,22 @@
     "reason": "rebalance",
     "algo_id": "xlu-daily-electricity-demand-surge",
     "algo_name": "Xlu Daily Electricity Demand Surge"
+  },
+  {
+    "date": "2026-03-19",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 45.2857,
+    "price": 109.4801,
+    "proceeds": 4947.67,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -49.53,
+    "pnl_pct": -0.99,
+    "entry_date": "2026-03-18",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-19",
@@ -9430,6 +9710,18 @@
   {
     "date": "2026-03-23",
     "action": "BUY",
+    "ticker": "XLY",
+    "shares": 45.3526,
+    "price": 110.12,
+    "cost": 4994.23,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
+  },
+  {
+    "date": "2026-03-23",
+    "action": "BUY",
     "ticker": "XLV",
     "shares": 34.4114,
     "price": 144.77,
@@ -9774,6 +10066,22 @@
     "reason": "rebalance",
     "algo_id": "daily-surge-in-google-trends-for-electric-bike-repair-signal",
     "algo_name": "Daily Surge In Google Trends For Electric Bike Repair Signals Bullish Consumer Discretionary"
+  },
+  {
+    "date": "2026-03-24",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 45.3526,
+    "price": 109.68,
+    "proceeds": 4964.06,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -30.17,
+    "pnl_pct": -0.6,
+    "entry_date": "2026-03-23",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-24",
@@ -10394,6 +10702,18 @@
   {
     "date": "2026-03-26",
     "action": "BUY",
+    "ticker": "XLY",
+    "shares": 45.8718,
+    "price": 108.83,
+    "cost": 4992.22,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
+  },
+  {
+    "date": "2026-03-26",
+    "action": "BUY",
     "ticker": "XLV",
     "shares": 34.1757,
     "price": 145.74,
@@ -10733,6 +11053,18 @@
   },
   {
     "date": "2026-03-27",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 31.3072,
+    "price": 159.2,
+    "cost": 4984.11,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-27",
     "action": "SELL",
     "ticker": "XLY",
     "shares": 45.9256,
@@ -10746,6 +11078,22 @@
     "reason": "rebalance",
     "algo_id": "daily-jump-in-google-trends-for-emergency-plumber-near-me-si",
     "algo_name": "Daily Jump In Google Trends For Emergency Plumber Near Me Signals Consumer Home Repair Stress"
+  },
+  {
+    "date": "2026-03-27",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 45.8718,
+    "price": 105.68,
+    "proceeds": 4837.52,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -154.7,
+    "pnl_pct": -3.1,
+    "entry_date": "2026-03-26",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-27",
@@ -11169,6 +11517,22 @@
   },
   {
     "date": "2026-03-30",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 31.3072,
+    "price": 156.61,
+    "proceeds": 4892.82,
+    "fees": 10.2,
+    "tax": 0.0,
+    "pnl": -91.29,
+    "pnl_pct": -1.83,
+    "entry_date": "2026-03-27",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-30",
     "action": "BUY",
     "ticker": "XLY",
     "shares": 47.2255,
@@ -11505,6 +11869,18 @@
   },
   {
     "date": "2026-03-31",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 30.7862,
+    "price": 161.73,
+    "cost": 4979.05,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-03-31",
     "action": "SELL",
     "ticker": "XLY",
     "shares": 47.2255,
@@ -11518,6 +11894,18 @@
     "reason": "rebalance",
     "algo_id": "daily-jump-in-google-trends-for-emergency-plumber-near-me-si",
     "algo_name": "Daily Jump In Google Trends For Emergency Plumber Near Me Signals Consumer Home Repair Stress"
+  },
+  {
+    "date": "2026-03-31",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 45.7331,
+    "price": 108.98,
+    "cost": 4983.99,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-03-31",
@@ -11789,6 +12177,22 @@
   },
   {
     "date": "2026-04-01",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 30.7862,
+    "price": 164.43,
+    "proceeds": 5051.96,
+    "fees": 10.21,
+    "tax": 26.98,
+    "pnl": 45.93,
+    "pnl_pct": 0.92,
+    "entry_date": "2026-03-31",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-01",
     "action": "BUY",
     "ticker": "XLI",
     "shares": 30.4081,
@@ -11798,6 +12202,22 @@
     "fees": 9.95,
     "algo_id": "weekly-spike-in-freight-container-volumes-at-east-coast-port",
     "algo_name": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength"
+  },
+  {
+    "date": "2026-04-01",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 45.7331,
+    "price": 109.8,
+    "proceeds": 5011.28,
+    "fees": 10.21,
+    "tax": 10.1,
+    "pnl": 17.19,
+    "pnl_pct": 0.34,
+    "entry_date": "2026-03-31",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-04-01",
@@ -11973,6 +12393,18 @@
   },
   {
     "date": "2026-04-02",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 30.4137,
+    "price": 163.77,
+    "cost": 4980.84,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-02",
     "action": "SELL",
     "ticker": "XLI",
     "shares": 30.4081,
@@ -11986,6 +12418,18 @@
     "reason": "rebalance",
     "algo_id": "weekly-spike-in-freight-container-volumes-at-east-coast-port",
     "algo_name": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength"
+  },
+  {
+    "date": "2026-04-02",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 46.0874,
+    "price": 108.15,
+    "cost": 4984.35,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-04-02",
@@ -12137,6 +12581,22 @@
   },
   {
     "date": "2026-04-03",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 30.4137,
+    "price": 163.77,
+    "proceeds": 4970.64,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -10.21,
+    "pnl_pct": -0.2,
+    "entry_date": "2026-04-02",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-03",
     "action": "BUY",
     "ticker": "XLI",
     "shares": 30.5183,
@@ -12146,6 +12606,22 @@
     "fees": 9.95,
     "algo_id": "weekly-spike-in-freight-container-volumes-at-east-coast-port",
     "algo_name": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength"
+  },
+  {
+    "date": "2026-04-03",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 46.0874,
+    "price": 108.15,
+    "proceeds": 4974.14,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -10.21,
+    "pnl_pct": -0.2,
+    "entry_date": "2026-04-02",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+    "algo_name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector"
   },
   {
     "date": "2026-04-03",
@@ -13395,6 +13871,18 @@
     "date": "2026-04-13",
     "action": "BUY",
     "ticker": "XLI",
+    "shares": 28.8302,
+    "price": 172.73,
+    "cost": 4979.84,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-13",
+    "action": "BUY",
+    "ticker": "XLI",
     "shares": 28.9532,
     "price": 172.73,
     "cost": 5001.08,
@@ -13546,6 +14034,22 @@
     "reason": "rebalance",
     "algo_id": "xlu-daily-electricity-demand-surge",
     "algo_name": "Xlu Daily Electricity Demand Surge"
+  },
+  {
+    "date": "2026-04-14",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.8302,
+    "price": 173.35,
+    "proceeds": 4987.5,
+    "fees": 10.21,
+    "tax": 2.84,
+    "pnl": 4.83,
+    "pnl_pct": 0.1,
+    "entry_date": "2026-04-13",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-04-14",
@@ -14089,6 +14593,18 @@
   },
   {
     "date": "2026-04-16",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 29.2349,
+    "price": 170.33,
+    "cost": 4979.58,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-16",
     "action": "SELL",
     "ticker": "XLI",
     "shares": 29.2138,
@@ -14418,6 +14934,22 @@
     "fees": 9.95,
     "algo_id": "xlu-daily-electricity-demand-surge",
     "algo_name": "Xlu Daily Electricity Demand Surge"
+  },
+  {
+    "date": "2026-04-17",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 29.2349,
+    "price": 173.51,
+    "proceeds": 5062.33,
+    "fees": 10.21,
+    "tax": 30.62,
+    "pnl": 52.14,
+    "pnl_pct": 1.05,
+    "entry_date": "2026-04-16",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-04-17",
@@ -15274,6 +15806,18 @@
   {
     "date": "2026-04-21",
     "action": "BUY",
+    "ticker": "XLI",
+    "shares": 29.0579,
+    "price": 171.44,
+    "cost": 4981.69,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-21",
+    "action": "BUY",
     "ticker": "XLY",
     "shares": 41.9437,
     "price": 118.97,
@@ -15438,6 +15982,22 @@
     "reason": "rebalance",
     "algo_id": "industrial-sector-weekly-earthquake-activity-correlation-dip",
     "algo_name": "Industrial Sector Weekly Earthquake Activity Correlation Dip"
+  },
+  {
+    "date": "2026-04-22",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 29.0579,
+    "price": 171.04,
+    "proceeds": 4959.86,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -21.83,
+    "pnl_pct": -0.44,
+    "entry_date": "2026-04-21",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-04-22",
@@ -15634,6 +16194,18 @@
     "fees": 9.95,
     "algo_id": "daily-spike-in-google-trends-for-emergency-dental-surgery-si",
     "algo_name": "Daily Spike In Google Trends For Emergency Dental Surgery Signals Healthcare Consumer Stress"
+  },
+  {
+    "date": "2026-04-23",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.6098,
+    "price": 174.07,
+    "cost": 4980.1,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-04-23",
@@ -16009,6 +16581,22 @@
   },
   {
     "date": "2026-04-24",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.6098,
+    "price": 172.47,
+    "proceeds": 4924.12,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -55.98,
+    "pnl_pct": -1.12,
+    "entry_date": "2026-04-23",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-24",
     "action": "BUY",
     "ticker": "XLY",
     "shares": 42.0335,
@@ -16371,6 +16959,18 @@
     "date": "2026-04-27",
     "action": "BUY",
     "ticker": "XLY",
+    "shares": 42.4304,
+    "price": 117.84,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
+  },
+  {
+    "date": "2026-04-27",
+    "action": "BUY",
+    "ticker": "XLY",
     "shares": 42.4006,
     "price": 117.84,
     "cost": 4996.49,
@@ -16529,6 +17129,18 @@
   },
   {
     "date": "2026-04-27",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.8494,
+    "price": 172.51,
+    "cost": 4976.8,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-27",
     "action": "SELL",
     "ticker": "XLY",
     "shares": 42.0335,
@@ -16581,6 +17193,18 @@
   },
   {
     "date": "2026-04-28",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 29.2432,
+    "price": 170.98,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "algo_name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength"
+  },
+  {
+    "date": "2026-04-28",
     "action": "SELL",
     "ticker": "XLK",
     "shares": 31.1488,
@@ -16626,6 +17250,22 @@
     "reason": "rebalance",
     "algo_id": "weekly-google-trends-surge-in-fast-food-job-openings-signals",
     "algo_name": "Weekly Google Trends Surge In Fast Food Job Openings Signals Bullish Consumer Discretionary"
+  },
+  {
+    "date": "2026-04-28",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.4304,
+    "price": 117.01,
+    "proceeds": 4954.57,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -45.43,
+    "pnl_pct": -0.91,
+    "entry_date": "2026-04-27",
+    "reason": "rebalance",
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
   },
   {
     "date": "2026-04-28",
@@ -16745,6 +17385,22 @@
   },
   {
     "date": "2026-04-28",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.8494,
+    "price": 170.98,
+    "proceeds": 4922.46,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -54.34,
+    "pnl_pct": -1.09,
+    "entry_date": "2026-04-27",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-04-28",
     "action": "BUY",
     "ticker": "XLY",
     "shares": 42.6131,
@@ -16853,6 +17509,22 @@
   },
   {
     "date": "2026-04-29",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 29.2432,
+    "price": 169.93,
+    "proceeds": 4959.09,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -40.91,
+    "pnl_pct": -0.82,
+    "entry_date": "2026-04-28",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "algo_name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength"
+  },
+  {
+    "date": "2026-04-29",
     "action": "BUY",
     "ticker": "XLF",
     "shares": 96.3092,
@@ -16862,6 +17534,18 @@
     "fees": 9.95,
     "algo_id": "daily-spike-in-rss-news-counts-around-labor-union-contract-n",
     "algo_name": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf"
+  },
+  {
+    "date": "2026-04-29",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.7699,
+    "price": 116.84,
+    "cost": 4997.23,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
   },
   {
     "date": "2026-04-29",
@@ -17343,6 +18027,22 @@
     "date": "2026-04-30",
     "action": "SELL",
     "ticker": "XLY",
+    "shares": 42.7699,
+    "price": 118.35,
+    "proceeds": 5051.6,
+    "fees": 10.22,
+    "tax": 20.12,
+    "pnl": 34.25,
+    "pnl_pct": 0.69,
+    "entry_date": "2026-04-29",
+    "reason": "rebalance",
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
+  },
+  {
+    "date": "2026-04-30",
+    "action": "SELL",
+    "ticker": "XLY",
     "shares": 42.7398,
     "price": 118.35,
     "proceeds": 5048.04,
@@ -17729,6 +18429,18 @@
   },
   {
     "date": "2026-05-01",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.1348,
+    "price": 118.63,
+    "cost": 4998.45,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
+  },
+  {
+    "date": "2026-05-01",
     "action": "SELL",
     "ticker": "XLP",
     "shares": 486.4656,
@@ -18066,6 +18778,18 @@
     "reason": "rebalance",
     "algo_id": "weekly-spike-in-google-trends-for-home-cooling-failure-signa",
     "algo_name": "Weekly Spike In Google Trends For Home Cooling Failure Signals Bearish Xlu"
+  },
+  {
+    "date": "2026-05-01",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.7557,
+    "price": 172.96,
+    "cost": 4973.59,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-05-01",
@@ -19041,6 +19765,22 @@
   },
   {
     "date": "2026-05-04",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.1348,
+    "price": 117.72,
+    "proceeds": 4949.89,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -48.55,
+    "pnl_pct": -0.97,
+    "entry_date": "2026-05-01",
+    "reason": "rebalance",
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
+  },
+  {
+    "date": "2026-05-04",
     "action": "BUY",
     "ticker": "XLY",
     "shares": 42.0967,
@@ -19531,6 +20271,22 @@
     "date": "2026-05-04",
     "action": "SELL",
     "ticker": "XLI",
+    "shares": 28.7557,
+    "price": 170.98,
+    "proceeds": 4906.45,
+    "fees": 10.2,
+    "tax": 0.0,
+    "pnl": -67.14,
+    "pnl_pct": -1.35,
+    "entry_date": "2026-05-01",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-05-04",
+    "action": "SELL",
+    "ticker": "XLI",
     "shares": 28.8707,
     "price": 170.98,
     "proceeds": 4926.11,
@@ -19811,6 +20567,18 @@
     "date": "2026-05-05",
     "action": "BUY",
     "ticker": "XLI",
+    "shares": 28.8251,
+    "price": 172.41,
+    "cost": 4969.73,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-05-05",
+    "action": "BUY",
+    "ticker": "XLI",
     "shares": 28.9404,
     "price": 172.41,
     "cost": 4989.61,
@@ -20007,6 +20775,18 @@
     "date": "2026-05-06",
     "action": "BUY",
     "ticker": "XLY",
+    "shares": 41.6745,
+    "price": 119.87,
+    "cost": 4995.52,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
+  },
+  {
+    "date": "2026-05-06",
+    "action": "BUY",
+    "ticker": "XLY",
     "shares": 41.6499,
     "price": 119.87,
     "cost": 4992.57,
@@ -20126,6 +20906,22 @@
     "fees": 9.95,
     "algo_id": "price-momentum-reversion-in-defensive-sectors-after-tech-cra",
     "algo_name": "Price Momentum Reversion In Defensive Sectors After Tech Crash"
+  },
+  {
+    "date": "2026-05-06",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.8251,
+    "price": 176.87,
+    "proceeds": 5088.08,
+    "fees": 10.21,
+    "tax": 43.79,
+    "pnl": 74.56,
+    "pnl_pct": 1.5,
+    "entry_date": "2026-05-05",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
   },
   {
     "date": "2026-05-06",
@@ -20322,6 +21118,22 @@
     "reason": "rebalance",
     "algo_id": "weekly-google-trends-surge-in-fast-food-job-openings-signals",
     "algo_name": "Weekly Google Trends Surge In Fast Food Job Openings Signals Bullish Consumer Discretionary"
+  },
+  {
+    "date": "2026-05-07",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 41.6745,
+    "price": 119.88,
+    "proceeds": 4985.73,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -9.8,
+    "pnl_pct": -0.2,
+    "entry_date": "2026-05-06",
+    "reason": "rebalance",
+    "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+    "algo_name": "Earthquake Activity Surge Triggers Defensive Rotation"
   },
   {
     "date": "2026-05-07",
@@ -21297,6 +22109,18 @@
   },
   {
     "date": "2026-05-12",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.6634,
+    "price": 174.35,
+    "cost": 4997.46,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "algo_name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength"
+  },
+  {
+    "date": "2026-05-12",
     "action": "SELL",
     "ticker": "XLP",
     "shares": 59.9159,
@@ -21605,6 +22429,22 @@
   },
   {
     "date": "2026-05-13",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.6634,
+    "price": 173.62,
+    "proceeds": 4966.32,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -31.13,
+    "pnl_pct": -0.62,
+    "entry_date": "2026-05-12",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "algo_name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength"
+  },
+  {
+    "date": "2026-05-13",
     "action": "BUY",
     "ticker": "XLP",
     "shares": 58.9753,
@@ -21838,6 +22678,18 @@
     "fees": 9.95,
     "algo_id": "weekly-google-trends-surge-in-home-energy-bill-shock-signals",
     "algo_name": "Weekly Google Trends Surge In Home Energy Bill Shock Signals Bullish Utilities"
+  },
+  {
+    "date": "2026-05-14",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.6253,
+    "price": 174.51,
+    "cost": 4995.4,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "algo_name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength"
   },
   {
     "date": "2026-05-14",
@@ -22198,6 +23050,22 @@
     "reason": "rebalance",
     "algo_id": "weekly-google-trends-surge-in-home-energy-bill-shock-signals",
     "algo_name": "Weekly Google Trends Surge In Home Energy Bill Shock Signals Bullish Utilities"
+  },
+  {
+    "date": "2026-05-15",
+    "action": "SELL",
+    "ticker": "XLI",
+    "shares": 28.6253,
+    "price": 171.4,
+    "proceeds": 4896.17,
+    "fees": 10.2,
+    "tax": 0.0,
+    "pnl": -99.23,
+    "pnl_pct": -1.99,
+    "entry_date": "2026-05-14",
+    "reason": "rebalance",
+    "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+    "algo_name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength"
   },
   {
     "date": "2026-05-15",
@@ -23419,6 +24287,18 @@
     "date": "2026-05-19",
     "action": "BUY",
     "ticker": "XLI",
+    "shares": 29.4712,
+    "price": 168.74,
+    "cost": 4972.97,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-05-19",
+    "action": "BUY",
+    "ticker": "XLI",
     "shares": 29.5528,
     "price": 168.74,
     "cost": 4986.74,
@@ -24635,6 +25515,22 @@
     "date": "2026-05-20",
     "action": "SELL",
     "ticker": "XLI",
+    "shares": 29.4712,
+    "price": 170.73,
+    "proceeds": 5021.4,
+    "fees": 10.21,
+    "tax": 17.92,
+    "pnl": 30.52,
+    "pnl_pct": 0.61,
+    "entry_date": "2026-05-19",
+    "reason": "rebalance",
+    "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+    "algo_name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint"
+  },
+  {
+    "date": "2026-05-20",
+    "action": "SELL",
+    "ticker": "XLI",
     "shares": 29.5528,
     "price": 168.74,
     "proceeds": 4976.53,
@@ -25466,6 +26362,18 @@
     "reason": "rebalance",
     "algo_id": "baileymol",
     "algo_name": "Chaos Rotation Lab"
+  },
+  {
+    "date": "2026-05-22",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 41.9533,
+    "price": 119.18,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+    "algo_name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound"
   },
   {
     "date": "2026-05-22",
@@ -26974,5 +27882,21 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-26",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 41.9533,
+    "price": 119.18,
+    "proceeds": 4989.79,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -10.21,
+    "pnl_pct": -0.2,
+    "entry_date": "2026-05-22",
+    "reason": "rebalance",
+    "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+    "algo_name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound"
   }
 ]

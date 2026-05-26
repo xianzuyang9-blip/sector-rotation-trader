@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-05-25/publish/claude_airline-seat-load-factor-compression-signals-travel-weakness.md",
+  "target_file": "data/ideas/runs/2026-05-25/intervention/claude_airline-seat-load-factor-compression-signals-travel-weakness.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": true,
+    "selected_adapter": "bts_airline_load_factor",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support bts_airline_load_factor yet.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "regime shifts",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "bts_airline_load_factor"
+      ],
+      "scores": {
+        "tsa_table": 1,
+        "rss_count": 1,
+        "bts_airline_load_factor": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1008,
+    "output_tokens": 77
+  },
+  "cost_usd": 0.00329,
+  "raw_llm_response": "{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"bts_airline_load_factor\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec is clear, uses a real existing adapter with matching data source and frequency.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}"
+}

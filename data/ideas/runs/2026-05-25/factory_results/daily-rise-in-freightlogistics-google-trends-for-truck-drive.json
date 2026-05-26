@@ -1,0 +1,16 @@
+{
+  "adapter": "google_trends",
+  "algo_file": "crazy/algos/daily_rise_in_freightlogistics_google_trends_for_truck_drive.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-05-25/build/chatgpt_daily-rise-in-freightlogistics-google-trends-for-truck-drive.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-05-25/algos/crazy/daily-rise-in-freightlogistics-google-trends-for-truck-drive"
+}

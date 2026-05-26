@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-25/build/chatgpt_weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta.md",
+  "out": "crazy/algos/weekly_surge_in_attentionsentiment_rss_counts_for_cyber_atta.py",
+  "adapter": "rss_count",
+  "idea_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+  "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+  "universe": [
+    "XLE"
+  ],
+  "frequency": "weekly",
+  "family": "attention_sentiment",
+  "threshold": 0.4,
+  "direction": "up",
+  "hold_days": 21
+}

@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+  "name": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-25"
+}

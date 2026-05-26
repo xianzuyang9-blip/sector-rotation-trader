@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-25/build/claude_google-trends-surge-in-bankruptcy-search-terms-signals-consu.md",
+  "out": "crazy/algos/google_trends_surge_in_bankruptcy_search_terms_signals_consu.py",
+  "adapter": "google_trends",
+  "idea_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+  "name": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
+  "universe": [
+    "XLF"
+  ],
+  "frequency": "weekly",
+  "family": "consumer_stress",
+  "threshold": 0.1,
+  "direction": "up",
+  "hold_days": 14
+}

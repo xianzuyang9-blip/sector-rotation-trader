@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-05-25T23:50:24Z",
+  "generated_at": "2026-05-26T00:03:25Z",
   "counts": {
-    "total": 359,
+    "total": 374,
     "beating_spy": 1
   },
   "algos": [
@@ -1562,6 +1562,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+      "name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+      "family": "travel_mobility",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.02,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.02,
+      "spy_delta_30d_pct": -4.86,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.455,
+            "return_pct": 2.274
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.083,
+            "return_pct": 0.413
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:weekly-surge-in-google-trends-for-diy-plumbing-repair-signal",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-diy-plumbing-repair-signal",
@@ -2750,6 +2786,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:earthquake-activity-surge-triggers-defensive-rotation",
+      "algo_type": "crazy",
+      "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+      "name": "Earthquake Activity Surge Triggers Defensive Rotation",
+      "family": "local_economy_weirdness",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": -0.11,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.1,
+      "spy_delta_30d_pct": -4.94,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.455,
+            "return_pct": 2.274
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.083,
+            "return_pct": 0.413
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:ev-charger-network-expansion-sentiment-surge",
       "algo_type": "crazy",
       "algo_id": "ev-charger-network-expansion-sentiment-surge",
@@ -3491,6 +3563,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+      "name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": -0.2,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.2,
+      "spy_delta_30d_pct": -5.04,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.043,
+            "return_pct": 0.216
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.081,
+            "return_pct": -0.406
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:weekly-surge-in-google-trends-for-hotel-room-shortage-signal",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-hotel-room-shortage-signal",
@@ -4139,6 +4247,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+      "name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": -0.33,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.455,
+            "return_pct": 2.274
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.083,
+            "return_pct": 0.413
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:grocery-store-foot-traffic-collapse-signal",
       "algo_type": "crazy",
       "algo_id": "grocery-store-foot-traffic-collapse-signal",
@@ -4552,6 +4696,42 @@
           }
         },
         "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+      "algo_type": "crazy",
+      "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+      "name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "family": "freight_logistics",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": -0.52,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.05,
+      "spy_delta_30d_pct": -4.89,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.043,
+            "return_pct": 0.216
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.081,
+            "return_pct": -0.406
+          }
+        },
+        "summary": "mixed"
       }
     },
     {
@@ -12013,6 +12193,366 @@
           }
         },
         "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-freightlogistics-google-trends-for-warehouse",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-freightlogistics-google-trends-for-warehouse",
+      "name": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
+      "family": "freight_logistics",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.043,
+            "return_pct": 0.216
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.081,
+            "return_pct": -0.406
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+      "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLE",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.017,
+            "return_pct": 0.084
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.921,
+            "return_pct": 4.607
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+      "name": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.043,
+            "return_pct": 0.216
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.081,
+            "return_pct": -0.406
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio",
+      "algo_type": "crazy",
+      "algo_id": "weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio",
+      "name": "Weekly Spike In Localeconomyweirdness Rss News Counts Mentioning Small Town Retail Closures Signals Consumer Discretionary Softness",
+      "family": "local_economy_weirdness",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.455,
+            "return_pct": 2.274
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.083,
+            "return_pct": 0.413
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+      "algo_type": "crazy",
+      "algo_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+      "name": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
+      "family": "local_economy_weirdness",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.038,
+            "return_pct": 0.189
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.377,
+            "return_pct": 1.886
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:natural-gas-heating-demand-spike-via-weather-extremes",
+      "algo_type": "crazy",
+      "algo_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+      "name": "Natural Gas Heating Demand Spike Via Weather Extremes",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLE",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.017,
+            "return_pct": 0.084
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.921,
+            "return_pct": 4.607
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:google-trends-surge-in-pest-control-searches-signals-consume",
+      "algo_type": "crazy",
+      "algo_id": "google-trends-surge-in-pest-control-searches-signals-consume",
+      "name": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.455,
+            "return_pct": 2.274
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.083,
+            "return_pct": 0.413
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+      "algo_type": "crazy",
+      "algo_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+      "name": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.329,
+            "return_pct": 1.644
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.202,
+            "return_pct": 1.011
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:ev-charger-network-growth-slowdown-signals-green-energy-weak",
+      "algo_type": "crazy",
+      "algo_id": "ev-charger-network-growth-slowdown-signals-green-energy-weak",
+      "name": "Ev Charger Network Growth Slowdown Signals Green Energy Weakness",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLE",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.017,
+            "return_pct": 0.084
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.921,
+            "return_pct": 4.607
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-consumerstress-google-trends-for-unemployment",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-unemployment",
+      "name": "Daily Spike In Consumerstress Google Trends For Unemployment Benefits Application Signals Rising Labor Market Weakness",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.84,
+      "last_snapshot": "2026-05-26",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.329,
+            "return_pct": 1.644
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.202,
+            "return_pct": 1.011
+          }
+        },
+        "summary": "both_up"
       }
     }
   ]

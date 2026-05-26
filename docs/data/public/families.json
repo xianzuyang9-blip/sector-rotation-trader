@@ -1,18 +1,18 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-05-25T23:50:16Z",
+  "generated_at": "2026-05-26T00:03:25Z",
   "families": {
     "attention_sentiment": {
       "family": "attention_sentiment",
-      "count": 39,
+      "count": 41,
       "by_status": {
         "live_only": 14,
         "parked": 4,
-        "sandbox": 21
+        "sandbox": 23
       },
       "by_evidence_class": {
         "live_receipts_only": 14,
-        "needs_history": 21,
+        "needs_history": 23,
         "pending_seed": 4
       },
       "leaders": [
@@ -200,16 +200,16 @@
     },
     "consumer_stress": {
       "family": "consumer_stress",
-      "count": 98,
+      "count": 102,
       "by_status": {
         "failed": 1,
-        "live_only": 43,
+        "live_only": 44,
         "parked": 4,
-        "sandbox": 50
+        "sandbox": 53
       },
       "by_evidence_class": {
-        "live_receipts_only": 43,
-        "needs_history": 50,
+        "live_receipts_only": 44,
+        "needs_history": 53,
         "pending_seed": 4,
         "v1_backtested": 1
       },
@@ -486,15 +486,15 @@
     },
     "freight_logistics": {
       "family": "freight_logistics",
-      "count": 26,
+      "count": 28,
       "by_status": {
-        "live_only": 14,
+        "live_only": 15,
         "parked": 2,
-        "sandbox": 10
+        "sandbox": 11
       },
       "by_evidence_class": {
-        "live_receipts_only": 14,
-        "needs_history": 10,
+        "live_receipts_only": 15,
+        "needs_history": 11,
         "pending_seed": 2
       },
       "leaders": [
@@ -667,14 +667,14 @@
     },
     "labor_jobs": {
       "family": "labor_jobs",
-      "count": 33,
+      "count": 34,
       "by_status": {
-        "live_only": 13,
+        "live_only": 14,
         "parked": 4,
         "sandbox": 16
       },
       "by_evidence_class": {
-        "live_receipts_only": 13,
+        "live_receipts_only": 14,
         "needs_history": 16,
         "pending_seed": 4
       },
@@ -848,15 +848,15 @@
     },
     "local_economy_weirdness": {
       "family": "local_economy_weirdness",
-      "count": 36,
+      "count": 39,
       "by_status": {
-        "live_only": 14,
+        "live_only": 15,
         "parked": 2,
-        "sandbox": 20
+        "sandbox": 22
       },
       "by_evidence_class": {
-        "live_receipts_only": 14,
-        "needs_history": 20,
+        "live_receipts_only": 15,
+        "needs_history": 22,
         "pending_seed": 2
       },
       "leaders": [
@@ -1014,16 +1014,16 @@
     },
     "macro_input_pressure": {
       "family": "macro_input_pressure",
-      "count": 78,
+      "count": 80,
       "by_status": {
         "backtest_weak": 1,
         "live_only": 24,
         "parked": 5,
-        "sandbox": 48
+        "sandbox": 50
       },
       "by_evidence_class": {
         "live_receipts_only": 24,
-        "needs_history": 46,
+        "needs_history": 48,
         "pending_seed": 5,
         "v1_backtested": 3
       },
@@ -1320,14 +1320,14 @@
     },
     "travel_mobility": {
       "family": "travel_mobility",
-      "count": 25,
+      "count": 26,
       "by_status": {
-        "live_only": 5,
+        "live_only": 6,
         "parked": 2,
         "sandbox": 18
       },
       "by_evidence_class": {
-        "live_receipts_only": 5,
+        "live_receipts_only": 6,
         "needs_history": 18,
         "pending_seed": 2
       },

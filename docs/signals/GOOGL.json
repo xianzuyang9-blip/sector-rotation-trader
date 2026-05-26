@@ -7,8 +7,8 @@
   "composite_color": "red",
   "bullish": 2,
   "bearish": 43,
-  "neutral": 314,
-  "total_signals": 359,
+  "neutral": 329,
+  "total_signals": 374,
   "total_active": 45,
   "bullish_pct": 4,
   "breakdown": [
@@ -27,6 +27,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 92,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "google-trends-surge-in-pest-control-searches-signals-consume",
+      "name": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -145,6 +154,15 @@
       "direction": "NEUTRAL",
       "days_running": 112,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+      "name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.02,
       "beat_spy": false
     },
     {
@@ -370,6 +388,15 @@
       "direction": "NEUTRAL",
       "days_running": 98,
       "ytd_pct": -0.09,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+      "name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.2,
       "beat_spy": false
     },
     {
@@ -712,6 +739,15 @@
       "direction": "NEUTRAL",
       "days_running": 85,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+      "name": "Earthquake Activity Surge Triggers Defensive Rotation",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.11,
       "beat_spy": false
     },
     {
@@ -1215,6 +1251,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 82,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio",
+      "name": "Weekly Spike In Localeconomyweirdness Rss News Counts Mentioning Small Town Retail Closures Signals Consumer Discretionary Softness",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -1786,6 +1831,24 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+      "name": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "ev-charger-network-growth-slowdown-signals-green-energy-weak",
+      "name": "Ev Charger Network Growth Slowdown Signals Green Energy Weakness",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "weekly-jump-in-google-trends-for-warehouse-automation-jobs-s",
       "name": "Weekly Jump In Google Trends For Warehouse Automation Jobs Signals Labor Substitution Pressure",
       "algo_type": "crazy",
@@ -1845,6 +1908,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 76,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-freightlogistics-google-trends-for-warehouse",
+      "name": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -2173,6 +2245,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-unemployment",
+      "name": "Daily Spike In Consumerstress Google Trends For Unemployment Benefits Application Signals Rising Labor Market Weakness",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-spike-in-rss-news-counts-on-corporate-dividend-cuts",
       "name": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
       "algo_type": "crazy",
@@ -2290,6 +2371,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+      "name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.52,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-jump-in-google-trends-for-emergency-plumber-near-me-si",
       "name": "Daily Jump In Google Trends For Emergency Plumber Near Me Signals Consumer Home Repair Stress",
       "algo_type": "crazy",
@@ -2389,6 +2479,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+      "name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.33,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-spike-in-google-trends-searches-for-home-heating-syste",
       "name": "Daily Spike In Google Trends Searches For Home Heating System Failure Signals Winter Utility Stress",
       "algo_type": "crazy",
@@ -2448,6 +2547,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 112,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+      "name": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -2794,6 +2902,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+      "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-jump-in-google-trends-for-bank-account-overdraft-fees",
       "name": "Daily Jump In Google Trends For Bank Account Overdraft Fees",
       "algo_type": "crazy",
@@ -2917,6 +3034,15 @@
       "direction": "NEUTRAL",
       "days_running": 81,
       "ytd_pct": 0.01,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+      "name": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -3051,6 +3177,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 112,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+      "name": "Natural Gas Heating Demand Spike Via Weather Extremes",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -3244,7 +3379,7 @@
       "beat_spy": false
     }
   ],
-  "generated": "2026-05-25",
+  "generated": "2026-05-26",
   "lab_started": "2026-01-11",
   "disclaimer": "This is an experimental signal lab. Not financial advice. Signals are research outputs, not recommendations to buy, sell, or hold any asset. Signals can and will fail. Past performance does not guarantee future results. Results are simulated/model outputs and may not reflect slippage, fees, liquidity, execution delays, or market impact. Third-party data may be incomplete, delayed, inaccurate, or revised. Do your own research and consult a qualified professional before making investment decisions. Paper-traded only \u2014 no real money at risk."
 }

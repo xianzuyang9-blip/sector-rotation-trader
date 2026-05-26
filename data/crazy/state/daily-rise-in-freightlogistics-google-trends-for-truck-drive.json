@@ -1,0 +1,1263 @@
+{
+  "cash": 99479.86899629199,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 342.68279376921373,
+  "taxes_paid": 122.96882624435281,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-02-24",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.3312,
+      "price": 176.4841,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-02-25",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.3312,
+      "price": 175.108,
+      "proceeds": 4950.81,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -49.19,
+      "pnl_pct": -0.98,
+      "entry_date": "2026-02-24",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-02-26",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.3593,
+      "price": 176.2049,
+      "cost": 4997.04,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-02-27",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.3593,
+      "price": 176.6436,
+      "proceeds": 4999.28,
+      "fees": 10.21,
+      "tax": 0.83,
+      "pnl": 1.41,
+      "pnl_pct": 0.03,
+      "entry_date": "2026-02-26",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-02",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.0081,
+      "price": 178.3987,
+      "cost": 4996.62,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-03",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.0081,
+      "price": 174.9484,
+      "proceeds": 4889.78,
+      "fees": 10.2,
+      "tax": 0.0,
+      "pnl": -106.84,
+      "pnl_pct": -2.14,
+      "entry_date": "2026-03-02",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-10",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.4365,
+      "price": 169.5436,
+      "cost": 4990.78,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-11",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.4365,
+      "price": 169.0151,
+      "proceeds": 4965.01,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -25.77,
+      "pnl_pct": -0.52,
+      "entry_date": "2026-03-10",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-12",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.2772,
+      "price": 164.777,
+      "cost": 4988.99,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-13",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.2772,
+      "price": 164.1886,
+      "proceeds": 4960.97,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -28.02,
+      "pnl_pct": -0.56,
+      "entry_date": "2026-03-12",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-17",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.0367,
+      "price": 166.0335,
+      "cost": 4987.09,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-18",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.0367,
+      "price": 164.7172,
+      "proceeds": 4937.35,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -49.74,
+      "pnl_pct": -1.0,
+      "entry_date": "2026-03-17",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-27",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 31.3072,
+      "price": 159.2,
+      "cost": 4984.11,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-30",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 31.3072,
+      "price": 156.61,
+      "proceeds": 4892.82,
+      "fees": 10.2,
+      "tax": 0.0,
+      "pnl": -91.29,
+      "pnl_pct": -1.83,
+      "entry_date": "2026-03-27",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-31",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.7862,
+      "price": 161.73,
+      "cost": 4979.05,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-01",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.7862,
+      "price": 164.43,
+      "proceeds": 5051.96,
+      "fees": 10.21,
+      "tax": 26.98,
+      "pnl": 45.93,
+      "pnl_pct": 0.92,
+      "entry_date": "2026-03-31",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-02",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.4137,
+      "price": 163.77,
+      "cost": 4980.84,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-03",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.4137,
+      "price": 163.77,
+      "proceeds": 4970.64,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-04-02",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-13",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.8302,
+      "price": 172.73,
+      "cost": 4979.84,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-14",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8302,
+      "price": 173.35,
+      "proceeds": 4987.5,
+      "fees": 10.21,
+      "tax": 2.84,
+      "pnl": 4.83,
+      "pnl_pct": 0.1,
+      "entry_date": "2026-04-13",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-16",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.2349,
+      "price": 170.33,
+      "cost": 4979.58,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-17",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.2349,
+      "price": 173.51,
+      "proceeds": 5062.33,
+      "fees": 10.21,
+      "tax": 30.62,
+      "pnl": 52.14,
+      "pnl_pct": 1.05,
+      "entry_date": "2026-04-16",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-21",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.0579,
+      "price": 171.44,
+      "cost": 4981.69,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-22",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.0579,
+      "price": 171.04,
+      "proceeds": 4959.86,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -21.83,
+      "pnl_pct": -0.44,
+      "entry_date": "2026-04-21",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-23",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.6098,
+      "price": 174.07,
+      "cost": 4980.1,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-24",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.6098,
+      "price": 172.47,
+      "proceeds": 4924.12,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -55.98,
+      "pnl_pct": -1.12,
+      "entry_date": "2026-04-23",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-27",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.8494,
+      "price": 172.51,
+      "cost": 4976.8,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-28",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8494,
+      "price": 170.98,
+      "proceeds": 4922.46,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -54.34,
+      "pnl_pct": -1.09,
+      "entry_date": "2026-04-27",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-01",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.7557,
+      "price": 172.96,
+      "cost": 4973.59,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-04",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.7557,
+      "price": 170.98,
+      "proceeds": 4906.45,
+      "fees": 10.2,
+      "tax": 0.0,
+      "pnl": -67.14,
+      "pnl_pct": -1.35,
+      "entry_date": "2026-05-01",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-05",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.8251,
+      "price": 172.41,
+      "cost": 4969.73,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-06",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8251,
+      "price": 176.87,
+      "proceeds": 5088.08,
+      "fees": 10.21,
+      "tax": 43.79,
+      "pnl": 74.56,
+      "pnl_pct": 1.5,
+      "entry_date": "2026-05-05",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-19",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.4712,
+      "price": 168.74,
+      "cost": 4972.97,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-20",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.4712,
+      "price": 170.73,
+      "proceeds": 5021.4,
+      "fees": 10.21,
+      "tax": 17.92,
+      "pnl": 30.52,
+      "pnl_pct": 0.61,
+      "entry_date": "2026-05-19",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-02-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-24",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLI": {
+          "shares": 28.3312,
+          "entry_price": 176.4841,
+          "current_price": 176.4841,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-02-24",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-02-25",
+      "cash": 99940.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99940.86,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-26",
+      "cash": 94933.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99930.91,
+      "positions": {
+        "XLI": {
+          "shares": 28.3593,
+          "entry_price": 176.2049,
+          "current_price": 176.2049,
+          "market_value": 4997.04,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-02-26",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-02-27",
+      "cash": 99932.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.31,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-02",
+      "cash": 94925.75,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99922.36,
+      "positions": {
+        "XLI": {
+          "shares": 28.0081,
+          "entry_price": 178.3987,
+          "current_price": 178.3987,
+          "market_value": 4996.62,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-02",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-03",
+      "cash": 99815.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99815.52,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-04",
+      "cash": 99815.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99815.52,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 99815.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99815.52,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 99815.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99815.52,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 99815.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99815.52,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 94814.8,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99805.57,
+      "positions": {
+        "XLI": {
+          "shares": 29.4365,
+          "entry_price": 169.5436,
+          "current_price": 169.5436,
+          "market_value": 4990.78,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-10",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 99779.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99779.81,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 94780.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99769.86,
+      "positions": {
+        "XLI": {
+          "shares": 30.2772,
+          "entry_price": 164.777,
+          "current_price": 164.777,
+          "market_value": 4988.99,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-12",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 99741.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99741.84,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 99741.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99741.84,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 94744.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99731.89,
+      "positions": {
+        "XLI": {
+          "shares": 30.0367,
+          "entry_price": 166.0335,
+          "current_price": 166.0335,
+          "market_value": 4987.09,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-17",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 99682.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99682.14,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 94688.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99672.19,
+      "positions": {
+        "XLI": {
+          "shares": 31.3072,
+          "entry_price": 159.2,
+          "current_price": 159.2,
+          "market_value": 4984.11,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-27",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 99580.9,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99580.9,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 94591.91,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99570.95,
+      "positions": {
+        "XLI": {
+          "shares": 30.7862,
+          "entry_price": 161.73,
+          "current_price": 161.73,
+          "market_value": 4979.05,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-31",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 99616.89,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99616.89,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 94626.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99606.94,
+      "positions": {
+        "XLI": {
+          "shares": 30.4137,
+          "entry_price": 163.77,
+          "current_price": 163.77,
+          "market_value": 4980.84,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-02",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 99596.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99596.73,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 99596.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99596.73,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 99596.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99596.73,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 99596.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99596.73,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 99596.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99596.73,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 99596.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99596.73,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 94606.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99586.78,
+      "positions": {
+        "XLI": {
+          "shares": 28.8302,
+          "entry_price": 172.73,
+          "current_price": 172.73,
+          "market_value": 4979.84,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-13",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 99591.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99591.61,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 99591.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99591.61,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 94602.08,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99581.66,
+      "positions": {
+        "XLI": {
+          "shares": 29.2349,
+          "entry_price": 170.33,
+          "current_price": 170.33,
+          "market_value": 4979.58,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-16",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 99633.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99633.79,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 99633.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99633.79,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 94642.15,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99623.84,
+      "positions": {
+        "XLI": {
+          "shares": 29.0579,
+          "entry_price": 171.44,
+          "current_price": 171.44,
+          "market_value": 4981.69,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-21",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 99602.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99602.01,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 94611.96,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99592.06,
+      "positions": {
+        "XLI": {
+          "shares": 28.6098,
+          "entry_price": 174.07,
+          "current_price": 174.07,
+          "market_value": 4980.1,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-23",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 99536.08,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99536.08,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 94549.33,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99526.13,
+      "positions": {
+        "XLI": {
+          "shares": 28.8494,
+          "entry_price": 172.51,
+          "current_price": 172.51,
+          "market_value": 4976.8,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-27",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 99471.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99471.79,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 99471.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99471.79,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 99471.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99471.79,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 94488.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99461.84,
+      "positions": {
+        "XLI": {
+          "shares": 28.7557,
+          "entry_price": 172.96,
+          "current_price": 172.96,
+          "market_value": 4973.59,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-01",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99394.7,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99394.7,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 94415.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99384.75,
+      "positions": {
+        "XLI": {
+          "shares": 28.8251,
+          "entry_price": 172.41,
+          "current_price": 172.41,
+          "market_value": 4969.73,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-05",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99459.3,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99459.3,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 94476.39,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99449.35,
+      "positions": {
+        "XLI": {
+          "shares": 29.4712,
+          "entry_price": 168.74,
+          "current_price": 168.74,
+          "market_value": 4972.97,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-19",
+          "margin": false
+        }
+      },
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99479.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99479.87,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99479.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99479.87,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99479.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99479.87,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99479.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99479.87,
+      "positions": {},
+      "sector": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-02-23",
+  "last_run": "2026-05-26",
+  "meta": {
+    "daily-rise-in-freightlogistics-google-trends-for-truck-drive": {
+      "latest_value": 5.0,
+      "prior_avg": 6.5714,
+      "signal_change": -0.2391,
+      "signal_label": "HOLD",
+      "name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-26"
+    }
+  }
+}

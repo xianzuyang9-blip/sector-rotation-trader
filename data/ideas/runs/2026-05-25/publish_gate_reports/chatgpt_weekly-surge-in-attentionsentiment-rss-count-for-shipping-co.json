@@ -1,0 +1,34 @@
+{
+  "source_file": "data/ideas/runs/2026-05-25/publish/chatgpt_weekly-surge-in-attentionsentiment-rss-count-for-shipping-co.md",
+  "target_file": "data/ideas/runs/2026-05-25/build/chatgpt_weekly-surge-in-attentionsentiment-rss-count-for-shipping-co.md",
+  "verdict": {
+    "decision": "BUILD",
+    "adapter_ok": true,
+    "selected_adapter": "rss_count",
+    "needs_new_adapter": false,
+    "reason": "Spec is clear, uses weekly RSS counts directly, and matches the rss_count adapter.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "regime shifts"
+    ],
+    "route": {
+      "adapters": [
+        "rss_count"
+      ],
+      "scores": {
+        "rss_count": 2,
+        "html_table": 1,
+        "port_container_volume": 1
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 929,
+    "output_tokens": 78
+  },
+  "cost_usd": 0.0031025,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"rss_count\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec is clear, uses weekly RSS counts directly, and matches the rss_count adapter.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}\n```"
+}

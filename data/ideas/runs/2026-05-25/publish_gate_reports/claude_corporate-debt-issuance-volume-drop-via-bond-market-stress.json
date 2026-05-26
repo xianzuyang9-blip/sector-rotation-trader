@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-05-25/publish/claude_corporate-debt-issuance-volume-drop-via-bond-market-stress.md",
+  "target_file": "data/ideas/runs/2026-05-25/intervention/claude_corporate-debt-issuance-volume-drop-via-bond-market-stress.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "complex multi-source data integration",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "requires volume proxy from RSS not directly supported",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "rss_count"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "rss_count": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 1026,
+    "output_tokens": 90
+  },
+  "cost_usd": 0.003465,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Spec requires combining fred_series data with RSS volume proxies, needing a new or composite adapter.\",\n  \"risk_flags\": [\"low adapter routing confidence\", \"requires volume proxy from RSS not directly supported\", \"complex multi-source data integration\"]\n}\n```"
+}

@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-25/build/chatgpt_daily-spike-in-consumerstress-google-trends-for-rent-late-pa.md",
+  "out": "crazy/algos/daily_spike_in_consumerstress_google_trends_for_rent_late_pa.py",
+  "adapter": "google_trends",
+  "idea_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+  "name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+  "universe": [
+    "XLY"
+  ],
+  "frequency": "daily",
+  "family": "consumer_stress",
+  "threshold": 0.2,
+  "direction": "up",
+  "hold_days": 7
+}

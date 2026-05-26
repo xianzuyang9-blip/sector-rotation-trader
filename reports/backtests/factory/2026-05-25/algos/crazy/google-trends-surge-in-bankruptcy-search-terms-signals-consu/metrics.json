@@ -1,0 +1,9 @@
+{
+  "algo_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+  "name": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "metrics": {},
+  "run_date": "2026-05-25"
+}

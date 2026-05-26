@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+  "name": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-25"
+}

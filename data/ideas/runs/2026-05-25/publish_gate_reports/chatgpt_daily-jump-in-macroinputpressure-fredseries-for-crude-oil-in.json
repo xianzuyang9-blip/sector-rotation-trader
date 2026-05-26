@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-05-25/publish/chatgpt_daily-jump-in-macroinputpressure-fredseries-for-crude-oil-in.md",
+  "target_file": "data/ideas/runs/2026-05-25/intervention/chatgpt_daily-jump-in-macroinputpressure-fredseries-for-crude-oil-in.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "daily signal on weekly data",
+      "data source granularity",
+      "frequency mismatch",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "price_only"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1,
+        "price_only": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 935,
+    "output_tokens": 85
+  },
+  "cost_usd": 0.0031875,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"FRED crude oil inventory data is weekly, but spec requires daily changes, causing frequency mismatch.\",\n  \"risk_flags\": [\"frequency mismatch\", \"data source granularity\", \"daily signal on weekly data\"]\n}\n```"
+}

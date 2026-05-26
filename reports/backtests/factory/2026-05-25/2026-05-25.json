@@ -1,0 +1,147 @@
+{
+  "run_date": "2026-05-25",
+  "start": "2024-01-01",
+  "end": "2026-05-25",
+  "slippage_bps": 5.0,
+  "generated_at": "2026-05-26T00:02:54Z",
+  "counts": {
+    "LIVE_ONLY_NON_PRICE": 15
+  },
+  "results": [
+    {
+      "algo_id": "daily-rise-in-freightlogistics-google-trends-for-truck-drive",
+      "name": "Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-rent-late-pa",
+      "name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "daily-spike-in-consumerstress-google-trends-for-unemployment",
+      "name": "Daily Spike In Consumerstress Google Trends For Unemployment Benefits Application Signals Rising Labor Market Weakness",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "daily-spike-in-laborjobs-google-trends-for-temporary-job-ope",
+      "name": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
+      "name": "Earthquake Activity Surge Triggers Defensive Rotation",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.earthquake_activity",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "ev-charger-network-growth-slowdown-signals-green-energy-weak",
+      "name": "Ev Charger Network Growth Slowdown Signals Green Energy Weakness",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "google-trends-surge-in-bankruptcy-search-terms-signals-consu",
+      "name": "Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "google-trends-surge-in-pest-control-searches-signals-consume",
+      "name": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+      "name": "Natural Gas Heating Demand Spike Via Weather Extremes",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.weather_series",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",
+      "name": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+      "name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio",
+      "name": "Weekly Spike In Localeconomyweirdness Rss News Counts Mentioning Small Town Retail Closures Signals Consumer Discretionary Softness",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co",
+      "name": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+      "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    },
+    {
+      "algo_id": "weekly-surge-in-freightlogistics-google-trends-for-warehouse",
+      "name": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-25"
+    }
+  ]
+}

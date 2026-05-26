@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-25/build/claude_ev-charger-network-growth-slowdown-signals-green-energy-weak.md",
+  "out": "crazy/algos/ev_charger_network_growth_slowdown_signals_green_energy_weak.py",
+  "adapter": "openchargemap",
+  "idea_id": "ev-charger-network-growth-slowdown-signals-green-energy-weak",
+  "name": "Ev Charger Network Growth Slowdown Signals Green Energy Weakness",
+  "universe": [
+    "XLE"
+  ],
+  "frequency": "weekly",
+  "family": "macro_input_pressure",
+  "threshold": 0.02,
+  "direction": "down",
+  "hold_days": 10
+}

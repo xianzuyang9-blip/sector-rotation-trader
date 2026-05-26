@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-05-25T23:50:15
+Updated (UTC): 2026-05-26T00:03:24
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 354
+Crazy models: 369
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -370,3 +370,18 @@ Crazy models: 354
 | healthcare-cost-urgency-spike | Healthcare Cost Urgency Spike | weekly |
 | real-time-retail-traffic-collapse | Real-time Retail Traffic Collapse | weekly |
 | utility-demand-spike-from-weather-extremes | Utility Demand Spike From Weather Extremes | daily |
+| daily-rise-in-freightlogistics-google-trends-for-truck-drive | Daily Rise In Freightlogistics Google Trends For Truck Driver Shortage Signals Industrial Sector Labor Supply Constraint | daily |
+| daily-spike-in-consumerstress-google-trends-for-rent-late-pa | Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector | daily |
+| daily-spike-in-consumerstress-google-trends-for-unemployment | Daily Spike In Consumerstress Google Trends For Unemployment Benefits Application Signals Rising Labor Market Weakness | daily |
+| daily-spike-in-laborjobs-google-trends-for-temporary-job-ope | Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength | daily |
+| weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f | Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples | weekly |
+| weekly-rise-in-travelmobility-google-trends-for-last-minute- | Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound | weekly |
+| weekly-spike-in-localeconomyweirdness-rss-news-counts-mentio | Weekly Spike In Localeconomyweirdness Rss News Counts Mentioning Small Town Retail Closures Signals Consumer Discretionary Softness | weekly |
+| weekly-surge-in-attentionsentiment-rss-count-for-shipping-co | Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind | weekly |
+| weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta | Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk | weekly |
+| weekly-surge-in-freightlogistics-google-trends-for-warehouse | Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure | weekly |
+| earthquake-activity-surge-triggers-defensive-rotation | Earthquake Activity Surge Triggers Defensive Rotation | daily |
+| ev-charger-network-growth-slowdown-signals-green-energy-weak | Ev Charger Network Growth Slowdown Signals Green Energy Weakness | weekly |
+| google-trends-surge-in-bankruptcy-search-terms-signals-consu | Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress | weekly |
+| google-trends-surge-in-pest-control-searches-signals-consume | Google Trends Surge In Pest Control Searches Signals Consumer Home Stress | weekly |
+| natural-gas-heating-demand-spike-via-weather-extremes | Natural Gas Heating Demand Spike Via Weather Extremes | daily |

@@ -1,0 +1,957 @@
+{
+  "cash": 99666.92484193173,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 161.29827878583052,
+  "taxes_paid": 39.127976566618344,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-02-27",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.8722,
+      "price": 116.6257,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-02",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.8722,
+      "price": 115.1886,
+      "proceeds": 4928.18,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -71.82,
+      "pnl_pct": -1.44,
+      "entry_date": "2026-02-27",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-03",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 43.7736,
+      "price": 114.1307,
+      "cost": 4995.91,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-04",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 43.7736,
+      "price": 116.1567,
+      "proceeds": 5074.38,
+      "fees": 10.22,
+      "tax": 29.03,
+      "pnl": 49.43,
+      "pnl_pct": 0.99,
+      "entry_date": "2026-03-03",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-06",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 43.7603,
+      "price": 114.2106,
+      "cost": 4997.89,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-09",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 43.7603,
+      "price": 114.3603,
+      "proceeds": 4994.22,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -3.66,
+      "pnl_pct": -0.07,
+      "entry_date": "2026-03-06",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-18",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.2857,
+      "price": 110.3483,
+      "cost": 4997.2,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-19",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.2857,
+      "price": 109.4801,
+      "proceeds": 4947.67,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -49.53,
+      "pnl_pct": -0.99,
+      "entry_date": "2026-03-18",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-23",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.3526,
+      "price": 110.12,
+      "cost": 4994.23,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-24",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.3526,
+      "price": 109.68,
+      "proceeds": 4964.06,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -30.17,
+      "pnl_pct": -0.6,
+      "entry_date": "2026-03-23",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-26",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.8718,
+      "price": 108.83,
+      "cost": 4992.22,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-27",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.8718,
+      "price": 105.68,
+      "proceeds": 4837.52,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -154.7,
+      "pnl_pct": -3.1,
+      "entry_date": "2026-03-26",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-31",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.7331,
+      "price": 108.98,
+      "cost": 4983.99,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-01",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.7331,
+      "price": 109.8,
+      "proceeds": 5011.28,
+      "fees": 10.21,
+      "tax": 10.1,
+      "pnl": 17.19,
+      "pnl_pct": 0.34,
+      "entry_date": "2026-03-31",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-02",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 46.0874,
+      "price": 108.15,
+      "cost": 4984.35,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-03",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 46.0874,
+      "price": 108.15,
+      "proceeds": 4974.14,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-04-02",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-02-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-02-27",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLY": {
+          "shares": 42.8722,
+          "entry_price": 116.6257,
+          "current_price": 116.6257,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-02-27",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-02",
+      "cash": 99918.23,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99918.23,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-03",
+      "cash": 94912.37,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99908.28,
+      "positions": {
+        "XLY": {
+          "shares": 43.7736,
+          "entry_price": 114.1307,
+          "current_price": 114.1307,
+          "market_value": 4995.91,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-03",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-04",
+      "cash": 99957.71,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99957.71,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 99957.71,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99957.71,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 94949.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99947.76,
+      "positions": {
+        "XLY": {
+          "shares": 43.7603,
+          "entry_price": 114.2106,
+          "current_price": 114.2106,
+          "market_value": 4997.89,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-06",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 99944.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.1,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 94936.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99934.15,
+      "positions": {
+        "XLY": {
+          "shares": 45.2857,
+          "entry_price": 110.3483,
+          "current_price": 110.3483,
+          "market_value": 4997.2,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-18",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 99884.62,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99884.62,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 99884.62,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99884.62,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 94880.44,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99874.67,
+      "positions": {
+        "XLY": {
+          "shares": 45.3526,
+          "entry_price": 110.12,
+          "current_price": 110.12,
+          "market_value": 4994.23,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-23",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 99844.5,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99844.5,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 99844.5,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99844.5,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 94842.32,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99834.55,
+      "positions": {
+        "XLY": {
+          "shares": 45.8718,
+          "entry_price": 108.83,
+          "current_price": 108.83,
+          "market_value": 4992.22,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-26",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 99679.85,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99679.85,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 99679.85,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99679.85,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 94685.91,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99669.9,
+      "positions": {
+        "XLY": {
+          "shares": 45.7331,
+          "entry_price": 108.98,
+          "current_price": 108.98,
+          "market_value": 4983.99,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-31",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 99687.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99687.09,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 94692.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99677.14,
+      "positions": {
+        "XLY": {
+          "shares": 46.0874,
+          "entry_price": 108.15,
+          "current_price": 108.15,
+          "market_value": 4984.35,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-02",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99666.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.92,
+      "positions": {},
+      "sector": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-02-23",
+  "last_run": "2026-05-26",
+  "meta": {
+    "daily-spike-in-consumerstress-google-trends-for-rent-late-pa": {
+      "latest_value": 35.0,
+      "prior_avg": 52.7143,
+      "signal_change": -0.336,
+      "signal_label": "HOLD",
+      "name": "Daily Spike In Consumerstress Google Trends For Rent Late Payment Signals Financial Strain Impacting Discretionary Sector",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-26"
+    }
+  }
+}

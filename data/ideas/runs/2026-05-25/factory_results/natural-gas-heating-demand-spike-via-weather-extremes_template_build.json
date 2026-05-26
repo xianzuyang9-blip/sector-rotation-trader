@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-25/build/claude_natural-gas-heating-demand-spike-via-weather-extremes.md",
+  "out": "crazy/algos/natural_gas_heating_demand_spike_via_weather_extremes.py",
+  "adapter": "weather_series",
+  "idea_id": "natural-gas-heating-demand-spike-via-weather-extremes",
+  "name": "Natural Gas Heating Demand Spike Via Weather Extremes",
+  "universe": [
+    "XLE"
+  ],
+  "frequency": "daily",
+  "family": "macro_input_pressure",
+  "threshold": 0.1,
+  "direction": "up",
+  "hold_days": 7
+}

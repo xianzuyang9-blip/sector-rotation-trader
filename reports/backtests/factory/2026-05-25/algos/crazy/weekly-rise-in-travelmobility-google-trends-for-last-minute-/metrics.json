@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-rise-in-travelmobility-google-trends-for-last-minute-",
+  "name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "metrics": {},
+  "run_date": "2026-05-25"
+}

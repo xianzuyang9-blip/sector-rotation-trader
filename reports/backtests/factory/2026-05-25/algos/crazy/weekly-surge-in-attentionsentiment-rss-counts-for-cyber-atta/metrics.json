@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
+  "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-25"
+}
