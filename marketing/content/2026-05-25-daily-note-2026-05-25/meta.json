@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-05-25-daily-note-2026-05-25",
+  "product": "stockarithm",
+  "scheduled_date": "2026-05-25",
+  "scheduled_time": "09:30",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "title": "Daily lab note",
+  "slug": "daily-note-2026-05-25",
+  "theme": "daily_lab_note",
+  "source_report": "reports/deep_validation/latest.json",
+  "bundle_path": "marketing/content/2026-05-25-daily-note-2026-05-25",
+  "channels": {
+    "x": {
+      "status": "ready",
+      "file": "x.md",
+      "link_policy": "substack_cta"
+    },
+    "substack_note": {
+      "status": "ready",
+      "file": "substack_note.md",
+      "link_policy": "hook"
+    }
+  }
+}
