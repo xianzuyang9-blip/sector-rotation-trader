@@ -1,0 +1,135 @@
+{
+  "bundle_path": "marketing/content/2026-05-27-board-explainer",
+  "channels": {
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "substack_teaser",
+      "status": "ready"
+    },
+    "reddit": {
+      "link_policy": "no_links_in_body",
+      "status": "ready",
+      "subreddits": [
+        {
+          "file": "reddit_algotrading.md",
+          "first_comment_file": "reddit_algotrading_first_comment.txt",
+          "name": "algotrading",
+          "status": "ready",
+          "titles_file": "reddit_algotrading_titles.md"
+        },
+        {
+          "file": "reddit_investing.md",
+          "first_comment_file": "reddit_investing_first_comment.txt",
+          "name": "investing",
+          "status": "ready",
+          "titles_file": "reddit_investing_titles.md"
+        },
+        {
+          "file": "reddit_stocks.md",
+          "first_comment_file": "reddit_stocks_first_comment.txt",
+          "name": "stocks",
+          "status": "ready",
+          "titles_file": "reddit_stocks_titles.md"
+        },
+        {
+          "file": "reddit_quant.md",
+          "first_comment_file": "reddit_quant_first_comment.txt",
+          "name": "quant",
+          "status": "ready",
+          "titles_file": "reddit_quant_titles.md"
+        },
+        {
+          "file": "reddit_security_analysis.md",
+          "first_comment_file": "reddit_security_analysis_first_comment.txt",
+          "name": "security_analysis",
+          "status": "ready",
+          "titles_file": "reddit_security_analysis_titles.md"
+        }
+      ]
+    },
+    "substack": {
+      "canonical_url": "https://www.stockarithm.com",
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "x": {
+      "file": "x.md",
+      "link_policy": "substack_cta",
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "reddit_titles": {
+      "algotrading": [
+        "1 of 374 signals is beating SPY. Here is the full public board.",
+        "Quantified Simple Monthly Rotation is #1, but the more interesting number is 373 losing signals.",
+        "The label can be wrong and the signal can still work.",
+        "How I keep a public paper-trading board honest when most ideas fail",
+        "I built a public sector-rotation lab and kept every failure visible."
+      ],
+      "investing": [
+        "1 of 374 signals is beating SPY. Here is the full public board.",
+        "The label can be wrong and the signal can still work.",
+        "I built a public sector-rotation lab and kept every failure visible.",
+        "How to read the board \u2014 a public paper-trading lab for alternative data signals",
+        "Why I think visible losses matter more than pretty backtests"
+      ],
+      "quant": [
+        "1 of 374 signals is beating SPY. Here is the full public board.",
+        "374 paper-traded signals, 1 above SPY, and the sample size is still small",
+        "The label can be wrong and the signal can still work.",
+        "What a public sector-rotation lab can and cannot tell you",
+        "I built a public sector-rotation lab and kept every failure visible."
+      ],
+      "security_analysis": [
+        "1 of 374 signals is beating SPY. Here is the full public board.",
+        "The label can be wrong and the signal can still work.",
+        "How visible failures change the way I think about signal quality",
+        "Why a public alternative-data sector lab is really a thesis test",
+        "I built a public sector-rotation lab and kept every failure visible."
+      ],
+      "stocks": [
+        "1 of 374 signals is beating SPY. Here is the full public board.",
+        "The label can be wrong and the signal can still work.",
+        "One winner, a lot of losers, and a public board I can\u2019t hide",
+        "I built a public sector-rotation lab and kept every failure visible.",
+        "1 winner out of 374 signals. That is the whole story."
+      ]
+    },
+    "substack_note": {
+      "candidates": [
+        "One public board, 1 winner, 373 losers. That is the point.",
+        "Quantified Simple Monthly Rotation is still the cleanest winner, but the board is the better story.",
+        "StockArithm exists to keep the failures visible, not hide them.",
+        "The interesting part is not the winner; it is how the full board behaves."
+      ],
+      "selected": "One public board, 1 winner, 373 losers. That is the point."
+    },
+    "x": {
+      "candidates": [
+        "1 of 374 signals is beating SPY. The losers stay visible.",
+        "Quantified Simple Monthly Rotation is still #1, but the board is the real story.",
+        "The point of StockArithm is not a polished backtest. It is a public board.",
+        "How to read the board: the premise matters less than what the board keeps showing.",
+        "373 signals are not beating SPY. That is the part worth reading."
+      ],
+      "selected": "1 of 374 signals is beating SPY. The losers stay visible."
+    }
+  },
+  "post_id": "2026-05-27-board-explainer",
+  "product": "stockarithm",
+  "scheduled_date": "2026-05-27",
+  "scheduled_time": "09:30",
+  "slug": "board-explainer",
+  "source_report": "reports/deep_validation/latest.json",
+  "status": "ready",
+  "theme": "board_explainer",
+  "timezone": "America/New_York",
+  "title": "How to read the board"
+}

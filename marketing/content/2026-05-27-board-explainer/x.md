@@ -1,0 +1,1 @@
+1 of 374 signals beats SPY on force rank. The other 373? Still visible, still failing. Force rank shows all-time performance. Rolling 30D shows what's hot *now*. Same algo can rank #372 lifetime but #3 last month. That's the split that matters.
