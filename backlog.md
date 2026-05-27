@@ -4,6 +4,42 @@
 
 This is the backlog for features and product work that are explicitly out of scope for the May 15 free launch and should only be considered after the July 1 traction decision.
 
+## Pull Forward Before July 1
+
+These items are important enough to consider before the July 1 decision because they improve trust in the public board directly.
+
+### Live vs Backtest Divergence Check
+- Compare live paper-trading behavior with expected backtest behavior and surface material divergence early.
+- First version can stay narrow:
+  - flag large drift in fills, win rate, or realized return versus expected profile
+  - write a short plain-English note when divergence is obvious
+- Goal: catch "the backtest said one thing, live trading is doing another" before it becomes invisible trust debt.
+
+### Beta vs Alpha Warning Layer
+- Add a simple warning when a signal is mostly tracking SPY rather than adding differentiated behavior.
+- First version can rely on:
+  - alpha vs SPY
+  - correlation / similarity heuristics if already available
+  - plain-English warning copy on the page
+- Goal: stop users from confusing rented beta with real signal value.
+
+### Signal Failure Mode Tags
+- Add lightweight tags that explain why a signal may be weak even when it looks interesting at first glance.
+- First version tags:
+  - `low_sample`
+  - `regime_sensitive`
+  - `beta_like`
+  - `slippage_sensitive`
+- Goal: make the board easier to read without forcing the user to infer every caveat from raw stats.
+
+### Execution Cost Assumption Visibility
+- Make public assumptions about slippage, fees, and execution realism easier to find.
+- First version should expose:
+  - what the simulator assumes today
+  - where reality can diverge
+  - which results are especially sensitive to execution costs
+- Goal: reduce the "nice backtest, fake fills" objection before it becomes the default reaction.
+
 ## Premium Workflows
 
 ### Weekly Lab Notes Generator
