@@ -1,0 +1,163 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-electric-vehicle-battery-re",
+    "title": "Daily Spike In Google Trends For Electric Vehicle Battery Replacement Signals Emerging Consumer Tech Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-earthquake-activity-near-key-manufacturing-hu",
+    "title": "Daily Spike In Earthquake Activity Near Key Manufacturing Hubs Signals Short-term Supply Disruption",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-political-insider-filing-for-labor-union-acti",
+    "title": "Weekly Jump In Political Insider Filing For Labor Union Activity Predicts Labor-related Stock Volatility",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-industrial-equipment-breakd",
+    "title": "Daily Spike In Google Trends For Industrial Equipment Breakdown Signals Supply Chain Disruption",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-spike-for-food-delivery-delay-complaint",
+    "title": "Weekly Google Trends Spike For Food Delivery Delay Complaints Signals Consumer Service Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-warehouse-labor-shortage-s",
+    "title": "Weekly Surge In Google Trends For Warehouse Labor Shortage Signals Rising Labor Pressure",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-increase-in-rss-news-counts-for-freight-train-delays-",
+    "title": "Weekly Increase In Rss News Counts For Freight Train Delays Signals Logistic Sector Pressure",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-increase-in-freight-container-volume-at-port-of-savan",
+    "title": "Weekly Increase In Freight Container Volume At Port Of Savannah Signals Industrial Sector Strength",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-credit-card-fraud-alert-sign",
+    "title": "Daily Jump In Google Trends For Credit Card Fraud Alert Signals Rising Consumer Financial Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-home-internet-outage-signal",
+    "title": "Daily Surge In Google Trends For Home Internet Outage Signals Tech Sector Consumer Frustration",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-bank-branch-closures-signal",
+    "title": "Weekly Rise In Google Trends For Bank Branch Closures Signals Financial Sector Stress",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-weather-series-for-extreme-heatwaves-signals-",
+    "title": "Daily Spike In Weather Series For Extreme Heatwaves Signals Energy Demand Surge",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-rss-news-counts-for-corporate-layoff-announce",
+    "title": "Weekly Rise In Rss News Counts For Corporate Layoff Announcements Signals Labor Market Weakness",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earthquake-swarm-activity-spike-signals-infrastructure-insur",
+    "title": "Earthquake Swarm Activity Spike Signals Infrastructure Insurance Sector Volatility",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "wheat-corn-price-volatility-spike-from-usda-crop-condition-w",
+    "title": "Wheat Corn Price Volatility Spike From Usda Crop Condition Weekly Reports",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "political-insider-filing-concentration-on-healthcare-sector-",
+    "title": "Political Insider Filing Concentration On Healthcare Sector Signals Regulatory Shift",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airline-load-factor-weakness-from-bts-data-signals-travel-de",
+    "title": "Airline Load Factor Weakness From Bts Data Signals Travel Demand Fade",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "rss-news-count-spike-on-semiconductor-supply-chain-disruptio",
+    "title": "Rss News Count Spike On Semiconductor Supply Chain Disruptions Signals Xlk Volatility",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-rate-compression-signal-from-weekly-load-matching-da",
+    "title": "Freight Rate Compression Signal From Weekly Load Matching Data",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "natural-gas-demand-spike-from-cold-weather-pressure",
+    "title": "Natural Gas Demand Spike From Cold Weather Pressure",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-buildout-pace-acceleration-from-openchargemap-gro",
+    "title": "Ev Charger Buildout Pace Acceleration From Openchargemap Growth",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "google-trends-surge-in-pest-control-service-searches-signals",
+    "title": "Google Trends Surge In Pest Control Service Searches Signals Consumer Stress Healthcare Sector Demand",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "labor-market-weakness-signal-from-weekly-jobless-claims-mome",
+    "title": "Labor Market Weakness Signal From Weekly Jobless Claims Momentum Fade",
+    "family": "labor_jobs",
+    "score": 100
+  }
+]

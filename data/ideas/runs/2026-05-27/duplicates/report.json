@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-27",
+  "input_count": 25,
+  "kept_count": 23,
+  "duplicate_count": 2,
+  "kept_by_source": {
+    "chatgpt": 13,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+      "title": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Consumer Spending Spike",
+      "family": "travel_mobility",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for last minute vacation bookings signals travel demand spike",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-last-minute-vacation-booki",
+        "title": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Consumer Spending Spike",
+        "family": "travel_mobility",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "A sudden surge in last minute vacation booking searches often precedes increased consumer discretionary spending in travel and leisure. Increased travel interest drives higher spending on leisure and hospitality-related stocks.",
+        "data_sources": [
+          "Google Trends weekly data for 'last minute vacation bookings'"
+        ],
+        "signal_logic": "If weekly Google Trends for 'last minute vacation bookings' rises more than 30% vs prior 4-week average",
+        "entry_exit": "Entry: If weekly Google Trends for 'last minute vacation bookings' rises more than 30% vs prior 4-week average Exit: After 3 weeks or if the trend falls below its 4-week average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly data for 'last minute vacation bookings' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Seasonal and impulsive travel planning frequently spikes within weeks.",
+        "schema": {
+          "idea": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Consumer Spending Spike",
+          "family": "travel_mobility",
+          "data": {
+            "source": "Google Trends weekly data for 'last minute vacation bookings'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "A sudden surge in last minute vacation booking searches often precedes increased consumer discretionary spending in travel and leisure.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLY",
+            "rationale": "Increased travel interest drives higher spending on leisure and hospitality-related stocks."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'last minute vacation bookings' rises more than 30% vs prior 4-week average",
+            "exit": "After 3 weeks or if the trend falls below its 4-week average",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Seasonal and impulsive travel planning frequently spikes within weeks.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-spike-in-google-trends-for-emergency-plumbing-service-",
+      "title": "Daily Spike In Google Trends For Emergency Plumbing Service Signals Consumer Stress Lifting Home Improvement Demand",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.611,
+        "matched_title": "daily spike in google trends for emergency plumber near me signals consumer stress lifting home repair demand",
+        "matched_idea_id": "daily-spike-in-google-trends-for-emergency-plumber-near-me-s",
+        "matched_origin": "history:2026-05-20",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-spike-in-google-trends-for-emergency-plumbing-service-",
+        "title": "Daily Spike In Google Trends For Emergency Plumbing Service Signals Consumer Stress Lifting Home Improvement Demand",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Rises in emergency plumbing searches reflect urgent home repair stress, often preceding increased discretionary spending on home services. Home repair service demand supports consumer discretionary stocks focused on home improvement.",
+        "data_sources": [
+          "Google Trends daily data for 'emergency plumbing service'"
+        ],
+        "signal_logic": "If daily Google Trends for 'emergency plumbing service' exceeds 40% above 14-day average",
+        "entry_exit": "Entry: If daily Google Trends for 'emergency plumbing service' exceeds 40% above 14-day average Exit: After 5 trading days or when trend falls below 14-day average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily data for 'emergency plumbing service' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Emergency repair needs arise frequently and generate online search spikes.",
+        "schema": {
+          "idea": "Daily Spike In Google Trends For 'Emergency Plumbing Service' Signals Consumer Stress Lifting Home Improvement Demand",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily data for 'emergency plumbing service'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Rises in emergency plumbing searches reflect urgent home repair stress, often preceding increased discretionary spending on home services.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLY",
+            "rationale": "Home repair service demand supports consumer discretionary stocks focused on home improvement."
+          },
+          "trade_logic": {
+            "entry": "If daily Google Trends for 'emergency plumbing service' exceeds 40% above 14-day average",
+            "exit": "After 5 trading days or when trend falls below 14-day average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Emergency repair needs arise frequently and generate online search spikes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
