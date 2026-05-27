@@ -27,6 +27,7 @@ ALLOWLIST_FILES = [
     "docs/leaderboard.html",
     "docs/families.html",
     "docs/daily.html",
+    "docs/glossary.html",
     "docs/premium.html",
     "docs/legal.html",
     "docs/public-changelog.html",

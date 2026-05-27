@@ -211,6 +211,7 @@ def _site_links() -> str:
         ("/signals/index.html", "Signals"),
         ("/families.html", "Families"),
         ("/daily.html", "Daily Report"),
+        ("/glossary.html", "Glossary"),
         ("/premium.html", "Premium Preview"),
         ("/blog/index.html", "Blog"),
         ("/legal.html", "Legal"),
@@ -1115,8 +1116,8 @@ def build_landing(leaderboard: dict, daily: dict | None = None, rank_history: li
 <body>
   <header>
     <div class="hero-brand">StockArithm</div>
-    <h1>Alternative data signals, run in public.</h1>
-    <p class="hero-tagline">StockArithm is a public paper-trading lab for alternative data signals. Some are working. Some are failing. All of them stay visible.</p>
+    <h1>Most trading signals look good until they have to survive in public.</h1>
+    <p class="hero-tagline">StockArithm is a public paper-trading lab where the winners and losers stay visible.</p>
     <div class="hero-actions">
       <a class="cta" href="leaderboard.html">See the public leaderboard</a>
       <a class="cta" href="#waitlist">Get the weekly lab notes</a>
@@ -1135,10 +1136,18 @@ def build_landing(leaderboard: dict, daily: dict | None = None, rank_history: li
     </div>
 
     <div class="card" style="margin-bottom:16px;">
-      <h2>Start Here</h2>
-      <p>StockArithm is a public lab for alternative data signals.</p>
-      <p>We turn non-traditional inputs into trading ideas, test them honestly, and publish the results.</p>
-      <p>Some signals work. Some fail. We keep both visible.</p>
+      <h2>What You're Looking At</h2>
+      <p>StockArithm is a public paper-trading lab for market signals.</p>
+      <p>Each signal is a rule-based idea that tries to decide when a sector or market trade should outperform SPY. Some signals use standard momentum logic. Others use alternative data like TSA checkpoint traffic, freight activity, electricity demand, and search behavior.</p>
+      <p>The board shows which signals are actually holding up in public paper trading, not just which ones looked good in a backtest.</p>
+      <h3 style="margin-top:16px;">How to read the board</h3>
+      <ul>
+        <li><strong>Force Rank:</strong> full-window performance since the signal went live</li>
+        <li><strong>Rolling 30D:</strong> recent performance over the last 30 days</li>
+        <li><strong>SPY:</strong> the benchmark</li>
+        <li><strong>Visible failures:</strong> the losing signals stay on the board too</li>
+      </ul>
+      <p class="muted" style="margin-top:10px;">Need the terms in plain English? Start with the <a href="glossary.html" style="color:var(--accent);">glossary</a>.</p>
       <h3 style="margin-top:16px;">What to look at first</h3>
       <ul>
         <li><strong>Leaderboard:</strong> which signals are working right now</li>
@@ -1146,11 +1155,8 @@ def build_landing(leaderboard: dict, daily: dict | None = None, rank_history: li
         <li><strong>Daily Report:</strong> what changed after the nightly run</li>
         <li><strong>Families:</strong> what each signal family is trying to measure</li>
       </ul>
-      <h3 style="margin-top:16px;">How it works</h3>
-      <p>Idea -> signal -> backtest if we can -> live run if we can’t -> public result.</p>
-      <p>Signals can go idle. Signals that underperform can fail. We keep both visible.</p>
       <h3 style="margin-top:16px;">Why it matters</h3>
-      <p>The point is not hype. The point is to see which signals add something beyond price alone.</p>
+      <p>Most trading signals look good until they have to survive in public. StockArithm exists to show that survival test in real time.</p>
       <h3 style="margin-top:16px;">One example</h3>
       <p>If TSA volume spikes, the lab can turn that into a travel or consumer signal, run it against SPY, and show whether it actually helps.</p>
     </div>
@@ -1894,6 +1900,66 @@ def build_legal_page() -> str:
 </html>"""
 
 
+def build_glossary_page(daily: dict | None = None) -> str:
+    generated_at = (daily or {}).get("generated_at", "")
+    run_date = (daily or {}).get("run_date", "")
+    entries = [
+        ("Signal", "One rule-based trading idea on the board. Each row is a separate signal with its own logic and results."),
+        ("Force Rank", "Full-window performance since the signal went live. This is the long-view score, not the recent hot streak score."),
+        ("Rolling 30D", "Performance over the last 30 days. Useful for recent momentum, but it can disagree with the full-window view."),
+        ("SPY", "The S&P 500 ETF used as the benchmark. Signals have to beat this to claim they are adding value."),
+        ("Alpha vs SPY", "How much a signal outperformed or underperformed SPY over the same window."),
+        ("Paper-Traded", "Simulated trading with real market data and public rules, but not real money."),
+        ("Watchlist", "A signal worth monitoring, but not yet trusted enough to feature."),
+        ("Promoted", "A signal strong enough to highlight publicly based on current evidence."),
+        ("Graveyard", "A signal that failed badly enough to keep visible as a dead end."),
+        ("Alternative Data", "Non-price inputs like TSA traffic, freight activity, electricity demand, search behavior, or other real-world proxies."),
+        ("Visible Failure", "A core StockArithm rule: losing signals stay on the board instead of being hidden."),
+        ("Public Signal Count", "The total public inventory on the site. This can be larger than the force-ranked population because some rows are still collecting history."),
+    ]
+    rows = "\n".join(
+        f"<tr><td><strong>{_e(term)}</strong></td><td>{_e(desc)}</td></tr>"
+        for term, desc in entries
+    )
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StockArithm — Glossary</title>
+<style>{LANDING_CSS}
+  .table-wrap {{ overflow-x: auto; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; }}
+  table {{ width: 100%; border-collapse: collapse; background: rgba(255,255,255,0.02); }}
+  th, td {{ padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); vertical-align: top; text-align: left; }}
+  thead th {{ font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }}
+  tbody tr:last-child td {{ border-bottom: none; }}
+</style>
+</head>
+<body>
+  <header>
+    <h1 class="page-title">Glossary</h1>
+    <p>Plain-English definitions for the terms used across the StockArithm site.</p>
+    <div class="hero-actions">
+      <a class="cta" href="/leaderboard.html">See the public leaderboard</a>
+      <a class="cta" href="/landing.html">Back to home</a>
+    </div>
+  </header>
+  <div class="wrap">
+    <div class="card">
+      <h2>Core Terms</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Term</th><th>Meaning</th></tr></thead>
+          <tbody>{rows}</tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  {_footer_html(generated_at, run_date, "Glossary")}
+</body>
+</html>"""
+
+
 def _render_markdown_basic(markdown_text: str) -> str:
     parts = []
     in_list = False
@@ -2047,6 +2113,10 @@ def build_main():
     out_daily = REPO / "docs" / "daily.html"
     out_daily.write_text(build_daily_page(daily), encoding="utf-8")
     print(f"[pages] wrote {out_daily}")
+
+    out_glossary = REPO / "docs" / "glossary.html"
+    out_glossary.write_text(build_glossary_page(daily), encoding="utf-8")
+    print(f"[pages] wrote {out_glossary}")
 
     out_legal = REPO / "docs" / "legal.html"
     out_legal.write_text(build_legal_page(), encoding="utf-8")
