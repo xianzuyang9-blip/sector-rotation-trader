@@ -81,6 +81,20 @@
       "cost": 4989.7,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-27",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.7723,
+      "price": 121.55,
+      "proceeds": 5067.2,
+      "fees": 10.22,
+      "tax": 28.68,
+      "pnl": 48.83,
+      "pnl_pct": 0.98,
+      "entry_date": "2026-05-26",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1073,6 +1087,16 @@
       },
       "sector": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99832.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99832.84,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27"

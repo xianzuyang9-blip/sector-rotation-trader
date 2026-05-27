@@ -1,11 +1,31 @@
 {
-  "cash": 100000,
+  "cash": 94990.05,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 0.0,
+  "fees_paid": 9.95,
   "taxes_paid": 0.0,
-  "positions": {},
-  "trade_log": [],
+  "positions": {
+    "XLE": {
+      "shares": 87.73468771258536,
+      "entry_price": 56.9900016784668,
+      "entry_date": "2026-05-27",
+      "cost": 5000.0,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 87.7347,
+      "price": 56.99,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-01-23",
@@ -996,19 +1016,40 @@
       "positions": {},
       "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLE": {
+          "shares": 87.7347,
+          "entry_price": 56.99,
+          "current_price": 56.99,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "weekly-rise-in-google-trends-searches-for-gas-price-protest-": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-26",
-      "latest_value": 2.0,
-      "prior_avg": 2.75,
-      "signal_change": -0.2727
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-27",
+      "latest_value": 4.0,
+      "prior_avg": 1.6429,
+      "signal_change": 1.4348,
+      "entry_date": "2026-05-27"
     }
   }
 }

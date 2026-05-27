@@ -1,10 +1,19 @@
 {
-  "cash": 99740.97565009701,
+  "cash": 94743.97686759217,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 181.4249046645663,
+  "fees_paid": 191.3749046645663,
   "taxes_paid": 36.80019245044573,
-  "positions": {},
+  "positions": {
+    "XLI": {
+      "shares": 28.611868589720928,
+      "entry_price": 174.3000030517578,
+      "entry_date": "2026-05-27",
+      "cost": 4987.048782504851,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-03-16",
@@ -221,6 +230,16 @@
       "pnl_pct": -0.32,
       "entry_date": "2026-05-20",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.6119,
+      "price": 174.3,
+      "cost": 4987.05,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1403,20 +1422,40 @@
       "positions": {},
       "sector": "Electricity Enlightenment",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 94743.98,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99731.03,
+      "positions": {
+        "XLI": {
+          "shares": 28.6119,
+          "entry_price": 174.3,
+          "current_price": 174.3,
+          "market_value": 4987.05,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Electricity Enlightenment",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "electricity-enlightenment": {
-      "signal_label": "HOLD",
-      "latest_value": 10451789.0,
-      "prior_avg": 10715873.4357,
-      "signal_change": -0.0246,
-      "entry_date": "2026-05-20",
+      "signal_label": "RISK_ON",
+      "latest_value": 11214947.0,
+      "prior_avg": 10702754.5857,
+      "signal_change": 0.0479,
+      "entry_date": "2026-05-27",
       "name": "Electricity Enlightenment",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-26"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-27"
     }
   }
 }

@@ -696,19 +696,29 @@
       "positions": {},
       "sector": "Utilities Volatility Spike Long Hedge Trade",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Utilities Volatility Spike Long Hedge Trade",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-21",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "utilities-volatility-spike-long-hedge-trade": {
-      "latest_value": 45.33,
-      "prior_avg": 44.8,
-      "signal_change": 0.0118,
+      "latest_value": 45.14,
+      "prior_avg": 45.0475,
+      "signal_change": 0.0021,
       "signal_label": "HOLD",
       "name": "Utilities Volatility Spike Long Hedge Trade",
       "last_signal": "HOLD",
-      "last_run": "2026-05-26"
+      "last_run": "2026-05-27"
     }
   }
 }

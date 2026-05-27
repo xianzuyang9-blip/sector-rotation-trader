@@ -201,6 +201,20 @@
       "cost": 4989.06,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-27",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.7669,
+      "price": 121.55,
+      "proceeds": 5066.56,
+      "fees": 10.22,
+      "tax": 28.67,
+      "pnl": 48.82,
+      "pnl_pct": 0.98,
+      "entry_date": "2026-05-26",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1283,6 +1297,16 @@
       },
       "sector": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99820.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99820.1,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

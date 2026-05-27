@@ -1287,19 +1287,29 @@
       "positions": {},
       "sector": "Weekly Google Trends Surge In Fast Food Job Openings Signals Bullish Consumer Discretionary",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99588.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99588.51,
+      "positions": {},
+      "sector": "Weekly Google Trends Surge In Fast Food Job Openings Signals Bullish Consumer Discretionary",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-28",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "weekly-google-trends-surge-in-fast-food-job-openings-signals": {
       "latest_value": 0.0,
-      "prior_avg": 2.3571,
+      "prior_avg": 3.0714,
       "signal_change": -1.0,
-      "signal_label": "RISK_OFF",
+      "signal_label": "HOLD",
       "name": "Weekly Google Trends Surge In Fast Food Job Openings Signals Bullish Consumer Discretionary",
-      "last_signal": "RISK_OFF",
-      "last_run": "2026-05-26"
+      "last_signal": "HOLD",
+      "last_run": "2026-05-27"
     }
   }
 }

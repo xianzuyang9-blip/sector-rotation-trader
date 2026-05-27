@@ -1,10 +1,19 @@
 {
-  "cash": 99642.37688921238,
+  "cash": 94650.30804475176,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 302.4363429735694,
+  "fees_paid": 312.3863429735694,
   "taxes_paid": 27.22037131423759,
-  "positions": {},
+  "positions": {
+    "XLC": {
+      "shares": 42.853249207949446,
+      "entry_price": 116.26000213623047,
+      "entry_date": "2026-05-27",
+      "cost": 4982.11884446062,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-04-23",
@@ -365,6 +374,16 @@
       "pnl_pct": -0.13,
       "entry_date": "2026-05-25",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 42.8532,
+      "price": 116.26,
+      "cost": 4982.12,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1527,20 +1546,40 @@
       "positions": {},
       "sector": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 94650.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99632.43,
+      "positions": {
+        "XLC": {
+          "shares": 42.8532,
+          "entry_price": 116.26,
+          "current_price": 116.26,
+          "market_value": 4982.12,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-22",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "attention-sentiment-spike-daily-surge-in-news-rss-counts-men": {
-      "latest_value": 19.0,
-      "prior_avg": 3.6,
-      "signal_change": 4.2778,
-      "signal_label": "HOLD",
+      "latest_value": 20.0,
+      "prior_avg": 4.3333,
+      "signal_change": 3.6154,
+      "signal_label": "RISK_ON",
       "name": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-26",
-      "entry_date": "2026-05-25"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-27",
+      "entry_date": "2026-05-27"
     }
   }
 }

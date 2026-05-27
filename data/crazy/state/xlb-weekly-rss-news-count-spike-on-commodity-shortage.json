@@ -1,19 +1,10 @@
 {
-  "cash": 94716.36647987975,
+  "cash": 99707.22116901801,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 211.73664332503068,
-  "taxes_paid": 34.91266480528425,
-  "positions": {
-    "XLB": {
-      "shares": 97.77594508904728,
-      "entry_price": 50.9900016784668,
-      "entry_date": "2026-05-26",
-      "cost": 4985.595604204198,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 221.96618475353222,
+  "taxes_paid": 38.00133373481281,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-20",
@@ -264,6 +255,20 @@
       "cost": 4985.6,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-27",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 97.7759,
+      "price": 51.18,
+      "proceeds": 4993.94,
+      "fees": 10.23,
+      "tax": 3.09,
+      "pnl": 5.26,
+      "pnl_pct": 0.11,
+      "entry_date": "2026-05-26",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1466,19 +1471,29 @@
       },
       "sector": "Xlb Weekly Rss News Count Spike On Commodity Shortage",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99707.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99707.22,
+      "positions": {},
+      "sector": "Xlb Weekly Rss News Count Spike On Commodity Shortage",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "xlb-weekly-rss-news-count-spike-on-commodity-shortage": {
-      "latest_value": 3.0,
-      "prior_avg": 1.2,
-      "signal_change": 1.5,
-      "signal_label": "RISK_ON",
+      "latest_value": 2.0,
+      "prior_avg": 1.1429,
+      "signal_change": 0.75,
+      "signal_label": "HOLD",
       "name": "Xlb Weekly Rss News Count Spike On Commodity Shortage",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-26",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-27",
       "entry_date": "2026-05-26"
     }
   }

@@ -1,5 +1,16 @@
 {
-  "trade_log": [],
+  "trade_log": [
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.1353,
+      "price": 121.55,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-02-23",
@@ -680,6 +691,26 @@
       "positions": {},
       "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLY": {
+          "shares": 41.1353,
+          "entry_price": 121.55,
+          "current_price": 121.55,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-22"

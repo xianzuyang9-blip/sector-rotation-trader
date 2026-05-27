@@ -1638,6 +1638,35 @@
       },
       "sector": "Job Posting Acceleration",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 29980.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 104984.4,
+      "positions": {
+        "XLY": {
+          "shares": 296.4343,
+          "entry_price": 118.07,
+          "current_price": 121.55,
+          "market_value": 36031.59,
+          "unrealized_pnl": 1031.59,
+          "entry_date": "2026-05-05",
+          "margin": false
+        },
+        "XLK": {
+          "shares": 211.3144,
+          "entry_price": 165.63,
+          "current_price": 184.43,
+          "market_value": 38972.71,
+          "unrealized_pnl": 3972.71,
+          "entry_date": "2026-05-05",
+          "margin": false
+        }
+      },
+      "sector": "Job Posting Acceleration",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

@@ -359,6 +359,16 @@
       "pnl_pct": -0.13,
       "entry_date": "2026-05-25",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 42.8532,
+      "price": 116.26,
+      "cost": 4982.12,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1521,6 +1531,26 @@
       "positions": {},
       "sector": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 94650.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99632.43,
+      "positions": {
+        "XLC": {
+          "shares": 42.8532,
+          "entry_price": 116.26,
+          "current_price": 116.26,
+          "market_value": 4982.12,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-22"

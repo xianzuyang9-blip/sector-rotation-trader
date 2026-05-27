@@ -2009,6 +2009,35 @@
       },
       "sector": "Retail Sales Momentum",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 25197.53,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 106763.39,
+      "positions": {
+        "XLY": {
+          "shares": 340.1154,
+          "entry_price": 118.63,
+          "current_price": 121.55,
+          "market_value": 41341.03,
+          "unrealized_pnl": 993.14,
+          "entry_date": "2026-05-01",
+          "margin": false
+        },
+        "XLK": {
+          "shares": 218.1035,
+          "entry_price": 161.87,
+          "current_price": 184.43,
+          "market_value": 40224.82,
+          "unrealized_pnl": 4920.41,
+          "entry_date": "2026-05-01",
+          "margin": false
+        }
+      },
+      "sector": "Retail Sales Momentum",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

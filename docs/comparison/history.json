@@ -3620,5 +3620,125 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-05-27",
+    "generated_at": "2026-05-27T23:56:43.662309Z",
+    "comparators": {
+      "momentum_5d": {
+        "XLK": {
+          "direction": "UP",
+          "return_pct": 6.459,
+          "confidence": 1.0
+        },
+        "XLF": {
+          "direction": "UP",
+          "return_pct": 0.626,
+          "confidence": 0.125
+        },
+        "XLY": {
+          "direction": "UP",
+          "return_pct": 5.668,
+          "confidence": 1.0
+        },
+        "XLP": {
+          "direction": "DOWN",
+          "return_pct": -1.754,
+          "confidence": 0.351
+        },
+        "XLU": {
+          "direction": "UP",
+          "return_pct": 1.804,
+          "confidence": 0.361
+        },
+        "XLV": {
+          "direction": "UP",
+          "return_pct": 0.998,
+          "confidence": 0.2
+        },
+        "XLI": {
+          "direction": "UP",
+          "return_pct": 3.295,
+          "confidence": 0.659
+        },
+        "XLB": {
+          "direction": "UP",
+          "return_pct": 4.364,
+          "confidence": 0.873
+        },
+        "XLRE": {
+          "direction": "UP",
+          "return_pct": 1.57,
+          "confidence": 0.314
+        },
+        "XLC": {
+          "direction": "UP",
+          "return_pct": 0.354,
+          "confidence": 0.071
+        },
+        "XLE": {
+          "direction": "DOWN",
+          "return_pct": -7.016,
+          "confidence": 1.0
+        }
+      },
+      "momentum_20d": {
+        "XLK": {
+          "direction": "UP",
+          "return_pct": 16.839,
+          "confidence": 1.0
+        },
+        "XLF": {
+          "direction": "DOWN",
+          "return_pct": -0.829,
+          "confidence": 0.166
+        },
+        "XLY": {
+          "direction": "UP",
+          "return_pct": 3.88,
+          "confidence": 0.776
+        },
+        "XLP": {
+          "direction": "UP",
+          "return_pct": 1.805,
+          "confidence": 0.361
+        },
+        "XLU": {
+          "direction": "DOWN",
+          "return_pct": -2.4,
+          "confidence": 0.48
+        },
+        "XLV": {
+          "direction": "UP",
+          "return_pct": 3.441,
+          "confidence": 0.688
+        },
+        "XLI": {
+          "direction": "UP",
+          "return_pct": 1.942,
+          "confidence": 0.388
+        },
+        "XLB": {
+          "direction": "DOWN",
+          "return_pct": -0.428,
+          "confidence": 0.086
+        },
+        "XLRE": {
+          "direction": "UP",
+          "return_pct": 1.64,
+          "confidence": 0.328
+        },
+        "XLC": {
+          "direction": "UP",
+          "return_pct": 0.441,
+          "confidence": 0.088
+        },
+        "XLE": {
+          "direction": "DOWN",
+          "return_pct": -1.248,
+          "confidence": 0.25
+        }
+      }
+    }
   }
 ]

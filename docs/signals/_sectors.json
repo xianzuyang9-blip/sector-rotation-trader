@@ -1,19 +1,19 @@
 {
-  "generated": "2026-05-26",
+  "generated": "2026-05-27",
   "lab_started": "2026-01-11",
   "sectors": {
     "XLK": {
       "etf": "XLK",
       "sector": "Technology",
-      "composite": "14 of 42",
+      "composite": "9 of 52",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 33
+      "bullish_pct": 17
     },
     "XLV": {
       "etf": "XLV",
       "sector": "Healthcare",
-      "composite": "2 of 46",
+      "composite": "2 of 52",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 4
@@ -21,15 +21,15 @@
     "XLF": {
       "etf": "XLF",
       "sector": "Financial Services",
-      "composite": "1 of 44",
+      "composite": "2 of 50",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "XLY": {
       "etf": "XLY",
       "sector": "Consumer Cyclical",
-      "composite": "8 of 70",
+      "composite": "8 of 76",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 11
@@ -37,47 +37,47 @@
     "XLI": {
       "etf": "XLI",
       "sector": "Industrials",
-      "composite": "8 of 62",
+      "composite": "13 of 63",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 13
+      "bullish_pct": 21
     },
     "XLC": {
       "etf": "XLC",
       "sector": "Communication Services",
-      "composite": "0 of 41",
+      "composite": "1 of 46",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 0
+      "bullish_pct": 2
     },
     "XLP": {
       "etf": "XLP",
       "sector": "Consumer Defensive",
-      "composite": "7 of 45",
+      "composite": "9 of 50",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 16
+      "bullish_pct": 18
     },
     "XLE": {
       "etf": "XLE",
       "sector": "Energy",
-      "composite": "5 of 44",
+      "composite": "6 of 50",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 11
+      "bullish_pct": 12
     },
     "XLB": {
       "etf": "XLB",
       "sector": "Basic Materials",
-      "composite": "8 of 43",
+      "composite": "7 of 50",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 19
+      "bullish_pct": 14
     },
     "XLRE": {
       "etf": "XLRE",
       "sector": "Real Estate",
-      "composite": "1 of 41",
+      "composite": "1 of 47",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 2
@@ -85,10 +85,10 @@
     "XLU": {
       "etf": "XLU",
       "sector": "Utilities",
-      "composite": "6 of 51",
+      "composite": "8 of 56",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 12
+      "bullish_pct": 14
     }
   }
 }

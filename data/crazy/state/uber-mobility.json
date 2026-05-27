@@ -1,23 +1,23 @@
 {
-  "cash": 25200.00458884719,
+  "cash": 31351.222861793645,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 107.33624165058856,
-  "taxes_paid": 827.9839311123508,
+  "fees_paid": 151.38241602949557,
+  "taxes_paid": 3007.278753416557,
   "positions": {
-    "XLY": {
-      "shares": 340.14876739780834,
-      "entry_price": 118.62999725341797,
-      "entry_date": "2026-05-01",
-      "cost": 40351.84734215551,
+    "XLP": {
+      "shares": 494.53964187982666,
+      "entry_price": 84.58000183105469,
+      "entry_date": "2026-05-27",
+      "cost": 41828.16381572487,
       "using_margin": false,
       "consec_below_ma": 0
     },
-    "XLK": {
-      "shares": 218.12483776764535,
-      "entry_price": 161.8699951171875,
-      "entry_date": "2026-05-01",
-      "cost": 35307.86642438607,
+    "XLU": {
+      "shares": 694.9739319001344,
+      "entry_price": 45.13999938964844,
+      "entry_date": "2026-05-27",
+      "cost": 31371.122861793643,
       "using_margin": false,
       "consec_below_ma": 0
     }
@@ -136,6 +136,54 @@
       "shares": 218.1248,
       "price": 161.87,
       "cost": 35307.87,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-27",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 340.1488,
+      "price": 121.55,
+      "proceeds": 41332.96,
+      "fees": 12.12,
+      "tax": 363.01,
+      "pnl": 618.1,
+      "pnl_pct": 1.53,
+      "entry_date": "2026-05-01",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-27",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 218.1248,
+      "price": 184.43,
+      "proceeds": 40216.74,
+      "fees": 12.03,
+      "tax": 1816.28,
+      "pnl": 3092.59,
+      "pnl_pct": 8.76,
+      "entry_date": "2026-05-01",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLP",
+      "shares": 494.5396,
+      "price": 84.58,
+      "cost": 41828.16,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLU",
+      "shares": 694.9739,
+      "price": 45.14,
+      "cost": 31371.12,
       "margin": false,
       "fees": 9.95
     }
@@ -2232,21 +2280,50 @@
       },
       "sector": "Uber Mobility Index",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 31351.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 104550.51,
+      "positions": {
+        "XLP": {
+          "shares": 494.5396,
+          "entry_price": 84.58,
+          "current_price": 84.58,
+          "market_value": 41828.16,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 694.9739,
+          "entry_price": 45.14,
+          "current_price": 45.14,
+          "market_value": 31371.12,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Uber Mobility Index",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "uber-mobility": {
       "name": "Uber Mobility Index",
-      "last_run": "2026-05-26",
-      "mobility_index": 95,
-      "roc_4w": -0.0952,
-      "uber_interest": 82,
+      "last_run": "2026-05-27",
+      "mobility_index": 91,
+      "roc_4w": -0.1333,
+      "uber_interest": 78,
       "lyft_interest": 13,
-      "signal_label": "HOLD",
-      "signal_key": "HOLD",
-      "last_signal": "RISK_ON"
+      "signal_label": "RISK_OFF",
+      "signal_key": "RISK_OFF",
+      "last_signal": "RISK_OFF"
     }
   }
 }

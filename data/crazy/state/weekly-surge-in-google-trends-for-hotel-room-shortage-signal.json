@@ -1,19 +1,10 @@
 {
-  "cash": 94794.31637611742,
+  "cash": 99832.84315439711,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 70.43006567899474,
-  "taxes_paid": 0.0,
-  "positions": {
-    "XLY": {
-      "shares": 41.77227591294131,
-      "entry_price": 119.44999694824219,
-      "entry_date": "2026-05-26",
-      "cost": 4989.69823032197,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 80.64646837500347,
+  "taxes_paid": 28.67708372119554,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-14",
@@ -96,6 +87,20 @@
       "cost": 4989.7,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-27",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.7723,
+      "price": 121.55,
+      "proceeds": 5067.2,
+      "fees": 10.22,
+      "tax": 28.68,
+      "pnl": 48.83,
+      "pnl_pct": 0.98,
+      "entry_date": "2026-05-26",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1088,19 +1093,29 @@
       },
       "sector": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99832.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99832.84,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27",
-  "last_run": "2026-05-26",
+  "last_run": "2026-05-27",
   "meta": {
     "weekly-surge-in-google-trends-for-hotel-room-shortage-signal": {
-      "signal_label": "RISK_ON",
-      "latest_value": 5.0,
+      "signal_label": "HOLD",
+      "latest_value": 7.0,
       "prior_avg": 1.9286,
-      "signal_change": 1.5926,
+      "signal_change": 2.6296,
       "name": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-26",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-27",
       "entry_date": "2026-05-26"
     }
   }

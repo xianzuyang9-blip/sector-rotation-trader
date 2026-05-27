@@ -1087,6 +1087,16 @@
       "positions": {},
       "sector": "Weekly Google Trends Surge In Energy Bill Shock Signals Consumer Stress Impacting Utilities",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99772.53,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99772.53,
+      "positions": {},
+      "sector": "Weekly Google Trends Surge In Energy Bill Shock Signals Consumer Stress Impacting Utilities",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27"

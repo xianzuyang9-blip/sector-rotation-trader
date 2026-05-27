@@ -919,6 +919,16 @@
       "positions": {},
       "sector": "Renewable Energy Rss News Volume Surge",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 100006.29,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100006.29,
+      "positions": {},
+      "sector": "Renewable Energy Rss News Volume Surge",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-05"

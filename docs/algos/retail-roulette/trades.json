@@ -143,6 +143,16 @@
       "pnl_pct": -0.65,
       "entry_date": "2026-04-20",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-27",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.0997,
+      "price": 121.55,
+      "cost": 4995.67,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1295,6 +1305,26 @@
       "positions": {},
       "sector": "Retail Roulette",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 94907.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99903.48,
+      "positions": {
+        "XLY": {
+          "shares": 41.0997,
+          "entry_price": 121.55,
+          "current_price": 121.55,
+          "market_value": 4995.67,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Retail Roulette",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18"
