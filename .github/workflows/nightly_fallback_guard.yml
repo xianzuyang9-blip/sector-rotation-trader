@@ -34,36 +34,36 @@ jobs:
 
           export ET_DATE DAILY_JSON PREVIEW_JSON
           python - <<'PY'
-import json
-import os
-from datetime import datetime
-from zoneinfo import ZoneInfo
+          import json
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
 
-et_date = os.environ["ET_DATE"]
-et = ZoneInfo("America/New_York")
+          et_date = os.environ["ET_DATE"]
+          et = ZoneInfo("America/New_York")
 
-def classify(raw: str):
-    rows = json.loads(raw)
-    today = []
-    for row in rows:
-        created = row.get("createdAt")
-        if not created:
-            continue
-        dt = datetime.fromisoformat(created.replace("Z", "+00:00")).astimezone(et)
-        if dt.date().isoformat() == et_date:
-            today.append(row)
-    healthy = any(r.get("status") in {"queued", "in_progress"} or r.get("conclusion") == "success" for r in today)
-    return healthy, today
+          def classify(raw: str):
+              rows = json.loads(raw)
+              today = []
+              for row in rows:
+                  created = row.get("createdAt")
+                  if not created:
+                      continue
+                  dt = datetime.fromisoformat(created.replace("Z", "+00:00")).astimezone(et)
+                  if dt.date().isoformat() == et_date:
+                      today.append(row)
+              healthy = any(r.get("status") in {"queued", "in_progress"} or r.get("conclusion") == "success" for r in today)
+              return healthy, today
 
-daily_ok, daily_rows = classify(os.environ["DAILY_JSON"])
-preview_ok, preview_rows = classify(os.environ["PREVIEW_JSON"])
+          daily_ok, daily_rows = classify(os.environ["DAILY_JSON"])
+          preview_ok, preview_rows = classify(os.environ["PREVIEW_JSON"])
 
-with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-    fh.write(f"daily_ok={'true' if daily_ok else 'false'}\n")
-    fh.write(f"preview_ok={'true' if preview_ok else 'false'}\n")
-    fh.write(f"daily_seen={len(daily_rows)}\n")
-    fh.write(f"preview_seen={len(preview_rows)}\n")
-PY
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"daily_ok={'true' if daily_ok else 'false'}\n")
+              fh.write(f"preview_ok={'true' if preview_ok else 'false'}\n")
+              fh.write(f"daily_seen={len(daily_rows)}\n")
+              fh.write(f"preview_seen={len(preview_rows)}\n")
+          PY
 
       - name: Trigger fallback nightly run if missing or failed
         id: dispatch_daily
