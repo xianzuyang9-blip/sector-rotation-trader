@@ -1,0 +1,86 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-last-mile-delivery-delay-c",
+    "title": "Weekly Surge In Google Trends For Last-mile Delivery Delay Complaints Signals E-commerce Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-warehouse-worker-strike-sig",
+    "title": "Daily Spike In Google Trends For Warehouse Worker Strike Signals Labor Disruption In Industrials",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-freight-logistics-rss-counts-for-port-conges",
+    "title": "Weekly Surge In Freight Logistics Rss Counts For Port Congestion Mentions Signals Supply Chain Stress",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earnings-call-mention-spike-for-supply-chain-language-signal",
+    "title": "Earnings Call Mention Spike For Supply Chain Language Signals Industrial Headwind Bearish Rotation",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "grocery-price-inflation-google-trends-spike-triggers-consume",
+    "title": "Grocery Price Inflation Google Trends Spike Triggers Consumer Staples Rotation",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "crude-oil-volatility-spike-above-25-vix-equivalent-signals-e",
+    "title": "Crude Oil Volatility Spike Above 25 Vix Equivalent Signals Energy Sector Risk-off Trade",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "hotel-occupancy-rate-drop-signals-travel-sector-weakness-rot",
+    "title": "Hotel Occupancy Rate Drop Signals Travel Sector Weakness Rotation",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-installation-pace-acceleration-signals-green-ener",
+    "title": "Ev Charger Installation Pace Acceleration Signals Green Energy Capex Surge Bullish Xle Rotation",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "yield-curve-inversion-momentum-reversal-signals-risk-on-sent",
+    "title": "Yield Curve Inversion Momentum Reversal Signals Risk-on Sentiment Shift",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "regional-bank-stock-price-crash-triggers-financial-sector-ca",
+    "title": "Regional Bank Stock Price Crash Triggers Financial Sector Capitulation Buy Signal",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "shipping-container-spot-rate-surge-signals-freight-demand-st",
+    "title": "Shipping Container Spot Rate Surge Signals Freight Demand Strength",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "initial-jobless-claims-spike-above-4-week-average-signals-la",
+    "title": "Initial Jobless Claims Spike Above 4-week Average Signals Labor Weakness Rotation",
+    "family": "labor_jobs",
+    "score": 100
+  }
+]
