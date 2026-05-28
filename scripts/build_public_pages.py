@@ -1117,7 +1117,7 @@ def build_landing(leaderboard: dict, daily: dict | None = None, rank_history: li
   <header>
     <div class="hero-brand">StockArithm</div>
     <h1>Most trading signals look good until they have to survive in public.</h1>
-    <p class="hero-tagline">StockArithm is a public paper-trading lab where the winners and losers stay visible.</p>
+    <p class="hero-tagline">StockArithm runs sector ETF signals in public so you can see what's actually working — not what backtested well.</p>
     <div class="hero-actions">
       <a class="cta" href="leaderboard.html">See the public leaderboard</a>
       <a class="cta" href="#waitlist">Get the weekly lab notes</a>
