@@ -13,27 +13,52 @@ The goal is "a user can pay, get access, keep access correctly, and understand w
 - Premium app shell exists: `docs/app.html`
 - Premium teaser page exists: `docs/premium.html`
 - Stripe-backed entitlement flow exists in code, but is not yet proven end to end
-- Public messaging still says:
+- July 1 is a real paid launch
+- Public messaging is now behind reality and still says:
   - `No checkout yet. Waitlist first, paid launch July 1.`
 
 ## Launch Decision
 
 ### 1. Decide what July 1 means
-- [ ] Decide whether July 1 is:
-  - a real paid launch
-  - or a traction / readiness checkpoint
-- [ ] If it is not a real paid launch, update public copy so the site does not imply otherwise
+- [x] July 1 is a real paid launch
+- [ ] Update public copy so the site reflects a real paid path, not a preview-only state
 
 ## Paid Surface Definition
 
 ### 2. Lock the free vs paid boundary
-- [ ] Define exactly what stays free
-- [ ] Define exactly what becomes paid
-- [ ] Write one source-of-truth matrix for:
+- [x] Define exactly what stays free
+- [x] Define exactly what becomes paid
+- [x] Write one source-of-truth matrix for:
   - public page / endpoint
   - free or paid
   - current state
   - July 1 state
+
+#### Free vs Paid Matrix
+
+| Surface / Asset | Free | Paid | Current State | July 1 State | Repo Path / Endpoint | Match Status | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Homepage | Yes | No | Public | Public | `docs/index.html`, `docs/landing.html` | Already matches | Front-door explanation and proof stay public. |
+| Glossary | Yes | No | Public | Public | `docs/glossary.html` | Already matches | Needed for comprehension. |
+| Public Changelog | Yes | No | Public | Public | `docs/public-changelog.html` | Already matches | Trust layer. |
+| Algo Changelog | Yes | No | Public | Public | `docs/algo-changelog.html` | Already matches | Trust and lab evolution. |
+| Blog / selected public posts | Yes | No | Public | Public | `docs/blog/` | Already matches | Top-of-funnel content. |
+| Signal index | Yes | No | Public | Public | `docs/signals/index.html` | Already matches | Full inventory stays visible. |
+| Public signal summary pages | Yes | No | Public | Public | `docs/signals/*.html` | Already matches | Plain-English summaries stay free. |
+| Biscotti public page | Yes | No | Public | Public | `docs/biscotti.html` | Already matches | Flagship public proof page. |
+| Public leaderboard | Yes | Partial | Public stripped version exists | Keep stripped teaser public | `docs/leaderboard.html` | Needs change | Must stay teaser-only and avoid leaking full paid depth. |
+| Full leaderboard | No | Yes | Not yet wired behind paywall | Paid | `docs/app.html`, `/api/premium/leaderboard` | Missing | Paid member path needs real wiring. |
+| Public daily report | Yes | Partial | Public report exists | Keep lighter proof version public | `docs/daily.html` | Needs change | Needs explicit public-vs-paid split. |
+| Detailed daily report | No | Yes | Not yet split cleanly | Paid | `docs/daily.html`, `/api/premium/download/{kind}` or private artifact | Missing | Detailed version is not yet defined as a separate paid surface. |
+| Full algo dashboards/pages | No | Yes | Public files exist today | Move behind paywall | `docs/normal/*/index.html`, `docs/crazy/*/index.html`, `/api/premium/signal/{algo_id}` | Needs change | Public files should stop being publicly published. |
+| Biscotti full dashboard | No | Yes | Public Biscotti preview exists | Keep preview public, gate full dashboard depth | `docs/biscotti.html`, `docs/normal/biscotti/index.html` | Needs change | Keep preview page free; gate detailed dashboard. |
+| Weekly notes | No | Yes | Content system exists; paid path not wired | Paid | `marketing/content/*/substack.md`, `substack_note.md` | Missing | Need delivery model and entitlement gating. |
+| Premium summaries | No | Yes | Teased, not fully defined | Paid | `docs/premium.html`, premium artifacts TBD | Missing | Promise must be narrowed or implemented. |
+| Downloadable premium artifacts | No | Yes | API stubs exist | Paid if ready; otherwise defer | `/api/premium/download/{kind}` | Partial | Endpoint exists in code; actual private artifacts and entitlement path not proven. |
+| `/api/premium/leaderboard` | No | Yes | Code exists | Paid | `backend/stockarithm_api.py` | Partial | Needs deploy and end-to-end test. |
+| `/api/premium/signal/{algo_id}` | No | Yes | Code exists | Paid | `backend/stockarithm_api.py` | Partial | Needs deploy and real private artifact source. |
+| `/api/premium/ticker/{symbol}` | No | Yes | Code exists | Paid | `backend/stockarithm_api.py` | Partial | Needs deploy and end-to-end test. |
+| `/api/premium/download/{kind}` | No | Yes | Code exists | Paid | `backend/stockarithm_api.py` | Partial | Needs actual private files and access test. |
 
 ### 3. Confirm premium promise matches real assets
 - [ ] Verify the promised premium assets actually exist:
@@ -154,4 +179,3 @@ Current likely order of work:
 3. verify webhooks and entitlement persistence
 4. test the gated endpoints end to end
 5. reconcile `docs/premium.html` with reality
-

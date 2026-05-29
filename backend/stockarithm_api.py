@@ -350,4 +350,14 @@ def premium_download(kind: str, _: dict[str, Any] = Depends(_current_session)) -
                     if isinstance(trade, dict):
                         rows.append({"algo_type": algo_type, "algo_id": path.stem, **trade})
         return _csv_response("trade_history.csv", rows)
+    if kind == "daily_report_detailed":
+        report_path = PRIVATE_DIR / "daily_report_detailed.html"
+        if not report_path.exists():
+            raise HTTPException(status_code=404, detail="daily_report_not_found")
+        payload = io.BytesIO(report_path.read_bytes())
+        return StreamingResponse(
+            payload,
+            media_type="text/html; charset=utf-8",
+            headers={"Content-Disposition": 'attachment; filename="daily_report_detailed.html"'},
+        )
     raise HTTPException(status_code=404, detail="download_not_found")

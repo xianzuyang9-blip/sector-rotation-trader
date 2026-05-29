@@ -1932,17 +1932,17 @@ def build_families_page(families: dict, daily: dict) -> str:
 def build_daily_page(daily: dict) -> str:
     generated_at = daily.get("generated_at", "")
     run_date = daily.get("run_date", "")
-    top_rows = "".join(
-        f"<tr><td>{i}</td><td>{_e(item.get('name'))}</td><td>{_e(item.get('family'))}</td>"
-        f"<td class=\"{_ret_class(item.get('ytd_pct'))}\">{_fmt(item.get('ytd_pct'))}</td>"
-        f"<td class=\"vs-spy {'vs-spy-pos' if (item.get('alpha_pct') or -999) >= 0 else 'vs-spy-neg'}\">{_fmt(item.get('alpha_pct'))}</td></tr>"
-        for i, item in enumerate(daily.get("top_live_ytd", [])[:10], start=1)
-    ) or '<tr><td colspan="5">No daily leaders yet.</td></tr>'
+    top_live = (daily.get("top_live_ytd") or [])
+    leader = top_live[0] if top_live else {}
+    rolling_leaders = ((daily.get("rolling_30d") or {}).get("leaders", []) or [])[:3]
+    sector_html = _sector_heatmap_html(daily.get("sector_summary") or {})
+    counts = daily.get("counts") or {}
+
     rolling_rows = "".join(
         f"<li><strong>{_e(item.get('name'))}</strong> "
         f"<span class=\"{_ret_class(item.get('ret_30d_pct'))}\">{_fmt(item.get('ret_30d_pct'))}</span> "
         f"<span class=\"days\">vs SPY {_fmt(item.get('vs_spy_30d_pct'))}</span></li>"
-        for item in (daily.get("rolling_30d") or {}).get("leaders", [])[:10]
+        for item in rolling_leaders
     ) or "<li>No rolling 30D data yet.</li>"
 
     return f"""<!DOCTYPE html>
@@ -1961,9 +1961,9 @@ def build_daily_page(daily: dict) -> str:
 </head>
 <body>
 <div class="hero">
-  <div class="hero-badge">DAILY REPORT</div>
+  <div class="hero-badge">PUBLIC DAILY SNAPSHOT</div>
   <h1 class="daily-title">{_e(run_date)} nightly snapshot</h1>
-  <p class="hero-sub">What changed in the lab after the nightly run.</p>
+  <p class="hero-sub">Public proof that the lab is alive. The detailed daily report lives in the paid layer.</p>
 </div>
 {_pulse_block_html(daily)}
 <section>
@@ -1971,22 +1971,82 @@ def build_daily_page(daily: dict) -> str:
     <h2 class="section-title">Counts</h2>
     <p class="section-sub">Current product layer totals.</p>
     <div class="hero-stats">
-      <div class="hero-stat"><div class="num">{_e((daily.get('counts') or {}).get('total', 0))}</div><div class="label">Total</div></div>
-      <div class="hero-stat"><div class="num">{_e((daily.get('counts') or {}).get('watchlist', 0))}</div><div class="label">Watchlist</div></div>
-      <div class="hero-stat"><div class="num">{_e((daily.get('counts') or {}).get('promoted', 0))}</div><div class="label">Promoted</div></div>
-      <div class="hero-stat"><div class="num">{_e((daily.get('counts') or {}).get('graveyard', 0))}</div><div class="label">Graveyard</div></div>
+      <div class="hero-stat"><div class="num">{_e(counts.get('total', 0))}</div><div class="label">Total</div></div>
+      <div class="hero-stat"><div class="num">{_e(counts.get('watchlist', 0))}</div><div class="label">Watchlist</div></div>
+      <div class="hero-stat"><div class="num">{_e(counts.get('promoted', 0))}</div><div class="label">Promoted</div></div>
+      <div class="hero-stat"><div class="num">{_e(counts.get('graveyard', 0))}</div><div class="label">Graveyard</div></div>
     </div>
   </div>
 </section>
 <section>
   <div class="wrap">
-    <div class="rank-note">
-      <strong>Comparator note:</strong> The lab now tracks simple always-on baselines in `docs/comparison/`.
-      Today that means <code>momentum_5d</code> and <code>momentum_20d</code>.
-      They are there to answer one question: does a signal add anything beyond price momentum alone?
+    <h2 class="section-title">Top signal right now</h2>
+    <p class="section-sub">The current live leader, kept public as proof.</p>
+    <div class="card">
+      <p><strong>{_e(leader.get('name') or 'No live leader yet.')}</strong></p>
+      <p class="signal-note">Family: {_e(leader.get('family') or 'n/a')} &middot; Return: <span class="{_ret_class(leader.get('ytd_pct'))}">{_fmt(leader.get('ytd_pct'))}</span> &middot; Alpha vs SPY: <span class="vs-spy {'vs-spy-pos' if (leader.get('alpha_pct') or -999) >= 0 else 'vs-spy-neg'}">{_fmt(leader.get('alpha_pct'))}</span></p>
     </div>
   </div>
 </section>
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Recent rolling leaders</h2>
+    <p class="section-sub">A small public sample from the 30-day view.</p>
+    <ul class="daily-list">{rolling_rows}</ul>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Sector consensus</h2>
+    <p class="section-sub">Broad sector posture stays public. Full daily diagnostics become paid.</p>
+    <div class="sector-grid">{sector_html}</div>
+    <div class="rank-note" style="margin-top:18px;">
+      <strong>Paid layer:</strong> the full daily report includes the deeper board moves, fuller leader tables, and richer day-over-day interpretation.
+    </div>
+  </div>
+</section>
+{_footer_html(generated_at, run_date, "Daily report")}
+</body>
+</html>"""
+
+
+def build_detailed_daily_report(daily: dict) -> str:
+    generated_at = daily.get("generated_at", "")
+    run_date = daily.get("run_date", "")
+    top_rows = "".join(
+        f"<tr><td>{i}</td><td>{_e(item.get('name'))}</td><td>{_e(item.get('family'))}</td>"
+        f"<td class=\"{_ret_class(item.get('ytd_pct'))}\">{_fmt(item.get('ytd_pct'))}</td>"
+        f"<td class=\"vs-spy {'vs-spy-pos' if (item.get('alpha_pct') or -999) >= 0 else 'vs-spy-neg'}\">{_fmt(item.get('alpha_pct'))}</td></tr>"
+        for i, item in enumerate(daily.get("top_live_ytd", [])[:10], start=1)
+    ) or '<tr><td colspan="5">No daily leaders yet.</td></tr>'
+    rolling_rows = "".join(
+        f"<tr><td>{i}</td><td>{_e(item.get('name'))}</td>"
+        f"<td class=\"{_ret_class(item.get('ret_30d_pct'))}\">{_fmt(item.get('ret_30d_pct'))}</td>"
+        f"<td class=\"vs-spy {'vs-spy-pos' if (item.get('vs_spy_30d_pct') or -999) >= 0 else 'vs-spy-neg'}\">{_fmt(item.get('vs_spy_30d_pct'))}</td></tr>"
+        for i, item in enumerate((daily.get("rolling_30d") or {}).get("leaders", [])[:10], start=1)
+    ) or '<tr><td colspan="4">No rolling 30D data yet.</td></tr>'
+    sector_html = _sector_heatmap_html(daily.get("sector_summary") or {})
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StockArithm — Detailed Daily Report</title>
+<style>{REPORT_CSS}</style>
+<style>
+  .daily-title {{ color: var(--accent); }}
+  .wrap-table table {{ width: 100%; min-width: 0; table-layout: fixed; }}
+  .wrap-table th, .wrap-table td {{ white-space: normal; word-break: break-word; }}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-badge">PREMIUM DAILY REPORT</div>
+  <h1 class="daily-title">{_e(run_date)} detailed nightly report</h1>
+  <p class="hero-sub">Full daily depth for paying members.</p>
+</div>
+{_pulse_block_html(daily)}
 <section>
   <div class="wrap">
     <h2 class="section-title">Top Live YTD</h2>
@@ -2003,10 +2063,22 @@ def build_daily_page(daily: dict) -> str:
   <div class="wrap">
     <h2 class="section-title">Rolling 30D Leaders</h2>
     <p class="section-sub">Recent leaders over the last 30 days.</p>
-    <ul class="daily-list">{rolling_rows}</ul>
+    <div class="table-wrap wrap-table">
+      <table>
+        <thead><tr><th>#</th><th>Algorithm</th><th>30D Return</th><th>30D vs SPY</th></tr></thead>
+        <tbody>{rolling_rows}</tbody>
+      </table>
+    </div>
   </div>
 </section>
-{_footer_html(generated_at, run_date, "Daily report")}
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Sector consensus</h2>
+    <p class="section-sub">Full sector posture snapshot from the nightly run.</p>
+    <div class="sector-grid">{sector_html}</div>
+  </div>
+</section>
+{_footer_html(generated_at, run_date, "Detailed daily report")}
 </body>
 </html>"""
 
@@ -2279,6 +2351,15 @@ def build_main():
     out_daily = REPO / "docs" / "daily.html"
     out_daily.write_text(build_daily_page(daily), encoding="utf-8")
     print(f"[pages] wrote {out_daily}")
+
+    private_dir = REPO / "private_artifacts"
+    private_dir.mkdir(parents=True, exist_ok=True)
+    out_detailed_daily = private_dir / "daily_report_detailed.html"
+    out_detailed_daily.write_text(build_detailed_daily_report(daily), encoding="utf-8")
+    print(f"[pages] wrote {out_detailed_daily}")
+    out_detailed_daily_json = private_dir / "daily_report_detailed.json"
+    out_detailed_daily_json.write_text(json.dumps(daily, indent=2) + "\n", encoding="utf-8")
+    print(f"[pages] wrote {out_detailed_daily_json}")
 
     out_glossary = REPO / "docs" / "glossary.html"
     out_glossary.write_text(build_glossary_page(daily), encoding="utf-8")
