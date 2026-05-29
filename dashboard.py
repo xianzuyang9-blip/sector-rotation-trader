@@ -700,7 +700,7 @@ def generate_dashboard(state: dict, current_px: dict, sector: str,
       <a href="/families.html">Families</a><span class="footer-sep">&middot;</span>
       <a href="/daily.html">Daily Report</a><span class="footer-sep">&middot;</span>
       <a href="/how-it-works.html">How It Works</a><span class="footer-sep">&middot;</span>
-      <a href="/premium.html">Premium Preview</a><span class="footer-sep">&middot;</span>
+      <a href="/premium.html">Premium</a><span class="footer-sep">&middot;</span>
       <a href="/blog/index.html">Blog</a><span class="footer-sep">&middot;</span>
       <a href="/legal.html">Legal</a><span class="footer-sep">&middot;</span>
       <a href="/public-changelog.html">Public Changelog</a><span class="footer-sep">&middot;</span>

@@ -257,7 +257,7 @@ def _site_links() -> str:
         ("/families.html", "Families"),
         ("/daily.html", "Daily Report"),
         ("/glossary.html", "Glossary"),
-        ("/premium.html", "Premium Preview"),
+        ("/premium.html", "Premium"),
         ("/blog/index.html", "Blog"),
         ("/legal.html", "Legal"),
         ("/public-changelog.html", "Public Changelog"),
@@ -1584,15 +1584,15 @@ def build_premium(daily: dict, leaderboard: dict) -> str:
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>StockArithm \u2014 Premium Preview</title>
+<title>StockArithm \u2014 Premium</title>
 <style>{PREMIUM_CSS}</style>
 </head>
 <body>
 
 <div class="hero">
-  <div class="hero-badge">PREMIUM PREVIEW</div>
+  <div class="hero-badge">PREMIUM</div>
   <h1><span>July 1</span> premium launch</h1>
-  <p class="hero-sub">May 15 is free public launch. July 1 adds the paid operating layer.</p>
+  <p class="hero-sub">The free site proves the lab is real. Premium unlocks the usable operating layer.</p>
   <div class="hero-stats">
     <div class="hero-stat">
       <div class="num">{_e(total)}</div>
@@ -1607,14 +1607,14 @@ def build_premium(daily: dict, leaderboard: dict) -> str:
       <div class="label">Watchlist</div>
     </div>
   </div>
-  <a class="cta" href="landing.html#waitlist">Get the weekly notes</a>
-  <span class="cta-sub">No checkout yet. Waitlist first, paid launch July 1.</span>
+  <a class="cta" href="app.html">Open the premium app</a>
+  <span class="cta-sub">Checkout, unlock, and entitlement enforcement still need to be wired end to end before launch day.</span>
 </div>
 
 <section>
   <div class="wrap">
     <h2 class="section-title">What Premium Will Add</h2>
-    <p class="section-sub">This page is a teaser, not a gated member area yet.</p>
+    <p class="section-sub">This page defines the paid surface. The member UI lives in `app.html`.</p>
     <div class="hero-stats" style="justify-content:center; gap:20px; margin:0 0 24px;">
       <div class="hero-stat">
         <div class="num">{_e(promoted)}</div>
@@ -1632,7 +1632,7 @@ def build_premium(daily: dict, leaderboard: dict) -> str:
     <div class="rank-note">
       <strong>Free on May 15:</strong> blog, stripped leaderboard, families, promoted/watchlist summaries, graveyard, public daily report, and public ticker pages.
       <br>
-      <strong>Paid on July 1:</strong> full leaderboard, full per-algo detail, full per-ticker detail, trade history, equity curves, and premium summaries.
+      <strong>Paid on July 1:</strong> full leaderboard, detailed daily report, full per-algo detail, trade history, equity curves, and weekly notes.
     </div>
   </div>
 </section>
@@ -1649,8 +1649,8 @@ def build_premium(daily: dict, leaderboard: dict) -> str:
 
 <section>
   <div class="wrap">
-    <h2 class="section-title">Premium Preview <span class="premium-badge">COMING LATER</span></h2>
-    <p class="section-sub">Preview of the table shape. The live paid layer does not launch until July 1.</p>
+    <h2 class="section-title">Premium Table Shape</h2>
+    <p class="section-sub">Preview of the full leaderboard structure members will use.</p>
     <div class="rank-note">
       <strong>Force rank</strong> = full-window/since-seed return. <strong>Rolling 30D</strong> = trailing 30-day return.
       <code>Family</code> = strategy category. <code>Evidence</code> = validation status.
@@ -1671,8 +1671,8 @@ def build_premium(daily: dict, leaderboard: dict) -> str:
       </table>
     </div>
     <div style="margin-top:18px; text-align:center;">
-      <a class="cta" href="landing.html#waitlist">Get the weekly notes</a>
-      <span class="cta-sub">Free launch first. Paid layer starts July 1.</span>
+      <a class="cta" href="app.html">Open the premium app</a>
+      <span class="cta-sub">The member UI is live. Checkout and entitlement wiring still need to be completed correctly.</span>
     </div>
   </div>
 </section>
@@ -2056,6 +2056,9 @@ def build_detailed_daily_report(daily: dict) -> str:
         <thead><tr><th>#</th><th>Algorithm</th><th>Family</th><th>Return</th><th>Alpha vs SPY</th></tr></thead>
         <tbody>{top_rows}</tbody>
       </table>
+    </div>
+    <div class="rank-note" style="margin-top:18px;">
+      <strong>Current implementation note:</strong> the static member UI exists now, but the real paid path still depends on Stripe checkout, unlock, webhook handling, and backend deployment being completed correctly.
     </div>
   </div>
 </section>

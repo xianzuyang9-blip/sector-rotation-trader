@@ -115,6 +115,19 @@ Files involved:
   - `invoice.paid`
 - [ ] Confirm duplicate event replay is safe
 
+### 8a. Run the real paid-path test
+- [ ] Create a real Stripe checkout session from the production premium CTA
+- [ ] Complete checkout with a controlled test customer
+- [ ] Confirm success redirects to `/unlock?session_id=...`
+- [ ] Confirm `/unlock` sets the signed session cookie and redirects to `app.html`
+- [ ] Confirm `GET /api/me/status` returns `authenticated=true` and `entitled=true`
+- [ ] Confirm `GET /api/premium/leaderboard` loads in `docs/app.html`
+- [ ] Confirm `GET /api/premium/daily-report` loads in `docs/app.html`
+- [ ] Confirm `GET /api/premium/download/daily_report_detailed` succeeds for the entitled user
+- [ ] Confirm the matching Stripe webhook events were received and recorded
+- [ ] Confirm a browser without the cookie is denied correctly
+- [ ] Cancel the subscription and confirm access is removed on the next entitlement check
+
 ## Premium API
 
 ### 9. Verify gated endpoints

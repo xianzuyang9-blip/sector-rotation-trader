@@ -25,22 +25,37 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, RedirectResponse, StreamingResponse
 
 ROOT = Path(__file__).resolve().parents[1]
+APP_ENV = os.getenv("APP_ENV", "dev").strip().lower()
 PUBLIC_DIR = Path(os.getenv("PUBLIC_ARTIFACT_DIR", ROOT / "docs" / "data" / "public"))
 PRIVATE_DIR = Path(os.getenv("PRIVATE_ARTIFACT_DIR", ROOT / "private_artifacts"))
 ENTITLEMENTS_PATH = Path(os.getenv("ENTITLEMENTS_PATH", ROOT / "data" / "premium" / "entitlements.json"))
 PROCESSED_EVENTS_PATH = Path(os.getenv("PROCESSED_EVENTS_PATH", ROOT / "data" / "premium" / "stripe_events.json"))
 SESSION_COOKIE = os.getenv("SESSION_COOKIE", "stockarithm_session")
 SESSION_TTL_SECONDS = int(os.getenv("SESSION_TTL_SECONDS", str(31 * 24 * 60 * 60)))
-JWT_SECRET = os.getenv("JWT_SECRET") or os.getenv("PREMIUM_JWT_SECRET") or "dev-only-change-me"
-STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY", "")
-STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET", "")
 APP_URL = os.getenv("APP_URL", "https://stockarithm.com/app.html")
 COOKIE_DOMAIN = os.getenv("COOKIE_DOMAIN", "")
 COOKIE_SECURE = os.getenv("COOKIE_SECURE", "true").lower() != "false"
 
+
+def _env_required(*names: str, allow_dev_default: str | None = None) -> str:
+    for name in names:
+        value = os.getenv(name, "").strip()
+        if value:
+            return value
+    if APP_ENV == "dev" and allow_dev_default is not None:
+        return allow_dev_default
+    joined = ", ".join(names)
+    raise RuntimeError(f"Missing required environment variable(s): {joined}")
+
+
+JWT_SECRET = _env_required("JWT_SECRET", "PREMIUM_JWT_SECRET", allow_dev_default="dev-only-change-me")
+STRIPE_SECRET_KEY = _env_required("STRIPE_SECRET_KEY", allow_dev_default="")
+STRIPE_WEBHOOK_SECRET = _env_required("STRIPE_WEBHOOK_SECRET", allow_dev_default="")
+
 app = FastAPI(title="Stockarithm Premium API", version="0.1.0")
 
-allowed_origins = [o.strip() for o in os.getenv("CORS_ORIGINS", "https://stockarithm.com,http://localhost:8000,http://127.0.0.1:8000").split(",") if o.strip()]
+default_cors = "https://stockarithm.com,http://localhost:8000,http://127.0.0.1:8000" if APP_ENV == "dev" else "https://stockarithm.com"
+allowed_origins = [o.strip() for o in os.getenv("CORS_ORIGINS", default_cors).split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
