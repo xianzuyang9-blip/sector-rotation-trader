@@ -1,0 +1,170 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-google-trends-for-sudden-unemployment-claims",
+    "title": "Weekly Spike In Google Trends For Sudden Unemployment Claims Searches",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-rss-counts-for-freight-volume-delays",
+    "title": "Daily Surge In Rss Counts For Freight Volume Delays",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-truck-driver-shortage",
+    "title": "Daily Jump In Google Trends For Truck Driver Shortage",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-earthquake-activity-in-major-port-regions",
+    "title": "Daily Spike In Earthquake Activity In Major Port Regions",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-mortgage-refinance-rates-risi",
+    "title": "Weekly Google Trends Surge For Mortgage Refinance Rates Rising",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-solar-panel-installation-del",
+    "title": "Daily Jump In Google Trends For Solar Panel Installation Delay",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-electric-vehicle-charging-sta",
+    "title": "Weekly Google Trends Surge For Electric Vehicle Charging Station Near Me",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-rss-counts-for-political-insider-trading-fili",
+    "title": "Daily Surge In Rss Counts For Political Insider Trading Filings",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-emergency-auto-repair-near-",
+    "title": "Daily Surge In Google Trends For Emergency Auto Repair Near Me",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-home-moving-services-searches",
+    "title": "Weekly Google Trends Surge For Home Moving Services Searches",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-home-renovation-loan",
+    "title": "Weekly Rise In Google Trends For Home Renovation Loan",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-warehouse-worker-strike",
+    "title": "Weekly Rise In Google Trends For Warehouse Worker Strike",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-restaurant-reservations-searc",
+    "title": "Weekly Google Trends Surge For Restaurant Reservations Searches",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-overtime-work-near-me",
+    "title": "Daily Surge In Google Trends For Overtime Work Near Me",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "healthcare-cost-shock-search-spike-signals-xlv-weakness",
+    "title": "Healthcare Cost Shock Search Spike Signals Xlv Weakness",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "extreme-weather-events-drive-insurance-claim-filings-sentime",
+    "title": "Extreme Weather Events Drive Insurance Claim Filings Sentiment",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "grocery-price-inflation-spike-drives-staples-rotation",
+    "title": "Grocery Price Inflation Spike Drives Staples Rotation",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "cloud-outage-spike-news-drives-cybersecurity-sentiment-surge",
+    "title": "Cloud Outage Spike News Drives Cybersecurity Sentiment Surge",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-network-density-expansion-signals-infrastructure-",
+    "title": "Ev Charger Network Density Expansion Signals Infrastructure Thesis",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "mortgage-rate-shock-breadcrumb-sell-in-financials",
+    "title": "Mortgage Rate Shock Breadcrumb Sell In Financials",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "job-posting-collapse-precedes-unemployment-spike",
+    "title": "Job Posting Collapse Precedes Unemployment Spike",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "commercial-vehicle-freight-tonnage-collapse-signals-recessio",
+    "title": "Commercial Vehicle Freight Tonnage Collapse Signals Recession Risk",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "used-car-price-index-reversal-signals-consumer-credit-relief",
+    "title": "Used Car Price Index Reversal Signals Consumer Credit Relief",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ppi-input-cost-surge-crushes-materials-futures",
+    "title": "Ppi Input Cost Surge Crushes Materials Futures",
+    "family": "macro_input_pressure",
+    "score": 100
+  }
+]

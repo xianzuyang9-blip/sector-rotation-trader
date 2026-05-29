@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-29",
+  "input_count": 25,
+  "kept_count": 24,
+  "duplicate_count": 1,
+  "kept_by_source": {
+    "chatgpt": 14,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
+      "title": "Daily Spike In Rss Counts For Corporate Layoff Announcements",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily spike in rss counts for corporate layoff announcements signals consumer discretionary headwind",
+        "matched_idea_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
+        "title": "Daily Spike In Rss Counts For Corporate Layoff Announcements",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spike in layoff announcements signals worsening labor market conditions and potential consumer demand contraction. Consumer discretionary stocks often underperform amid rising unemployment risks.",
+        "data_sources": [
+          "RSS news feed counts for corporate layoffs"
+        ],
+        "signal_logic": "Enter short XLY when daily RSS counts for layoffs rise 35% above 10-day average",
+        "entry_exit": "Entry: Enter short XLY when daily RSS counts for layoffs rise 35% above 10-day average Exit: Exit after 7 trading days or when counts revert below 10% above average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use RSS news feed counts for corporate layoffs via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Layoff news often clusters around earnings and economic reports, generating multiple spikes yearly.",
+        "schema": {
+          "idea": "Daily Spike In RSS Counts For Corporate Layoff Announcements",
+          "family": "labor_jobs",
+          "data": {
+            "source": "RSS news feed counts for corporate layoffs",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spike in layoff announcements signals worsening labor market conditions and potential consumer demand contraction.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLY",
+            "rationale": "Consumer discretionary stocks often underperform amid rising unemployment risks."
+          },
+          "trade_logic": {
+            "entry": "Enter short XLY when daily RSS counts for layoffs rise 35% above 10-day average",
+            "exit": "Exit after 7 trading days or when counts revert below 10% above average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Layoff news often clusters around earnings and economic reports, generating multiple spikes yearly.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
