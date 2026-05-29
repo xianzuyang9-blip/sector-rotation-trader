@@ -27,6 +27,8 @@ docker run --rm -p 8080:8080 \
 
 Railway can deploy this directly from `backend/Dockerfile`.
 
+Use `backend/RAILWAY_DEPLOY_CHECKLIST.md` as the operator checklist before calling the deploy real.
+
 ## Required Env For Stripe Test Mode
 
 ```bash
