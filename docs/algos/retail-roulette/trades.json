@@ -153,6 +153,20 @@
       "cost": 4995.67,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.0997,
+      "price": 122.06,
+      "proceeds": 5006.42,
+      "fees": 10.21,
+      "tax": 3.98,
+      "pnl": 6.77,
+      "pnl_pct": 0.14,
+      "entry_date": "2026-05-27",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1325,6 +1339,16 @@
       },
       "sector": "Retail Roulette",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99910.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.25,
+      "positions": {},
+      "sector": "Retail Roulette",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"

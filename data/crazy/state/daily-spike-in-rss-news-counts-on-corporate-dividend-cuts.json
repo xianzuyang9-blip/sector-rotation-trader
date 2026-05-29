@@ -1,19 +1,10 @@
 {
-  "cash": 94942.0870487611,
+  "cash": 99914.75620282856,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 90.6680996446389,
+  "fees_paid": 100.89640131913022,
   "taxes_paid": 8.265330506607507,
-  "positions": {
-    "XLF": {
-      "shares": 97.18933901408627,
-      "entry_price": 51.41999816894531,
-      "entry_date": "2026-05-27",
-      "cost": 4997.475634145321,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-20",
@@ -120,6 +111,20 @@
       "cost": 4997.48,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.1893,
+      "price": 51.27,
+      "proceeds": 4972.67,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -24.81,
+      "pnl_pct": -0.5,
+      "entry_date": "2026-05-27",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -942,19 +947,29 @@
       },
       "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99914.76,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99914.76,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-18",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "daily-spike-in-rss-news-counts-on-corporate-dividend-cuts": {
-      "latest_value": 10.0,
-      "prior_avg": 1.6,
-      "signal_change": 5.25,
-      "signal_label": "RISK_ON",
+      "latest_value": 5.0,
+      "prior_avg": 1.8333,
+      "signal_change": 1.7273,
+      "signal_label": "HOLD",
       "name": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-27",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-28",
       "entry_date": "2026-05-27"
     }
   }

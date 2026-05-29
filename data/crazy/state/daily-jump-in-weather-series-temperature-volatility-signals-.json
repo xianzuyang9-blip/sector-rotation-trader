@@ -696,19 +696,29 @@
       "positions": {},
       "sector": "Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "daily-jump-in-weather-series-temperature-volatility-signals-": {
       "signal_label": "HOLD",
-      "latest_value": 11214947.0,
-      "prior_avg": 10685625.0857,
-      "signal_change": 0.0495,
+      "latest_value": 11386659.0,
+      "prior_avg": 10556756.4,
+      "signal_change": 0.0786,
       "name": "Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

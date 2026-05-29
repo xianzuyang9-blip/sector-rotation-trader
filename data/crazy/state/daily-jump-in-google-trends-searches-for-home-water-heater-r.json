@@ -1,10 +1,19 @@
 {
-  "cash": 99385.03010424087,
+  "cash": 94405.82859902883,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 282.2595890280033,
+  "fees_paid": 292.2095890280033,
   "taxes_paid": 36.26251401393306,
-  "positions": {},
+  "positions": {
+    "XLY": {
+      "shares": 40.711548456541635,
+      "entry_price": 122.05999755859375,
+      "entry_date": "2026-05-29",
+      "cost": 4969.251505212043,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-02-02",
@@ -341,6 +350,16 @@
       "pnl_pct": -0.21,
       "entry_date": "2026-05-01",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 40.7115,
+      "price": 122.06,
+      "cost": 4969.25,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1423,19 +1442,40 @@
       "positions": {},
       "sector": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94405.83,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99375.08,
+      "positions": {
+        "XLY": {
+          "shares": 40.7115,
+          "entry_price": 122.06,
+          "current_price": 122.06,
+          "market_value": 4969.25,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-29",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "daily-jump-in-google-trends-searches-for-home-water-heater-r": {
-      "latest_value": 16.0,
-      "prior_avg": 18.8571,
-      "signal_change": -0.1515,
-      "signal_label": "HOLD",
+      "latest_value": 20.0,
+      "prior_avg": 15.7143,
+      "signal_change": 0.2727,
+      "signal_label": "RISK_ON",
       "name": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-28",
+      "entry_date": "2026-05-28"
     }
   }
 }

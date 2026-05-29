@@ -1056,19 +1056,29 @@
       "positions": {},
       "sector": "Materials Sector Weekly Volatility Contraction Breakout",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Materials Sector Weekly Volatility Contraction Breakout",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-20",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "materials-sector-weekly-volatility-contraction-breakout": {
-      "latest_value": 51.18,
-      "prior_avg": 51.0563,
-      "signal_change": 0.0024,
+      "latest_value": 51.36,
+      "prior_avg": 51.0679,
+      "signal_change": 0.0057,
       "signal_label": "HOLD",
       "name": "Materials Sector Weekly Volatility Contraction Breakout",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

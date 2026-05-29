@@ -2156,14 +2156,43 @@
       },
       "sector": "Copper Momentum",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 19857.15,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99543.0,
+      "positions": {
+        "XLB": {
+          "shares": 870.9516,
+          "entry_price": 51.35,
+          "current_price": 51.36,
+          "market_value": 44732.07,
+          "unrealized_pnl": 8.71,
+          "entry_date": "2026-05-01",
+          "margin": false
+        },
+        "XLI": {
+          "shares": 201.1149,
+          "entry_price": 172.96,
+          "current_price": 173.8,
+          "market_value": 34953.77,
+          "unrealized_pnl": 168.94,
+          "entry_date": "2026-05-01",
+          "margin": false
+        }
+      },
+      "sector": "Copper Momentum",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "copper-momentum": {
       "name": "Copper Momentum",
-      "last_run": "2026-05-27",
+      "last_run": "2026-05-28",
       "series_id": "PCOPPUSDM",
       "copper_3m_chg": 0.0626,
       "signal_label": "GLOBAL_GROWTH",

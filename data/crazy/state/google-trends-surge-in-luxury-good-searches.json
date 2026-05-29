@@ -961,20 +961,30 @@
       "positions": {},
       "sector": "Google Trends Surge In Luxury Good Searches",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99979.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99979.84,
+      "positions": {},
+      "sector": "Google Trends Surge In Luxury Good Searches",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-01",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "google-trends-surge-in-luxury-good-searches": {
       "signal_label": "HOLD",
-      "latest_value": 27.0,
-      "prior_avg": 48.8214,
-      "signal_change": -0.447,
+      "latest_value": 31.0,
+      "prior_avg": 50.2857,
+      "signal_change": -0.3835,
       "entry_date": "2026-02-13",
       "name": "Google Trends Surge In Luxury Good Searches",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

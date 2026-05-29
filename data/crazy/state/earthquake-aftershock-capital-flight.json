@@ -833,20 +833,30 @@
       "positions": {},
       "sector": "Earthquake Aftershock Capital Flight",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99937.78,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99937.78,
+      "positions": {},
+      "sector": "Earthquake Aftershock Capital Flight",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "earthquake-aftershock-capital-flight": {
       "signal_label": "HOLD",
-      "latest_value": 259.0,
-      "prior_avg": 297.4286,
-      "signal_change": -0.1292,
+      "latest_value": 238.0,
+      "prior_avg": 301.8571,
+      "signal_change": -0.2115,
       "entry_date": "2026-05-07",
       "name": "Earthquake Aftershock Capital Flight",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

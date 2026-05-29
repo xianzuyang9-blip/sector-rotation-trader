@@ -776,19 +776,29 @@
       "positions": {},
       "sector": "Weekly Rise In Usgs Earthquake Activity Near Major Ports Signals Potential Freight Disruptions",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Rise In Usgs Earthquake Activity Near Major Ports Signals Potential Freight Disruptions",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-18",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "weekly-rise-in-usgs-earthquake-activity-near-major-ports-sig": {
       "signal_label": "HOLD",
-      "latest_value": 259.0,
-      "prior_avg": 359.1429,
-      "signal_change": -0.2788,
+      "latest_value": 238.0,
+      "prior_avg": 357.3929,
+      "signal_change": -0.3341,
       "name": "Weekly Rise In Usgs Earthquake Activity Near Major Ports Signals Potential Freight Disruptions",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

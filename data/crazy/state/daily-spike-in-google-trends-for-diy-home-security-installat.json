@@ -799,10 +799,20 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends For Diy Home Security Installation Signals Consumer Tech Caution",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99906.95,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99906.95,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Diy Home Security Installation Signals Consumer Tech Caution",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "daily-spike-in-google-trends-for-diy-home-security-installat": {
       "signal_label": "HOLD",
@@ -812,7 +822,7 @@
       "entry_date": "2026-05-22",
       "name": "Daily Spike In Google Trends For Diy Home Security Installation Signals Consumer Tech Caution",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

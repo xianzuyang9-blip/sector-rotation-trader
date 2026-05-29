@@ -686,10 +686,20 @@
       "positions": {},
       "sector": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "weekly-surge-in-attentionsentiment-rss-count-for-shipping-co": {
       "latest_value": 1.0,
@@ -698,7 +708,7 @@
       "signal_label": "HOLD",
       "name": "Weekly Surge In Attentionsentiment Rss Count For Shipping Container Backlog Signals Industrial Sector Headwind",
       "last_signal": "HOLD",
-      "last_run": "2026-05-27"
+      "last_run": "2026-05-28"
     }
   }
 }

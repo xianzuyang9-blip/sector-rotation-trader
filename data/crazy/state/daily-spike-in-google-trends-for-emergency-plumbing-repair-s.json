@@ -1,19 +1,10 @@
 {
-  "cash": 94584.2593275451,
+  "cash": 99569.62838301383,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 272.0568539126562,
-  "taxes_paid": 81.25650502442578,
-  "positions": {
-    "XLY": {
-      "shares": 40.95962543140871,
-      "entry_price": 121.55000305175781,
-      "entry_date": "2026-05-27",
-      "cost": 4978.642596186585,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 282.26911838929357,
+  "taxes_paid": 85.20696523773806,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-01-30",
@@ -336,6 +327,20 @@
       "cost": 4978.64,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 40.9596,
+      "price": 122.06,
+      "proceeds": 4989.32,
+      "fees": 10.21,
+      "tax": 3.95,
+      "pnl": 6.73,
+      "pnl_pct": 0.14,
+      "entry_date": "2026-05-27",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1408,20 +1413,30 @@
       },
       "sector": "Daily Spike In Google Trends For Emergency Plumbing Repair Signals Consumer Stress Rebound Benefiting Discretionary Sector",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99569.63,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99569.63,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Emergency Plumbing Repair Signals Consumer Stress Rebound Benefiting Discretionary Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-30",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "daily-spike-in-google-trends-for-emergency-plumbing-repair-s": {
-      "latest_value": 26.0,
-      "prior_avg": 16.7143,
-      "signal_change": 0.5556,
-      "signal_label": "RISK_ON",
+      "latest_value": 31.0,
+      "prior_avg": 17.7143,
+      "signal_change": 0.75,
+      "signal_label": "HOLD",
       "entry_date": "2026-05-27",
       "name": "Daily Spike In Google Trends For Emergency Plumbing Repair Signals Consumer Stress Rebound Benefiting Discretionary Sector",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-27"
+      "last_signal": "HOLD",
+      "last_run": "2026-05-28"
     }
   }
 }

@@ -1101,6 +1101,16 @@
       "positions": {},
       "sector": "Price Momentum Reversion In Defensive Sectors After Tech Crash",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100022.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100022.26,
+      "positions": {},
+      "sector": "Price Momentum Reversion In Defensive Sectors After Tech Crash",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-30"

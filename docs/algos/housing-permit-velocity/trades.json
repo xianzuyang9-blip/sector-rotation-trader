@@ -1896,6 +1896,35 @@
       },
       "sector": "Housing Permit Velocity",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 24932.0,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 101527.04,
+      "positions": {
+        "XLB": {
+          "shares": 798.1414,
+          "entry_price": 50.02,
+          "current_price": 51.36,
+          "market_value": 40992.54,
+          "unrealized_pnl": 1069.51,
+          "entry_date": "2026-05-21",
+          "margin": false
+        },
+        "XLI": {
+          "shares": 204.8476,
+          "entry_price": 170.53,
+          "current_price": 173.8,
+          "market_value": 35602.51,
+          "unrealized_pnl": 669.85,
+          "entry_date": "2026-05-21",
+          "margin": false
+        }
+      },
+      "sector": "Housing Permit Velocity",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

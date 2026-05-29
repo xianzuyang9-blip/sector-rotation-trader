@@ -1313,18 +1313,28 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99820.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99820.1,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "weekly-surge-in-google-trends-searches-for-commuting-strike-": {
-      "signal_label": "RISK_OFF",
+      "signal_label": "HOLD",
       "name": "Weekly Surge In Google Trends Searches For Commuting Strike Signals Bearish Xly",
-      "last_signal": "RISK_OFF",
-      "last_run": "2026-05-27",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-28",
       "latest_value": 0.0,
-      "prior_avg": 2.5357,
+      "prior_avg": 3.1786,
       "signal_change": -1.0
     }
   }

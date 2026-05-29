@@ -1,10 +1,19 @@
 {
-  "cash": 99581.65387169392,
+  "cash": 94592.62117810923,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 241.94032045785073,
+  "fees_paid": 251.89032045785072,
   "taxes_paid": 16.456995391400195,
-  "positions": {},
+  "positions": {
+    "XLC": {
+      "shares": 42.67663299672534,
+      "entry_price": 116.66999816894531,
+      "entry_date": "2026-05-29",
+      "cost": 4979.082693584696,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-04-20",
@@ -293,6 +302,16 @@
       "pnl_pct": -0.13,
       "entry_date": "2026-05-25",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 42.6766,
+      "price": 116.67,
+      "cost": 4979.08,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1515,20 +1534,40 @@
       "positions": {},
       "sector": "Google Gusts",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94592.62,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99571.7,
+      "positions": {
+        "XLC": {
+          "shares": 42.6766,
+          "entry_price": 116.67,
+          "current_price": 116.67,
+          "market_value": 4979.08,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Google Gusts",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "google-gusts": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Google Gusts",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-27",
-      "latest_value": 0.0,
-      "prior_avg": 5.9286,
-      "signal_change": -1.0,
-      "entry_date": "2026-05-25"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-28",
+      "latest_value": 6.0,
+      "prior_avg": 4.2143,
+      "signal_change": 0.4237,
+      "entry_date": "2026-05-28"
     }
   }
 }

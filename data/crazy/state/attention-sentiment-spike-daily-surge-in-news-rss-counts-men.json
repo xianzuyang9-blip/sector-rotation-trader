@@ -1,19 +1,10 @@
 {
-  "cash": 94650.30804475176,
+  "cash": 99637.06168692376,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 312.3863429735694,
-  "taxes_paid": 27.22037131423759,
-  "positions": {
-    "XLC": {
-      "shares": 42.853249207949446,
-      "entry_price": 116.26000213623047,
-      "entry_date": "2026-05-27",
-      "cost": 4982.11884446062,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 322.59918337366304,
+  "taxes_paid": 29.942395366956777,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-23",
@@ -384,6 +375,20 @@
       "cost": 4982.12,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLC",
+      "shares": 42.8532,
+      "price": 116.67,
+      "proceeds": 4989.48,
+      "fees": 10.21,
+      "tax": 2.72,
+      "pnl": 4.63,
+      "pnl_pct": 0.09,
+      "entry_date": "2026-05-27",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1566,19 +1571,29 @@
       },
       "sector": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99637.06,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99637.06,
+      "positions": {},
+      "sector": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-22",
-  "last_run": "2026-05-27",
+  "last_run": "2026-05-29",
   "meta": {
     "attention-sentiment-spike-daily-surge-in-news-rss-counts-men": {
       "latest_value": 20.0,
-      "prior_avg": 4.3333,
-      "signal_change": 3.6154,
-      "signal_label": "RISK_ON",
+      "prior_avg": 8.3333,
+      "signal_change": 1.4,
+      "signal_label": "HOLD",
       "name": "Attention Sentiment Spike Daily Surge In News Rss Counts Mentioning Cyberattack Triggers Bullish Xlc",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-27",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-28",
       "entry_date": "2026-05-27"
     }
   }
