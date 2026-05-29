@@ -17,6 +17,10 @@ from datetime import datetime
 
 REPO = Path(__file__).parent.parent
 PUBLIC = REPO / "docs" / "data" / "public"
+if str(REPO) not in sys.path:
+    sys.path.insert(0, str(REPO))
+
+from algo_copy_registry import lookup_algo_copy
 
 SPECIAL = {
     "biscotti":  {"emoji": "\U0001f43e", "row_class": "row-biscotti",  "tip": "Named after Biscotti (2008\u20132026) \u2014 17.75 years of unconditional loyalty"},
@@ -74,6 +78,47 @@ def _get_special(algo_id: str):
         if key in str(algo_id):
             return spec
     return None
+
+
+def _algo_plain_english(item: dict, copy: dict | None = None) -> str:
+    if copy:
+        summary = str(
+            copy.get("plain_english_description")
+            or copy.get("public_summary")
+            or copy.get("thesis")
+            or ""
+        ).strip()
+        if summary:
+            return summary
+
+    name = str(item.get("name") or "").lower()
+    algo_id = str(item.get("algo_id") or "").lower()
+    family = str(item.get("family") or "").lower()
+    text = " ".join(part for part in (name, algo_id, family) if part)
+
+    if any(term in text for term in ("google", "search", "trends", "attention", "sentiment", "reddit", "twitter", "social")):
+        return "Uses attention, search, or sentiment data to test whether crowd behavior can predict sector ETF movement."
+    if any(term in text for term in ("electricity", "power", "utility")):
+        return "Uses electricity or power-demand data to test whether real-world activity is pushing sector ETFs."
+    if any(term in text for term in ("travel", "tsa", "airport", "hotel", "mobility", "airline")):
+        return "Uses travel and mobility data to test whether movement in the real economy is spilling into sector ETFs."
+    if any(term in text for term in ("freight", "truck", "rail", "shipping", "port", "container", "logistics")):
+        return "Uses freight and logistics data to test whether shipping activity can predict sector ETF strength or weakness."
+    if any(term in text for term in ("weather", "temperature", "storm", "heating", "cooling")):
+        return "Uses weather pressure to test whether demand shocks and disruption are moving sector ETFs."
+    if any(term in text for term in ("job", "labor", "wage", "employment", "layoff", "hiring")):
+        return "Uses labor-market signals to test whether hiring pressure or job stress is moving sector ETFs."
+    if any(term in text for term in ("consumer", "retail", "credit", "grocery", "bankruptcy", "delinquency", "rent")):
+        return "Uses consumer behavior or consumer-stress signals to test whether spending pressure is moving sector ETFs."
+    if any(term in text for term in ("momentum", "rotation", "faber", "antonacci", "dual momentum")):
+        return "Uses a rules-based sector rotation process to test whether strength or mean reversion can beat SPY."
+    if "biscotti" in text:
+        return "A monthly contrarian sector rotation that buys the weakest recent sector and holds for one month."
+    if "bailey" in text or "chaos" in text:
+        return "A faster sector-rotation rule that tries to turn noisy market movement into a tradable signal."
+    if "vix" in text or "volatility" in text:
+        return "Uses volatility pressure to test whether fear and regime shifts can predict sector ETF movement."
+    return "Tests whether this signal can add useful information to sector ETF rotation beyond price alone."
 
 
 def _sector_heatmap_html(sector_summary: dict) -> str:
@@ -532,9 +577,12 @@ def _biscotti_chart_html(snapshots: list[dict]) -> str:
 def _signal_index_rows_html(entries: list[dict]) -> str:
     rows = []
     for item in sorted(entries, key=lambda row: (str(row.get("name") or "").lower(), str(row.get("algo_type") or ""))):
+        algo_id = str(item.get("algo_id") or "").strip()
+        href = f"/signals/{_e(algo_id)}.html" if algo_id else None
+        name_html = f'<a href="{href}"><strong>{_e(item.get("name"))}</strong></a>' if href else f"<strong>{_e(item.get('name'))}</strong>"
         rows.append(
             "<tr>"
-            f"<td><strong>{_e(item.get('name'))}</strong></td>"
+            f"<td>{name_html}</td>"
             f"<td>{_e(_public_algo_type(str(item.get('algo_type', ''))))}</td>"
             f"<td>{_e(FAMILY_TITLES.get(str(item.get('family') or ''), _pretty_label(item.get('family') or '')))}</td>"
             f"<td>{_e(_pretty_label(str(item.get('status') or '')))}</td>"
@@ -1310,7 +1358,7 @@ def build_signals_index(leaderboard: dict, daily: dict | None = None) -> str:
 <body>
     <header>
     <h1 class="page-title">All signals, no scoreboard.</h1>
-    <p>StockArithm's public inventory: names, families, and status only. No rank and no returns.</p>
+    <p>StockArithm's public inventory: names, families, status, and plain-English explainer pages. No rank and no returns.</p>
     <div class="hero-actions">
       <a class="cta" href="/leaderboard.html">See the public leaderboard</a>
       <a class="cta" href="/families.html">Browse families</a>
@@ -1326,7 +1374,7 @@ def build_signals_index(leaderboard: dict, daily: dict | None = None) -> str:
   <div class="wrap">
     <div class="card">
       <h2>Public signal index</h2>
-      <p class="signal-table-sub">This is the full public list. It exists so the site does not feel like it is hiding the inventory.</p>
+      <p class="signal-table-sub">This is the full public list. Click any name for the public plain-English summary page. It exists so the site does not feel like it is hiding the inventory.</p>
       <div class="table-wrap">
         <table>
           <thead>
@@ -1343,11 +1391,115 @@ def build_signals_index(leaderboard: dict, daily: dict | None = None) -> str:
           </tbody>
         </table>
       </div>
-      <p class="signal-note">Premium will link into the full per-algo pages later. This page stays public and stays scorecard-free.</p>
+      <p class="signal-note">These public summary pages stay free. The deeper per-algo dashboards and trade records are what move behind the paywall.</p>
     </div>
   </div>
 
 {_footer_html(generated_at, run_date, "Public signal index")}
+
+</body>
+</html>"""
+
+
+def build_signal_public_page(item: dict, daily: dict | None = None) -> str:
+    algo_id = str(item.get("algo_id") or "").strip()
+    algo_name = str(item.get("name") or algo_id)
+    copy = lookup_algo_copy(algo_id=algo_id, name=algo_name)
+    plain = _algo_plain_english(item, copy)
+    thesis = str((copy or {}).get("thesis") or "").strip()
+    public_summary = str((copy or {}).get("public_summary") or plain).strip()
+    family = FAMILY_TITLES.get(str(item.get("family") or ""), _pretty_label(str(item.get("family") or "")))
+    status = _pretty_label(str(item.get("status") or ""))
+    algo_type = _public_algo_type(str(item.get("algo_type") or ""))
+    frequency = str(item.get("rebalance_frequency") or "n/a")
+    data_sources = (copy or {}).get("data_sources") or []
+    risks = str((copy or {}).get("risks") or "").strip()
+    generated_at = (daily or {}).get("generated_at", "")
+    run_date = (daily or {}).get("run_date", "")
+
+    source_html = ""
+    if isinstance(data_sources, list) and data_sources:
+        source_items = "".join(f"<li>{_e(source)}</li>" for source in data_sources if str(source).strip())
+        if source_items:
+            source_html = f"""
+        <div class="card">
+          <h2 class="section-title">Data sources</h2>
+          <ul>{source_items}</ul>
+        </div>"""
+
+    thesis_html = ""
+    if thesis and thesis != plain and thesis != public_summary:
+        thesis_html = f"""
+        <div class="card">
+          <h2 class="section-title">Why this signal exists</h2>
+          <p>{_e(thesis)}</p>
+        </div>"""
+
+    risk_html = ""
+    if risks:
+        risk_html = f"""
+        <div class="card">
+          <h2 class="section-title">Known risks</h2>
+          <p>{_e(risks)}</p>
+        </div>"""
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StockArithm — {_e(algo_name)}</title>
+<style>{LANDING_CSS}
+  .meta-grid {{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:18px; }}
+  .meta-card {{ border:1px solid rgba(255,255,255,0.08); border-radius:12px; padding:14px; background:rgba(255,255,255,0.02); }}
+  .meta-card .label {{ color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:0.04em; font-family:var(--mono); }}
+  .meta-card .value {{ color:var(--text); font-size:15px; margin-top:6px; }}
+  .lede {{ color:var(--text); font-size:20px; line-height:1.6; max-width:920px; }}
+  .public-note {{ color:var(--muted); font-size:14px; line-height:1.6; margin-top:12px; }}
+  ul {{ margin:0; padding-left:20px; }}
+  li {{ margin:6px 0; color:var(--text); }}
+  @media (max-width: 900px) {{
+    .meta-grid {{ grid-template-columns:repeat(2,minmax(0,1fr)); }}
+  }}
+  @media (max-width: 600px) {{
+    .meta-grid {{ grid-template-columns:1fr; }}
+  }}
+</style>
+</head>
+<body>
+  <header>
+    <h1 class="page-title">{_e(algo_name)}</h1>
+    <p class="lede">{_e(plain)}</p>
+    <p class="public-note">This is the public plain-English summary page. It stays free. The deeper per-algo dashboard, trade history, and equity details move behind the paywall.</p>
+    <div class="hero-actions">
+      <a class="cta" href="/signals/index.html">Back to all signals</a>
+      <a class="cta" href="/premium.html">See premium plan</a>
+    </div>
+    <div class="meta-grid">
+      <div class="meta-card"><div class="label">Type</div><div class="value">{_e(algo_type)}</div></div>
+      <div class="meta-card"><div class="label">Family</div><div class="value">{_e(family)}</div></div>
+      <div class="meta-card"><div class="label">Status</div><div class="value">{_e(status)}</div></div>
+      <div class="meta-card"><div class="label">Frequency</div><div class="value">{_e(frequency)}</div></div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="card">
+      <h2 class="section-title">Plain English description</h2>
+      <p>{_e(plain)}</p>
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">What you are looking at</h2>
+      <p>{_e(public_summary)}</p>
+      <p class="public-note">StockArithm keeps these public summary pages open so visitors can understand what each signal is trying to do before they ever hit a paywall.</p>
+    </div>
+{thesis_html}
+{source_html}
+{risk_html}
+  </div>
+
+{_footer_html(generated_at, run_date, f"Public signal page: {algo_name}")}
 
 </body>
 </html>"""
@@ -1650,6 +1802,7 @@ def build_biscotti_page(trades_data: dict) -> str:
         <div>
           <h2 class="section-title">What Biscotti does</h2>
           <p class="section-sub">The monthly contrarian rule that keeps showing up for the most beaten-down sector.</p>
+          <div class="biscotti-note"><strong style="color:var(--text);">Plain English Description:</strong> A monthly contrarian sector rotation that buys the weakest recent sector and holds for one month.</div>
           <div class="biscotti-note">Find the weakest SPDR sector ETF by 30-day return on the last trading day of each month. Buy the loser. Hold for one month. Repeat. No filters, no hesitation.</div>
           <div class="biscotti-note"><strong style="color:var(--text);">Why it exists:</strong> it is the kind of idea that sounds too simple until the tape proves otherwise.</div>
           <div class="biscotti-note"><strong style="color:var(--text);">What this page shows:</strong> the live paper-trade record, the equity curve, and the actual trade log.</div>
@@ -2105,6 +2258,15 @@ def build_main():
     out_signals = REPO / "docs" / "signals" / "index.html"
     out_signals.write_text(build_signals_index(leaderboard, daily), encoding="utf-8")
     print(f"[pages] wrote {out_signals}")
+
+    signals_dir = REPO / "docs" / "signals"
+    for algo in leaderboard.get("algos", []):
+        algo_id = str(algo.get("algo_id") or "").strip()
+        if not algo_id:
+            continue
+        out_signal_page = signals_dir / f"{algo_id}.html"
+        out_signal_page.write_text(build_signal_public_page(algo, daily), encoding="utf-8")
+    print(f"[pages] wrote public signal pages to {signals_dir}")
 
     out_premium = REPO / "docs" / "premium.html"
     out_premium.write_text(build_premium(daily, leaderboard), encoding="utf-8")

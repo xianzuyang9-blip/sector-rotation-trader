@@ -104,20 +104,22 @@ def _norm_text(value) -> str:
 def _signal_brief_html(algo_name: str, meta: dict) -> str:
     algo_id = str(meta.get("algo_id", "") or "")
     copy = lookup_algo_copy(algo_id=algo_id, name=algo_name)
-    if not copy:
-        return ""
-
-    plain = copy.get("plain_english_description") or copy.get("public_summary") or copy.get("thesis")
-    thesis = copy.get("thesis")
+    plain = None
+    thesis = None
+    if copy:
+        plain = copy.get("plain_english_description") or copy.get("public_summary") or copy.get("thesis")
+        thesis = copy.get("thesis")
+    else:
+        plain = _algo_description(algo_name, meta)
     fields = [
         ("Plain English Description", plain),
         ("Thesis", thesis if _norm_text(thesis) != _norm_text(plain) else None),
-        ("Universe", copy.get("universe")),
-        ("Data Sources", copy.get("data_sources")),
-        ("Signal Logic", copy.get("signal_logic")),
-        ("Entry / Exit", copy.get("entry_exit")),
-        ("Position Sizing", copy.get("position_sizing")),
-        ("Risks", copy.get("risks")),
+        ("Universe", (copy or {}).get("universe")),
+        ("Data Sources", (copy or {}).get("data_sources")),
+        ("Signal Logic", (copy or {}).get("signal_logic")),
+        ("Entry / Exit", (copy or {}).get("entry_exit")),
+        ("Position Sizing", (copy or {}).get("position_sizing")),
+        ("Risks", (copy or {}).get("risks")),
     ]
     rows = []
     for label, value in fields:

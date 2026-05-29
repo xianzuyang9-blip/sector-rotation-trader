@@ -111,6 +111,14 @@ def copy_allowed(publish_dir: Path) -> None:
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, dest)
 
+    for src in sorted((ROOT / "docs" / "signals").glob("*.html")):
+        rel = src.relative_to(ROOT).as_posix()
+        if rel in ALLOWLIST_FILES:
+            continue
+        dest = publish_dir / src.relative_to(ROOT / "docs")
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dest)
+
     for rel in ALLOWLIST_DIRS:
         src = ROOT / rel
         if not src.exists():
