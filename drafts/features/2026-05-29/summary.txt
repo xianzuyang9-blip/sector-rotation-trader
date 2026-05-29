@@ -1,0 +1,19 @@
+FEATURE IDEAS RUN — 2026-05-29
+==================================================
+
+Total PRDs generated: 8
+
+ChatGPT (OpenAI): 4 ideas
+  1. Signal Decay Visualizer
+  2. Receipts Guy's Raw Trade Log Access
+  3. Bucket Divergence Flags
+  4. Alt-Data Nerd’s Signal Tag Explorer
+
+Claude (Anthropic): 4 ideas
+  1. Force Rank Divergence View
+  2. Signal Bucket Manifesto
+  3. Flat-Fee Signal Clone Permission
+  4. Bomb-Out Report
+
+==================================================
+PRDs saved to: drafts/features/2026-05-29/
