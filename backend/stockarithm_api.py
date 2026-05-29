@@ -298,6 +298,21 @@ def premium_leaderboard(_: dict[str, Any] = Depends(_current_session)) -> Any:
     return _artifact("leaderboard.json")
 
 
+@app.get("/api/premium/daily-report")
+def premium_daily_report(_: dict[str, Any] = Depends(_current_session)) -> dict[str, Any]:
+    report_html = ""
+    report_path = PRIVATE_DIR / "daily_report_detailed.html"
+    if report_path.exists():
+        report_html = report_path.read_text(encoding="utf-8")
+    report_json = _load_json(PRIVATE_DIR / "daily_report_detailed.json", {})
+    return {
+        "run_date": report_json.get("run_date"),
+        "generated_at": report_json.get("generated_at"),
+        "html": report_html,
+        "detail_level": "premium",
+    }
+
+
 @app.get("/api/premium/signal/{algo_id}")
 def premium_signal(algo_id: str, _: dict[str, Any] = Depends(_current_session)) -> dict[str, Any]:
     leaderboard = _artifact("leaderboard.json")
