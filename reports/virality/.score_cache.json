@@ -945,5 +945,149 @@
     "verdict": "BUILD_NOW",
     "source_file": "drafts/features/2026-05-22/openai-feature-04-trade-log-time-machine.md",
     "_hash": "87a422af48759508de3e4f4fedea559d"
+  },
+  "drafts/features/2026-05-29/anthropic-feature-01-force-rank-divergence-view.md": {
+    "feature_name": "Force Rank Divergence View",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 1,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 5,
+    "adjusted_score": 4.8,
+    "top_viral_mechanic": "Surfaces honest signal reversals (failures + comebacks) which fits Stockarithm's transparency brand and gives data-literate users a contrarian edge to discuss",
+    "biggest_weakness": "No sharing mechanism, no social proof display, and no reason for users to invite others\u2014it's a private analytical tool that doesn't create public evidence of discovery",
+    "verdict": "BUILD_LATER",
+    "source_file": "drafts/features/2026-05-29/anthropic-feature-01-force-rank-divergence-view.md",
+    "_hash": "930f3fefc87631a58386d3506f8d4763"
+  },
+  "drafts/features/2026-05-29/anthropic-feature-02-signal-bucket-manifesto.md": {
+    "feature_name": "Signal Bucket Manifesto",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 3,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 9,
+    "adjusted_score": 10.8,
+    "top_viral_mechanic": "Users can screenshot operator's honest reasoning for signal classification and share as proof that stockarithm publishes real thinking, not hype\u2014directly exploits the failures-published unfair advantage.",
+    "biggest_weakness": "Zero network effects or invitation mechanics; a user gains full value alone, so there's no reason to recruit others or create a growth loop.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-29/anthropic-feature-02-signal-bucket-manifesto.md",
+    "_hash": "a2fb755b20dc56e764cfa2e4a22156a5"
+  },
+  "drafts/features/2026-05-29/anthropic-feature-03-flat-fee-signal-clone-permission.md": {
+    "feature_name": "Flat-Fee Signal Clone Permission",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 3,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 9,
+    "adjusted_score": 9.0,
+    "top_viral_mechanic": "Head-to-head algo comparison with published divergence % directly exploits the failures-published transparency angle and lets skeptical traders prove the lab isn't fudging numbers\u2014pure proof-of-work for the paranoid.",
+    "biggest_weakness": "Zero invitation loop or network effect; cloning is a solo activity that doesn't require or reward bringing others in, so viral spread stops at individual validation.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-29/anthropic-feature-03-flat-fee-signal-clone-permission.md",
+    "_hash": "6364ed34bd487289ff77d377868927e3"
+  },
+  "drafts/features/2026-05-29/anthropic-feature-04-bomb-out-report.md": {
+    "feature_name": "Bomb-Out Report",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 3,
+      "cooperative_gain": 2,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 10,
+    "adjusted_score": 10.0,
+    "top_viral_mechanic": "Failure transparency as social proof\u2014users can publicly cite dead algos they studied to signal rigor and avoid hype, directly inverting fintech's hide-losses norm.",
+    "biggest_weakness": "Zero network effects or invitation mechanics; reading a graveyard doesn't require or incentivize bringing friends, so growth is passive and capped by organic discovery.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-29/anthropic-feature-04-bomb-out-report.md",
+    "_hash": "a6bfcfe0558b8de3c51bea610fbc4302"
+  },
+  "drafts/features/2026-05-29/openai-feature-01-signal-decay-visualizer.md": {
+    "feature_name": "Signal Decay Visualizer",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 6,
+    "adjusted_score": 7.68,
+    "top_viral_mechanic": "Honest decay visualization directly supports the failures-published brand and lets users call out dead signals publicly, which resonates with anti-hype r/algotrading audience.",
+    "biggest_weakness": "No invitation loop or network effect\u2014users consume the feature alone; seeing decay doesn't make them want to invite friends or share their own signal analysis.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-29/openai-feature-01-signal-decay-visualizer.md",
+    "_hash": "a2fd13ff9c6735299f519fce45c7c732"
+  },
+  "drafts/features/2026-05-29/openai-feature-02-receipts-guy-s-raw-trade-log-access.md": {
+    "feature_name": "Raw Trade Log Access",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 8,
+    "adjusted_score": 9.6,
+    "top_viral_mechanic": "Receipts Guy can screenshot raw trade logs as proof-of-work to skeptical Reddit communities, directly leveraging stockarithm's unfair advantage of published failures.",
+    "biggest_weakness": "Zero network effects or invitation mechanics\u2014viewing logs doesn't require or encourage others to join, making it purely retention-focused rather than growth-focused.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-05-29/openai-feature-02-receipts-guy-s-raw-trade-log-access.md",
+    "_hash": "096f0fa845760e22471a48a1adce2f78"
+  },
+  "drafts/features/2026-05-29/openai-feature-03-bucket-divergence-flags.md": {
+    "feature_name": "Bucket Divergence Flags",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 1,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 5,
+    "adjusted_score": 4.8,
+    "top_viral_mechanic": "Honest divergence explanations reinforce stockarithm's transparency brand and give power users credibility when discussing rank mismatches in forums.",
+    "biggest_weakness": "Feature is purely explanatory/defensive\u2014it solves confusion but creates zero shareable moments, no invitation loop, and no reason to tell others about it.",
+    "verdict": "BUILD_LATER",
+    "source_file": "drafts/features/2026-05-29/openai-feature-03-bucket-divergence-flags.md",
+    "_hash": "16e8bbd65bd029e45c7ad4c00f23d5eb"
+  },
+  "drafts/features/2026-05-29/openai-feature-04-alt-data-nerd-s-signal-tag-explorer.md": {
+    "feature_name": "Alt-Data Nerd's Signal Tag Explorer",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 6,
+    "adjusted_score": 7.68,
+    "top_viral_mechanic": "Honest alt-data categorization (satellite, GPS, electricity) lets niche researchers discover and share novel signal sources that feel like insider knowledge.",
+    "biggest_weakness": "No sharing mechanism, no social proof display, and no reason users must invite others\u2014it's a better search UX, not a growth loop.",
+    "verdict": "BUILD_LATER",
+    "source_file": "drafts/features/2026-05-29/openai-feature-04-alt-data-nerd-s-signal-tag-explorer.md",
+    "_hash": "21a71d82306ae75852b0b7f994b17344"
   }
 }
