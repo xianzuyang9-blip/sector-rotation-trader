@@ -1,7 +1,7 @@
 {
   "schema_version": "v1",
   "run_date": "2026-05-29",
-  "generated_at": "2026-05-29T23:59:53Z",
+  "generated_at": "2026-05-30T00:00:58Z",
   "counts": {
     "total": 374,
     "normal": 5,
@@ -340,7 +340,7 @@
     }
   ],
   "rolling_30d": {
-    "as_of": "2026-05-29T23:59:52.853342",
+    "as_of": "2026-05-30T00:00:56.965817",
     "spy_ret_30d_pct": 6.31,
     "leaders": [
       {
