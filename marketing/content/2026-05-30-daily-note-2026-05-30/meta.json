@@ -1,0 +1,47 @@
+{
+  "bundle_path": "marketing/content/2026-05-30-daily-note-2026-05-30",
+  "channels": {
+    "substack_note": {
+      "file": "substack_note.md",
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "x": {
+      "file": "x.md",
+      "link_policy": "substack_cta",
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "reddit_titles": {},
+    "substack_note": {
+      "candidates": [
+        "One public board, 1 winner, 373 losers. That is the point.",
+        "Quantified Simple Monthly Rotation is still the cleanest winner, but the board is the better story.",
+        "StockArithm exists to keep the failures visible, not hide them.",
+        "The interesting part is not the winner; it is how the full board behaves."
+      ],
+      "selected": "One public board, 1 winner, 373 losers. That is the point."
+    },
+    "x": {
+      "candidates": [
+        "1 of 374 signals is beating SPY. The losers stay visible.",
+        "Quantified Simple Monthly Rotation is still #1, but the board is the real story.",
+        "The point of StockArithm is not a polished backtest. It is a public board.",
+        "Daily lab note: the premise matters less than what the board keeps showing.",
+        "373 signals are not beating SPY. That is the part worth reading."
+      ],
+      "selected": "1 of 374 signals is beating SPY. The losers stay visible."
+    }
+  },
+  "post_id": "2026-05-30-daily-note-2026-05-30",
+  "product": "stockarithm",
+  "scheduled_date": "2026-05-30",
+  "scheduled_time": "09:30",
+  "slug": "daily-note-2026-05-30",
+  "source_report": "reports/deep_validation/latest.json",
+  "status": "ready",
+  "theme": "daily_lab_note",
+  "timezone": "America/New_York",
+  "title": "Daily lab note"
+}
