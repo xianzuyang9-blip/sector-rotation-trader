@@ -1,0 +1,142 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-freight-truck-driver-shorta",
+    "title": "Daily Spike In Google Trends For Freight Truck Driver Shortage Signals Industrial Sector Bottleneck",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-usgs-earthquake-activity-near-key-ports-sign",
+    "title": "Weekly Spike In Usgs Earthquake Activity Near Key Ports Signals Supply Chain Risk In Industrials",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-electric-vehicle-battery-fa",
+    "title": "Daily Spike In Google Trends For Electric Vehicle Battery Failure Signals Consumer Tech Sector Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-corporate-layoff-notices-si",
+    "title": "Weekly Rise In Google Trends For Corporate Layoff Notices Signals Labor Market Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-electric-vehicle-charging-",
+    "title": "Weekly Surge In Google Trends For Electric Vehicle Charging Station Installation Signals Green Infrastructure Growth",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-solar-panel-repair-signals-",
+    "title": "Daily Spike In Google Trends For Solar Panel Repair Signals Renewable Energy Sector Bounce",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-increase-in-openchargemap-new-ev-charger-installation",
+    "title": "Weekly Increase In Openchargemap New Ev Charger Installations Signals Consumer Tech Infrastructure Growth",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-home-internet-outage-signa",
+    "title": "Weekly Surge In Google Trends For Home Internet Outage Signals Consumer Tech Sector Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-corporate-bond-downgrade-si",
+    "title": "Weekly Rise In Google Trends For Corporate Bond Downgrade Signals Credit Stress Rotation",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-fred-series-for-initial-jobless-claims-signal",
+    "title": "Daily Spike In Fred Series For Initial Jobless Claims Signals Consumer Discretionary Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "google-trends-surge-in-recession-fear-drives-defensive-rotat",
+    "title": "Google Trends Surge In Recession Fear Drives Defensive Rotation",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earthquake-swarm-aftershock-insurance-building-stock-volatil",
+    "title": "Earthquake Swarm Aftershock Insurance Building Stock Volatility",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "corporate-earnings-revision-downgrade-cascade-from-rss-news-",
+    "title": "Corporate Earnings Revision Downgrade Cascade From Rss News Volume Surge",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "natural-gas-heating-demand-spike-during-cold-snaps",
+    "title": "Natural Gas Heating Demand Spike During Cold Snaps",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "electricity-demand-surge-from-extreme-heat-signals-energy-se",
+    "title": "Electricity Demand Surge From Extreme Heat Signals Energy Sector Strength",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-rate-volatility-spike-from-port-queue-backlog",
+    "title": "Freight Rate Volatility Spike From Port Queue Backlog",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "labor-market-weakness-reflected-in-adp-employment-miss",
+    "title": "Labor Market Weakness Reflected In Adp Employment Miss",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-network-rollout-acceleration-signals-clean-energy",
+    "title": "Ev Charger Network Rollout Acceleration Signals Clean Energy Tailwind",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "credit-spread-widening-from-high-yield-bond-stress-signals-r",
+    "title": "Credit Spread Widening From High-yield Bond Stress Signals Recession Risk",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airline-load-factor-compression-signals-travel-demand-weakne",
+    "title": "Airline Load Factor Compression Signals Travel Demand Weakness",
+    "family": "travel_mobility",
+    "score": 100
+  }
+]

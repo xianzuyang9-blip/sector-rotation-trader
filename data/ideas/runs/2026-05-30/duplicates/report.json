@@ -1,0 +1,362 @@
+{
+  "date": "2026-05-30",
+  "input_count": 25,
+  "kept_count": 20,
+  "duplicate_count": 5,
+  "kept_by_source": {
+    "chatgpt": 10,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-small-business-loan-applic",
+      "title": "Weekly Surge In Google Trends For Small Business Loan Applications Signals Financial Sector Demand",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for small business loan applications signals financial strain",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-small-business-loan-applic",
+        "matched_origin": "history:2026-05-17",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-small-business-loan-applic",
+        "title": "Weekly Surge In Google Trends For Small Business Loan Applications Signals Financial Sector Demand",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "An increase in searches for small business loans indicates rising liquidity needs and financial stress in the small business segment. Higher loan demand often drives increased banking activity and financial sector earnings.",
+        "data_sources": [
+          "Google Trends weekly search interest for 'small business loan application'"
+        ],
+        "signal_logic": "If weekly Google Trends for 'small business loan application' rises more than 15% week-over-week",
+        "entry_exit": "Entry: If weekly Google Trends for 'small business loan application' rises more than 15% week-over-week Exit: Exit after 4 weeks or when the search interest drops below its 4-week moving average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLF"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest for 'small business loan application' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Weekly search interest in small business finance fluctuates frequently with economic conditions.",
+        "schema": {
+          "idea": "Weekly Surge In Google Trends For Small Business Loan Applications Signals Financial Sector Demand",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends weekly search interest for 'small business loan application'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "An increase in searches for small business loans indicates rising liquidity needs and financial stress in the small business segment.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLF",
+            "rationale": "Higher loan demand often drives increased banking activity and financial sector earnings."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'small business loan application' rises more than 15% week-over-week",
+            "exit": "Exit after 4 weeks or when the search interest drops below its 4-week moving average",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Weekly search interest in small business finance fluctuates frequently with economic conditions.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+      "title": "Daily Jump In Google Trends For Emergency Hvac Repair Signals Consumer Staples Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily jump in google trends for emergency hvac repair signals consumer home repair stress",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+        "title": "Daily Jump In Google Trends For Emergency Hvac Repair Signals Consumer Staples Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in HVAC repair searches indicate rising consumer stress on home infrastructure, boosting demand for consumer staples and services. Higher emergency repair demand supports consumer staples and household goods retailers.",
+        "data_sources": [
+          "Google Trends daily search interest for 'emergency HVAC repair'"
+        ],
+        "signal_logic": "If daily searches for 'emergency HVAC repair' increase more than 25% compared to 7-day lookback average",
+        "entry_exit": "Entry: If daily searches for 'emergency HVAC repair' increase more than 25% compared to 7-day lookback average Exit: Exit after 5 trading days or when searches fall below 7-day average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'emergency HVAC repair' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Consumer home repair searches are highly volatile and surge with weather changes.",
+        "schema": {
+          "idea": "Daily Jump In Google Trends For 'Emergency HVAC Repair' Signals Consumer Staples Stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'emergency HVAC repair'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in HVAC repair searches indicate rising consumer stress on home infrastructure, boosting demand for consumer staples and services.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Higher emergency repair demand supports consumer staples and household goods retailers."
+          },
+          "trade_logic": {
+            "entry": "If daily searches for 'emergency HVAC repair' increase more than 25% compared to 7-day lookback average",
+            "exit": "Exit after 5 trading days or when searches fall below 7-day average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Consumer home repair searches are highly volatile and surge with weather changes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-warehouse-automation-signa",
+      "title": "Weekly Surge In Google Trends For Warehouse Automation Signals Industrial Tech Demand",
+      "family": "attention_sentiment",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for warehouse automation signals industrial sector demand",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-warehouse-automation-signa",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-warehouse-automation-signa",
+        "title": "Weekly Surge In Google Trends For Warehouse Automation Signals Industrial Tech Demand",
+        "family": "attention_sentiment",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Growing interest in warehouse automation reflects rising investment in industrial technology and productivity improvements. Increased automation demand boosts industrial capital expenditure and technology adoption.",
+        "data_sources": [
+          "Google Trends weekly search interest for 'warehouse automation'"
+        ],
+        "signal_logic": "If weekly Google Trends for 'warehouse automation' rises more than 20% week-over-week",
+        "entry_exit": "Entry: If weekly Google Trends for 'warehouse automation' rises more than 20% week-over-week Exit: Exit after 4 weeks or when interest drops below 4-week moving average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest for 'warehouse automation' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 36,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Warehouse automation interest trends fluctuate with supply chain and labor market news.",
+        "schema": {
+          "idea": "Weekly Surge In Google Trends For 'Warehouse Automation' Signals Industrial Tech Demand",
+          "family": "attention_sentiment",
+          "data": {
+            "source": "Google Trends weekly search interest for 'warehouse automation'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Growing interest in warehouse automation reflects rising investment in industrial technology and productivity improvements.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLI",
+            "rationale": "Increased automation demand boosts industrial capital expenditure and technology adoption."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'warehouse automation' rises more than 20% week-over-week",
+            "exit": "Exit after 4 weeks or when interest drops below 4-week moving average",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 36,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Warehouse automation interest trends fluctuate with supply chain and labor market news.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+      "title": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Sector Demand Spike",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily jump in google trends for emergency dental surgery signals healthcare consumer stress",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-emergency-dental-surgery-sig",
+        "title": "Daily Jump In Google Trends For Emergency Dental Surgery Signals Healthcare Sector Demand Spike",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in emergency dental surgery searches indicate rising urgent healthcare needs supporting healthcare services. Higher urgent healthcare demand supports healthcare providers and services stocks.",
+        "data_sources": [
+          "Google Trends daily search interest for 'emergency dental surgery'"
+        ],
+        "signal_logic": "If daily searches increase more than 30% compared to 7-day average",
+        "entry_exit": "Entry: If daily searches increase more than 30% compared to 7-day average Exit: Exit after 5 trading days or when searches revert below 7-day average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLV"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'emergency dental surgery' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Healthcare emergency search terms surge frequently with seasonal illness and accident cycles.",
+        "schema": {
+          "idea": "Daily Jump In Google Trends For 'Emergency Dental Surgery' Signals Healthcare Sector Demand Spike",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'emergency dental surgery'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in emergency dental surgery searches indicate rising urgent healthcare needs supporting healthcare services.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLV",
+            "rationale": "Higher urgent healthcare demand supports healthcare providers and services stocks."
+          },
+          "trade_logic": {
+            "entry": "If daily searches increase more than 30% compared to 7-day average",
+            "exit": "Exit after 5 trading days or when searches revert below 7-day average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Healthcare emergency search terms surge frequently with seasonal illness and accident cycles.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-rise-in-fred-series-for-producer-price-index-input-co",
+      "title": "Weekly Rise In Fred Series For Producer Price Index Input Costs Signals Inflation Pressure On Materials",
+      "family": "macro_input_pressure",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.625,
+        "matched_title": "weekly rise in macro input pressure fred producer price index spike signals inflation stress",
+        "matched_idea_id": "weekly-rise-in-macro-input-pressure-fred-producer-price-inde",
+        "matched_origin": "history:2026-05-15",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-rise-in-fred-series-for-producer-price-index-input-co",
+        "title": "Weekly Rise In Fred Series For Producer Price Index Input Costs Signals Inflation Pressure On Materials",
+        "family": "macro_input_pressure",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "An increase in PPI input components signals rising input costs that pressure industrial and materials sector margins. Rising input prices compress materials sector profitability and increase inflation concerns.",
+        "data_sources": [
+          "FRED Producer Price Index (PPI) input components"
+        ],
+        "signal_logic": "If weekly PPI input index increases more than 0.5% week-over-week",
+        "entry_exit": "Entry: If weekly PPI input index increases more than 0.5% week-over-week Exit: Exit after 6 weeks or when index growth slows below 0.1% per week",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLB"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use FRED Producer Price Index (PPI) input components via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 60,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Weekly PPI data updates frequently and reacts to commodity price changes.",
+        "schema": {
+          "idea": "Weekly Rise In FRED Series For Producer Price Index Input Costs Signals Inflation Pressure On Materials",
+          "family": "macro_input_pressure",
+          "data": {
+            "source": "FRED Producer Price Index (PPI) input components",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "An increase in PPI input components signals rising input costs that pressure industrial and materials sector margins.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLB",
+            "rationale": "Rising input prices compress materials sector profitability and increase inflation concerns."
+          },
+          "trade_logic": {
+            "entry": "If weekly PPI input index increases more than 0.5% week-over-week",
+            "exit": "Exit after 6 weeks or when index growth slows below 0.1% per week",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 60,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Weekly PPI data updates frequently and reacts to commodity price changes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
