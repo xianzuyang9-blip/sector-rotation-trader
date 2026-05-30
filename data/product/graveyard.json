@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T00:09:45Z",
+  "generated_at": "2026-05-29T23:59:46Z",
   "algos": [
     {
       "key": "crazy:daily-spike-in-rss-news-counts-on-corporate-dividend-cuts",
@@ -13,10 +13,10 @@
       "universe": [
         "XLF"
       ],
-      "equity": 99914.76,
-      "ytd_pct": -0.09,
-      "trade_count": 10,
-      "positions": 0,
+      "equity": 99904.81,
+      "ytd_pct": -0.1,
+      "trade_count": 11,
+      "positions": 1,
       "last_snapshot": "2026-05-29",
       "last_signal": null,
       "new_algo_date": null,
@@ -61,10 +61,10 @@
       "universe": [
         "XLB"
       ],
-      "equity": 99697.27,
-      "ytd_pct": -0.3,
-      "trade_count": 23,
-      "positions": 1,
+      "equity": 99666.66,
+      "ytd_pct": -0.33,
+      "trade_count": 24,
+      "positions": 0,
       "last_snapshot": "2026-05-29",
       "last_signal": null,
       "new_algo_date": null,

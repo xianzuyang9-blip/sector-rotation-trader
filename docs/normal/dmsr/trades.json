@@ -245,6 +245,78 @@
       "cost": 26000.74,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 435.8883,
+      "price": 56.29,
+      "proceeds": 24524.84,
+      "fees": 11.31,
+      "tax": 0.0,
+      "pnl": -1475.89,
+      "pnl_pct": -5.68,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 163.014,
+      "price": 191.02,
+      "proceeds": 31127.38,
+      "fees": 11.56,
+      "tax": 1896.86,
+      "pnl": 3229.79,
+      "pnl_pct": 12.42,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 148.9331,
+      "price": 173.13,
+      "proceeds": 25773.5,
+      "fees": 11.28,
+      "tax": 0.0,
+      "pnl": -227.24,
+      "pnl_pct": -0.87,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 138.0742,
+      "price": 191.02,
+      "cost": 26374.94,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 468.5546,
+      "price": 56.29,
+      "cost": 26374.94,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 152.3418,
+      "price": 173.13,
+      "cost": 26374.94,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -4332,6 +4404,44 @@
           "market_value": 25884.57,
           "unrealized_pnl": -116.17,
           "entry_date": "2026-04-30",
+          "margin": false
+        }
+      },
+      "sector": "Antonacci Dual Momentum Sector Rotation",
+      "num_positions": 3
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 26345.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 105469.9,
+      "positions": {
+        "XLK": {
+          "shares": 138.0742,
+          "entry_price": 191.02,
+          "current_price": 191.02,
+          "market_value": 26374.94,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        },
+        "XLE": {
+          "shares": 468.5546,
+          "entry_price": 56.29,
+          "current_price": 56.29,
+          "market_value": 26374.94,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        },
+        "XLI": {
+          "shares": 152.3418,
+          "entry_price": 173.13,
+          "current_price": 173.13,
+          "market_value": 26374.94,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
           "margin": false
         }
       },

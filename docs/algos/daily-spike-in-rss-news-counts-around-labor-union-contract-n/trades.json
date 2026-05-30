@@ -273,6 +273,20 @@
       "cost": 4993.89,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.4038,
+      "price": 51.58,
+      "proceeds": 5013.86,
+      "fees": 10.23,
+      "tax": 7.39,
+      "pnl": 12.58,
+      "pnl_pct": 0.25,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1405,6 +1419,16 @@
       },
       "sector": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99880.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99880.51,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

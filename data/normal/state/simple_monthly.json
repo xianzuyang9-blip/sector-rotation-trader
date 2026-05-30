@@ -2,14 +2,14 @@
   "cash": -2.9096725029376103e-12,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 9.95,
-  "taxes_paid": 0.0,
+  "fees_paid": 36.02556115304188,
+  "taxes_paid": 7305.156534130905,
   "positions": {
     "XLK": {
-      "shares": 626.8968652037618,
-      "entry_price": 159.5,
-      "entry_date": "2026-04-30",
-      "cost": 99990.05,
+      "shares": 588.5174707355936,
+      "entry_price": 191.02000427246094,
+      "entry_date": "2026-05-29",
+      "cost": 112418.60977433101,
       "using_margin": false,
       "consec_below_ma": 0
     }
@@ -22,6 +22,30 @@
       "shares": 626.8969,
       "price": 159.5,
       "cost": 99990.05,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 626.8969,
+      "price": 191.02,
+      "proceeds": 119733.72,
+      "fees": 16.13,
+      "tax": 7305.16,
+      "pnl": 12438.51,
+      "pnl_pct": 12.44,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 588.5175,
+      "price": 191.02,
+      "cost": 112418.61,
       "margin": false,
       "fees": 9.95
     }
@@ -1560,14 +1584,34 @@
       },
       "sector": "Quantified Simple Monthly Rotation",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": -0.0,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 112418.61,
+      "positions": {
+        "XLK": {
+          "shares": 588.5175,
+          "entry_price": 191.02,
+          "current_price": 191.02,
+          "market_value": 112418.61,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Quantified Simple Monthly Rotation",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-11",
-  "last_run": "2026-05-28",
+  "last_run": "2026-05-29",
   "meta": {
     "simple_monthly": {
       "name": "Quantified Simple Monthly Rotation",
-      "last_run": "2026-05-28",
+      "last_run": "2026-05-29",
       "last_signal": "XLK"
     }
   }

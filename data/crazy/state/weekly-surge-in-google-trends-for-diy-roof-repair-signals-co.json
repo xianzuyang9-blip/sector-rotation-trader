@@ -911,6 +911,16 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends For Diy Roof Repair Signals Consumer Stress Lifting Industrial Sector",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99979.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99979.84,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Diy Roof Repair Signals Consumer Stress Lifting Industrial Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-05",
@@ -920,10 +930,10 @@
       "signal_label": "HOLD",
       "name": "Weekly Surge In Google Trends For Diy Roof Repair Signals Consumer Stress Lifting Industrial Sector",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28",
-      "latest_value": 8.0,
-      "prior_avg": 4.4643,
-      "signal_change": 0.792,
+      "last_run": "2026-05-29",
+      "latest_value": 3.0,
+      "prior_avg": 5.0357,
+      "signal_change": -0.4043,
       "entry_date": "2026-05-26"
     }
   }

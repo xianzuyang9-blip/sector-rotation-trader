@@ -1301,19 +1301,29 @@
       "positions": {},
       "sector": "Semiconductor Moonshot Warning",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100002.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100002.09,
+      "positions": {},
+      "sector": "Semiconductor Moonshot Warning",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19",
   "last_run": "2026-05-29",
   "meta": {
     "semiconductor-moonshot-warning": {
-      "latest_value": 186.85,
-      "prior_avg": 182.14,
-      "signal_change": 0.0259,
+      "latest_value": 191.02,
+      "prior_avg": 184.2025,
+      "signal_change": 0.037,
       "signal_label": "HOLD",
       "name": "Semiconductor Moonshot Warning",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28",
+      "last_run": "2026-05-29",
       "entry_date": "2026-05-26"
     }
   }

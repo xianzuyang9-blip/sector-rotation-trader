@@ -833,6 +833,16 @@
       "positions": {},
       "sector": "Earthquake Activity Surge Triggers Defensive Rotation",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99890.67,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99890.67,
+      "positions": {},
+      "sector": "Earthquake Activity Surge Triggers Defensive Rotation",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23",
@@ -841,12 +851,12 @@
     "earthquake-activity-surge-triggers-defensive-rotation": {
       "signal_label": "HOLD",
       "latest_value": 239.0,
-      "prior_avg": 301.8571,
-      "signal_change": -0.2082,
+      "prior_avg": 308.1429,
+      "signal_change": -0.2244,
       "entry_date": "2026-05-06",
       "name": "Earthquake Activity Surge Triggers Defensive Rotation",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

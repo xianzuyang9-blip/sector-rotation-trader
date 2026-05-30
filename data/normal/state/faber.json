@@ -1,23 +1,23 @@
 {
-  "cash": 34595.638140486684,
+  "cash": 35369.1332178426,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 107.4462789017967,
-  "taxes_paid": 3512.86959959133,
+  "fees_paid": 151.19157326136994,
+  "taxes_paid": 6039.4334763372935,
   "positions": {
-    "XLE": {
-      "shares": 580.3107670578827,
-      "entry_price": 59.650001525878906,
-      "entry_date": "2026-04-30",
-      "cost": 34615.538140486664,
+    "XLK": {
+      "shares": 185.26349296571848,
+      "entry_price": 191.02000427246094,
+      "entry_date": "2026-05-29",
+      "cost": 35389.03321784258,
       "using_margin": false,
       "consec_below_ma": 0
     },
-    "XLK": {
-      "shares": 217.02531749521418,
-      "entry_price": 159.5,
-      "entry_date": "2026-04-30",
-      "cost": 34615.538140486664,
+    "XLY": {
+      "shares": 292.7859056315221,
+      "entry_price": 120.87000274658203,
+      "entry_date": "2026-05-29",
+      "cost": 35389.03321784258,
       "using_margin": false,
       "consec_below_ma": 0
     }
@@ -136,6 +136,54 @@
       "shares": 217.0253,
       "price": 159.5,
       "cost": 34615.54,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 580.3108,
+      "price": 56.29,
+      "proceeds": 32653.94,
+      "fees": 11.76,
+      "tax": 0.0,
+      "pnl": -1961.6,
+      "pnl_pct": -5.67,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 217.0253,
+      "price": 191.02,
+      "proceeds": 41444.09,
+      "fees": 12.09,
+      "tax": 2526.56,
+      "pnl": 4301.99,
+      "pnl_pct": 12.43,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 185.2635,
+      "price": 191.02,
+      "cost": 35389.03,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 292.7859,
+      "price": 120.87,
+      "cost": 35389.03,
       "margin": false,
       "fees": 9.95
     }
@@ -2742,15 +2790,44 @@
       },
       "sector": "Faber Momentum Rotation",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 35369.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 106147.2,
+      "positions": {
+        "XLK": {
+          "shares": 185.2635,
+          "entry_price": 191.02,
+          "current_price": 191.02,
+          "market_value": 35389.03,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        },
+        "XLY": {
+          "shares": 292.7859,
+          "entry_price": 120.87,
+          "current_price": 120.87,
+          "market_value": 35389.03,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Faber Momentum Rotation",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-11",
-  "last_run": "2026-05-28",
+  "last_run": "2026-05-29",
   "meta": {
     "faber": {
       "name": "Faber Momentum Rotation",
-      "last_run": "2026-05-28",
-      "last_signal": "XLE,XLK,XLU"
+      "last_run": "2026-05-29",
+      "last_signal": "XLE,XLK,XLY"
     }
   }
 }

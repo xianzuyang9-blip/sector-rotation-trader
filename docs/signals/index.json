@@ -5,84 +5,84 @@
   "total_algos": 374,
   "ticker_count": 105,
   "top_bullish_etfs": [
-    "XLK",
+    "XLI",
     "XLP",
-    "XLU"
+    "XLK"
   ],
   "top_bearish_etfs": [
-    "XLF",
     "XLC",
-    "XLRE"
+    "XLRE",
+    "XLV"
   ],
   "sector_summary": {
     "XLK": {
       "etf": "XLK",
       "sector": "Technology",
-      "composite": "11 of 46",
+      "composite": "11 of 56",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "XLV": {
       "etf": "XLV",
       "sector": "Healthcare",
-      "composite": "2 of 48",
+      "composite": "0 of 55",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "XLF": {
       "etf": "XLF",
       "sector": "Financial Services",
-      "composite": "1 of 47",
+      "composite": "4 of 53",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "XLY": {
       "etf": "XLY",
       "sector": "Consumer Cyclical",
-      "composite": "8 of 72",
+      "composite": "12 of 81",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "XLI": {
       "etf": "XLI",
       "sector": "Industrials",
-      "composite": "8 of 64",
+      "composite": "18 of 66",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "XLC": {
       "etf": "XLC",
       "sector": "Communication Services",
-      "composite": "1 of 42",
+      "composite": "2 of 49",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "XLP": {
       "etf": "XLP",
       "sector": "Consumer Defensive",
-      "composite": "9 of 47",
+      "composite": "11 of 53",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "XLE": {
       "etf": "XLE",
       "sector": "Energy",
-      "composite": "5 of 47",
+      "composite": "4 of 54",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 11
+      "bullish_pct": 7
     },
     "XLB": {
       "etf": "XLB",
       "sector": "Basic Materials",
-      "composite": "7 of 46",
+      "composite": "8 of 53",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 15
@@ -90,7 +90,7 @@
     "XLRE": {
       "etf": "XLRE",
       "sector": "Real Estate",
-      "composite": "1 of 43",
+      "composite": "1 of 50",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 2
@@ -98,10 +98,10 @@
     "XLU": {
       "etf": "XLU",
       "sector": "Utilities",
-      "composite": "9 of 51",
+      "composite": "12 of 59",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 18
+      "bullish_pct": 20
     }
   },
   "leaderboard": [
@@ -109,21 +109,11 @@
       "algo_id": "simple_monthly",
       "name": "Quantified Simple Monthly Rotation",
       "algo_type": "normal",
-      "ytd_pct": 17.14,
-      "spy_pct": 17.14,
+      "ytd_pct": 12.42,
+      "spy_pct": 12.42,
       "beat_spy": false,
-      "days_running": 116,
-      "equity": 117135.68
-    },
-    {
-      "algo_id": "faber",
-      "name": "Faber Momentum Rotation",
-      "algo_type": "normal",
-      "ytd_pct": 8.2,
-      "spy_pct": 8.2,
-      "beat_spy": false,
-      "days_running": 116,
-      "equity": 108195.52
+      "days_running": 117,
+      "equity": 112418.61
     },
     {
       "algo_id": "baileymol",
@@ -132,118 +122,108 @@
       "ytd_pct": 8.16,
       "spy_pct": 8.16,
       "beat_spy": false,
-      "days_running": 116,
+      "days_running": 117,
       "equity": 108161.29
     },
     {
       "algo_id": "retail-sales-momentum",
       "name": "Retail Sales Momentum",
       "algo_type": "crazy",
-      "ytd_pct": 7.46,
-      "spy_pct": 7.46,
-      "beat_spy": false,
-      "days_running": 115,
-      "equity": 107464.66
-    },
-    {
-      "algo_id": "dmsr",
-      "name": "Antonacci Dual Momentum Sector Rotation",
-      "algo_type": "normal",
-      "ytd_pct": 7.14,
-      "spy_pct": 7.14,
+      "ytd_pct": 7.97,
+      "spy_pct": 7.97,
       "beat_spy": false,
       "days_running": 116,
-      "equity": 107138.46
+      "equity": 107969.41
     },
     {
       "algo_id": "job-posting-acceleration",
       "name": "Job Posting Acceleration",
       "algo_type": "crazy",
-      "ytd_pct": 5.65,
-      "spy_pct": 5.65,
+      "ytd_pct": 6.18,
+      "spy_pct": 6.18,
       "beat_spy": false,
-      "days_running": 115,
-      "equity": 105646.96
+      "days_running": 116,
+      "equity": 106175.39
+    },
+    {
+      "algo_id": "faber",
+      "name": "Faber Momentum Rotation",
+      "algo_type": "normal",
+      "ytd_pct": 6.15,
+      "spy_pct": 6.15,
+      "beat_spy": false,
+      "days_running": 117,
+      "equity": 106147.2
+    },
+    {
+      "algo_id": "dmsr",
+      "name": "Antonacci Dual Momentum Sector Rotation",
+      "algo_type": "normal",
+      "ytd_pct": 5.47,
+      "spy_pct": 5.47,
+      "beat_spy": false,
+      "days_running": 117,
+      "equity": 105469.9
     },
     {
       "algo_id": "uber-mobility",
       "name": "Uber Mobility Index",
       "algo_type": "crazy",
-      "ytd_pct": 4.12,
-      "spy_pct": 4.12,
+      "ytd_pct": 3.22,
+      "spy_pct": 3.22,
       "beat_spy": false,
-      "days_running": 115,
-      "equity": 104121.89
+      "days_running": 116,
+      "equity": 103224.25
     },
     {
       "algo_id": "vix-term-structure",
       "name": "VIX Term Structure",
       "algo_type": "crazy",
-      "ytd_pct": 1.73,
-      "spy_pct": 1.73,
+      "ytd_pct": 2.38,
+      "spy_pct": 2.38,
       "beat_spy": false,
-      "days_running": 106,
-      "equity": 101731.68
+      "days_running": 107,
+      "equity": 102378.58
     },
     {
       "algo_id": "housing-permit-velocity",
       "name": "Housing Permit Velocity",
       "algo_type": "crazy",
-      "ytd_pct": 1.53,
-      "spy_pct": 1.53,
-      "beat_spy": false,
-      "days_running": 115,
-      "equity": 101527.04
-    },
-    {
-      "algo_id": "biscotti",
-      "name": "Algo Biscotti (Unconditional Loyalty)",
-      "algo_type": "crazy",
-      "ytd_pct": 1.0,
-      "spy_pct": 1.0,
-      "beat_spy": false,
-      "days_running": 115,
-      "equity": 101003.34
-    },
-    {
-      "algo_id": "biscotti",
-      "name": "Algo Biscotti (Unconditional Loyalty)",
-      "algo_type": "normal",
-      "ytd_pct": 0.69,
-      "spy_pct": 0.69,
+      "ytd_pct": 1.22,
+      "spy_pct": 1.22,
       "beat_spy": false,
       "days_running": 116,
-      "equity": 100689.15
+      "equity": 101222.19
     },
     {
-      "algo_id": "insider-trading-signals",
-      "name": "Insider Trading Signals",
+      "algo_id": "vix-fear-rotation",
+      "name": "VIX Fear Rotation",
       "algo_type": "crazy",
-      "ytd_pct": 0.35,
-      "spy_pct": 0.35,
+      "ytd_pct": 0.58,
+      "spy_pct": 0.58,
       "beat_spy": false,
-      "days_running": 115,
-      "equity": 100351.25
+      "days_running": 107,
+      "equity": 100578.22
     },
     {
-      "algo_id": "freight-rail-carloads",
-      "name": "Freight Rail Carloads",
+      "algo_id": "weekly-surge-in-google-trends-searches-for-diy-electronics-r",
+      "name": "Weekly Surge In Google Trends Searches For Diy Electronics Repair Signals Bullish Xlk",
       "algo_type": "crazy",
-      "ytd_pct": 0.21,
-      "spy_pct": 0.21,
+      "ytd_pct": 0.09,
+      "spy_pct": 0.09,
       "beat_spy": false,
-      "days_running": 115,
-      "equity": 100205.46
+      "days_running": 102,
+      "equity": 100091.53
     },
     {
-      "algo_id": "truck-tonnage",
-      "name": "Truck Tonnage Index",
+      "algo_id": "weekly-google-trends-surge-in-diy-electronics-repair-signals",
+      "name": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
       "algo_type": "crazy",
-      "ytd_pct": 0.18,
-      "spy_pct": 0.18,
+      "ytd_pct": 0.09,
+      "spy_pct": 0.09,
       "beat_spy": false,
-      "days_running": 115,
-      "equity": 100180.21
+      "days_running": 98,
+      "equity": 100090.67
     },
     {
       "algo_id": "recession-whisper-google-trends-unemployment-search-surge",
@@ -252,7 +232,7 @@
       "ytd_pct": 0.07,
       "spy_pct": 0.07,
       "beat_spy": false,
-      "days_running": 97,
+      "days_running": 98,
       "equity": 100072.76
     },
     {
@@ -262,7 +242,7 @@
       "ytd_pct": 0.07,
       "spy_pct": 0.07,
       "beat_spy": false,
-      "days_running": 93,
+      "days_running": 94,
       "equity": 100070.66
     },
     {
@@ -272,7 +252,7 @@
       "ytd_pct": 0.07,
       "spy_pct": 0.07,
       "beat_spy": false,
-      "days_running": 86,
+      "days_running": 87,
       "equity": 100070.09
     },
     {
@@ -282,7 +262,7 @@
       "ytd_pct": 0.05,
       "spy_pct": 0.05,
       "beat_spy": false,
-      "days_running": 109,
+      "days_running": 110,
       "equity": 100047.52
     },
     {
@@ -292,7 +272,7 @@
       "ytd_pct": 0.04,
       "spy_pct": 0.04,
       "beat_spy": false,
-      "days_running": 73,
+      "days_running": 74,
       "equity": 100036.54
     },
     {
@@ -302,190 +282,210 @@
       "ytd_pct": 0.04,
       "spy_pct": 0.04,
       "beat_spy": false,
-      "days_running": 82,
+      "days_running": 83,
       "equity": 100042.42
+    },
+    {
+      "algo_id": "google-trends-surge-in-used-car-price-searches",
+      "name": "Google Trends Surge In Used Car Price Searches",
+      "algo_type": "crazy",
+      "ytd_pct": 0.04,
+      "spy_pct": 0.04,
+      "beat_spy": false,
+      "days_running": 96,
+      "equity": 100038.19
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-diy-electronics-repair-sig",
+      "name": "Weekly Surge In Google Trends For Diy Electronics Repair Signals Bullish Xlk",
+      "algo_type": "crazy",
+      "ytd_pct": 0.04,
+      "spy_pct": 0.04,
+      "beat_spy": false,
+      "days_running": 96,
+      "equity": 100036.61
     }
   ],
   "ticker_index": {
     "AAPL": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "MSFT": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "NVDA": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "AMZN": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "META": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "GOOGL": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "GOOG": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "BRK-B": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "TSLA": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "LLY": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "AVGO": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "JPM": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "V": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "UNH": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "XOM": {
       "sector_etf": "XLE",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 7
     },
     "MA": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "COST": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "HD": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "PG": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "JNJ": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "ABBV": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "BAC": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "MRK": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "CRM": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "CVX": {
       "sector_etf": "XLE",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 7
     },
     "ORCL": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "NFLX": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "WMT": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "KO": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "PEP": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "AMD": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "TMO": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "ACN": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "MCD": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "CSCO": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "ABT": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "LIN": {
       "sector_etf": "XLB",
@@ -495,122 +495,122 @@
     "DHR": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "TXN": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "PM": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "CAT": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "AMGN": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "GE": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "INTU": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "MS": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "ISRG": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "RTX": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "SPGI": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "GS": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "BLK": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "AMAT": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "AXP": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "NEE": {
       "sector_etf": "XLU",
       "composite_label": "BEARISH",
-      "bullish_pct": 18
+      "bullish_pct": 20
     },
     "T": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "VRTX": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "SYK": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "BSX": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "REGN": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "ETN": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "MDT": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "CI": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "PLD": {
       "sector_etf": "XLRE",
@@ -620,117 +620,117 @@
     "ADI": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "GILD": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "ZTS": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "CB": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "SCHW": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "DE": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "HCA": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "SO": {
       "sector_etf": "XLU",
       "composite_label": "BEARISH",
-      "bullish_pct": 18
+      "bullish_pct": 20
     },
     "MO": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "NOC": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "DUK": {
       "sector_etf": "XLU",
       "composite_label": "BEARISH",
-      "bullish_pct": 18
+      "bullish_pct": 20
     },
     "USB": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "CME": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "WM": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "EMR": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "AON": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "PNC": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "TGT": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "MCO": {
       "sector_etf": "XLF",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 8
     },
     "ELV": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "CL": {
       "sector_etf": "XLP",
       "composite_label": "BEARISH",
-      "bullish_pct": 19
+      "bullish_pct": 21
     },
     "ITW": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "FDX": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "SHW": {
       "sector_etf": "XLB",
@@ -745,37 +745,37 @@
     "GD": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "APH": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     },
     "NSC": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "EOG": {
       "sector_etf": "XLE",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 7
     },
     "MPC": {
       "sector_etf": "XLE",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 7
     },
     "PSX": {
       "sector_etf": "XLE",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 7
     },
     "HUM": {
       "sector_etf": "XLV",
       "composite_label": "BEARISH",
-      "bullish_pct": 4
+      "bullish_pct": 0
     },
     "NEM": {
       "sector_etf": "XLB",
@@ -785,58 +785,58 @@
     "F": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "GM": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "DAL": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "UAL": {
       "sector_etf": "XLI",
       "composite_label": "BEARISH",
-      "bullish_pct": 12
+      "bullish_pct": 27
     },
     "MAR": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "HLT": {
       "sector_etf": "XLY",
       "composite_label": "BEARISH",
-      "bullish_pct": 11
+      "bullish_pct": 15
     },
     "DIS": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "CMCSA": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "VZ": {
       "sector_etf": "XLC",
       "composite_label": "BEARISH",
-      "bullish_pct": 2
+      "bullish_pct": 4
     },
     "INTC": {
       "sector_etf": "XLK",
       "composite_label": "BEARISH",
-      "bullish_pct": 24
+      "bullish_pct": 20
     }
   },
-  "idle_algos": 214,
+  "idle_algos": 210,
   "blocked_algos": [
     {
-      "timestamp": "2026-05-28T23:54:09",
+      "timestamp": "2026-05-29T23:53:32",
       "algo_id": "glassdoor",
       "name": "Glassdoor Misery Gradient",
       "keys": [
@@ -846,7 +846,7 @@
       "reason": "Missing Glassdoor keys"
     },
     {
-      "timestamp": "2026-05-29T00:04:31",
+      "timestamp": "2026-05-29T23:55:16",
       "algo_id": "yelp-closure-velocity",
       "name": "Yelp Closure Velocity",
       "keys": [

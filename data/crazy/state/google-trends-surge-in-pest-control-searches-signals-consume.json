@@ -696,6 +696,16 @@
       "positions": {},
       "sector": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23",
@@ -705,7 +715,7 @@
       "signal_label": "HOLD",
       "name": "Google Trends Surge In Pest Control Searches Signals Consumer Home Stress",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

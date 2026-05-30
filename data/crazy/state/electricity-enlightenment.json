@@ -1457,6 +1457,16 @@
       "positions": {},
       "sector": "Electricity Enlightenment",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99706.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99706.51,
+      "positions": {},
+      "sector": "Electricity Enlightenment",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
@@ -1464,13 +1474,13 @@
   "meta": {
     "electricity-enlightenment": {
       "signal_label": "HOLD",
-      "latest_value": 11386659.0,
-      "prior_avg": 10718986.3,
-      "signal_change": 0.0623,
+      "latest_value": 9065427.0,
+      "prior_avg": 10744435.1714,
+      "signal_change": -0.1563,
       "entry_date": "2026-05-27",
       "name": "Electricity Enlightenment",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

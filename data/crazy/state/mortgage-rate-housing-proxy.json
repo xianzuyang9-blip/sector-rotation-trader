@@ -2185,6 +2185,35 @@
       },
       "sector": "Mortgage Rate Housing Proxy",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 30174.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98643.21,
+      "positions": {
+        "XLP": {
+          "shares": 478.3052,
+          "entry_price": 84.17,
+          "current_price": 82.91,
+          "market_value": 39656.29,
+          "unrealized_pnl": -602.66,
+          "entry_date": "2026-05-01",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 648.6404,
+          "entry_price": 46.55,
+          "current_price": 44.42,
+          "market_value": 28812.61,
+          "unrealized_pnl": -1381.6,
+          "entry_date": "2026-05-01",
+          "margin": false
+        }
+      },
+      "sector": "Mortgage Rate Housing Proxy",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",
@@ -2192,10 +2221,10 @@
   "meta": {
     "mortgage-rate-housing-proxy": {
       "name": "Mortgage Rate Housing Proxy",
-      "last_run": "2026-05-28",
+      "last_run": "2026-05-29",
       "series_id": "MORTGAGE30US",
-      "mortgage_rate": 6.51,
-      "rate_delta_8w": 0.13,
+      "mortgage_rate": 6.53,
+      "rate_delta_8w": 0.07,
       "signal_label": "HOLD",
       "signal_key": "HOLD",
       "last_signal": "HOUSING_HEADWIND"

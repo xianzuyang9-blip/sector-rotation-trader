@@ -696,6 +696,16 @@
       "positions": {},
       "sector": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23",
@@ -708,7 +718,7 @@
       "signal_change": -0.1724,
       "name": "Weekly Surge In Freightlogistics Google Trends For Warehouse Labor Shortage Signals Industrial Sector Pressure",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

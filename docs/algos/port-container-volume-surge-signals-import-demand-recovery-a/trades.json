@@ -575,6 +575,16 @@
       "pnl_pct": 0.14,
       "entry_date": "2026-05-27",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.233,
+      "price": 120.87,
+      "cost": 4983.83,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1647,6 +1657,26 @@
       "positions": {},
       "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94682.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.7,
+      "positions": {
+        "XLY": {
+          "shares": 41.233,
+          "entry_price": 120.87,
+          "current_price": 120.87,
+          "market_value": 4983.83,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-11"

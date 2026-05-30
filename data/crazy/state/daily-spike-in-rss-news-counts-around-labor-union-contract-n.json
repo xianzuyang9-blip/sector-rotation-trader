@@ -1,19 +1,10 @@
 {
-  "cash": 94874.03437765938,
+  "cash": 99880.50617452829,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 231.92759651031406,
-  "taxes_paid": 58.57969318303805,
-  "positions": {
-    "XLF": {
-      "shares": 97.40382036328694,
-      "entry_price": 51.27000045776367,
-      "entry_date": "2026-05-29",
-      "cost": 4993.893914613652,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 242.15802211805754,
+  "taxes_paid": 65.96670339644488,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-25",
@@ -288,6 +279,20 @@
       "cost": 4993.89,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.4038,
+      "price": 51.58,
+      "proceeds": 5013.86,
+      "fees": 10.23,
+      "tax": 7.39,
+      "pnl": 12.58,
+      "pnl_pct": 0.25,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1420,19 +1425,29 @@
       },
       "sector": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99880.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99880.51,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
   "last_run": "2026-05-29",
   "meta": {
     "daily-spike-in-rss-news-counts-around-labor-union-contract-n": {
-      "latest_value": 2.0,
-      "prior_avg": 1.0,
+      "latest_value": 3.0,
+      "prior_avg": 1.5,
       "signal_change": 1.0,
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Daily Spike In Rss News Counts Around Labor Union Contract Negotiation Signals Bearish Xlf",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-28",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-29",
       "entry_date": "2026-05-28"
     }
   }

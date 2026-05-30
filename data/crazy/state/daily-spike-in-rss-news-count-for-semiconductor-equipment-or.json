@@ -726,6 +726,16 @@
       "positions": {},
       "sector": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-20",
@@ -735,7 +745,7 @@
       "signal_label": "HOLD",
       "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

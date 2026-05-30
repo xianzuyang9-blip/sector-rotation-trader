@@ -95,6 +95,16 @@
       "pnl_pct": -4.33,
       "entry_date": "2026-05-05",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 88.5157,
+      "price": 56.29,
+      "cost": 4982.55,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1017,6 +1027,26 @@
       "positions": {},
       "sector": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94658.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99641.06,
+      "positions": {
+        "XLE": {
+          "shares": 88.5157,
+          "entry_price": 56.29,
+          "current_price": 56.29,
+          "market_value": 4982.55,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04"

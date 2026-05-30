@@ -1,11 +1,31 @@
 {
-  "cash": 100000,
+  "cash": 94990.05,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 0.0,
+  "fees_paid": 9.95,
   "taxes_paid": 0.0,
-  "positions": {},
-  "trade_log": [],
+  "positions": {
+    "XLF": {
+      "shares": 96.93679376703042,
+      "entry_price": 51.58000183105469,
+      "entry_date": "2026-05-29",
+      "cost": 5000.0,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 96.9368,
+      "price": 51.58,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-02-04",
@@ -886,19 +906,40 @@
       "positions": {},
       "sector": "Weekly Google Trends Spike For Small Business Loan Default Searches",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLF": {
+          "shares": 96.9368,
+          "entry_price": 51.58,
+          "current_price": 51.58,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Google Trends Spike For Small Business Loan Default Searches",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04",
   "last_run": "2026-05-29",
   "meta": {
     "weekly-google-trends-spike-for-small-business-loan-default-s": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Weekly Google Trends Spike For Small Business Loan Default Searches",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-28",
-      "latest_value": 0.0,
-      "prior_avg": 2.7857,
-      "signal_change": -1.0
+      "last_signal": "RISK_ON",
+      "last_run": "2026-05-29",
+      "latest_value": 5.0,
+      "prior_avg": 2.3571,
+      "signal_change": 1.1212,
+      "entry_date": "2026-05-29"
     }
   }
 }

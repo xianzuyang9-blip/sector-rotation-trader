@@ -939,6 +939,16 @@
       "positions": {},
       "sector": "Electricity Demand Spike During Extreme Cold Snap Triggers Utility Sector Rally",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99927.69,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99927.69,
+      "positions": {},
+      "sector": "Electricity Demand Spike During Extreme Cold Snap Triggers Utility Sector Rally",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-11",
@@ -946,12 +956,12 @@
   "meta": {
     "electricity-demand-spike-during-extreme-cold-snap-triggers-u": {
       "signal_label": "HOLD",
-      "latest_value": 11386659.0,
-      "prior_avg": 10718986.3,
-      "signal_change": 0.0623,
+      "latest_value": 9065427.0,
+      "prior_avg": 10744435.1714,
+      "signal_change": -0.1563,
       "name": "Electricity Demand Spike During Extreme Cold Snap Triggers Utility Sector Rally",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28",
+      "last_run": "2026-05-29",
       "entry_date": "2026-05-20"
     }
   }

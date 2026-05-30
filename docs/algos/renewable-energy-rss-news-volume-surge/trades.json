@@ -47,6 +47,16 @@
       "pnl_pct": 0.33,
       "entry_date": "2026-05-21",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.8818,
+      "price": 173.13,
+      "cost": 5000.31,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -939,6 +949,26 @@
       "positions": {},
       "sector": "Renewable Energy Rss News Volume Surge",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94996.02,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99996.34,
+      "positions": {
+        "XLI": {
+          "shares": 28.8818,
+          "entry_price": 173.13,
+          "current_price": 173.13,
+          "market_value": 5000.31,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Renewable Energy Rss News Volume Surge",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-05"

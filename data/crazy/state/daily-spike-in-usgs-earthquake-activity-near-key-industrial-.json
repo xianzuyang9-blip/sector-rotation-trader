@@ -921,6 +921,16 @@
       "positions": {},
       "sector": "Daily Spike In Usgs Earthquake Activity Near Key Industrial Hubs",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100015.96,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100015.96,
+      "positions": {},
+      "sector": "Daily Spike In Usgs Earthquake Activity Near Key Industrial Hubs",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
@@ -928,13 +938,13 @@
   "meta": {
     "daily-spike-in-usgs-earthquake-activity-near-key-industrial-": {
       "signal_label": "HOLD",
-      "latest_value": 238.0,
-      "prior_avg": 301.8571,
-      "signal_change": -0.2115,
+      "latest_value": 239.0,
+      "prior_avg": 308.1429,
+      "signal_change": -0.2244,
       "entry_date": "2026-04-08",
       "name": "Daily Spike In Usgs Earthquake Activity Near Key Industrial Hubs",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

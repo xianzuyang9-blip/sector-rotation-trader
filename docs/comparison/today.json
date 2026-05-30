@@ -1,119 +1,119 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-29T00:09:51.172479Z",
+  "generated_at": "2026-05-29T23:59:49.318167Z",
   "comparators": {
     "momentum_5d": {
       "XLK": {
         "direction": "UP",
-        "return_pct": 5.482,
+        "return_pct": 6.954,
         "confidence": 1.0
       },
       "XLF": {
         "direction": "DOWN",
-        "return_pct": -0.755,
-        "confidence": 0.151
+        "return_pct": -0.29,
+        "confidence": 0.058
       },
       "XLY": {
         "direction": "UP",
-        "return_pct": 3.493,
-        "confidence": 0.699
+        "return_pct": 1.828,
+        "confidence": 0.366
       },
       "XLP": {
         "direction": "DOWN",
-        "return_pct": -1.275,
-        "confidence": 0.255
+        "return_pct": -2.067,
+        "confidence": 0.413
       },
       "XLU": {
-        "direction": "UP",
-        "return_pct": 0.27,
-        "confidence": 0.054
+        "direction": "DOWN",
+        "return_pct": -1.289,
+        "confidence": 0.258
       },
       "XLV": {
         "direction": "UP",
-        "return_pct": 2.549,
-        "confidence": 0.51
+        "return_pct": 0.891,
+        "confidence": 0.178
       },
       "XLI": {
         "direction": "UP",
-        "return_pct": 1.798,
-        "confidence": 0.36
+        "return_pct": 1.525,
+        "confidence": 0.305
       },
       "XLB": {
         "direction": "UP",
-        "return_pct": 3.298,
-        "confidence": 0.66
+        "return_pct": 2.259,
+        "confidence": 0.452
       },
       "XLRE": {
         "direction": "DOWN",
-        "return_pct": -0.045,
-        "confidence": 0.009
+        "return_pct": -1.146,
+        "confidence": 0.229
       },
       "XLC": {
-        "direction": "UP",
-        "return_pct": 0.491,
-        "confidence": 0.098
+        "direction": "DOWN",
+        "return_pct": -0.353,
+        "confidence": 0.071
       },
       "XLE": {
         "direction": "DOWN",
-        "return_pct": -4.766,
-        "confidence": 0.953
+        "return_pct": -4.803,
+        "confidence": 0.961
       }
     },
     "momentum_20d": {
       "XLK": {
         "direction": "UP",
-        "return_pct": 17.434,
+        "return_pct": 19.762,
         "confidence": 1.0
       },
       "XLF": {
         "direction": "DOWN",
-        "return_pct": -1.252,
-        "confidence": 0.25
+        "return_pct": -1.055,
+        "confidence": 0.211
       },
       "XLY": {
         "direction": "UP",
-        "return_pct": 4.468,
-        "confidence": 0.894
+        "return_pct": 2.129,
+        "confidence": 0.426
       },
       "XLP": {
-        "direction": "UP",
-        "return_pct": 1.821,
-        "confidence": 0.364
+        "direction": "DOWN",
+        "return_pct": -1.661,
+        "confidence": 0.332
       },
       "XLU": {
         "direction": "DOWN",
-        "return_pct": -2.299,
-        "confidence": 0.46
+        "return_pct": -5.187,
+        "confidence": 1.0
       },
       "XLV": {
         "direction": "UP",
-        "return_pct": 5.629,
-        "confidence": 1.0
+        "return_pct": 2.384,
+        "confidence": 0.477
       },
       "XLI": {
-        "direction": "UP",
-        "return_pct": 2.277,
-        "confidence": 0.455
+        "direction": "DOWN",
+        "return_pct": -0.831,
+        "confidence": 0.166
       },
       "XLB": {
-        "direction": "UP",
-        "return_pct": 0.785,
-        "confidence": 0.157
+        "direction": "DOWN",
+        "return_pct": -0.622,
+        "confidence": 0.124
       },
       "XLRE": {
-        "direction": "UP",
-        "return_pct": 1.764,
-        "confidence": 0.353
+        "direction": "DOWN",
+        "return_pct": -0.923,
+        "confidence": 0.185
       },
       "XLC": {
-        "direction": "UP",
-        "return_pct": 1.197,
-        "confidence": 0.239
+        "direction": "DOWN",
+        "return_pct": -0.704,
+        "confidence": 0.141
       },
       "XLE": {
         "direction": "DOWN",
-        "return_pct": -3.524,
-        "confidence": 0.705
+        "return_pct": -5.633,
+        "confidence": 1.0
       }
     }
   }

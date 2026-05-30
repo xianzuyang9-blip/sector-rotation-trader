@@ -9,6 +9,30 @@
       "cost": 99990.05,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 626.8969,
+      "price": 191.02,
+      "proceeds": 119733.72,
+      "fees": 16.13,
+      "tax": 7305.16,
+      "pnl": 12438.51,
+      "pnl_pct": 12.44,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 588.5175,
+      "price": 191.02,
+      "cost": 112418.61,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1540,6 +1564,26 @@
           "market_value": 117135.68,
           "unrealized_pnl": 17145.63,
           "entry_date": "2026-04-30",
+          "margin": false
+        }
+      },
+      "sector": "Quantified Simple Monthly Rotation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": -0.0,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 112418.61,
+      "positions": {
+        "XLK": {
+          "shares": 588.5175,
+          "entry_price": 191.02,
+          "current_price": 191.02,
+          "market_value": 112418.61,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
           "margin": false
         }
       },

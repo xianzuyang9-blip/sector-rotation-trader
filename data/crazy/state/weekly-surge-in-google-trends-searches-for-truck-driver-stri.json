@@ -901,6 +901,16 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends Searches For Truck Driver Strike Signals Imminent Logistics Disruption",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99922.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99922.61,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends Searches For Truck Driver Strike Signals Imminent Logistics Disruption",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-06",
@@ -914,7 +924,7 @@
       "entry_date": "2026-05-01",
       "name": "Weekly Surge In Google Trends Searches For Truck Driver Strike Signals Imminent Logistics Disruption",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }

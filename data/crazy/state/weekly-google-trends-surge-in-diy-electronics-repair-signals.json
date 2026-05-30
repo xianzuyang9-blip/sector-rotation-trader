@@ -1,19 +1,10 @@
 {
-  "cash": 95024.9431389153,
+  "cash": 100090.67047968044,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 292.20713036340777,
-  "taxes_paid": 245.97827172240642,
-  "positions": {
-    "XLK": {
-      "shares": 26.769260463521235,
-      "entry_price": 186.85000610351562,
-      "entry_date": "2026-05-29",
-      "cost": 5001.836480995542,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 302.42083435395244,
+  "taxes_paid": 283.50147507915926,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-02-26",
@@ -360,6 +351,20 @@
       "cost": 5001.84,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 26.7693,
+      "price": 191.02,
+      "proceeds": 5103.25,
+      "fees": 10.21,
+      "tax": 37.52,
+      "pnl": 63.89,
+      "pnl_pct": 1.28,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1482,19 +1487,29 @@
       },
       "sector": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100090.67,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100090.67,
+      "positions": {},
+      "sector": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27",
   "last_run": "2026-05-29",
   "meta": {
     "weekly-google-trends-surge-in-diy-electronics-repair-signals": {
-      "signal_label": "RISK_ON",
-      "latest_value": 15.0,
-      "prior_avg": 10.6429,
-      "signal_change": 0.4094,
+      "signal_label": "HOLD",
+      "latest_value": 11.0,
+      "prior_avg": 5.3214,
+      "signal_change": 1.0671,
       "name": "Weekly Google Trends Surge In Diy Electronics Repair Signals Tech Consumer Stress Lift",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-28",
+      "last_signal": "HOLD",
+      "last_run": "2026-05-29",
       "entry_date": "2026-05-28"
     }
   }

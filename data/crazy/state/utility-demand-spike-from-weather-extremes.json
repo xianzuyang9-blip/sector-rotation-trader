@@ -1,19 +1,10 @@
 {
-  "cash": 94991.8114490592,
+  "cash": 99958.14418216562,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 50.31941665444623,
+  "fees_paid": 60.551855214989104,
   "taxes_paid": 13.051995137672812,
-  "positions": {
-    "XLU": {
-      "shares": 112.034339865105,
-      "entry_price": 44.630001068115234,
-      "entry_date": "2026-05-29",
-      "cost": 5000.092707845221,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-23",
@@ -72,6 +63,20 @@
       "cost": 5000.09,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLU",
+      "shares": 112.0343,
+      "price": 44.42,
+      "proceeds": 4966.33,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -33.76,
+      "pnl_pct": -0.68,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -804,20 +809,29 @@
       },
       "sector": "Utility Demand Spike From Weather Extremes",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99958.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99958.14,
+      "positions": {},
+      "sector": "Utility Demand Spike From Weather Extremes",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
   "last_run": "2026-05-29",
   "meta": {
     "utility-demand-spike-from-weather-extremes": {
-      "signal_label": "RISK_ON",
-      "latest_value": 11386659.0,
-      "prior_avg": 10556756.4,
-      "signal_change": 0.0786,
-      "entry_date": "2026-05-28",
+      "signal_label": "RISK_OFF",
+      "latest_value": 9065427.0,
+      "prior_avg": 10580325.0571,
+      "signal_change": -0.1432,
       "name": "Utility Demand Spike From Weather Extremes",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-28"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-05-29"
     }
   }
 }

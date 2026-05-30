@@ -57,6 +57,20 @@
       "cost": 5000.01,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.7688,
+      "price": 173.13,
+      "proceeds": 4970.53,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -29.48,
+      "pnl_pct": -0.59,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1099,6 +1113,16 @@
       },
       "sector": "Weekly Spike In Google Trends Searches For Warehouse Automation Failure Signals Bearish Xli",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99960.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99960.86,
+      "positions": {},
+      "sector": "Weekly Spike In Google Trends Searches For Warehouse Automation Failure Signals Bearish Xli",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

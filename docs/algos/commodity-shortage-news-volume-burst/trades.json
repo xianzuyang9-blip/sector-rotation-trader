@@ -167,6 +167,16 @@
       "pnl_pct": 0.09,
       "entry_date": "2026-05-27",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 97.6931,
+      "price": 51.15,
+      "cost": 4997.0,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1049,6 +1059,26 @@
       "positions": {},
       "sector": "Commodity Shortage News Volume Burst",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 94933.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99930.11,
+      "positions": {
+        "XLB": {
+          "shares": 97.6931,
+          "entry_price": 51.15,
+          "current_price": 51.15,
+          "market_value": 4997.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Commodity Shortage News Volume Burst",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-13"

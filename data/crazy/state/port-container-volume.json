@@ -1643,6 +1643,35 @@
       },
       "sector": "Port Container Volume",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 19980.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98745.68,
+      "positions": {
+        "XLI": {
+          "shares": 257.0841,
+          "entry_price": 175.04,
+          "current_price": 173.13,
+          "market_value": 44508.97,
+          "unrealized_pnl": -491.03,
+          "entry_date": "2026-05-11",
+          "margin": false
+        },
+        "XLB": {
+          "shares": 669.7283,
+          "entry_price": 52.26,
+          "current_price": 51.15,
+          "market_value": 34256.6,
+          "unrealized_pnl": -743.4,
+          "entry_date": "2026-05-11",
+          "margin": false
+        }
+      },
+      "sector": "Port Container Volume",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",
@@ -1654,7 +1683,7 @@
       "signal_label": "SUPPLY_CHAIN_EXPANSION",
       "signal_key": "SUPPLY_CHAIN_EXPANSION",
       "name": "Port Container Volume",
-      "last_run": "2026-05-28",
+      "last_run": "2026-05-29",
       "last_signal": "SUPPLY_CHAIN_EXPANSION"
     }
   }

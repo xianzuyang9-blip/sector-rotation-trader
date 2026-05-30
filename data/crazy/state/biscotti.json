@@ -2,14 +2,14 @@
   "cash": -2.9096725029376103e-12,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 390.6930354602976,
-  "taxes_paid": 22915.739365972364,
+  "fees_paid": 415.79683624435535,
+  "taxes_paid": 23772.087256198643,
   "positions": {
-    "XLV": {
-      "shares": 669.4282811087814,
-      "entry_price": 145.99000549316406,
-      "entry_date": "2026-04-30",
-      "cost": 97729.83843635039,
+    "XLU": {
+      "shares": 2232.7329669461637,
+      "entry_price": 44.41999816894531,
+      "entry_date": "2026-05-29",
+      "cost": 99177.99430349244,
       "using_margin": false,
       "consec_below_ma": 0
     }
@@ -94,6 +94,30 @@
       "shares": 669.4283,
       "price": 145.99,
       "cost": 97729.84,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLV",
+      "shares": 669.4283,
+      "price": 149.47,
+      "proceeds": 100044.29,
+      "fees": 15.15,
+      "tax": 856.35,
+      "pnl": 1458.11,
+      "pnl_pct": 1.49,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-29",
+      "action": "BUY",
+      "ticker": "XLU",
+      "shares": 2232.733,
+      "price": 44.42,
+      "cost": 99177.99,
       "margin": false,
       "fees": 9.95
     }
@@ -2367,18 +2391,38 @@
       },
       "sector": "Algo Biscotti (Unconditional Loyalty)",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": -0.0,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99177.99,
+      "positions": {
+        "XLU": {
+          "shares": 2232.733,
+          "entry_price": 44.42,
+          "current_price": 44.42,
+          "market_value": 99177.99,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Algo Biscotti (Unconditional Loyalty)",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-16",
-  "last_run": "2026-05-28",
+  "last_run": "2026-05-29",
   "meta": {
     "biscotti": {
       "target_sector": "XLU",
       "signal_label": "BUY:XLU",
       "signal_key": "XLU",
       "name": "Algo Biscotti (Unconditional Loyalty)",
-      "last_run": "2026-05-28",
-      "last_signal": "XLV"
+      "last_run": "2026-05-29",
+      "last_signal": "XLU"
     }
   }
 }

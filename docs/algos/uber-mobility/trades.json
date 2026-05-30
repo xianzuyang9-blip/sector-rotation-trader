@@ -2315,6 +2315,35 @@
       },
       "sector": "Uber Mobility Index",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 31351.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 103224.25,
+      "positions": {
+        "XLP": {
+          "shares": 494.5396,
+          "entry_price": 84.58,
+          "current_price": 82.91,
+          "market_value": 41002.28,
+          "unrealized_pnl": -825.88,
+          "entry_date": "2026-05-27",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 694.9739,
+          "entry_price": 45.14,
+          "current_price": 44.42,
+          "market_value": 30870.74,
+          "unrealized_pnl": -500.38,
+          "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Uber Mobility Index",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

@@ -837,6 +837,16 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Travel Demand Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99975.65,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99975.65,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Last Minute Vacation Bookings Signals Travel Demand Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22"

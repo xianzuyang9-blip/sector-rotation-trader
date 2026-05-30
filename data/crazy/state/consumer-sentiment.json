@@ -1396,6 +1396,35 @@
       },
       "sector": "Consumer Sentiment",
       "num_positions": 2
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 29980.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98473.38,
+      "positions": {
+        "XLP": {
+          "shares": 471.6981,
+          "entry_price": 84.8,
+          "current_price": 82.91,
+          "market_value": 39108.49,
+          "unrealized_pnl": -891.51,
+          "entry_date": "2026-05-22",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 661.5215,
+          "entry_price": 45.35,
+          "current_price": 44.42,
+          "market_value": 29384.78,
+          "unrealized_pnl": -615.22,
+          "entry_date": "2026-05-22",
+          "margin": false
+        }
+      },
+      "sector": "Consumer Sentiment",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",
@@ -1403,7 +1432,7 @@
   "meta": {
     "consumer-sentiment": {
       "name": "Consumer Sentiment",
-      "last_run": "2026-05-28",
+      "last_run": "2026-05-29",
       "sentiment_level": 49.8,
       "delta_3m": -6.6,
       "signal_label": "BEARISH",

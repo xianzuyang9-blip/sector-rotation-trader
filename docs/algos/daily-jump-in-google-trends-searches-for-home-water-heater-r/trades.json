@@ -345,6 +345,20 @@
       "cost": 4969.25,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 40.7115,
+      "price": 120.87,
+      "proceeds": 4910.6,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -58.65,
+      "pnl_pct": -1.18,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1447,6 +1461,16 @@
       },
       "sector": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99316.43,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99316.43,
+      "positions": {},
+      "sector": "Daily Jump In Google Trends Searches For Home Water Heater Repair Signals Consumer Stress Lifting Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-29"

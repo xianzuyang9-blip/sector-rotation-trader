@@ -57,6 +57,20 @@
       "cost": 5000.09,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-05-29",
+      "action": "SELL",
+      "ticker": "XLU",
+      "shares": 112.0343,
+      "price": 44.42,
+      "proceeds": 4966.33,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -33.76,
+      "pnl_pct": -0.68,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -789,6 +803,16 @@
       },
       "sector": "Utility Demand Spike From Weather Extremes",
       "num_positions": 1
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99958.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99958.14,
+      "positions": {},
+      "sector": "Utility Demand Spike From Weather Extremes",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22"

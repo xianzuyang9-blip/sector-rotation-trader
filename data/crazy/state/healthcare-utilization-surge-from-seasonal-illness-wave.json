@@ -716,6 +716,16 @@
       "positions": {},
       "sector": "Healthcare Utilization Surge From Seasonal Illness Wave",
       "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Healthcare Utilization Surge From Seasonal Illness Wave",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-21",
@@ -728,7 +738,7 @@
       "signal_label": "HOLD",
       "name": "Healthcare Utilization Surge From Seasonal Illness Wave",
       "last_signal": "HOLD",
-      "last_run": "2026-05-28"
+      "last_run": "2026-05-29"
     }
   }
 }
