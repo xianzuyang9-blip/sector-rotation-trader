@@ -77,6 +77,35 @@ jobs:
             echo "BUILD_LIMIT=0" >> "$GITHUB_ENV"
           fi
 
+      - name: Check publish date coherence
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          from pathlib import Path
+
+          run_date = os.environ["RUN_DATE"]
+          roots = []
+          for path in sorted(Path("data/ideas/runs").glob("*/publish")):
+              if path.is_dir():
+                  roots.append(path.parent.name)
+
+          if not roots:
+              print("No publish directories found under data/ideas/runs")
+              sys.exit(1)
+
+          latest_publish = roots[-1]
+          print(f"RUN_DATE={run_date}")
+          print(f"LATEST_PUBLISH_DATE={latest_publish}")
+
+          if run_date > latest_publish:
+              print(
+                  f"RUN_DATE {run_date} is ahead of latest publish date {latest_publish}. "
+                  "The factory is about to look for specs that do not exist yet."
+              )
+              sys.exit(1)
+          PY
+
       - name: Verify published idea specs exist
         run: |
           if [ ! -d "data/ideas/runs/$RUN_DATE/publish" ]; then

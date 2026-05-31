@@ -246,6 +246,39 @@ def _collect_new_algos(run_date: str) -> list[dict]:
     return items
 
 
+def _recent_signal_counts(limit: int = 5) -> list[tuple[str, int]]:
+    reports_dir = Path("reports/deep_validation")
+    rows: list[tuple[str, int]] = []
+    for path in sorted(reports_dir.glob("2026-*.json")):
+        payload = _load_json(path)
+        if not isinstance(payload, dict):
+            continue
+        report_date = str(payload.get("report_date") or "").strip()
+        system_state = payload.get("system_state") or {}
+        try:
+            count = int(system_state.get("signals_generated"))
+        except Exception:
+            continue
+        if report_date:
+            rows.append((report_date, count))
+    return rows[-limit:]
+
+
+def _signal_plateau_warning(window: int = 3) -> str | None:
+    rows = _recent_signal_counts(limit=max(window + 2, 5))
+    if len(rows) < window:
+        return None
+    tail = rows[-window:]
+    counts = [count for _, count in tail]
+    if len(set(counts)) != 1:
+        return None
+    dates = [run_date for run_date, _ in tail]
+    return (
+        f"Signal count plateau warning: signals_generated has stayed at {counts[0]} for "
+        f"{window} validation reports ({', '.join(dates)}). Check crazy factory throughput."
+    )
+
+
 def _build_report() -> str:
     lines = []
     now = datetime.utcnow().strftime("%Y-%m-%d")
@@ -323,6 +356,10 @@ def _build_report() -> str:
             lines.append(f"- {item.get('name','(unknown)')} ({item.get('category','?')})")
     else:
         lines.append("New algos added: none")
+
+    plateau_warning = _signal_plateau_warning()
+    if plateau_warning:
+        lines.append(f"- {plateau_warning}")
 
     lines.append("")
 
