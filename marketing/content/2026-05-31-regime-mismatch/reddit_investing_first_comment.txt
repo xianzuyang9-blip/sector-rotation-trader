@@ -1,0 +1,1 @@
+Full live leaderboard and methodology available—this is a real paper-trading lab, not a backtest. The point is to see which signals actually work when money's on the line and regimes shift.
