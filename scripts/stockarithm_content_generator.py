@@ -10,6 +10,7 @@ Output shape:
   marketing/content/YYYY-MM-DD-slug/
     meta.json
     x.md
+    linkedin.md
     medium.md
     substack.md
     substack_note.md
@@ -245,6 +246,20 @@ def _x_hook_candidates(report, row):
     ]
 
 
+def _linkedin_candidates(report, row):
+    top_force = _top_force_item(report)
+    top_name = top_force.get("name") or "the current leader"
+    total = _count_value(report, "total_force_ranked")
+    beat_spy = _count_value(report, "beating_spy_force_rank")
+    rolling = _count_value(report, "rolling_30d_beating_spy")
+    return [
+        f"Most trading signals look good until they have to survive in public. Right now {beat_spy} of {total} StockArithm signals are beating SPY.",
+        f"StockArithm runs sector ETF signals in public so it is easier to see what is actually holding up. Today that means {beat_spy} of {total} signals are beating SPY.",
+        f"{top_name} is the current leader, but the more useful fact is that only {beat_spy} of {total} public signals are beating SPY right now.",
+        f"The point of StockArithm is not a polished backtest. It is a public signal board with {total} sector ETF signals and only {rolling} recent winners versus SPY.",
+    ]
+
+
 def _substack_note_candidates(report, row):
     top_force = _top_force_item(report)
     top_name = top_force.get("name") or "the top signal"
@@ -414,6 +429,35 @@ Write one tweet only, under 280 characters, with one sharp observation and a lig
 Return plain text only.
 """
 
+    if channel_key == "linkedin":
+        return f"""\
+You are writing one LinkedIn post for StockArithm.
+
+{shared}
+
+Context:
+- title: {title}
+- theme: {theme}
+- notes: {notes}
+
+Selected hook: {selected_hook or "n/a"}
+
+Write a concise professional LinkedIn post.
+
+Rules:
+- professional, direct, evidence-first tone;
+- explain what StockArithm is in plain English;
+- connect the post to the pain point that many people do not have time to do quant research themselves;
+- explain why the public-survival model matters more than a pretty backtest;
+- 3 short paragraphs maximum;
+- 90 to 180 words;
+- optional hashtags only on the final line, maximum 5;
+- do not sound like a 2019 motivational LinkedIn post;
+- do not use bullets.
+
+Return plain text only.
+"""
+
     if channel_key == "medium":
         return f"""\
 You are writing a Medium article for StockArithm.
@@ -555,6 +599,7 @@ Return markdown/plain text only.
 
 CHANNEL_ORDER = [
     "x",
+    "linkedin",
     "medium",
     "substack",
     "substack_note",
@@ -573,6 +618,8 @@ def _build_meta(run_date, row, bundle_dir, report, hook_qa=None):
     channel_meta = {}
     if "x" in channels:
         channel_meta["x"] = {"status": "ready", "file": "x.md", "link_policy": "substack_cta"}
+    if "linkedin" in channels:
+        channel_meta["linkedin"] = {"status": "ready", "file": "linkedin.md", "link_policy": "site_cta"}
     if "medium" in channels:
         channel_meta["medium"] = {"status": "ready", "file": "medium.md", "link_policy": "substack_teaser"}
     if "substack" in channels:
@@ -626,6 +673,12 @@ def _lint_draft(text, channel_key):
         raise ValueError(f"{channel_key}: stale brand casing Stockarithm found")
     if channel_key == "x" and len(text) > 280:
         raise ValueError(f"{channel_key}: X draft exceeds 280 characters")
+    if channel_key == "linkedin":
+        words = re.findall(r"\b[\w'-]+\b", text)
+        if len(words) < 50:
+            raise ValueError(f"{channel_key}: LinkedIn draft is too thin")
+        if len(words) > 220:
+            raise ValueError(f"{channel_key}: LinkedIn draft is too long")
     if channel_key == "substack" and "stockarithm.com" not in text.lower():
         raise ValueError(f"{channel_key}: missing stockarithm.com URL")
     if channel_key == "substack":
@@ -668,6 +721,7 @@ def _lint_reddit_first_comment(text, channel_key):
 def _request_draft(client, prompt, user_message, channel_key):
     max_tokens = {
         "x": 256,
+        "linkedin": 700,
         "medium": 1400,
         "substack": 2600,
         "substack_note": 512,
@@ -697,7 +751,7 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, 
         f"Write the draft for {channel_key} now."
     )
 
-    attempts = 3 if channel_key in {"substack", "medium"} or channel_key.startswith("reddit_") else 2
+    attempts = 3 if channel_key in {"substack", "medium", "linkedin"} or channel_key.startswith("reddit_") else 2
     draft = ""
     body = ""
     first_comment = ""
@@ -740,6 +794,7 @@ def _write_channel(client, channel_key, run_date, facts_block, row, bundle_dir, 
 
     filename = {
         "x": "x.md",
+        "linkedin": "linkedin.md",
         "medium": "medium.md",
         "substack": "substack.md",
         "substack_note": "substack_note.md",
@@ -768,6 +823,8 @@ def generate(run_date, dry_run=False):
     x_hook = _select_best_hook(x_candidates, "x")
     note_candidates = _substack_note_candidates(report, row)
     note_hook = _select_best_hook(note_candidates, "substack_note")
+    linkedin_candidates = _linkedin_candidates(report, row)
+    linkedin_hook = _select_best_hook(linkedin_candidates, "linkedin")
     reddit_title_options = {}
     for target in _split_list(row.get("reddit_targets")):
         channel_key = f"reddit_{target}"
@@ -775,6 +832,7 @@ def generate(run_date, dry_run=False):
 
     hook_qa = {
         "x": {"selected": x_hook, "candidates": x_candidates},
+        "linkedin": {"selected": linkedin_hook, "candidates": linkedin_candidates},
         "substack_note": {"selected": note_hook, "candidates": note_candidates},
         "reddit_titles": reddit_title_options,
     }
@@ -790,10 +848,11 @@ def generate(run_date, dry_run=False):
                 print(f"  would write: {bundle_dir / f'reddit_{target}.md'}")
                 print(f"  would write: {bundle_dir / f'reddit_{target}_titles.md'}")
                 print(f"  would write: {bundle_dir / f'reddit_{target}_first_comment.txt'}")
-        for key in ("x", "medium", "substack", "substack_note"):
+        for key in ("x", "linkedin", "medium", "substack", "substack_note"):
             if key in channels:
                 print(f"  would write: {bundle_dir / f'{key}.md'}")
         print(f"  selected x hook: {x_hook}")
+        print(f"  selected linkedin hook: {linkedin_hook}")
         print(f"  selected substack note hook: {note_hook}")
         return
 
@@ -830,7 +889,12 @@ def generate(run_date, dry_run=False):
         else:
             if channel_key not in channels:
                 continue
-            selected_hook = x_hook if channel_key in {"x", "medium"} else note_hook if channel_key == "substack_note" else None
+            selected_hook = (
+                x_hook if channel_key in {"x", "medium"}
+                else linkedin_hook if channel_key == "linkedin"
+                else note_hook if channel_key == "substack_note"
+                else None
+            )
             _write_channel(
                 client,
                 channel_key,

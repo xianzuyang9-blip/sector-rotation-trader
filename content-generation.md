@@ -232,6 +232,7 @@ Dispatcher-ready bundle direction:
 marketing/content/{YYYY-MM-DD}-{slug}/
   meta.json
   x.md
+  linkedin.md
   medium.md
   substack.md
   substack_note.md
@@ -256,6 +257,7 @@ The generated bundle contract is:
 marketing/content/{YYYY-MM-DD}-{slug}/
   meta.json
   x.md
+  linkedin.md
   medium.md
   substack.md
   substack_note.md
@@ -289,6 +291,7 @@ Channel rules:
 - `reddit_*.md` bodies must be link-free and useful on their own.
 - `reddit_*_first_comment.txt` is where the manual outbound link belongs after posting.
 - `x.md` is the short hook and should not try to carry the whole thesis.
+- `linkedin.md` is the professional explainer and should be concise, clear, and evidence-first.
 - `medium.md` is a teaser/discovery surface, not a second canonical article.
 
 ## Scripts
@@ -379,7 +382,7 @@ Supports `--channel` flag to regenerate a single channel locally.
 
 ### `scripts/stockarithm_content_generator.py`
 
-Dispatcher-ready content bundle generator for StockArithm. Reads `marketing_schedule.csv` and `reports/deep_validation/latest.json`, then writes a self-contained `marketing/content/{YYYY-MM-DD}-{slug}/` bundle with `meta.json` plus channel files for X, Medium, Substack, Substack Notes, and subreddit-specific Reddit variants.
+Dispatcher-ready content bundle generator for StockArithm. Reads `marketing_schedule.csv` and `reports/deep_validation/latest.json`, then writes a self-contained `marketing/content/{YYYY-MM-DD}-{slug}/` bundle with `meta.json` plus channel files for X, LinkedIn, Medium, Substack, Substack Notes, and subreddit-specific Reddit variants.
 
 Responsibilities:
 

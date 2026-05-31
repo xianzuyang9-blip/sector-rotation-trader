@@ -126,6 +126,7 @@ The scoring should penalize:
 | Channel | Purpose | Role |
 |---------|---------|------|
 | X | Short hook and reach | Fast, sharp, direct. Tease the longer Substack piece. |
+| LinkedIn | Professional credibility | Short professional post that explains the product clearly and shows the evidence standard. |
 | Medium | Secondary funnel | Optional broader reach and teaser surface. |
 | Substack | Home base | Full long-form article, self-contained premise validation, and canonical CTA to `https://www.stockarithm.com`. |
 | Substack Note | Discovery | Short teaser or question. |
@@ -151,6 +152,7 @@ Channel-specific link rules:
 - `reddit_*.md` bodies must be link-free and native to the subreddit.
 - `reddit_*_first_comment.txt` exists for the manual outbound link after posting.
 - `x.md` should be short and controversial enough to push the reader to the longer piece.
+- `linkedin.md` should stay professional, explain the product in plain English, and frame StockArithm as public quant work for people who do not have time to do the research themselves.
 - `medium.md` should act as a teaser/discovery surface, not a second canonical home.
 
 Substack quality gate:

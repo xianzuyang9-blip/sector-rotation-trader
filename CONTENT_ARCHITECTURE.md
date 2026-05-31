@@ -4,7 +4,7 @@
 
 StockArithm content turns validated market artifacts into channel-specific public drafts.
 
-It exists so the lab can publish daily posts, signal spotlights, failure reports, and future dispatcher-ready bundles without inventing new facts or manually rewriting the same idea for every channel.
+It exists so the lab can publish daily posts, signal spotlights, failure reports, LinkedIn explainers, and future dispatcher-ready bundles without inventing new facts or manually rewriting the same idea for every channel.
 
 The content system is intentionally separate from the trading system.
 
@@ -54,6 +54,7 @@ The hook QA layer exists to stop weak opening hooks and weak Reddit titles from 
 It is most important for:
 
 - `x.md`
+- `linkedin.md`
 - `substack_note.md`
 - `reddit_*_titles.md`
 

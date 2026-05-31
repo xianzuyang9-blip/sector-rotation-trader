@@ -34,6 +34,7 @@ Channel-specific intent:
 - `Substack` is the canonical long article. It validates the premise and links back to `https://www.stockarithm.com`.
 - `Reddit` posts must be real and valuable on their own. No links in the body. The first comment can carry the outbound link manually.
 - `X` should be short, slightly controversial when supported by the evidence, and point readers toward the longer Substack piece.
+- `LinkedIn` should be professional, concise, and credibility-first. It should explain the product in plain English for people who do not have time to do quant research themselves.
 - `Medium` is a teaser/discovery surface, useful for reach and SEO, but not the canonical home.
 - `Substack Notes` are hook surfaces that support the main article.
 
