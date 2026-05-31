@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-31",
+  "input_count": 25,
+  "kept_count": 24,
+  "duplicate_count": 1,
+  "kept_by_source": {
+    "chatgpt": 14,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-freight-logistics-google-trends-for-port-con",
+      "title": "Weekly Surge In Freight Logistics Google Trends For Port Congestion",
+      "family": "freight_logistics",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.6,
+        "matched_title": "weekly surge in freight logistics google trends for cargo theft",
+        "matched_idea_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+        "matched_origin": "current_run",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-freight-logistics-google-trends-for-port-con",
+        "title": "Weekly Surge In Freight Logistics Google Trends For Port Congestion",
+        "family": "freight_logistics",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Rising port congestion searches indicate supply chain delays and logistics cost increases. Industrial sector faces margin pressure and delivery delays from port bottlenecks.",
+        "data_sources": [
+          "Google Trends weekly search interest for 'port congestion'"
+        ],
+        "signal_logic": "If weekly search interest rises 20% above 4-week average",
+        "entry_exit": "Entry: If weekly search interest rises 20% above 4-week average Exit: When search interest returns to baseline or declines for 2 weeks",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest for 'port congestion' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Port congestion fluctuates seasonally and with global trade news, causing repeatable search spikes.",
+        "schema": {
+          "idea": "Weekly surge in freight logistics Google Trends for 'port congestion'",
+          "family": "freight_logistics",
+          "data": {
+            "source": "Google Trends weekly search interest for 'port congestion'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Rising port congestion searches indicate supply chain delays and logistics cost increases.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Industrial sector faces margin pressure and delivery delays from port bottlenecks."
+          },
+          "trade_logic": {
+            "entry": "If weekly search interest rises 20% above 4-week average",
+            "exit": "When search interest returns to baseline or declines for 2 weeks",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Port congestion fluctuates seasonally and with global trade news, causing repeatable search spikes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}

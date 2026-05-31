@@ -1,0 +1,170 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-political-insider-filings-for-energy-sector-e",
+    "title": "Weekly Jump In Political Insider Filings For Energy Sector Executives",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+    "title": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+    "title": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-i",
+    "title": "Daily Spike In Consumer Stress Google Trends For Emergency Internet Outage",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-h",
+    "title": "Daily Spike In Consumer Stress Google Trends For Emergency Hvac Repair",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+    "title": "Daily Spike In Google Trends For Emergency Childcare Near Me",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-",
+    "title": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-local-economy-weirdness-municipal-building-pe",
+    "title": "Daily Spike In Local Economy Weirdness Municipal Building Permit Complaints",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-local-economy-weirdness-sudden-spike-in-city-p",
+    "title": "Daily Jump In Local Economy Weirdness Sudden Spike In City Parking Violation Complaints",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-diy-home-repair-kit-search",
+    "title": "Weekly Surge In Google Trends For Diy Home Repair Kit Searches",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spread-widening-of-airline-sector-etf-vs-consumer-disc",
+    "title": "Daily Spread Widening Of Airline Sector Etf Vs Consumer Discretionary Etf",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-attention-sentiment-rss-news-counts-for-semi",
+    "title": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-increase-in-macro-input-pressure-fred-series-for-indu",
+    "title": "Weekly Increase In Macro Input Pressure Fred Series For Industrial Natural Gas Prices",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-macro-input-pressure-fred-series-for-produce",
+    "title": "Weekly Surge In Macro Input Pressure Fred Series For Producer Price Index Of Metals",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "commercial-real-estate-stress-spike-from-earthquake-activity",
+    "title": "Commercial Real Estate Stress Spike From Earthquake Activity Signals Sector Rotation",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "utility-demand-surge-from-heat-wave-google-trends-signals-en",
+    "title": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "healthcare-staffing-shortage-rss-spike-signals-wage-inflatio",
+    "title": "Healthcare Staffing Shortage Rss Spike Signals Wage Inflation In Medical Sector",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "gasoline-price-spike-triggers-consumer-discretionary-rotatio",
+    "title": "Gasoline Price Spike Triggers Consumer Discretionary Rotation",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+    "title": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "jobless-claims-spike-triggers-financial-sector-bearish-fade",
+    "title": "Jobless Claims Spike Triggers Financial Sector Bearish Fade",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-volume-collapse-from-port-container-backlog-signals-",
+    "title": "Freight Volume Collapse From Port Container Backlog Signals Industrial Slowdown",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-deployment-acceleration-signals-consumer-adoption",
+    "title": "Ev Charger Deployment Acceleration Signals Consumer Adoption Surge",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airline-load-factor-crash-signals-consumer-travel-weakness",
+    "title": "Airline Load Factor Crash Signals Consumer Travel Weakness",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "copper-price-collapse-signals-industrial-recession-fear",
+    "title": "Copper Price Collapse Signals Industrial Recession Fear",
+    "family": "macro_input_pressure",
+    "score": 100
+  }
+]
