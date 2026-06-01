@@ -1,0 +1,149 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-political-insider-filings-for-insider-selling",
+    "title": "Weekly Rise In Political Insider Filings For Insider Selling In Financial Sector Signals Bearish Xlf",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-diy-home-repair-signals-cons",
+    "title": "Daily Jump In Google Trends For Diy Home Repair Signals Consumer Discretionary Caution",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-earthquake-activity-within-key-port-regions-s",
+    "title": "Daily Surge In Earthquake Activity Within Key Port Regions Signals Freight Logistics Risk And Industrial Caution",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-food-delivery-delays-signal",
+    "title": "Daily Spike In Google Trends For Food Delivery Delays Signals Consumer Staples Disruption",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-warehouse-automation-layoff",
+    "title": "Weekly Rise In Google Trends For Warehouse Automation Layoffs Signals Industrial Tech Disruption",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-freight-logistics-google-trends-for-port-con",
+    "title": "Weekly Surge In Freight Logistics Google Trends For Port Congestion Signals Supply Chain Pressure",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-google-trends-for-retail-theft-increase-sign",
+    "title": "Weekly Spike In Google Trends For Retail Theft Increase Signals Consumer Discretionary Risk",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-solar-panel-malfunction-si",
+    "title": "Weekly Surge In Google Trends For Solar Panel Malfunction Signals Green Energy Sector Tech Stress",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-credit-card-balance-transfe",
+    "title": "Daily Spike In Google Trends For Credit Card Balance Transfer Signals Consumer Financial Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-industrial-chemical-shortage-",
+    "title": "Weekly Google Trends Surge For Industrial Chemical Shortage Signals Basic Materials Supply Risk",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-emergency-car-repair-signals",
+    "title": "Daily Jump In Google Trends For Emergency Car Repair Signals Consumer Discretionary Stress Lift",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "supply-chain-backlog-rss-surge-signals-industrial-input-shor",
+    "title": "Supply Chain Backlog Rss Surge Signals Industrial Input Shortage",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "news-sentiment-spike-on-antitrust-actions-crushes-tech-giant",
+    "title": "News Sentiment Spike On Antitrust Actions Crushes Tech Giants",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earthquake-activity-surge-triggers-insurance-sector-repricin",
+    "title": "Earthquake Activity Surge Triggers Insurance Sector Repricing",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "core-pce-inflation-acceleration-crushes-growth-stocks",
+    "title": "Core Pce Inflation Acceleration Crushes Growth Stocks",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "unemployment-claims-spike-triggers-defensive-rotation",
+    "title": "Unemployment Claims Spike Triggers Defensive Rotation",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "natural-gas-storage-draw-signals-winter-energy-demand-spike",
+    "title": "Natural Gas Storage Draw Signals Winter Energy Demand Spike",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-installation-surge-signals-green-capex-accelerati",
+    "title": "Ev Charger Installation Surge Signals Green Capex Acceleration",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "mortgage-rate-spike-collapses-housing-demand-sentiment",
+    "title": "Mortgage Rate Spike Collapses Housing Demand Sentiment",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "diesel-price-surge-signals-freight-cost-inflation",
+    "title": "Diesel Price Surge Signals Freight Cost Inflation",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "hotel-occupancy-rate-collapse-signals-travel-recession",
+    "title": "Hotel Occupancy Rate Collapse Signals Travel Recession",
+    "family": "travel_mobility",
+    "score": 100
+  }
+]
