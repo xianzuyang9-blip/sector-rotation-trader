@@ -1,1 +1,1 @@
-1 of 374 signals is beating SPY. The other 373 are visible on the board—wins, losses, and the weird divergences in between. Simple Monthly Rotation leads. Chaos Rotation Lab is down 6.59% YTD. No hiding.
+1 of 374 signals is beating SPY. The other 373 are visible in the lab—wins, losses, and the weird divergences in between. Simple Monthly Rotation leads. Chaos Rotation Lab is down 6.59% YTD. Read the full breakdown.
