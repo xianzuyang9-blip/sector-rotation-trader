@@ -154,6 +154,49 @@ These items are important enough to consider before the July 1 decision because 
   - volatile / compressed
 - Goal: separate "wrong regime" from "bad signal" without adding a large new strategy framework.
 
+### Regime-Aware Signal Layer
+- Move beyond trade tagging into explicit regime-aware signal behavior.
+- Scope for the later version:
+  - detect simple trend / mean-reversion / compression regimes
+  - show which signals improve or degrade by regime
+  - eventually allow regime-aware weighting or activation rules
+- Goal: make regime fit a first-class part of signal evaluation instead of an after-the-fact explanation.
+
+### Composite Pressure Engine Research Track
+- Research a higher-class composite signal framework that combines multiple pressure components into one score.
+- Candidate components:
+  - trend pressure
+  - momentum pressure
+  - liquidity / sweep pressure
+  - volatility compression / expansion pressure
+- Keep this separate from simple single-factor algos so it can become a more premium research/product tier later.
+- Goal: build toward a differentiated composite signal class rather than only expanding the count of narrow algos.
+
+### Walk-Forward Optimization Framework
+- Add a formal walk-forward optimization workflow for serious signal validation.
+- First version should:
+  - use rolling in-sample / out-of-sample windows
+  - record parameter choices by window
+  - store stitched out-of-sample results separately from ordinary backtests
+- Goal: make it easier to tell whether a signal survives changing conditions instead of only fitting one historical slice.
+
+### Monte Carlo Robustness Testing
+- Add a robustness-testing layer using Monte Carlo or block-bootstrap style resampling on validated signals.
+- First version should surface:
+  - alternate equity-path distributions
+  - drawdown stress ranges
+  - downside-case Sharpe / return ranges
+- Goal: move from single-path backtest confidence to a distribution-based view of signal fragility.
+
+### Premium Composite Signal Tier
+- If the composite pressure engine proves materially better than ordinary algos, package it as a higher-value premium class.
+- Candidate premium positioning:
+  - fewer signals
+  - deeper explanation
+  - stronger validation standard
+  - separate pricing tier or add-on
+- Goal: reserve the most complex and potentially most valuable composite-signal work for a product tier that justifies the extra research and maintenance cost.
+
 ### Premium Signal Change Notes
 - Add short premium change logs for signals that moved materially in rank, alpha, or drawdown.
 - Goal: give subscribers a reason to come back beyond static dashboards.
