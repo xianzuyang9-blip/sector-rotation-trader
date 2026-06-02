@@ -1,0 +1,33 @@
+{
+  "source_file": "data/ideas/runs/2026-05-31/publish/chatgpt_daily-spread-widening-of-airline-sector-etf-vs-consumer-disc.md",
+  "target_file": "data/ideas/runs/2026-05-31/intervention/chatgpt_daily-spread-widening-of-airline-sector-etf-vs-consumer-disc.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": true,
+    "selected_adapter": "price_only",
+    "needs_new_adapter": false,
+    "reason": "Intraday relative performance requires intraday data, but adapter is daily price only.",
+    "risk_flags": [
+      "intraday data required",
+      "potential data source mismatch",
+      "price_only adapter is daily"
+    ],
+    "route": {
+      "adapters": [
+        "price_only"
+      ],
+      "scores": {
+        "html_table": 1,
+        "price_only": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 930,
+    "output_tokens": 84
+  },
+  "cost_usd": 0.003165,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"price_only\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Intraday relative performance requires intraday data, but adapter is daily price only.\",\n  \"risk_flags\": [\"intraday data required\", \"price_only adapter is daily\", \"potential data source mismatch\"]\n}\n```"
+}

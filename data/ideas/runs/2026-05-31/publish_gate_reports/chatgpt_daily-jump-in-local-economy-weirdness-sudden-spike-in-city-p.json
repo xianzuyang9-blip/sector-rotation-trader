@@ -1,0 +1,34 @@
+{
+  "source_file": "data/ideas/runs/2026-05-31/publish/chatgpt_daily-jump-in-local-economy-weirdness-sudden-spike-in-city-p.md",
+  "target_file": "data/ideas/runs/2026-05-31/intervention/chatgpt_daily-jump-in-local-economy-weirdness-sudden-spike-in-city-p.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "html_table",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support html_table yet.",
+    "risk_flags": [
+      "adapter mismatch",
+      "data source instability",
+      "false positives",
+      "regime shifts",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "html_table": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 911,
+    "output_tokens": 81
+  },
+  "cost_usd": 0.0030875,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"html_table\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"City parking violation complaints require a dedicated adapter beyond generic html_table scraping.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\", \"adapter mismatch\"]\n}\n```"
+}

@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-05-31/publish/chatgpt_weekly-increase-in-macro-input-pressure-fred-series-for-indu.md",
+  "target_file": "data/ideas/runs/2026-05-31/intervention/chatgpt_weekly-increase-in-macro-input-pressure-fred-series-for-indu.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "unclear exact FRED series identifier",
+      "unsupported_template_adapter",
+      "weekly frequency mapping"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table",
+        "price_only"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1,
+        "price_only": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 83
+  },
+  "cost_usd": 0.0031325,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Low confidence in deterministic adapter routing and unclear exact FRED series mapping\",\n  \"risk_flags\": [\"low adapter routing confidence\", \"unclear exact FRED series identifier\", \"weekly frequency mapping\"]\n}\n```"
+}

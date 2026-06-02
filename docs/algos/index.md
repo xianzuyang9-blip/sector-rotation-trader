@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-06-02T00:01:59
+Updated (UTC): 2026-06-02T13:25:26
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 369
+Crazy models: 380
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -385,3 +385,14 @@ Crazy models: 369
 | google-trends-surge-in-bankruptcy-search-terms-signals-consu | Google Trends Surge In Bankruptcy Search Terms Signals Consumer Debt Stress | weekly |
 | google-trends-surge-in-pest-control-searches-signals-consume | Google Trends Surge In Pest Control Searches Signals Consumer Home Stress | weekly |
 | natural-gas-heating-demand-spike-via-weather-extremes | Natural Gas Heating Demand Spike Via Weather Extremes | daily |
+| daily-jump-in-labor-jobs-google-trends-for-warehouse-worker- | Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage | daily |
+| daily-spike-in-consumer-stress-google-trends-for-emergency-h | Daily Spike In Consumer Stress Google Trends For Emergency Hvac Repair | daily |
+| daily-spike-in-consumer-stress-google-trends-for-emergency-i | Daily Spike In Consumer Stress Google Trends For Emergency Internet Outage | daily |
+| daily-spike-in-google-trends-for-emergency-childcare-near-me | Daily Spike In Google Trends For Emergency Childcare Near Me | daily |
+| weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri | Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike | weekly |
+| weekly-surge-in-attention-sentiment-rss-news-counts-for-semi | Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions | weekly |
+| weekly-surge-in-freight-logistics-google-trends-for-cargo-th | Weekly Surge In Freight Logistics Google Trends For Cargo Theft | weekly |
+| weekly-surge-in-google-trends-for-diy-home-repair-kit-search | Weekly Surge In Google Trends For Diy Home Repair Kit Searches | weekly |
+| ev-charger-deployment-acceleration-signals-consumer-adoption | Ev Charger Deployment Acceleration Signals Consumer Adoption Surge | weekly |
+| food-price-inflation-rss-spike-signals-consumer-staples-pric | Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power | daily |
+| utility-demand-surge-from-heat-wave-google-trends-signals-en | Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength | weekly |

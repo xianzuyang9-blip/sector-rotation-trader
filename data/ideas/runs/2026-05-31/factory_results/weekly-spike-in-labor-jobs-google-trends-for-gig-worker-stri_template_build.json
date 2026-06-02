@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-31/build/chatgpt_weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri.md",
+  "out": "crazy/algos/weekly_spike_in_labor_jobs_google_trends_for_gig_worker_stri.py",
+  "adapter": "google_trends",
+  "idea_id": "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+  "name": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+  "universe": [
+    "XLY"
+  ],
+  "frequency": "weekly",
+  "family": "labor_jobs",
+  "threshold": 0.25,
+  "direction": "up",
+  "hold_days": 21
+}

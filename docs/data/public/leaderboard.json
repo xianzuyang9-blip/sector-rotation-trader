@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-06-02T00:02:08Z",
+  "generated_at": "2026-06-02T13:25:27Z",
   "counts": {
-    "total": 374,
+    "total": 385,
     "beating_spy": 1
   },
   "algos": [
@@ -1154,6 +1154,114 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+      "name": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
+      "family": "freight_logistics",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.073,
+            "return_pct": 0.367
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.065,
+            "return_pct": -0.324
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-attention-sentiment-rss-news-counts-for-semi",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-attention-sentiment-rss-news-counts-for-semi",
+      "name": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -5.65,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 8.52
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 20.937
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:food-price-inflation-rss-spike-signals-consumer-staples-pric",
+      "algo_type": "crazy",
+      "algo_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+      "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -5.65,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.653,
+            "return_pct": -3.267
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.508,
+            "return_pct": -2.542
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:weekly-surge-in-google-trends-for-last-minute-vacation-booki",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-last-minute-vacation-booki",
@@ -1766,6 +1874,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-diy-home-repair-kit-search",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-diy-home-repair-kit-search",
+      "name": "Weekly Surge In Google Trends For Diy Home Repair Kit Searches",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.03,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.166,
+            "return_pct": -0.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.074,
+            "return_pct": -0.371
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:weekly-spike-in-google-trends-searches-for-warehouse-automat",
       "algo_type": "crazy",
       "algo_id": "weekly-spike-in-google-trends-searches-for-warehouse-automat",
@@ -2047,6 +2191,42 @@
             "direction": "DOWN",
             "confidence": 0.508,
             "return_pct": -2.542
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:utility-demand-surge-from-heat-wave-google-trends-signals-en",
+      "algo_type": "crazy",
+      "algo_id": "utility-demand-surge-from-heat-wave-google-trends-signals-en",
+      "name": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.05,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.05,
+      "spy_delta_30d_pct": -5.69,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLU",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.992,
+            "return_pct": -4.961
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 1.0,
+            "return_pct": -7.411
           }
         },
         "summary": "mixed"
@@ -12550,6 +12730,222 @@
             "direction": "DOWN",
             "confidence": 0.074,
             "return_pct": -0.371
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+      "algo_type": "crazy",
+      "algo_id": "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+      "name": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.166,
+            "return_pct": -0.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.074,
+            "return_pct": -0.371
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:ev-charger-deployment-acceleration-signals-consumer-adoption",
+      "algo_type": "crazy",
+      "algo_id": "ev-charger-deployment-acceleration-signals-consumer-adoption",
+      "name": "Ev Charger Deployment Acceleration Signals Consumer Adoption Surge",
+      "family": "travel_mobility",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 8.52
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 20.937
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-childcare-near-me",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+      "name": "Daily Spike In Google Trends For Emergency Childcare Near Me",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.166,
+            "return_pct": -0.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.074,
+            "return_pct": -0.371
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-consumer-stress-google-trends-for-emergency-i",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-i",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Internet Outage",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.166,
+            "return_pct": -0.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.074,
+            "return_pct": -0.371
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-consumer-stress-google-trends-for-emergency-h",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-h",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Hvac Repair",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.166,
+            "return_pct": -0.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.074,
+            "return_pct": -0.371
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-",
+      "name": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.64,
+      "last_snapshot": "2026-06-02",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.073,
+            "return_pct": 0.367
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.065,
+            "return_pct": -0.324
           }
         },
         "summary": "mixed"

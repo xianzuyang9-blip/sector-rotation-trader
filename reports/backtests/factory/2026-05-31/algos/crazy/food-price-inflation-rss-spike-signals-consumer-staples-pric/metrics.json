@@ -1,0 +1,9 @@
+{
+  "algo_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+  "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-05-31"
+}

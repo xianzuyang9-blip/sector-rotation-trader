@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-05-31/build/claude_food-price-inflation-rss-spike-signals-consumer-staples-pric.md",
+  "out": "crazy/algos/food_price_inflation_rss_spike_signals_consumer_staples_pric.py",
+  "adapter": "rss_count",
+  "idea_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+  "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+  "universe": [
+    "XLP"
+  ],
+  "frequency": "daily",
+  "family": "consumer_stress",
+  "threshold": 0.5,
+  "direction": "up",
+  "hold_days": 10
+}

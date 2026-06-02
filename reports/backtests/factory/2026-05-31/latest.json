@@ -1,0 +1,111 @@
+{
+  "run_date": "2026-05-31",
+  "start": "2024-01-01",
+  "end": "2026-05-31",
+  "slippage_bps": 5.0,
+  "generated_at": "2026-06-02T13:25:03Z",
+  "counts": {
+    "LIVE_ONLY_NON_PRICE": 11
+  },
+  "results": [
+    {
+      "algo_id": "daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-",
+      "name": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-h",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Hvac Repair",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-i",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Internet Outage",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+      "name": "Daily Spike In Google Trends For Emergency Childcare Near Me",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "ev-charger-deployment-acceleration-signals-consumer-adoption",
+      "name": "Ev Charger Deployment Acceleration Signals Consumer Adoption Surge",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+      "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "utility-demand-surge-from-heat-wave-google-trends-signals-en",
+      "name": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.eia_electricity",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+      "name": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "weekly-surge-in-attention-sentiment-rss-news-counts-for-semi",
+      "name": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+      "name": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-diy-home-repair-kit-search",
+      "name": "Weekly Surge In Google Trends For Diy Home Repair Kit Searches",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-05-31"
+    }
+  ]
+}

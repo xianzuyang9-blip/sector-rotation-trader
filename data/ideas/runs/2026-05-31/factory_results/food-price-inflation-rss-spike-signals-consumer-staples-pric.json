@@ -1,0 +1,16 @@
+{
+  "adapter": "rss_count",
+  "algo_file": "crazy/algos/food_price_inflation_rss_spike_signals_consumer_staples_pric.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-05-31/build/claude_food-price-inflation-rss-spike-signals-consumer-staples-pric.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-05-31/algos/crazy/food-price-inflation-rss-spike-signals-consumer-staples-pric"
+}

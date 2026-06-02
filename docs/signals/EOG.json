@@ -2,15 +2,15 @@
   "ticker": "EOG",
   "sector": "Energy",
   "sector_etf": "XLE",
-  "composite": "4 of 46",
+  "composite": "4 of 48",
   "composite_label": "BEARISH",
   "composite_color": "red",
   "bullish": 4,
-  "bearish": 42,
-  "neutral": 328,
-  "total_signals": 374,
-  "total_active": 46,
-  "bullish_pct": 9,
+  "bearish": 44,
+  "neutral": 337,
+  "total_signals": 385,
+  "total_active": 48,
+  "bullish_pct": 8,
   "breakdown": [
     {
       "algo_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
@@ -112,6 +112,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-h",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Hvac Repair",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "weekly-google-trends-surge-in-fast-food-job-openings-signals",
       "name": "Weekly Google Trends Surge In Fast Food Job Openings Signals Bullish Consumer Discretionary",
       "algo_type": "crazy",
@@ -127,6 +136,15 @@
       "direction": "NEUTRAL",
       "days_running": 99,
       "ytd_pct": 0.07,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-attention-sentiment-rss-news-counts-for-semi",
+      "name": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.01,
       "beat_spy": false
     },
     {
@@ -325,6 +343,15 @@
       "direction": "NEUTRAL",
       "days_running": 81,
       "ytd_pct": -0.31,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "ev-charger-deployment-acceleration-signals-consumer-adoption",
+      "name": "Ev Charger Deployment Acceleration Signals Consumer Adoption Surge",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -1426,6 +1453,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+      "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.01,
+      "beat_spy": false
+    },
+    {
       "algo_id": "financial-sector-momentum-divergence-with-spy",
       "name": "Financial Sector Momentum Divergence With Spy",
       "algo_type": "crazy",
@@ -1477,6 +1513,15 @@
       "direction": "NEUTRAL",
       "days_running": 84,
       "ytd_pct": -0.17,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+      "name": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.01,
       "beat_spy": false
     },
     {
@@ -2164,6 +2209,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-i",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Internet Outage",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "crypto-derivative-arbitrage",
       "name": "Crypto Derivative Arbitrage",
       "algo_type": "crazy",
@@ -2251,6 +2305,15 @@
       "direction": "NEUTRAL",
       "days_running": 84,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "utility-demand-surge-from-heat-wave-google-trends-signals-en",
+      "name": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.05,
       "beat_spy": false
     },
     {
@@ -2578,6 +2641,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-diy-home-repair-kit-search",
+      "name": "Weekly Surge In Google Trends For Diy Home Repair Kit Searches",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.03,
+      "beat_spy": false
+    },
+    {
       "algo_id": "airport-shopping-spree",
       "name": "Airport Shopping Spree",
       "algo_type": "crazy",
@@ -2692,6 +2764,15 @@
       "direction": "NEUTRAL",
       "days_running": 103,
       "ytd_pct": -0.11,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+      "name": "Daily Spike In Google Trends For Emergency Childcare Near Me",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -3214,6 +3295,24 @@
       "direction": "NEUTRAL",
       "days_running": 88,
       "ytd_pct": 0.07,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-",
+      "name": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+      "name": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {

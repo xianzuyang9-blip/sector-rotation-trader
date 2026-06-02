@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-02T00:02:07.203320",
+  "as_of": "2026-06-02T13:25:25.914167",
   "spy_ret_30d": 0.05644763681630094,
   "entries": [
     {
@@ -251,6 +251,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-h",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Hvac Repair",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "recession-whisper-google-trends-unemployment-search-surge",
       "name": "Recession Whisper Google Trends Unemployment Search Surge",
       "category": "crazy",
@@ -381,6 +389,14 @@
     {
       "algo_id": "google-trends-surge-in-logistics-job-openings-signals-labor-",
       "name": "Google Trends Surge In Logistics Job Openings Signals Labor Shortage In Freight",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "ev-charger-deployment-acceleration-signals-consumer-adoption",
+      "name": "Ev Charger Deployment Acceleration Signals Consumer Adoption Surge",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1115,6 +1131,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
+      "name": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-jump-in-google-trends-for-food-delivery-delay-complain",
       "name": "Daily Jump In Google Trends For Food Delivery Delay Complaints Signals Bearish Consumer Staples",
       "category": "crazy",
@@ -1555,6 +1579,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-spike-in-consumer-stress-google-trends-for-emergency-i",
+      "name": "Daily Spike In Consumer Stress Google Trends For Emergency Internet Outage",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "crypto-derivative-arbitrage",
       "name": "Crypto Derivative Arbitrage",
       "category": "crazy",
@@ -1787,6 +1819,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-diy-home-repair-kit-search",
+      "name": "Weekly Surge In Google Trends For Diy Home Repair Kit Searches",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "airport-shopping-spree",
       "name": "Airport Shopping Spree",
       "category": "crazy",
@@ -1837,6 +1877,14 @@
     {
       "algo_id": "utility-volatility-compression-reversion-bounce",
       "name": "Utility Volatility Compression Reversion Bounce",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+      "name": "Daily Spike In Google Trends For Emergency Childcare Near Me",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2179,6 +2227,22 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-",
+      "name": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri",
+      "name": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "airline-fuel-cost-volatility-expansion",
       "name": "Airline Fuel Cost Volatility Expansion",
       "category": "crazy",
@@ -2283,11 +2347,27 @@
       "max_dd_30d": -0.0003942816760688895
     },
     {
+      "algo_id": "weekly-surge-in-attention-sentiment-rss-news-counts-for-semi",
+      "name": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+      "category": "crazy",
+      "ret_30d": -9.94999999999191e-05,
+      "sharpe_30d": -134.02069515058642,
+      "max_dd_30d": -9.94999999999709e-05
+    },
+    {
       "algo_id": "xlv-google-trends-flu-search-spike",
       "name": "Xlv Google Trends Flu Search Spike",
       "category": "crazy",
       "ret_30d": -9.94999999999191e-05,
       "sharpe_30d": -156.37000640800625,
+      "max_dd_30d": -9.94999999999709e-05
+    },
+    {
+      "algo_id": "food-price-inflation-rss-spike-signals-consumer-staples-pric",
+      "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+      "category": "crazy",
+      "ret_30d": -9.94999999999191e-05,
+      "sharpe_30d": -134.02069515058642,
       "max_dd_30d": -9.94999999999709e-05
     },
     {
@@ -2529,6 +2609,14 @@
       "ret_30d": -0.00041240000000009047,
       "sharpe_30d": -50.71713188048198,
       "max_dd_30d": -0.00041240000000005236
+    },
+    {
+      "algo_id": "utility-demand-surge-from-heat-wave-google-trends-signals-en",
+      "name": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
+      "category": "crazy",
+      "ret_30d": -0.0004612999999999978,
+      "sharpe_30d": -18.47254348514919,
+      "max_dd_30d": -0.0007666657069599764
     },
     {
       "algo_id": "price-momentum-reversion-in-defensive-sectors-after-tech-cra",
