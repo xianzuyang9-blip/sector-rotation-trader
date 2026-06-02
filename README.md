@@ -72,6 +72,7 @@ Crazy algos:
 Adapters:
 
 - `crazy/adapters/`: stable adapter functions used by generated crazy algos.
+- `crazy/adapters/_template.py`: minimum viable scaffold for new adapters.
 - `scripts/adapter_router.py`: maps an idea/spec to one or more known adapters.
 - `data/adapters/proposed/`: queue of buildable ideas that need a new adapter or adapter extension.
 - `docs/taxonomy.md`: taxonomy of known crazy data patterns and valid examples.

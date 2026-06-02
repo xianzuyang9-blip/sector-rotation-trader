@@ -41,6 +41,21 @@ After creating a new adapter:
 1. Add an import line to `crazy/adapters/__init__.py`
 2. Add the function name to the `__all__` list
 
+## Minimum Viable Template
+
+Use `crazy/adapters/_template.py` as the starting point for new adapters.
+
+It is intentionally narrow:
+
+- one fetch function
+- one external source
+- one standard empty-data fallback
+- one standard `date` + value-column envelope
+
+Do not treat the template as a generator for arbitrary adapter logic. It is a
+scaffold for the boring parts of the contract, not a substitute for source-specific
+reasoning.
+
 ## Template
 
 ```python
