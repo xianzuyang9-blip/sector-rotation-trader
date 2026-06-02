@@ -1,0 +1,177 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-usgs-earthquake-activity-near-port-hubs-signa",
+    "title": "Daily Spike In Usgs Earthquake Activity Near Port Hubs Signals Freight Disruption Risk",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-electric-vehicle-battery-re",
+    "title": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-home-renovation-loans-signal",
+    "title": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
+    "title": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-rss-count-for-supply-chain-strike-news-signa",
+    "title": "Weekly Spike In Rss Count For Supply Chain Strike News Signals Short-term Disruption Risk",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-emergency-road-construction",
+    "title": "Daily Spike In Google Trends For Emergency Road Construction Signals Local Infrastructure Strain",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-food-delivery-driver-shorta",
+    "title": "Daily Spike In Google Trends For Food Delivery Driver Shortage Signals Discretionary Sector Disruption",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-fuel-price-gouging-signals-co",
+    "title": "Weekly Google Trends Surge For Fuel Price Gouging Signals Consumer Stress And Energy Sector Volatility",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-fred-series-producer-price-index-energy-input",
+    "title": "Weekly Rise In Fred Series Producer Price Index Energy Inputs Signals Inflation Pressure On Energy Sector",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-commercial-real-estate-vac",
+    "title": "Weekly Surge In Google Trends For Commercial Real Estate Vacancy Signals Xlre Weakness",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-weather-series-for-extreme-heat-days-signals-",
+    "title": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-fred-series-initial-jobless-claims-signals-ri",
+    "title": "Weekly Rise In Fred Series Initial Jobless Claims Signals Rising Labor Market Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-warehouse-automation-layoffs-",
+    "title": "Weekly Google Trends Surge For Warehouse Automation Layoffs Signals Labor Market Disruption",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+    "title": "Daily Jump In Google Trends For Diy Pest Control Signals Consumer Home Stress And Staples Demand",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-increase-in-rss-counts-for-corporate-layoff-announcem",
+    "title": "Weekly Increase In Rss Counts For Corporate Layoff Announcements Signals Labor Market Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "bank-mortgage-rate-lock-surge-rss-signals-housing-sector-rot",
+    "title": "Bank Mortgage Rate Lock Surge Rss Signals Housing Sector Rotation",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "earthquake-activity-regional-insurance-cost-spike-signals-xl",
+    "title": "Earthquake Activity Regional Insurance Cost Spike Signals Xlv Hospital Demand",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airline-fuel-surcharge-news-spike-signals-travel-sector-head",
+    "title": "Airline Fuel Surcharge News Spike Signals Travel Sector Headwind",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "container-port-backlog-rss-surge-signals-industrial-demand-w",
+    "title": "Container Port Backlog Rss Surge Signals Industrial Demand Weakness",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "weather-extreme-heat-spike-google-trends-signals-utility-dem",
+    "title": "Weather Extreme Heat Spike Google Trends Signals Utility Demand Surge",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "cybersecurity-budget-squeeze-google-trends-signals-tech-serv",
+    "title": "Cybersecurity Budget Squeeze Google Trends Signals Tech Services Headwind",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "grocery-price-inflation-google-trends-spike-signals-consumer",
+    "title": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-rollout-deceleration-signals-green-energy-capex-p",
+    "title": "Ev Charger Rollout Deceleration Signals Green Energy Capex Pullback",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "retail-same-store-sales-deceleration-fred-signals-consumer-d",
+    "title": "Retail Same-store Sales Deceleration Fred Signals Consumer Discretionary Slowdown",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "job-listing-velocity-deceleration-fred-labor-data-signals-hi",
+    "title": "Job Listing Velocity Deceleration Fred Labor Data Signals Hiring Cooldown",
+    "family": "labor_jobs",
+    "score": 100
+  }
+]
