@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 from pathlib import Path
 from typing import Any, Dict, Iterable
@@ -20,6 +21,7 @@ from adapter_router import route_text, score_text
 
 VALID_DECISIONS = {"BUILD", "INTERVENTION", "REJECT"}
 DEFAULT_MODEL = "gpt-4.1-mini"
+PROPOSED_ADAPTERS_DIR = Path("data/adapters/proposed")
 TEMPLATE_SUPPORTED_ADAPTERS = {
     "earthquake_activity",
     "openchargemap",
@@ -125,6 +127,90 @@ def _cost_usd(usage: Dict[str, int]) -> float:
 
 def _read_markdown(path: Path) -> str:
     return path.read_text(encoding="utf-8")
+
+
+def _extract_run_date_from_publish_dir(publish_dir: Path) -> str:
+    parts = list(publish_dir.parts)
+    if "runs" in parts:
+        idx = parts.index("runs")
+        if idx + 1 < len(parts):
+            return parts[idx + 1]
+    return "undated"
+
+
+def _extract_markdown_field(markdown: str, label: str) -> str:
+    pattern = rf"\*\*{re.escape(label)}:\*\*\s*`?([^\n`]+)`?"
+    match = re.search(pattern, markdown, re.IGNORECASE)
+    return match.group(1).strip() if match else ""
+
+
+def _extract_markdown_section(markdown: str, heading: str) -> str:
+    lines = markdown.splitlines()
+    capture = False
+    out = []
+    target = f"## {heading}".strip().lower()
+    for line in lines:
+        if line.strip().lower() == target:
+            capture = True
+            continue
+        if capture and line.startswith("## "):
+            break
+        if capture:
+            out.append(line)
+    return "\n".join(out).strip()
+
+
+def _extract_list_items(section_text: str) -> list[str]:
+    items = []
+    for line in section_text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("- "):
+            items.append(stripped[2:].strip())
+    return items
+
+
+def _proposal_payload(spec_path: Path, markdown: str, verdict: Dict[str, Any], route: Dict[str, Any], publish_dir: Path) -> Dict[str, Any]:
+    title = ""
+    first = markdown.strip().splitlines()
+    if first and first[0].startswith("# "):
+        title = first[0][2:].strip()
+    idea_id = _extract_markdown_field(markdown, "Idea ID") or spec_path.stem
+    family = _extract_markdown_field(markdown, "Family")
+    frequency = _extract_markdown_field(markdown, "Frequency")
+    data_sources = _extract_list_items(_extract_markdown_section(markdown, "Data Sources"))
+    implementation_notes = _extract_markdown_section(markdown, "Implementation Notes")
+    thesis = _extract_markdown_section(markdown, "Thesis")
+    return {
+        "proposal_id": idea_id,
+        "status": "proposed",
+        "run_date": _extract_run_date_from_publish_dir(publish_dir),
+        "source_spec": str(spec_path),
+        "idea_id": idea_id,
+        "title": title,
+        "family": family,
+        "frequency": frequency,
+        "selected_adapter": verdict.get("selected_adapter"),
+        "routed_adapters": route.get("adapters") or [],
+        "route_confidence": route.get("confidence"),
+        "top_route_score": route.get("top_score"),
+        "needs_new_adapter": bool(verdict.get("needs_new_adapter")),
+        "reason": verdict.get("reason"),
+        "risk_flags": verdict.get("risk_flags") or [],
+        "data_sources": data_sources,
+        "implementation_notes": implementation_notes,
+        "thesis": thesis,
+    }
+
+
+def _write_adapter_proposal(spec_path: Path, markdown: str, verdict: Dict[str, Any], route: Dict[str, Any], publish_dir: Path, dry_run: bool) -> Path:
+    payload = _proposal_payload(spec_path, markdown, verdict, route, publish_dir)
+    run_date = payload["run_date"]
+    out_dir = PROPOSED_ADAPTERS_DIR / run_date
+    out_path = out_dir / f"{payload['proposal_id']}.json"
+    if not dry_run:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    return out_path
 
 
 def _iter_specs(publish_dir: Path) -> Iterable[Path]:
@@ -429,6 +515,9 @@ def main() -> int:
             "cost_usd": cost,
             "raw_llm_response": raw_response,
         }
+        if verdict.get("needs_new_adapter"):
+            proposal_path = _write_adapter_proposal(spec_path, markdown, verdict, route, publish_dir, args.dry_run)
+            report["adapter_proposal_file"] = str(proposal_path)
         report_path = report_dir / f"{spec_path.stem}.json"
         if not args.dry_run:
             report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")

@@ -7,7 +7,7 @@ Experiment activation is downstream: `crazy_daily_builds.yml` triggers only afte
 The experiment workflow runs `final_publish_llm_gate.py`, moves approved specs to `build/`, builds with deterministic templates, seeds accepted algos, runs only the newly seeded algos with `crazy_run.py --algo-id ... --skip-combined`, rebuilds aggregate outputs, and sends the experiment email.
 Normal algos are conventional baselines in `normal/algos/`; crazy algos are alternative-data strategies in `crazy/algos/` and are registered through `data/algos_registry_crazy.txt`.
 Crazy ideas must follow `IDEA -> DATA -> BEHAVIOR -> MARKET IMPACT -> TRADE LOGIC` before they can be published or built, and they now carry an explicit `family` field for product grouping.
-Adapters in `crazy/adapters/` are the approved data access layer; low-confidence, missing-adapter, unsupported-native-short, or otherwise questionable specs are parked for intervention.
+Adapters in `crazy/adapters/` are the approved data access layer; low-confidence, missing-adapter, unsupported-native-short, or otherwise questionable specs are parked for intervention. Ideas that look promising but need a new adapter are also queued under `data/adapters/proposed/`.
 The production build path is template-first: adapter route plus markdown spec type should be enough to produce a runnable algo without asking an LLM to write bespoke strategy code.
 Older structural LLM build artifacts are retained under `data/algos_codegen/structural_*` for review until a cleanup/retention script exists.
 Force rank (`data/rank_history.csv`) is full-window/since-seed performance; rolling 30D (`docs/leaderboards/rolling_30d.json`) is recent momentum, so they can disagree without being contradictory.

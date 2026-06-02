@@ -181,6 +181,7 @@ Routing behavior:
 - Returns top adapters and confidence.
 - Exits `1` for no adapter or low confidence.
 - Low-confidence specs are parked in `data/ideas/intervention/`.
+- Specs that look promising but require a new adapter are also written to `data/adapters/proposed/` as a dedicated review queue.
 
 ## Idea Generation Architecture
 
