@@ -1,19 +1,10 @@
 {
-  "cash": 94682.87121611726,
+  "cash": 99545.99342563775,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 493.86587401545404,
+  "fees_paid": 504.0719103274288,
   "taxes_paid": 166.57390037401257,
-  "positions": {
-    "XLY": {
-      "shares": 41.2329989437851,
-      "entry_price": 120.87000274658203,
-      "entry_date": "2026-05-29",
-      "cost": 4983.832695585119,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-01",
@@ -600,6 +591,20 @@
       "cost": 4983.83,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-02",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.233,
+      "price": 118.19,
+      "proceeds": 4863.12,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -120.71,
+      "pnl_pct": -2.42,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1692,20 +1697,30 @@
       },
       "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99545.99,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99545.99,
+      "positions": {},
+      "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-11",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-02",
   "meta": {
     "port-container-volume-surge-signals-import-demand-recovery-a": {
       "latest_value": 890861.0,
       "prior_avg": 795107.6875,
       "signal_change": 0.1204,
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "entry_date": "2026-05-29",
       "name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29"
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01"
     }
   }
 }

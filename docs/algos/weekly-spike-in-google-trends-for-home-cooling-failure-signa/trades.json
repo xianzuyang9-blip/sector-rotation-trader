@@ -1259,6 +1259,16 @@
       "positions": {},
       "sector": "Weekly Spike In Google Trends For Home Cooling Failure Signals Bearish Xlu",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99677.56,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99677.56,
+      "positions": {},
+      "sector": "Weekly Spike In Google Trends For Home Cooling Failure Signals Bearish Xlu",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

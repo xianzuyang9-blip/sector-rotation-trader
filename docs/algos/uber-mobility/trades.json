@@ -163,6 +163,54 @@
       "cost": 31371.12,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLP",
+      "shares": 494.5396,
+      "price": 82.03,
+      "proceeds": 40554.96,
+      "fees": 12.13,
+      "tax": 0.0,
+      "pnl": -1273.2,
+      "pnl_pct": -3.04,
+      "entry_date": "2026-05-27",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLU",
+      "shares": 694.9739,
+      "price": 43.1,
+      "proceeds": 29941.72,
+      "fees": 11.66,
+      "tax": 0.0,
+      "pnl": -1429.4,
+      "pnl_pct": -4.56,
+      "entry_date": "2026-05-27",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLP",
+      "shares": 496.6373,
+      "price": 82.03,
+      "cost": 40739.16,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLU",
+      "shares": 708.9181,
+      "price": 43.1,
+      "cost": 30554.37,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -2339,6 +2387,35 @@
           "market_value": 30870.74,
           "unrealized_pnl": -500.38,
           "entry_date": "2026-05-27",
+          "margin": false
+        }
+      },
+      "sector": "Uber Mobility Index",
+      "num_positions": 2
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 30534.47,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 101828.0,
+      "positions": {
+        "XLP": {
+          "shares": 496.6373,
+          "entry_price": 82.03,
+          "current_price": 82.03,
+          "market_value": 40739.16,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 708.9181,
+          "entry_price": 43.1,
+          "current_price": 43.1,
+          "market_value": 30554.37,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
           "margin": false
         }
       },

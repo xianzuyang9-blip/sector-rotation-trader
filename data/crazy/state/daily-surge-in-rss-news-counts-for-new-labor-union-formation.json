@@ -1,19 +1,10 @@
 {
-  "cash": 94838.36184311808,
+  "cash": 99799.12198024742,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 151.0595206224237,
+  "fees_paid": 161.2667191646916,
   "taxes_paid": 5.705677411551332,
-  "positions": {
-    "XLI": {
-      "shares": 28.833918281089773,
-      "entry_price": 173.1300048828125,
-      "entry_date": "2026-05-29",
-      "cost": 4992.016412795689,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-13",
@@ -192,6 +183,20 @@
       "cost": 4992.02,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8339,
+      "price": 172.4,
+      "proceeds": 4960.76,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -31.26,
+      "pnl_pct": -0.63,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1114,19 +1119,29 @@
       },
       "sector": "Daily Surge In Rss News Counts For New Labor Union Formations Signals Labor Market Pressure On Industrial Sector",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99799.12,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99799.12,
+      "positions": {},
+      "sector": "Daily Surge In Rss News Counts For New Labor Union Formations Signals Labor Market Pressure On Industrial Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-11",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "daily-surge-in-rss-news-counts-for-new-labor-union-formation": {
       "latest_value": 4.0,
-      "prior_avg": 2.3333,
-      "signal_change": 0.7143,
-      "signal_label": "RISK_ON",
+      "prior_avg": 1.0,
+      "signal_change": 3.0,
+      "signal_label": "HOLD",
       "name": "Daily Surge In Rss News Counts For New Labor Union Formations Signals Labor Market Pressure On Industrial Sector",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01",
       "entry_date": "2026-05-29"
     }
   }

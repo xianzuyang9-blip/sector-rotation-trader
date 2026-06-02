@@ -1103,6 +1103,26 @@
       "pnl_pct": 3.69,
       "entry_date": "2026-05-25",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 543.4232,
+      "price": 57.3,
+      "cost": 31138.15,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 159.0629,
+      "price": 195.76,
+      "cost": 31138.15,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -3949,6 +3969,35 @@
       "positions": {},
       "sector": "Chaos Rotation Lab",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 31118.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 93394.55,
+      "positions": {
+        "XLE": {
+          "shares": 543.4232,
+          "entry_price": 57.3,
+          "current_price": 57.3,
+          "market_value": 31138.15,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        },
+        "XLK": {
+          "shares": 159.0629,
+          "entry_price": 195.76,
+          "current_price": 195.76,
+          "market_value": 31138.15,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Chaos Rotation Lab",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

@@ -796,19 +796,29 @@
       "positions": {},
       "sector": "Daily Stock Price Volatility Spike In Xlu Relative To Spy",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Stock Price Volatility Spike In Xlu Relative To Spy",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-18",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-02",
   "meta": {
     "daily-stock-price-volatility-spike-in-xlu-relative-to-spy": {
-      "latest_value": 44.42,
-      "prior_avg": 45.1125,
-      "signal_change": -0.0154,
+      "latest_value": 43.1,
+      "prior_avg": 44.88,
+      "signal_change": -0.0397,
       "signal_label": "HOLD",
       "name": "Daily Stock Price Volatility Spike In Xlu Relative To Spy",
       "last_signal": "HOLD",
-      "last_run": "2026-05-29"
+      "last_run": "2026-06-01"
     }
   }
 }

@@ -1055,6 +1055,16 @@
       "positions": {},
       "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99976.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99976.31,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

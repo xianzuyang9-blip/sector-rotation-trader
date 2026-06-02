@@ -1,10 +1,19 @@
 {
-  "cash": 99954.7716088933,
+  "cash": 94947.08302844863,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 20.183130299099503,
+  "fees_paid": 30.133130299099502,
   "taxes_paid": 0.0,
-  "positions": {},
+  "positions": {
+    "XLRE": {
+      "shares": 115.50123705968095,
+      "entry_price": 43.27000045776367,
+      "entry_date": "2026-06-01",
+      "cost": 4997.738580444665,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-03-02",
@@ -29,6 +38,16 @@
       "pnl_pct": -0.71,
       "entry_date": "2026-03-02",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLRE",
+      "shares": 115.5012,
+      "price": 43.27,
+      "cost": 4997.74,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1248,20 +1267,40 @@
       "positions": {},
       "sector": "Real Estate Sector Weekly Google Trends Home Buying Surge",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 94947.08,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.82,
+      "positions": {
+        "XLRE": {
+          "shares": 115.5012,
+          "entry_price": 43.27,
+          "current_price": 43.27,
+          "market_value": 4997.74,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Real Estate Sector Weekly Google Trends Home Buying Surge",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "real-estate-sector-weekly-google-trends-home-buying-surge": {
-      "signal_label": "HOLD",
-      "latest_value": 57.0,
-      "prior_avg": 73.6071,
-      "signal_change": -0.2256,
-      "entry_date": "2026-03-02",
+      "signal_label": "RISK_ON",
+      "latest_value": 96.0,
+      "prior_avg": 72.2143,
+      "signal_change": 0.3294,
+      "entry_date": "2026-06-01",
       "name": "Real Estate Sector Weekly Google Trends Home Buying Surge",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-29"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-01"
     }
   }
 }

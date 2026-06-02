@@ -1,19 +1,10 @@
 {
-  "cash": 94658.51962362956,
+  "cash": 99609.85477969045,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 493.7676756527031,
+  "fees_paid": 503.97438651990547,
   "taxes_paid": 203.92392032114395,
-  "positions": {
-    "XLI": {
-      "shares": 28.77924618667444,
-      "entry_price": 173.1300048828125,
-      "entry_date": "2026-05-29",
-      "cost": 4982.551032822608,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-01",
@@ -600,6 +591,20 @@
       "cost": 4982.55,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.7792,
+      "price": 172.4,
+      "proceeds": 4951.34,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -31.22,
+      "pnl_pct": -0.63,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1702,20 +1707,30 @@
       },
       "sector": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99609.85,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99609.85,
+      "positions": {},
+      "sector": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-10",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "weekly-spike-in-freight-container-volumes-at-east-coast-port": {
       "latest_value": 890861.0,
       "prior_avg": 795107.6875,
       "signal_change": 0.1204,
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "entry_date": "2026-05-29",
       "name": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29"
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01"
     }
   }
 }

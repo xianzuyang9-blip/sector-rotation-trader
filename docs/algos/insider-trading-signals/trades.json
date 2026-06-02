@@ -177,6 +177,30 @@
       "cost": 50290.31,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLP",
+      "shares": 593.0461,
+      "price": 82.03,
+      "proceeds": 48635.01,
+      "fees": 12.56,
+      "tax": 0.0,
+      "pnl": -1655.3,
+      "pnl_pct": -3.29,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLP",
+      "shares": 602.922,
+      "price": 82.03,
+      "cost": 49457.69,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1823,6 +1847,26 @@
           "market_value": 49169.46,
           "unrealized_pnl": -1120.86,
           "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Insider Trading Signals",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 49447.74,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98905.43,
+      "positions": {
+        "XLP": {
+          "shares": 602.922,
+          "entry_price": 82.03,
+          "current_price": 82.03,
+          "market_value": 49457.69,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
           "margin": false
         }
       },

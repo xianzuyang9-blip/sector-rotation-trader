@@ -1,19 +1,10 @@
 {
-  "cash": 94870.33627278708,
+  "cash": 99832.77209205137,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 191.38189611716948,
+  "fees_paid": 201.58918136395053,
   "taxes_paid": 38.8026424138105,
-  "positions": {
-    "XLI": {
-      "shares": 28.843638518321676,
-      "entry_price": 173.1300048828125,
-      "entry_date": "2026-05-29",
-      "cost": 4993.69927751511,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-13",
@@ -240,6 +231,20 @@
       "cost": 4993.7,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8436,
+      "price": 172.4,
+      "proceeds": 4962.44,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -31.26,
+      "pnl_pct": -0.63,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1182,19 +1187,29 @@
       },
       "sector": "Weekly Rise In Rss Count For Labor Strike News Signals Industrial Sector Risk",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99832.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99832.77,
+      "positions": {},
+      "sector": "Weekly Rise In Rss Count For Labor Strike News Signals Industrial Sector Risk",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-11",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "weekly-rise-in-rss-count-for-labor-strike-news-signals-indus": {
-      "latest_value": 25.0,
-      "prior_avg": 5.0,
-      "signal_change": 4.0,
-      "signal_label": "RISK_ON",
+      "latest_value": 61.0,
+      "prior_avg": 3.2727,
+      "signal_change": 17.6389,
+      "signal_label": "HOLD",
       "name": "Weekly Rise In Rss Count For Labor Strike News Signals Industrial Sector Risk",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01",
       "entry_date": "2026-05-29"
     }
   }

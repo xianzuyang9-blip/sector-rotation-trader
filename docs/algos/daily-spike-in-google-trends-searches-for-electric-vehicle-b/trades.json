@@ -71,6 +71,16 @@
       "pnl_pct": -0.07,
       "entry_date": "2026-03-04",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.2715,
+      "price": 118.19,
+      "cost": 4996.07,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -993,6 +1003,26 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends Searches For Electric Vehicle Battery Replacement",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 94915.31,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99911.38,
+      "positions": {
+        "XLY": {
+          "shares": 42.2715,
+          "entry_price": 118.19,
+          "current_price": 118.19,
+          "market_value": 4996.07,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends Searches For Electric Vehicle Battery Replacement",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04"

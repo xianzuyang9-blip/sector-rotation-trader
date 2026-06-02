@@ -1,19 +1,10 @@
 {
-  "cash": 94933.34107636893,
+  "cash": 99771.63722369216,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 50.3134233644371,
+  "fees_paid": 60.53959789695802,
   "taxes_paid": 0.0,
-  "positions": {
-    "XLU": {
-      "shares": 112.49472142712469,
-      "entry_price": 44.41999816894531,
-      "entry_date": "2026-05-29",
-      "cost": 4997.015319808892,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-03",
@@ -72,6 +63,20 @@
       "cost": 4997.02,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLU",
+      "shares": 112.4947,
+      "price": 43.1,
+      "proceeds": 4838.3,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -158.72,
+      "pnl_pct": -3.18,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1054,19 +1059,29 @@
       },
       "sector": "Eia Electricity Demand Shock Rebound Spread",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99771.64,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99771.64,
+      "positions": {},
+      "sector": "Eia Electricity Demand Shock Rebound Spread",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-30",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "eia-electricity-demand-shock-rebound-spread": {
-      "signal_label": "RISK_ON",
-      "latest_value": 9065427.0,
-      "prior_avg": 10744435.1714,
-      "signal_change": -0.1563,
+      "signal_label": "HOLD",
+      "latest_value": 9136667.0,
+      "prior_avg": 10885378.8929,
+      "signal_change": -0.1606,
       "name": "Eia Electricity Demand Shock Rebound Spread",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01",
       "entry_date": "2026-05-29"
     }
   }

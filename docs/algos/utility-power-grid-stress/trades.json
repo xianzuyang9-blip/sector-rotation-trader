@@ -1344,6 +1344,16 @@
       "positions": {},
       "sector": "Utility Power Grid Stress",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99894.62,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99894.62,
+      "positions": {},
+      "sector": "Utility Power Grid Stress",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"

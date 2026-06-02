@@ -1,19 +1,10 @@
 {
-  "cash": 94910.6950698863,
+  "cash": 99875.24597035724,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 70.42581162838464,
+  "fees_paid": 80.63320631542435,
   "taxes_paid": 23.448585699533524,
-  "positions": {
-    "XLI": {
-      "shares": 28.85590760603518,
-      "entry_price": 173.1300048828125,
-      "entry_date": "2026-05-29",
-      "cost": 4995.823424730857,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-18",
@@ -96,6 +87,20 @@
       "cost": 4995.82,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-02",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8559,
+      "price": 172.4,
+      "proceeds": 4964.55,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -31.27,
+      "pnl_pct": -0.63,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -948,19 +953,29 @@
       },
       "sector": "Daily Jump In Rss News Counts For Labor Union Strikes In Transportation Sector",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99875.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99875.25,
+      "positions": {},
+      "sector": "Daily Jump In Rss News Counts For Labor Union Strikes In Transportation Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-16",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-02",
   "meta": {
     "daily-jump-in-rss-news-counts-for-labor-union-strikes-in-tra": {
       "latest_value": 9.0,
-      "prior_avg": 4.6667,
-      "signal_change": 0.9286,
-      "signal_label": "RISK_ON",
+      "prior_avg": 3.1667,
+      "signal_change": 1.8421,
+      "signal_label": "HOLD",
       "name": "Daily Jump In Rss News Counts For Labor Union Strikes In Transportation Sector",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01",
       "entry_date": "2026-05-29"
     }
   }

@@ -1,10 +1,19 @@
 {
-  "cash": 99960.95807469967,
+  "cash": 94952.96017096468,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 60.492031001034235,
+  "fees_paid": 70.44203100103424,
   "taxes_paid": 10.136571453439291,
-  "positions": {},
+  "positions": {
+    "XLY": {
+      "shares": 42.28824604866905,
+      "entry_price": 118.19000244140625,
+      "entry_date": "2026-06-01",
+      "cost": 4998.047903734983,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-02-16",
@@ -77,6 +86,16 @@
       "pnl_pct": -0.2,
       "entry_date": "2026-04-02",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.2882,
+      "price": 118.19,
+      "cost": 4998.05,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1209,20 +1228,40 @@
       "positions": {},
       "sector": "Consumer Discretionary Google Trends Surge For Sale Keywords",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 94952.96,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99951.01,
+      "positions": {
+        "XLY": {
+          "shares": 42.2882,
+          "entry_price": 118.19,
+          "current_price": 118.19,
+          "market_value": 4998.05,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Consumer Discretionary Google Trends Surge For Sale Keywords",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-19",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "consumer-discretionary-google-trends-surge-for-sale-keywords": {
-      "signal_label": "HOLD",
-      "latest_value": 66.0,
-      "prior_avg": 80.5357,
-      "signal_change": -0.1805,
-      "entry_date": "2026-04-02",
+      "signal_label": "RISK_ON",
+      "latest_value": 100.0,
+      "prior_avg": 62.8571,
+      "signal_change": 0.5909,
+      "entry_date": "2026-06-01",
       "name": "Consumer Discretionary Google Trends Surge For Sale Keywords",
-      "last_signal": "HOLD",
-      "last_run": "2026-05-29"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-01"
     }
   }
 }

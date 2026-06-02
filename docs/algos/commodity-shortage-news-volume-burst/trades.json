@@ -177,6 +177,20 @@
       "cost": 4997.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-02",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 97.6931,
+      "price": 50.92,
+      "proceeds": 4964.31,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -32.7,
+      "pnl_pct": -0.65,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1079,6 +1093,16 @@
       },
       "sector": "Commodity Shortage News Volume Burst",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99897.41,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99897.41,
+      "positions": {},
+      "sector": "Commodity Shortage News Volume Burst",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-13"

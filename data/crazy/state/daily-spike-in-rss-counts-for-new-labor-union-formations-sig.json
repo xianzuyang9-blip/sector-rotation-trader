@@ -1,19 +1,10 @@
 {
-  "cash": 94957.0242147204,
+  "cash": 99930.52214619367,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.128442252514272,
+  "fees_paid": 40.35669949035235,
   "taxes_paid": 0.0,
-  "positions": {
-    "XLF": {
-      "shares": 96.90309467506576,
-      "entry_price": 51.58000183105469,
-      "entry_date": "2026-05-29",
-      "cost": 4998.261800774758,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-27",
@@ -48,6 +39,20 @@
       "cost": 4998.26,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-02",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.9031,
+      "price": 51.43,
+      "proceeds": 4973.5,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -24.76,
+      "pnl_pct": -0.5,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -780,19 +785,29 @@
       },
       "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99930.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99930.52,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-02",
   "meta": {
     "daily-spike-in-rss-counts-for-new-labor-union-formations-sig": {
       "latest_value": 4.0,
-      "prior_avg": 2.3333,
-      "signal_change": 0.7143,
-      "signal_label": "RISK_ON",
+      "prior_avg": 1.0,
+      "signal_change": 3.0,
+      "signal_label": "HOLD",
       "name": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01",
       "entry_date": "2026-05-29"
     }
   }

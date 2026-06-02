@@ -67,6 +67,54 @@
       "cost": 34779.54,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLB",
+      "shares": 870.819,
+      "price": 50.92,
+      "proceeds": 44329.67,
+      "fees": 12.43,
+      "tax": 0.0,
+      "pnl": -386.88,
+      "pnl_pct": -0.87,
+      "entry_date": "2026-05-01",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLRE",
+      "shares": 784.7369,
+      "price": 43.27,
+      "proceeds": 33943.68,
+      "fees": 11.88,
+      "tax": 0.0,
+      "pnl": -835.86,
+      "pnl_pct": -2.4,
+      "entry_date": "2026-05-01",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLB",
+      "shares": 867.191,
+      "price": 50.92,
+      "cost": 44157.37,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLRE",
+      "shares": 793.7282,
+      "price": 43.27,
+      "cost": 34344.62,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -2186,6 +2234,35 @@
           "market_value": 34520.58,
           "unrealized_pnl": -258.96,
           "entry_date": "2026-05-01",
+          "margin": false
+        }
+      },
+      "sector": "Lumber Momentum",
+      "num_positions": 2
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 19605.6,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98107.58,
+      "positions": {
+        "XLB": {
+          "shares": 867.191,
+          "entry_price": 50.92,
+          "current_price": 50.92,
+          "market_value": 44157.37,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        },
+        "XLRE": {
+          "shares": 793.7282,
+          "entry_price": 43.27,
+          "current_price": 43.27,
+          "market_value": 34344.62,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
           "margin": false
         }
       },

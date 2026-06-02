@@ -1,19 +1,10 @@
 {
-  "cash": 94751.24634913649,
+  "cash": 99675.52648207729,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 292.2991372276555,
+  "fees_paid": 302.5139084009151,
   "taxes_paid": 52.15549200725456,
-  "positions": {
-    "XLP": {
-      "shares": 60.1547601797533,
-      "entry_price": 82.91000366210938,
-      "entry_date": "2026-05-29",
-      "cost": 4987.4313867966575,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-03",
@@ -360,6 +351,20 @@
       "cost": 4987.43,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLP",
+      "shares": 60.1548,
+      "price": 82.03,
+      "proceeds": 4924.28,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -63.15,
+      "pnl_pct": -1.27,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1452,20 +1457,30 @@
       },
       "sector": "Rss News Volume Spike On Food Supply Chain Disruptions",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99675.53,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99675.53,
+      "positions": {},
+      "sector": "Rss News Volume Spike On Food Supply Chain Disruptions",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-01",
-  "last_run": "2026-05-29",
+  "last_run": "2026-06-01",
   "meta": {
     "rss-news-volume-spike-on-food-supply-chain-disruptions": {
-      "latest_value": 10.0,
-      "prior_avg": 2.4286,
-      "signal_change": 3.1176,
+      "latest_value": 11.0,
+      "prior_avg": 2.9091,
+      "signal_change": 2.7812,
       "entry_date": "2026-05-29",
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Rss News Volume Spike On Food Supply Chain Disruptions",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-05-29"
+      "last_signal": "HOLD",
+      "last_run": "2026-06-01"
     }
   }
 }

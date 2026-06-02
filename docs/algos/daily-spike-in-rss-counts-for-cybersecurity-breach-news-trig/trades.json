@@ -417,6 +417,20 @@
       "cost": 4991.27,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-01",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 26.1296,
+      "price": 195.76,
+      "proceeds": 5104.91,
+      "fees": 10.21,
+      "tax": 42.05,
+      "pnl": 71.59,
+      "pnl_pct": 1.43,
+      "entry_date": "2026-05-29",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1619,6 +1633,16 @@
       },
       "sector": "Daily Spike In Rss Counts For Cybersecurity Breach News Triggers Bearish Xlk",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99887.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99887.13,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For Cybersecurity Breach News Triggers Bearish Xlk",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"
