@@ -123,20 +123,27 @@ The incubator track is a proving ground, not a production surface.
 
 ### 5. Incubator Run
 
-Create a dedicated workflow for incubator algos.
+Create a dedicated daytime workflow for incubator algos.
 
 Recommended workflow name:
 
-- `adapter_incubator_daily.yml`
+- `adapter_incubator_daytime.yml`
+
+Why daytime:
+
+- incubator work is research and infrastructure validation, not the main nightly production board;
+- it should be easier to watch manually while the operator is awake;
+- failures should not be confused with the core post-close production run.
 
 Recommended job stages:
 
 1. discover incubator algos
 2. run adapter smoke checks
 3. run seed viability checks
-4. run narrow validation / first backtest
-5. write incubator reports
-6. do not publish to the main public board
+4. generate 2-3 trial algo expressions for the new adapter
+5. run narrow validation / first backtest on at least one candidate
+6. write incubator reports
+7. do not publish to the main public board
 
 Recommended outputs:
 
@@ -153,6 +160,10 @@ The incubator must test two different things separately:
 1. adapter quality
 2. algo quality
 
+It should also answer a third question explicitly:
+
+3. whether the new adapter is materially different from existing adapters
+
 ### Adapter Quality Checks
 
 Required checks:
@@ -163,6 +174,7 @@ Required checks:
 - cadence matches the spec
 - missing / stale data is handled safely
 - no repeated runtime failures across several runs
+- source meaning is not already covered well enough by an existing adapter
 
 Suggested adapter result states:
 
@@ -176,6 +188,9 @@ Suggested adapter result states:
 
 Required checks:
 
+- 2-3 trial algo expressions are created for the new adapter
+- the trial algos are meaningfully different from each other, not the same logic with small cosmetic changes
+- at least one trial algo is pushed through the normal codegen / seed / backtest path
 - algo seeds successfully
 - algo runs without structural errors
 - signal behavior is not obviously nonsensical
@@ -199,6 +214,8 @@ An adapter and at least one incubator algo can only graduate if all of the follo
 - adapter fetch is reliable
 - schema has been stable across repeated runs
 - historical depth is sufficient for honest validation
+- adapter has a clear differentiation case versus the existing adapter set
+- 2-3 trial algo expressions have been attempted
 - the incubator algo seeds and runs cleanly
 - the algo is not obviously duplicative or fake
 - the workflow does not introduce nightly fragility
@@ -215,6 +232,11 @@ When rejected:
 - keep the adapter proposal history
 - optionally keep the adapter if it may support future ideas
 - mark the algo or adapter as rejected/deferred in the incubator report
+
+Promotion is a separate pipeline.
+
+The incubator pipeline should not mutate the main crazy board automatically.
+Graduation should happen through a distinct promotion workflow or review step after the daytime incubator has done its work.
 
 ## File Layout Proposal
 
@@ -278,8 +300,9 @@ Purpose:
 
 Suggested cadence:
 
-- daily after market close
-- or manual until stable
+- daytime only
+- manual or scheduled during the day
+- not tied to the nightly main-board closeout path
 
 ### Workflow D: Promotion Review
 
@@ -304,6 +327,20 @@ These rules are important:
 
 The main board is the production lab.
 The incubator is the infrastructure proving ground.
+
+## Practical Incubator Rule
+
+For each newly introduced adapter:
+
+1. prove it is materially different from existing adapters
+2. build the adapter from the narrow template
+3. create 2-3 clean trial algos that express the source in different ways
+4. ensure bad/missing data handling is graceful
+5. run at least one of the trial algos through the normal codegen / backtest pipeline
+6. only then decide whether the adapter should continue incubating or move to a separate promotion review
+
+Do not require promotion at the same time as incubation success.
+Incubation and promotion are different pipelines.
 
 ## Why This Is Worth Doing
 
