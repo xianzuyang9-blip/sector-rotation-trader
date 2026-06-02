@@ -1,0 +1,1 @@
+1 of 374 signals beating SPY. Simple Monthly Rotation up 13.5% in 30D while the field struggles. 373 others are underwater vs. the benchmark. The losers stay visible in our lab—that's how we learn what doesn't work.
