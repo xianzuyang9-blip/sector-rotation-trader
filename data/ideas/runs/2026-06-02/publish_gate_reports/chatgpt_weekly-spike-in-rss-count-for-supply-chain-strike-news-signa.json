@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/chatgpt_weekly-spike-in-rss-count-for-supply-chain-strike-news-signa.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/chatgpt_weekly-spike-in-rss-count-for-supply-chain-strike-news-signa.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "html_table",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter mismatch",
+      "requires RSS count adapter",
+      "short position usage",
+      "short_trade_not_supported",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "rss_count": 2,
+        "html_table": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 947,
+    "output_tokens": 82
+  },
+  "cost_usd": 0.0031875,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"html_table\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"RSS feed news count adapter is required but missing; html_table does not match data source\",\n  \"risk_flags\": [\"adapter mismatch\", \"requires RSS count adapter\", \"short position usage\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/weekly-spike-in-rss-count-for-supply-chain-strike-news-signa.json"
+}

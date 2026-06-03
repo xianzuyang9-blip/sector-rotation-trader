@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/chatgpt_daily-spike-in-usgs-earthquake-activity-near-port-hubs-signa.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/chatgpt_daily-spike-in-usgs-earthquake-activity-near-port-hubs-signa.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "earthquake_activity",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter mismatch",
+      "geographic filtering missing",
+      "short position required",
+      "short_trade_not_supported"
+    ],
+    "route": {
+      "adapters": [
+        "earthquake_activity"
+      ],
+      "scores": {
+        "earthquake_activity": 2,
+        "html_table": 1
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 959,
+    "output_tokens": 78
+  },
+  "cost_usd": 0.0031775,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"earthquake_activity\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Adapter does not support filtering earthquake activity specifically near major US ports.\",\n  \"risk_flags\": [\"adapter mismatch\", \"geographic filtering missing\", \"short position required\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/daily-spike-in-usgs-earthquake-activity-near-port-hubs-signa.json"
+}

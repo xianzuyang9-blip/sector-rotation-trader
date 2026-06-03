@@ -1,0 +1,1093 @@
+{
+  "cash": 99648.1767630611,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 241.90407638339545,
+  "taxes_paid": 136.5742707344616,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-03-27",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 31.407,
+      "price": 159.2,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-30",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 31.407,
+      "price": 156.61,
+      "proceeds": 4908.45,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -91.55,
+      "pnl_pct": -1.83,
+      "entry_date": "2026-03-27",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-31",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.8843,
+      "price": 161.73,
+      "cost": 4994.93,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-01",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.8843,
+      "price": 164.43,
+      "proceeds": 5068.1,
+      "fees": 10.21,
+      "tax": 27.07,
+      "pnl": 46.1,
+      "pnl_pct": 0.92,
+      "entry_date": "2026-03-31",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-02",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.5107,
+      "price": 163.77,
+      "cost": 4996.73,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-03",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.5107,
+      "price": 163.77,
+      "proceeds": 4986.52,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -10.21,
+      "pnl_pct": -0.2,
+      "entry_date": "2026-04-02",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-07",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 30.4098,
+      "price": 164.28,
+      "cost": 4995.72,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-08",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 30.4098,
+      "price": 170.44,
+      "proceeds": 5172.83,
+      "fees": 10.22,
+      "tax": 65.53,
+      "pnl": 111.58,
+      "pnl_pct": 2.23,
+      "entry_date": "2026-04-07",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-09",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.0424,
+      "price": 172.19,
+      "cost": 5000.81,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-10",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.0424,
+      "price": 171.52,
+      "proceeds": 4971.14,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -29.67,
+      "pnl_pct": -0.59,
+      "entry_date": "2026-04-09",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-14",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.8366,
+      "price": 173.35,
+      "cost": 4998.83,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-15",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.8366,
+      "price": 171.18,
+      "proceeds": 4926.04,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -72.78,
+      "pnl_pct": -1.46,
+      "entry_date": "2026-04-14",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-28",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 29.2121,
+      "price": 170.98,
+      "cost": 4994.69,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-29",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 29.2121,
+      "price": 169.93,
+      "proceeds": 4953.81,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -40.88,
+      "pnl_pct": -0.82,
+      "entry_date": "2026-04-28",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.5952,
+      "price": 174.58,
+      "cost": 4992.15,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-01",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.5952,
+      "price": 172.96,
+      "proceeds": 4935.62,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -56.53,
+      "pnl_pct": -1.13,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-05",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.9358,
+      "price": 172.41,
+      "cost": 4988.82,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-06",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.9358,
+      "price": 176.87,
+      "proceeds": 5107.66,
+      "fees": 10.21,
+      "tax": 43.97,
+      "pnl": 74.87,
+      "pnl_pct": 1.5,
+      "entry_date": "2026-05-05",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-07",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.6901,
+      "price": 174.0,
+      "cost": 4992.07,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-08",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.6901,
+      "price": 173.2,
+      "proceeds": 4958.91,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -33.16,
+      "pnl_pct": -0.66,
+      "entry_date": "2026-05-07",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-12",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.6201,
+      "price": 174.35,
+      "cost": 4989.91,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-13",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.6201,
+      "price": 173.62,
+      "proceeds": 4958.81,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -31.1,
+      "pnl_pct": -0.62,
+      "entry_date": "2026-05-12",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.5821,
+      "price": 174.51,
+      "cost": 4987.86,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-15",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.5821,
+      "price": 171.4,
+      "proceeds": 4888.77,
+      "fees": 10.2,
+      "tax": 0.0,
+      "pnl": -99.09,
+      "pnl_pct": -1.99,
+      "entry_date": "2026-05-14",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-03-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLI": {
+          "shares": 31.407,
+          "entry_price": 159.2,
+          "current_price": 159.2,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-27",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 99898.5,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99898.5,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 94893.63,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99888.55,
+      "positions": {
+        "XLI": {
+          "shares": 30.8843,
+          "entry_price": 161.73,
+          "current_price": 161.73,
+          "market_value": 4994.93,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-31",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 99934.65,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99934.65,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 94927.97,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99924.7,
+      "positions": {
+        "XLI": {
+          "shares": 30.5107,
+          "entry_price": 163.77,
+          "current_price": 163.77,
+          "market_value": 4996.73,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-02",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 99914.49,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99914.49,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 99914.49,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99914.49,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 94908.82,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99904.54,
+      "positions": {
+        "XLI": {
+          "shares": 30.4098,
+          "entry_price": 164.28,
+          "current_price": 164.28,
+          "market_value": 4995.72,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-07",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100016.12,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100016.12,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 95005.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100006.17,
+      "positions": {
+        "XLI": {
+          "shares": 29.0424,
+          "entry_price": 172.19,
+          "current_price": 172.19,
+          "market_value": 5000.81,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-09",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 99976.5,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99976.5,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 99976.5,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99976.5,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 94967.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99966.55,
+      "positions": {
+        "XLI": {
+          "shares": 28.8366,
+          "entry_price": 173.35,
+          "current_price": 173.35,
+          "market_value": 4998.83,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-14",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 99893.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 94889.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99883.82,
+      "positions": {
+        "XLI": {
+          "shares": 29.2121,
+          "entry_price": 170.98,
+          "current_price": 170.98,
+          "market_value": 4994.69,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-28",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 99842.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99842.94,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 94840.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99832.99,
+      "positions": {
+        "XLI": {
+          "shares": 28.5952,
+          "entry_price": 174.58,
+          "current_price": 174.58,
+          "market_value": 4992.15,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-30",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 99776.46,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99776.46,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99776.46,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99776.46,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 94777.69,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99766.51,
+      "positions": {
+        "XLI": {
+          "shares": 28.9358,
+          "entry_price": 172.41,
+          "current_price": 172.41,
+          "market_value": 4988.82,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-05",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99841.38,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.38,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 94839.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99831.43,
+      "positions": {
+        "XLI": {
+          "shares": 28.6901,
+          "entry_price": 174.0,
+          "current_price": 174.0,
+          "market_value": 4992.07,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-07",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99798.27,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99798.27,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99798.27,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99798.27,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 94798.41,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99788.32,
+      "positions": {
+        "XLI": {
+          "shares": 28.6201,
+          "entry_price": 174.35,
+          "current_price": 174.35,
+          "market_value": 4989.91,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-12",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99757.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99757.22,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 94759.41,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99747.27,
+      "positions": {
+        "XLI": {
+          "shares": 28.5821,
+          "entry_price": 174.51,
+          "current_price": 174.51,
+          "market_value": 4987.86,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-14",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-28",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99648.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99648.18,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-03-04",
+  "last_run": "2026-06-03",
+  "meta": {
+    "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo": {
+      "latest_value": 12.0,
+      "prior_avg": 39.2857,
+      "signal_change": -0.6945,
+      "signal_label": "HOLD",
+      "name": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-03"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/claude_bank-mortgage-rate-lock-surge-rss-signals-housing-sector-rot.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/claude_bank-mortgage-rate-lock-surge-rss-signals-housing-sector-rot.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "rss_count",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter mismatch",
+      "data source specificity",
+      "short_trade_not_supported",
+      "shorting required",
+      "volume not applicable"
+    ],
+    "route": {
+      "adapters": [
+        "rss_count"
+      ],
+      "scores": {
+        "reddit_activity": 1,
+        "rss_count": 3,
+        "html_table": 2,
+        "price_only": 1
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1053,
+    "output_tokens": 95
+  },
+  "cost_usd": 0.0035825,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"rss_count\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Spec requires shorting XLRE but current envelope supports only long/flat; also needs adapter to track specific mortgage rate lock RSS counts.\",\n  \"risk_flags\": [\"shorting required\", \"adapter mismatch\", \"data source specificity\", \"volume not applicable\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/bank-mortgage-rate-lock-surge-rss-signals-housing-sector-rot.json"
+}

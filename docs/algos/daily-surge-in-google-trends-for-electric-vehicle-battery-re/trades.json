@@ -1,0 +1,837 @@
+{
+  "trade_log": [
+    {
+      "date": "2026-05-06",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 42.6076,
+      "price": 117.35,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-07",
+      "action": "SELL",
+      "ticker": "XLC",
+      "shares": 42.6076,
+      "price": 117.38,
+      "proceeds": 4991.07,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -8.93,
+      "pnl_pct": -0.18,
+      "entry_date": "2026-05-06",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-08",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 42.7489,
+      "price": 116.94,
+      "cost": 4999.06,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-11",
+      "action": "SELL",
+      "ticker": "XLC",
+      "shares": 42.7489,
+      "price": 115.58,
+      "proceeds": 4930.71,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -68.35,
+      "pnl_pct": -1.37,
+      "entry_date": "2026-05-08",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-12",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 43.1136,
+      "price": 115.86,
+      "cost": 4995.14,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-13",
+      "action": "SELL",
+      "ticker": "XLC",
+      "shares": 43.1136,
+      "price": 116.76,
+      "proceeds": 5023.73,
+      "fees": 10.21,
+      "tax": 10.58,
+      "pnl": 18.01,
+      "pnl_pct": 0.36,
+      "entry_date": "2026-05-12",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-25",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 43.2664,
+      "price": 115.46,
+      "cost": 4995.54,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-26",
+      "action": "SELL",
+      "ticker": "XLC",
+      "shares": 43.2664,
+      "price": 115.55,
+      "proceeds": 4989.23,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -6.32,
+      "pnl_pct": -0.13,
+      "entry_date": "2026-05-25",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-01",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 43.2033,
+      "price": 115.61,
+      "cost": 4994.73,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-06-02",
+      "action": "SELL",
+      "ticker": "XLC",
+      "shares": 43.2033,
+      "price": 113.57,
+      "proceeds": 4896.39,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -98.34,
+      "pnl_pct": -1.97,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-03-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLC": {
+          "shares": 42.6076,
+          "entry_price": 117.35,
+          "current_price": 117.35,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-06",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 99981.12,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99981.12,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 94972.11,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99971.17,
+      "positions": {
+        "XLC": {
+          "shares": 42.7489,
+          "entry_price": 116.94,
+          "current_price": 116.94,
+          "market_value": 4999.06,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-08",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99902.82,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99902.82,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 94897.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99892.87,
+      "positions": {
+        "XLC": {
+          "shares": 43.1136,
+          "entry_price": 115.86,
+          "current_price": 115.86,
+          "market_value": 4995.14,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-12",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99910.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.88,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 94905.38,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99900.93,
+      "positions": {
+        "XLC": {
+          "shares": 43.2664,
+          "entry_price": 115.46,
+          "current_price": 115.46,
+          "market_value": 4995.54,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99894.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99894.61,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99894.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99894.61,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-28",
+      "cash": 99894.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99894.61,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99894.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99894.61,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 94889.93,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99884.66,
+      "positions": {
+        "XLC": {
+          "shares": 43.2033,
+          "entry_price": 115.61,
+          "current_price": 115.61,
+          "market_value": 4994.73,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99786.32,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99786.32,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99786.32,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99786.32,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-03-04"
+}

@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/chatgpt_weekly-increase-in-rss-counts-for-corporate-layoff-announcem.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/chatgpt_weekly-increase-in-rss-counts-for-corporate-layoff-announcem.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "html_table",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter mismatch",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "requires short position",
+      "rss_count data source missing adapter",
+      "short_trade_not_supported",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "rss_count": 1,
+        "html_table": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 927,
+    "output_tokens": 97
+  },
+  "cost_usd": 0.0032875,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"html_table\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Requires an RSS news count adapter, not html_table; shorting not supported natively\",\n  \"risk_flags\": [\n    \"adapter mismatch\",\n    \"requires short position\",\n    \"rss_count data source missing adapter\",\n    \"low adapter routing confidence\"\n  ]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/weekly-increase-in-rss-counts-for-corporate-layoff-announcem.json"
+}

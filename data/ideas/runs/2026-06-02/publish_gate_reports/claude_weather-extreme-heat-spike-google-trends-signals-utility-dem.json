@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/claude_weather-extreme-heat-spike-google-trends-signals-utility-dem.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/claude_weather-extreme-heat-spike-google-trends-signals-utility-dem.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "google_trends",
+    "needs_new_adapter": true,
+    "reason": "No existing adapter covers combined Open-Meteo temperature and Google Trends AC repair volume data.",
+    "risk_flags": [
+      "data source instability",
+      "missing weather adapter",
+      "requires multi-source integration"
+    ],
+    "route": {
+      "adapters": [
+        "eia_electricity",
+        "google_trends"
+      ],
+      "scores": {
+        "weather_series": 2,
+        "google_trends": 3,
+        "html_table": 1,
+        "eia_electricity": 1,
+        "price_only": 1
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1049,
+    "output_tokens": 84
+  },
+  "cost_usd": 0.0034625,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"google_trends\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"No existing adapter covers combined Open-Meteo temperature and Google Trends AC repair volume data.\",\n  \"risk_flags\": [\"missing weather adapter\", \"requires multi-source integration\", \"data source instability\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/weather-extreme-heat-spike-google-trends-signals-utility-dem.json"
+}

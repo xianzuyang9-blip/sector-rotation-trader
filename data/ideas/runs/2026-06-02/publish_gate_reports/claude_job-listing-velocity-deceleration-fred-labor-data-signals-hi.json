@@ -1,0 +1,36 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/claude_job-listing-velocity-deceleration-fred-labor-data-signals-hi.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/claude_job-listing-velocity-deceleration-fred-labor-data-signals-hi.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "low_adapter_confidence",
+      "multiple series combined",
+      "short_trade_not_supported",
+      "shorting required",
+      "unsupported_template_adapter",
+      "weekly change calculation unclear"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series"
+      ],
+      "scores": {
+        "fred_series": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 996,
+    "output_tokens": 86
+  },
+  "cost_usd": 0.00335,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec requires shorting which current envelope does not support and uses weekly changes not clearly defined in adapter contract\",\n  \"risk_flags\": [\"shorting required\", \"weekly change calculation unclear\", \"multiple series combined\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/job-listing-velocity-deceleration-fred-labor-data-signals-hi.json"
+}

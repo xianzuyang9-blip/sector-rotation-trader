@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-06-03T00:23:57
+Updated (UTC): 2026-06-03T00:28:44
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 380
+Crazy models: 386
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -396,3 +396,9 @@ Crazy models: 380
 | ev-charger-deployment-acceleration-signals-consumer-adoption | Ev Charger Deployment Acceleration Signals Consumer Adoption Surge | weekly |
 | food-price-inflation-rss-spike-signals-consumer-staples-pric | Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power | daily |
 | utility-demand-surge-from-heat-wave-google-trends-signals-en | Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength | weekly |
+| daily-jump-in-google-trends-for-diy-pest-control-signals-con | Daily Jump In Google Trends For Diy Pest Control Signals Consumer Home Stress And Staples Demand | daily |
+| daily-jump-in-google-trends-for-home-renovation-loans-signal | Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand | daily |
+| daily-spike-in-weather-series-for-extreme-heat-days-signals- | Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge | daily |
+| daily-surge-in-google-trends-for-electric-vehicle-battery-re | Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift | daily |
+| weekly-surge-in-google-trends-for-overtime-jobs-signals-labo | Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness | weekly |
+| grocery-price-inflation-google-trends-spike-signals-consumer | Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand | weekly |

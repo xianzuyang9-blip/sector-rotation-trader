@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T00:23:58Z",
+  "generated_at": "2026-06-03T00:28:45Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -136,6 +136,30 @@
       "equity": 100007.01,
       "ytd_pct": 0.01,
       "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-06-03",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-surge-in-google-trends-for-electric-vehicle-battery-re",
+      "algo_type": "crazy",
+      "algo_id": "daily-surge-in-google-trends-for-electric-vehicle-battery-re",
+      "name": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLC"
+      ],
+      "equity": 99786.32,
+      "ytd_pct": -0.21,
+      "trade_count": 10,
       "positions": 0,
       "last_snapshot": "2026-06-03",
       "last_signal": null,
@@ -1285,6 +1309,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+      "name": "Daily Jump In Google Trends For Diy Pest Control Signals Consumer Home Stress And Staples Demand",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLP"
+      ],
+      "equity": 99507.3,
+      "ytd_pct": -0.49,
+      "trade_count": 18,
+      "positions": 0,
+      "last_snapshot": "2026-06-03",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:daily-jump-in-google-trends-for-emergency-dental-care-signal",
       "algo_type": "crazy",
       "algo_id": "daily-jump-in-google-trends-for-emergency-dental-care-signal",
@@ -1491,6 +1539,30 @@
       "equity": 100000.0,
       "ytd_pct": 0.0,
       "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-03",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-jump-in-google-trends-for-home-renovation-loans-signal",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-home-renovation-loans-signal",
+      "name": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99896.93,
+      "ytd_pct": -0.1,
+      "trade_count": 26,
       "positions": 0,
       "last_snapshot": "2026-06-03",
       "last_signal": null,
@@ -2451,6 +2523,30 @@
       "equity": 100038.19,
       "ytd_pct": 0.04,
       "trade_count": 2,
+      "positions": 0,
+      "last_snapshot": "2026-06-03",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:grocery-price-inflation-google-trends-spike-signals-consumer",
+      "algo_type": "crazy",
+      "algo_id": "grocery-price-inflation-google-trends-spike-signals-consumer",
+      "name": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLP"
+      ],
+      "equity": 99808.62,
+      "ytd_pct": -0.19,
+      "trade_count": 12,
       "positions": 0,
       "last_snapshot": "2026-06-03",
       "last_signal": null,
@@ -5229,6 +5325,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
+      "name": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLI"
+      ],
+      "equity": 99648.18,
+      "ytd_pct": -0.35,
+      "trade_count": 24,
+      "positions": 0,
+      "last_snapshot": "2026-06-03",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-warehouse-automation-jobs-",
@@ -6486,6 +6606,30 @@
       "algo_type": "crazy",
       "algo_id": "daily-jump-in-weather-series-temperature-volatility-signals-",
       "name": "Daily Jump In Weather Series Temperature Volatility Signals Utility Demand Surges",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLU"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-03",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-weather-series-for-extreme-heat-days-signals-",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-weather-series-for-extreme-heat-days-signals-",
+      "name": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
       "family": "macro_input_pressure",
       "status": "sandbox",
       "evidence_class": "needs_history",

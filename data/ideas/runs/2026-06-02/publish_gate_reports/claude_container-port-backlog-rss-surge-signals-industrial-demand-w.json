@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/claude_container-port-backlog-rss-surge-signals-industrial-demand-w.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/claude_container-port-backlog-rss-surge-signals-industrial-demand-w.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "rss_count",
+    "needs_new_adapter": false,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter does not support short positions",
+      "data source stability concerns",
+      "short_trade_not_supported",
+      "shorting required"
+    ],
+    "route": {
+      "adapters": [
+        "rss_count"
+      ],
+      "scores": {
+        "rss_count": 3,
+        "html_table": 2,
+        "port_container_volume": 1
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1023,
+    "output_tokens": 82
+  },
+  "cost_usd": 0.0033775,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"rss_count\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec requires shorting but current envelope supports only long/flat positions.\",\n  \"risk_flags\": [\"shorting required\", \"adapter does not support short positions\", \"data source stability concerns\"]\n}\n```"
+}

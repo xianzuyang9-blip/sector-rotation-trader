@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "symbol": "SPY",
   "available": true,
-  "generated_at": "2026-06-03T00:24:08Z",
+  "generated_at": "2026-06-03T00:28:45Z",
   "ytd_return_pct": 11.49,
   "rolling_30d_return_pct": 5.79,
   "source": "data/rank_history.csv + docs/leaderboards/rolling_30d.json"

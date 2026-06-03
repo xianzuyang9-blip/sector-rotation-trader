@@ -7,8 +7,8 @@
   "composite_color": "red",
   "bullish": 0,
   "bearish": 52,
-  "neutral": 333,
-  "total_signals": 385,
+  "neutral": 339,
+  "total_signals": 391,
   "total_active": 52,
   "bullish_pct": 0,
   "breakdown": [
@@ -145,6 +145,15 @@
       "direction": "NEUTRAL",
       "days_running": 67,
       "ytd_pct": 0.02,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-electric-vehicle-battery-re",
+      "name": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.21,
       "beat_spy": false
     },
     {
@@ -919,6 +928,15 @@
       "direction": "NEUTRAL",
       "days_running": 116,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
+      "name": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.35,
       "beat_spy": false
     },
     {
@@ -2560,6 +2578,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "grocery-price-inflation-google-trends-spike-signals-consumer",
+      "name": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.19,
+      "beat_spy": false
+    },
+    {
       "algo_id": "xlc-weekly-google-trends-surge-in-5g-rollout",
       "name": "Xlc Weekly Google Trends Surge In 5g Rollout",
       "algo_type": "crazy",
@@ -2839,6 +2866,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-jump-in-google-trends-for-home-renovation-loans-signal",
+      "name": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.1,
+      "beat_spy": false
+    },
+    {
       "algo_id": "freight-rail-carloads",
       "name": "Freight Rail Carloads",
       "algo_type": "crazy",
@@ -2961,6 +2997,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 76,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-spike-in-weather-series-for-extreme-heat-days-signals-",
+      "name": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -3133,6 +3178,15 @@
       "direction": "NEUTRAL",
       "days_running": 118,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+      "name": "Daily Jump In Google Trends For Diy Pest Control Signals Consumer Home Stress And Staples Demand",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.48,
       "beat_spy": false
     },
     {

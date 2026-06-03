@@ -1,0 +1,39 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/claude_retail-same-store-sales-deceleration-fred-signals-consumer-d.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/claude_retail-same-store-sales-deceleration-fred-signals-consumer-d.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter mapping unclear for RSXFS and RETA series",
+      "frequency mismatch between weekly and monthly data",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "requires shorting which is unsupported",
+      "short_trade_not_supported",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 1018,
+    "output_tokens": 115
+  },
+  "cost_usd": 0.003695,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": null,\n  \"needs_new_adapter\": true,\n  \"reason\": \"No existing adapter matches the required FRED series RSXFS and RETA with weekly/monthly changes and shorting logic.\",\n  \"risk_flags\": [\n    \"requires shorting which is unsupported\",\n    \"adapter mapping unclear for RSXFS and RETA series\",\n    \"frequency mismatch between weekly and monthly data\",\n    \"low adapter routing confidence\"\n  ]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/retail-same-store-sales-deceleration-fred-signals-consumer-d.json"
+}

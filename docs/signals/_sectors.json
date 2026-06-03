@@ -29,7 +29,7 @@
     "XLY": {
       "etf": "XLY",
       "sector": "Consumer Cyclical",
-      "composite": "10 of 80",
+      "composite": "10 of 81",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 12
@@ -37,7 +37,7 @@
     "XLI": {
       "etf": "XLI",
       "sector": "Industrials",
-      "composite": "16 of 64",
+      "composite": "16 of 65",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 25
@@ -45,7 +45,7 @@
     "XLC": {
       "etf": "XLC",
       "sector": "Communication Services",
-      "composite": "2 of 45",
+      "composite": "2 of 46",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 4
@@ -53,10 +53,10 @@
     "XLP": {
       "etf": "XLP",
       "sector": "Consumer Defensive",
-      "composite": "10 of 50",
+      "composite": "10 of 52",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 20
+      "bullish_pct": 19
     },
     "XLE": {
       "etf": "XLE",

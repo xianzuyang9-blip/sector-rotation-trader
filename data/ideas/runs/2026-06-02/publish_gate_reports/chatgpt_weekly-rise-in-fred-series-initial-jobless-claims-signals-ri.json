@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/chatgpt_weekly-rise-in-fred-series-initial-jobless-claims-signals-ri.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/chatgpt_weekly-rise-in-fred-series-initial-jobless-claims-signals-ri.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "requires short position",
+      "short_trade_not_supported",
+      "unsupported_template_adapter",
+      "weekly frequency"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 925,
+    "output_tokens": 79
+  },
+  "cost_usd": 0.0031025,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec requires shorting but current algo envelope supports only long/flat positions.\",\n  \"risk_flags\": [\"requires short position\", \"low adapter routing confidence\", \"weekly frequency\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/weekly-rise-in-fred-series-initial-jobless-claims-signals-ri.json"
+}

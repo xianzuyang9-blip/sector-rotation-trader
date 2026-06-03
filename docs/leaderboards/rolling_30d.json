@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T00:24:07.429337",
+  "as_of": "2026-06-03T00:28:43.585366",
   "spy_ret_30d": 0.05788219801024774,
   "entries": [
     {
@@ -185,6 +185,14 @@
       "ret_30d": 0.0003262092790174975,
       "sharpe_30d": -24.21918450763766,
       "max_dd_30d": -9.959442547476352e-05
+    },
+    {
+      "algo_id": "grocery-price-inflation-google-trends-spike-signals-consumer",
+      "name": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
+      "category": "crazy",
+      "ret_30d": 0.00030467570978909286,
+      "sharpe_30d": -29.123147583110658,
+      "max_dd_30d": -9.972116159214997e-05
     },
     {
       "algo_id": "daily-jump-in-google-trends-searches-for-home-renovation-per",
@@ -1995,6 +2003,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-jump-in-google-trends-for-home-renovation-loans-signal",
+      "name": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "regional-earthquake-cluster-insurance-demand-spike",
       "name": "Regional Earthquake Cluster Insurance Demand Spike",
       "category": "crazy",
@@ -2061,6 +2077,14 @@
     {
       "algo_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
       "name": "Daily Surge In Google Trends For Emergency Hvac Repair Signals Consumer Stress Boosting Home Improvement",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "daily-spike-in-weather-series-for-extreme-heat-days-signals-",
+      "name": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2425,6 +2449,14 @@
       "ret_30d": -0.00013399999999996748,
       "sharpe_30d": -145.4965857999193,
       "max_dd_30d": -0.00013399999999994178
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+      "name": "Daily Jump In Google Trends For Diy Pest Control Signals Consumer Home Stress And Staples Demand",
+      "category": "crazy",
+      "ret_30d": -0.00018457549695460873,
+      "sharpe_30d": -99.79198398391905,
+      "max_dd_30d": -0.00018959932648527101
     },
     {
       "algo_id": "earthquake-activity-surge-triggers-defensive-rotation",
@@ -2819,6 +2851,14 @@
       "max_dd_30d": -0.0012043967984368472
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
+      "name": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "category": "crazy",
+      "ret_30d": -0.0012856739956500496,
+      "sharpe_30d": -13.138263114449536,
+      "max_dd_30d": -0.0019350694070936483
+    },
+    {
       "algo_id": "daily-spike-in-rss-news-counts-on-corporate-dividend-cuts",
       "name": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
       "category": "crazy",
@@ -2929,6 +2969,14 @@
       "ret_30d": -0.002108300000000063,
       "sharpe_30d": -41.24482784623974,
       "max_dd_30d": -0.0021083000000000174
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-electric-vehicle-battery-re",
+      "name": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "category": "crazy",
+      "ret_30d": -0.0021367999999999387,
+      "sharpe_30d": -17.441340142566055,
+      "max_dd_30d": -0.00213679999999993
     },
     {
       "algo_id": "eia-electricity-demand-shock-rebound-spread",

@@ -1,0 +1,66 @@
+{
+  "run_date": "2026-06-02",
+  "start": "2024-01-01",
+  "end": "2026-06-02",
+  "slippage_bps": 5.0,
+  "generated_at": "2026-06-03T00:28:28Z",
+  "counts": {
+    "LIVE_ONLY_NON_PRICE": 6
+  },
+  "results": [
+    {
+      "algo_id": "daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+      "name": "Daily Jump In Google Trends For Diy Pest Control Signals Consumer Home Stress And Staples Demand",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-02"
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-home-renovation-loans-signal",
+      "name": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-02"
+    },
+    {
+      "algo_id": "daily-spike-in-weather-series-for-extreme-heat-days-signals-",
+      "name": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.eia_electricity",
+      "metrics": {},
+      "run_date": "2026-06-02"
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-electric-vehicle-battery-re",
+      "name": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-02"
+    },
+    {
+      "algo_id": "grocery-price-inflation-google-trends-spike-signals-consumer",
+      "name": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-02"
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
+      "name": "Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-02"
+    }
+  ]
+}

@@ -1,26 +1,26 @@
 {
   "schema_version": "v1",
   "run_date": "2026-06-03",
-  "generated_at": "2026-06-03T00:24:08Z",
+  "generated_at": "2026-06-03T00:28:45Z",
   "counts": {
-    "total": 385,
+    "total": 391,
     "normal": 5,
-    "crazy": 380,
-    "watchlist": 165,
+    "crazy": 386,
+    "watchlist": 170,
     "promoted": 5,
     "graveyard": 26
   },
   "by_status": {
     "backtest_weak": 4,
     "failed": 1,
-    "live_only": 156,
+    "live_only": 161,
     "parked": 25,
     "promoted": 5,
-    "sandbox": 194
+    "sandbox": 195
   },
   "by_evidence_class": {
-    "live_receipts_only": 157,
-    "needs_history": 191,
+    "live_receipts_only": 162,
+    "needs_history": 192,
     "pending_seed": 25,
     "v1_backtested": 12
   },
@@ -36,7 +36,7 @@
     "XLV"
   ],
   "ticker_count": 105,
-  "signal_count": 385,
+  "signal_count": 391,
   "sector_summary": {
     "XLK": {
       "etf": "XLK",
@@ -65,7 +65,7 @@
     "XLY": {
       "etf": "XLY",
       "sector": "Consumer Cyclical",
-      "composite": "10 of 80",
+      "composite": "10 of 81",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 12
@@ -73,7 +73,7 @@
     "XLI": {
       "etf": "XLI",
       "sector": "Industrials",
-      "composite": "16 of 64",
+      "composite": "16 of 65",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 25
@@ -81,7 +81,7 @@
     "XLC": {
       "etf": "XLC",
       "sector": "Communication Services",
-      "composite": "2 of 45",
+      "composite": "2 of 46",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 4
@@ -89,10 +89,10 @@
     "XLP": {
       "etf": "XLP",
       "sector": "Consumer Defensive",
-      "composite": "10 of 50",
+      "composite": "10 of 52",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 20
+      "bullish_pct": 19
     },
     "XLE": {
       "etf": "XLE",
@@ -340,7 +340,7 @@
     }
   ],
   "rolling_30d": {
-    "as_of": "2026-06-03T00:24:07.429337",
+    "as_of": "2026-06-03T00:28:43.585366",
     "spy_ret_30d_pct": 5.79,
     "leaders": [
       {

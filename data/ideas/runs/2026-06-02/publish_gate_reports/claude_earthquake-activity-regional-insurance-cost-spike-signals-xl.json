@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-06-02/publish/claude_earthquake-activity-regional-insurance-cost-spike-signals-xl.md",
+  "target_file": "data/ideas/runs/2026-06-02/intervention/claude_earthquake-activity-regional-insurance-cost-spike-signals-xl.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "earthquake_activity",
+    "needs_new_adapter": true,
+    "reason": "Spec requires combining earthquake data with RSS news counts, but no adapter covers both.",
+    "risk_flags": [
+      "adapter mismatch",
+      "multi-source data fusion",
+      "requires RSS news counts"
+    ],
+    "route": {
+      "adapters": [
+        "earthquake_activity"
+      ],
+      "scores": {
+        "earthquake_activity": 3,
+        "rss_count": 1,
+        "price_only": 1
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1036,
+    "output_tokens": 82
+  },
+  "cost_usd": 0.00341,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"earthquake_activity\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Spec requires combining earthquake data with RSS news counts, but no adapter covers both.\",\n  \"risk_flags\": [\"requires RSS news counts\", \"multi-source data fusion\", \"adapter mismatch\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-02/earthquake-activity-regional-insurance-cost-spike-signals-xl.json"
+}
