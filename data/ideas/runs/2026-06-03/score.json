@@ -1,0 +1,128 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-holiday-travel-cancellations",
+    "title": "Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+    "title": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+    "title": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+    "title": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+    "title": "Daily Spike In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+    "title": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+    "title": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+    "title": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+    "title": "Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "natural-gas-demand-spike-from-cold-weather-google-trends-hea",
+    "title": "Natural Gas Demand Spike From Cold Weather Google Trends Heating Searches",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+    "title": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "gasoline-price-spike-triggers-commuter-stress-google-trends",
+    "title": "Gasoline Price Spike Triggers Commuter Stress Google Trends",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airport-passenger-traffic-surge-from-google-trends-spring-br",
+    "title": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-rail-car-utilization-collapse-signals-recession-frei",
+    "title": "Freight Rail Car Utilization Collapse Signals Recession Freight Risk",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "corporate-insider-trading-activity-surge-signals-executive-c",
+    "title": "Corporate Insider Trading Activity Surge Signals Executive Confidence Shift",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+    "title": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "restaurant-job-postings-surge-signals-consumer-services-dema",
+    "title": "Restaurant Job Postings Surge Signals Consumer Services Demand Recovery",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "unemployment-insurance-claims-volatility-spike-signals-labor",
+    "title": "Unemployment Insurance Claims Volatility Spike Signals Labor Slack Tightening",
+    "family": "labor_jobs",
+    "score": 100
+  }
+]

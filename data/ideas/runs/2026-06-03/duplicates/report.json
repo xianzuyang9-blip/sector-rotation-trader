@@ -1,0 +1,362 @@
+{
+  "date": "2026-06-03",
+  "input_count": 23,
+  "kept_count": 18,
+  "duplicate_count": 5,
+  "kept_by_source": {
+    "chatgpt": 9,
+    "claude": 9
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+      "title": "Daily Jump In Google Trends For Emergency Roadside Assistance Signals Rising Consumer Discretionary Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily jump in google trends for emergency roadside assistance signals consumer stress impacting discretionary sector",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+        "title": "Daily Jump In Google Trends For Emergency Roadside Assistance Signals Rising Consumer Discretionary Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increased searches for roadside assistance reflect rising vehicle troubles and consumer financial stress impacting discretionary spending. Discretionary sector faces pressure as consumers divert spending to emergency auto services.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "If daily Google Trends for 'emergency roadside assistance' rises 20%+ over 7-day average",
+        "entry_exit": "Entry: If daily Google Trends for 'emergency roadside assistance' rises 20%+ over 7-day average Exit: Exit after 7 calendar days or when volume normalizes below 10% above baseline",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Seasonal weather and vehicle reliability issues often cause spikes in roadside assistance interest.",
+        "schema": {
+          "idea": "Daily jump in Google Trends for 'emergency roadside assistance' signals rising consumer discretionary stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Increased searches for roadside assistance reflect rising vehicle troubles and consumer financial stress impacting discretionary spending.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLY",
+            "rationale": "Discretionary sector faces pressure as consumers divert spending to emergency auto services."
+          },
+          "trade_logic": {
+            "entry": "If daily Google Trends for 'emergency roadside assistance' rises 20%+ over 7-day average",
+            "exit": "Exit after 7 calendar days or when volume normalizes below 10% above baseline",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Seasonal weather and vehicle reliability issues often cause spikes in roadside assistance interest.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-truck-driver-shortage-sign",
+      "title": "Weekly Surge In Google Trends For Truck Driver Shortage Signals Industrial Labor Stress",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for truck driver shortage signals bearish xli",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-truck-driver-shortage-sign",
+        "matched_origin": "history:2026-04-30",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-truck-driver-shortage-sign",
+        "title": "Weekly Surge In Google Trends For Truck Driver Shortage Signals Industrial Labor Stress",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Rising search interest in truck driver shortage often precedes capacity constraints and wage inflation in industrial logistics. Labor shortages in logistics increase costs and reduce throughput, pressuring industrial sector profitability.",
+        "data_sources": [
+          "Google Trends weekly search interest"
+        ],
+        "signal_logic": "If weekly Google Trends for 'truck driver shortage' rises by 15%+ week-over-week",
+        "entry_exit": "Entry: If weekly Google Trends for 'truck driver shortage' rises by 15%+ week-over-week Exit: Exit after 3 weeks or when trend falls below 5% week-over-week growth",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor supply concerns in logistics frequently spike with quarterly earnings cycles and seasonal demand.",
+        "schema": {
+          "idea": "Weekly surge in Google Trends for 'truck driver shortage' signals industrial labor stress",
+          "family": "labor_jobs",
+          "data": {
+            "source": "Google Trends weekly search interest",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Rising search interest in truck driver shortage often precedes capacity constraints and wage inflation in industrial logistics.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Labor shortages in logistics increase costs and reduce throughput, pressuring industrial sector profitability."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'truck driver shortage' rises by 15%+ week-over-week",
+            "exit": "Exit after 3 weeks or when trend falls below 5% week-over-week growth",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor supply concerns in logistics frequently spike with quarterly earnings cycles and seasonal demand.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-urgent-dental-care-signals-r",
+      "title": "Daily Jump In Google Trends For Urgent Dental Care Signals Rising Healthcare Consumer Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.508,
+        "matched_title": "daily spike in google trends for emergency dental care predicts healthcare sector defensive demand",
+        "matched_idea_id": "daily-spike-in-google-trends-for-emergency-dental-care-predi",
+        "matched_origin": "history:2026-05-09",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-urgent-dental-care-signals-r",
+        "title": "Daily Jump In Google Trends For Urgent Dental Care Signals Rising Healthcare Consumer Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in urgent dental care searches indicate rising consumer health stress and increased demand for healthcare services. Healthcare sector benefits from increased urgent care demand driven by consumer health stress.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "If daily search volume for 'urgent dental care' rises by 25%+ over 7-day average",
+        "entry_exit": "Entry: If daily search volume for 'urgent dental care' rises by 25%+ over 7-day average Exit: Exit after 10 calendar days or when volume falls below 10% above baseline",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLV"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Dental emergencies and health awareness campaigns frequently cause search volume spikes.",
+        "schema": {
+          "idea": "Daily jump in Google Trends for 'urgent dental care' signals rising healthcare consumer stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in urgent dental care searches indicate rising consumer health stress and increased demand for healthcare services.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLV",
+            "rationale": "Healthcare sector benefits from increased urgent care demand driven by consumer health stress."
+          },
+          "trade_logic": {
+            "entry": "If daily search volume for 'urgent dental care' rises by 25%+ over 7-day average",
+            "exit": "Exit after 10 calendar days or when volume falls below 10% above baseline",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Dental emergencies and health awareness campaigns frequently cause search volume spikes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-warehouse-worker-strikes-s",
+      "title": "Weekly Surge In Google Trends For Warehouse Worker Strikes Signals Industrial Labor Unrest",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.492,
+        "matched_title": "weekly google trends surge in warehouse worker strike searches signals bearish industrials",
+        "matched_idea_id": "weekly-google-trends-surge-in-warehouse-worker-strike-search",
+        "matched_origin": "history:2026-04-29",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-warehouse-worker-strikes-s",
+        "title": "Weekly Surge In Google Trends For Warehouse Worker Strikes Signals Industrial Labor Unrest",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Rising search interest in warehouse worker strikes indicates labor unrest that may disrupt supply chains. Industrial sector faces operational disruptions and higher costs during labor strikes.",
+        "data_sources": [
+          "Google Trends weekly search interest"
+        ],
+        "signal_logic": "If weekly Google Trends for 'warehouse worker strike' spikes 30%+ week-over-week",
+        "entry_exit": "Entry: If weekly Google Trends for 'warehouse worker strike' spikes 30%+ week-over-week Exit: Exit after 3 weeks or when trend falls below 15% week-over-week growth",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor disputes in warehousing are common and often announced with media and social attention.",
+        "schema": {
+          "idea": "Weekly surge in Google Trends for 'warehouse worker strikes' signals industrial labor unrest",
+          "family": "labor_jobs",
+          "data": {
+            "source": "Google Trends weekly search interest",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Rising search interest in warehouse worker strikes indicates labor unrest that may disrupt supply chains.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Industrial sector faces operational disruptions and higher costs during labor strikes."
+          },
+          "trade_logic": {
+            "entry": "If weekly Google Trends for 'warehouse worker strike' spikes 30%+ week-over-week",
+            "exit": "Exit after 3 weeks or when trend falls below 15% week-over-week growth",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor disputes in warehousing are common and often announced with media and social attention.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
+      "title": "Daily Surge In Google Trends For Emergency Hvac Repair Signals Consumer Home Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily surge in google trends for emergency hvac repair signals consumer stress boosting home improvement",
+        "matched_idea_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-surge-in-google-trends-for-emergency-hvac-repair-signa",
+        "title": "Daily Surge In Google Trends For Emergency Hvac Repair Signals Consumer Home Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Sudden spikes in emergency HVAC repair searches indicate rising consumer stress and increased home repair demand. Consumer staples and home services sectors benefit from urgent home repair demand.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "If daily search volume for 'emergency HVAC repair' rises 25%+ over 7-day average",
+        "entry_exit": "Entry: If daily search volume for 'emergency HVAC repair' rises 25%+ over 7-day average Exit: Exit after 10 calendar days or when volume normalizes below 10% above baseline",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Seasonal temperature swings cause HVAC emergencies driving search volume surges.",
+        "schema": {
+          "idea": "Daily surge in Google Trends for 'emergency HVAC repair' signals consumer home stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Sudden spikes in emergency HVAC repair searches indicate rising consumer stress and increased home repair demand.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Consumer staples and home services sectors benefit from urgent home repair demand."
+          },
+          "trade_logic": {
+            "entry": "If daily search volume for 'emergency HVAC repair' rises 25%+ over 7-day average",
+            "exit": "Exit after 10 calendar days or when volume normalizes below 10% above baseline",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Seasonal temperature swings cause HVAC emergencies driving search volume surges.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
