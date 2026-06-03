@@ -751,10 +751,20 @@
       "positions": {},
       "sector": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99979.84,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99979.84,
+      "positions": {},
+      "sector": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23",
-  "last_run": "2026-06-02",
+  "last_run": "2026-06-03",
   "meta": {
     "weekly-rise-in-travelmobility-google-trends-for-last-minute-": {
       "signal_label": "HOLD",
@@ -764,7 +774,7 @@
       "entry_date": "2026-05-22",
       "name": "Weekly Rise In Travelmobility Google Trends For Last Minute Flight Booking Signals Near-term Travel Demand Rebound",
       "last_signal": "HOLD",
-      "last_run": "2026-06-01"
+      "last_run": "2026-06-03"
     }
   }
 }

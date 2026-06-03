@@ -33,6 +33,20 @@
       "cost": 4997.74,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLRE",
+      "shares": 115.5012,
+      "price": 43.49,
+      "proceeds": 5012.91,
+      "fees": 10.24,
+      "tax": 5.61,
+      "pnl": 9.56,
+      "pnl_pct": 0.19,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1272,6 +1286,16 @@
       },
       "sector": "Real Estate Sector Weekly Google Trends Home Buying Surge",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99954.38,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99954.38,
+      "positions": {},
+      "sector": "Real Estate Sector Weekly Google Trends Home Buying Surge",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"

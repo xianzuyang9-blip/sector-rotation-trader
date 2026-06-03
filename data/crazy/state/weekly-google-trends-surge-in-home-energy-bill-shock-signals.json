@@ -1123,18 +1123,28 @@
       "positions": {},
       "sector": "Weekly Google Trends Surge In Home Energy Bill Shock Signals Bullish Utilities",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99772.53,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99772.53,
+      "positions": {},
+      "sector": "Weekly Google Trends Surge In Home Energy Bill Shock Signals Bullish Utilities",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-28",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "weekly-google-trends-surge-in-home-energy-bill-shock-signals": {
       "signal_label": "HOLD",
       "name": "Weekly Google Trends Surge In Home Energy Bill Shock Signals Bullish Utilities",
       "last_signal": "HOLD",
-      "last_run": "2026-06-01",
+      "last_run": "2026-06-03",
       "latest_value": 0.0,
-      "prior_avg": 8.8929,
+      "prior_avg": 0.6071,
       "signal_change": -1.0
     }
   }

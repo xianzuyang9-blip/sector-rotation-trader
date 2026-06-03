@@ -599,6 +599,16 @@
       "pnl_pct": -0.63,
       "entry_date": "2026-05-29",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-03",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.5923,
+      "price": 174.19,
+      "cost": 4980.49,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1711,6 +1721,26 @@
       "positions": {},
       "sector": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 94619.41,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99599.9,
+      "positions": {
+        "XLI": {
+          "shares": 28.5923,
+          "entry_price": 174.19,
+          "current_price": 174.19,
+          "market_value": 4980.49,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-03",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-10"

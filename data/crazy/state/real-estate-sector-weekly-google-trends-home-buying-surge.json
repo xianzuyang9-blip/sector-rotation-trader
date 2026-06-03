@@ -1,19 +1,10 @@
 {
-  "cash": 94947.08302844863,
+  "cash": 99954.38161024808,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.133130299099502,
-  "taxes_paid": 0.0,
-  "positions": {
-    "XLRE": {
-      "shares": 115.50123705968095,
-      "entry_price": 43.27000045776367,
-      "entry_date": "2026-06-01",
-      "cost": 4997.738580444665,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 40.36893811989693,
+  "taxes_paid": 5.614603970269818,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-03-02",
@@ -48,6 +39,20 @@
       "cost": 4997.74,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLRE",
+      "shares": 115.5012,
+      "price": 43.49,
+      "proceeds": 5012.91,
+      "fees": 10.24,
+      "tax": 5.61,
+      "pnl": 9.56,
+      "pnl_pct": 0.19,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1287,20 +1292,29 @@
       },
       "sector": "Real Estate Sector Weekly Google Trends Home Buying Surge",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99954.38,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99954.38,
+      "positions": {},
+      "sector": "Real Estate Sector Weekly Google Trends Home Buying Surge",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "real-estate-sector-weekly-google-trends-home-buying-surge": {
-      "signal_label": "RISK_ON",
-      "latest_value": 96.0,
-      "prior_avg": 72.2143,
-      "signal_change": 0.3294,
-      "entry_date": "2026-06-01",
+      "signal_label": "RISK_OFF",
+      "latest_value": 65.0,
+      "prior_avg": 73.2857,
+      "signal_change": -0.1131,
       "name": "Real Estate Sector Weekly Google Trends Home Buying Surge",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-01"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-06-03"
     }
   }
 }

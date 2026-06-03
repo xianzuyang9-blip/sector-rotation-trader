@@ -1071,19 +1071,29 @@
       "positions": {},
       "sector": "Daily Spike In Freight Logistics Rss News Volume Mentioning Port Labor Strike Triggers Bearish Xli",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99958.76,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99958.76,
+      "positions": {},
+      "sector": "Daily Spike In Freight Logistics Rss News Volume Mentioning Port Labor Strike Triggers Bearish Xli",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "daily-spike-in-freight-logistics-rss-news-volume-mentioning-": {
       "latest_value": 2.0,
       "prior_avg": 2.5,
       "signal_change": -0.2,
-      "signal_label": "RISK_OFF",
+      "signal_label": "HOLD",
       "name": "Daily Spike In Freight Logistics Rss News Volume Mentioning Port Labor Strike Triggers Bearish Xli",
-      "last_signal": "RISK_OFF",
-      "last_run": "2026-06-01"
+      "last_signal": "HOLD",
+      "last_run": "2026-06-03"
     }
   }
 }

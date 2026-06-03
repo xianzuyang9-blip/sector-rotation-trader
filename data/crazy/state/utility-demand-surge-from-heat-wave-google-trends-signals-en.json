@@ -769,19 +769,29 @@
       "positions": {},
       "sector": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99953.87,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99953.87,
+      "positions": {},
+      "sector": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03",
-  "last_run": "2026-06-02",
+  "last_run": "2026-06-03",
   "meta": {
     "utility-demand-surge-from-heat-wave-google-trends-signals-en": {
       "signal_label": "HOLD",
       "latest_value": 9219399.0,
-      "prior_avg": 10869919.2786,
+      "prior_avg": 10869948.0929,
       "signal_change": -0.1518,
       "name": "Utility Demand Surge From Heat Wave Google Trends Signals Energy Sector Strength",
       "last_signal": "HOLD",
-      "last_run": "2026-06-02"
+      "last_run": "2026-06-03"
     }
   }
 }

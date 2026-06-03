@@ -1,19 +1,10 @@
 {
-  "cash": 94952.96017096468,
+  "cash": 99915.42354875477,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 70.44203100103424,
+  "fees_paid": 80.65335120974878,
   "taxes_paid": 10.136571453439291,
-  "positions": {
-    "XLY": {
-      "shares": 42.28824604866905,
-      "entry_price": 118.19000244140625,
-      "entry_date": "2026-06-01",
-      "cost": 4998.047903734983,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-02-16",
@@ -96,6 +87,20 @@
       "cost": 4998.05,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.2882,
+      "price": 117.59,
+      "proceeds": 4962.46,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -35.58,
+      "pnl_pct": -0.71,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1248,20 +1253,29 @@
       },
       "sector": "Consumer Discretionary Google Trends Surge For Sale Keywords",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99915.42,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99915.42,
+      "positions": {},
+      "sector": "Consumer Discretionary Google Trends Surge For Sale Keywords",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "consumer-discretionary-google-trends-surge-for-sale-keywords": {
-      "signal_label": "RISK_ON",
-      "latest_value": 100.0,
-      "prior_avg": 62.8571,
-      "signal_change": 0.5909,
-      "entry_date": "2026-06-01",
+      "signal_label": "RISK_OFF",
+      "latest_value": 79.0,
+      "prior_avg": 80.8214,
+      "signal_change": -0.0225,
       "name": "Consumer Discretionary Google Trends Surge For Sale Keywords",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-01"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-06-03"
     }
   }
 }

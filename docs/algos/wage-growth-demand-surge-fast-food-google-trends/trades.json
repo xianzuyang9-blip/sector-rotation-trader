@@ -215,6 +215,16 @@
       "pnl_pct": -0.99,
       "entry_date": "2026-03-18",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-03",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.4354,
+      "price": 117.59,
+      "cost": 4989.98,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1297,6 +1307,26 @@
       "positions": {},
       "sector": "Wage Growth Demand Surge Fast Food Google Trends",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 94799.59,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99789.57,
+      "positions": {
+        "XLY": {
+          "shares": 42.4354,
+          "entry_price": 117.59,
+          "current_price": 117.59,
+          "market_value": 4989.98,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-03",
+          "margin": false
+        }
+      },
+      "sector": "Wage Growth Demand Surge Fast Food Google Trends",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-27"

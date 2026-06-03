@@ -746,19 +746,29 @@
       "positions": {},
       "sector": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-20",
-  "last_run": "2026-06-02",
+  "last_run": "2026-06-03",
   "meta": {
     "utility-sector-rate-hike-anxiety-from-weather-driven-demand-": {
       "signal_label": "HOLD",
-      "latest_value": 9136667.0,
-      "prior_avg": 10606420.9714,
-      "signal_change": -0.1386,
+      "latest_value": 9219399.0,
+      "prior_avg": 10393974.8857,
+      "signal_change": -0.113,
       "name": "Utility Sector Rate Hike Anxiety From Weather-driven Demand Spike",
       "last_signal": "HOLD",
-      "last_run": "2026-06-01"
+      "last_run": "2026-06-03"
     }
   }
 }

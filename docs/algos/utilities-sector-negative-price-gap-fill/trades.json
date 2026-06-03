@@ -1485,6 +1485,16 @@
       "positions": {},
       "sector": "Utilities Sector Negative Price Gap Fill",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99834.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99834.86,
+      "positions": {},
+      "sector": "Utilities Sector Negative Price Gap Fill",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19"

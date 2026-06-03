@@ -1545,19 +1545,29 @@
       "positions": {},
       "sector": "Xlb Weekly Rss News Count Spike On Commodity Shortage",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99666.66,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99666.66,
+      "positions": {},
+      "sector": "Xlb Weekly Rss News Count Spike On Commodity Shortage",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "xlb-weekly-rss-news-count-spike-on-commodity-shortage": {
       "latest_value": 1.0,
-      "prior_avg": 1.25,
-      "signal_change": -0.2,
+      "prior_avg": 1.1,
+      "signal_change": -0.0909,
       "signal_label": "HOLD",
       "name": "Xlb Weekly Rss News Count Spike On Commodity Shortage",
       "last_signal": "HOLD",
-      "last_run": "2026-06-01",
+      "last_run": "2026-06-03",
       "entry_date": "2026-05-28"
     }
   }

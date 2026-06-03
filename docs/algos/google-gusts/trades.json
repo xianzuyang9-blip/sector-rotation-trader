@@ -1573,6 +1573,16 @@
       "positions": {},
       "sector": "Google Gusts",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99519.67,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99519.67,
+      "positions": {},
+      "sector": "Google Gusts",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"

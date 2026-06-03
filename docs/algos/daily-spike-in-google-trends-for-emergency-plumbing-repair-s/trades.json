@@ -345,6 +345,20 @@
       "cost": 4978.48,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.1227,
+      "price": 117.59,
+      "proceeds": 4943.0,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -35.48,
+      "pnl_pct": -0.71,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1457,6 +1471,16 @@
       },
       "sector": "Daily Spike In Google Trends For Emergency Plumbing Repair Signals Consumer Stress Rebound Benefiting Discretionary Sector",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99524.19,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99524.19,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Emergency Plumbing Repair Signals Consumer Stress Rebound Benefiting Discretionary Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-30"

@@ -9,6 +9,20 @@
       "cost": 5000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.3048,
+      "price": 117.59,
+      "proceeds": 4964.41,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -35.59,
+      "pnl_pct": -0.71,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1001,6 +1015,16 @@
       },
       "sector": "Mortgage Refinance Wave Google Trends Surge",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99954.46,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99954.46,
+      "positions": {},
+      "sector": "Mortgage Refinance Wave Google Trends Surge",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-28"

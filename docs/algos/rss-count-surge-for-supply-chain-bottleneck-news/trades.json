@@ -47,6 +47,16 @@
       "pnl_pct": 0.8,
       "entry_date": "2026-05-25",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-03",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.7148,
+      "price": 174.19,
+      "cost": 5001.83,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -819,6 +829,26 @@
       "positions": {},
       "sector": "Rss Count Surge For Supply Chain Bottleneck News",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 95024.76,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100026.59,
+      "positions": {
+        "XLI": {
+          "shares": 28.7148,
+          "entry_price": 174.19,
+          "current_price": 174.19,
+          "market_value": 5001.83,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-03",
+          "margin": false
+        }
+      },
+      "sector": "Rss Count Surge For Supply Chain Bottleneck News",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-19"

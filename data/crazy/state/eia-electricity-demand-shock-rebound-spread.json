@@ -1,10 +1,19 @@
 {
-  "cash": 99771.63722369216,
+  "cash": 94773.10536250756,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 60.53959789695802,
+  "fees_paid": 70.48959789695802,
   "taxes_paid": 0.0,
-  "positions": {},
+  "positions": {
+    "XLU": {
+      "shares": 113.63511817291977,
+      "entry_price": 43.900001525878906,
+      "entry_date": "2026-06-03",
+      "cost": 4988.581861184608,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-05-03",
@@ -77,6 +86,16 @@
       "pnl_pct": -3.18,
       "entry_date": "2026-05-29",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-03",
+      "action": "BUY",
+      "ticker": "XLU",
+      "shares": 113.6351,
+      "price": 43.9,
+      "cost": 4988.58,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1069,20 +1088,40 @@
       "positions": {},
       "sector": "Eia Electricity Demand Shock Rebound Spread",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 94773.11,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99761.69,
+      "positions": {
+        "XLU": {
+          "shares": 113.6351,
+          "entry_price": 43.9,
+          "current_price": 43.9,
+          "market_value": 4988.58,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-03",
+          "margin": false
+        }
+      },
+      "sector": "Eia Electricity Demand Shock Rebound Spread",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-30",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "eia-electricity-demand-shock-rebound-spread": {
-      "signal_label": "HOLD",
-      "latest_value": 9136667.0,
-      "prior_avg": 10885378.8929,
-      "signal_change": -0.1606,
+      "signal_label": "RISK_ON",
+      "latest_value": 9219399.0,
+      "prior_avg": 10869948.0929,
+      "signal_change": -0.1518,
       "name": "Eia Electricity Demand Shock Rebound Spread",
-      "last_signal": "HOLD",
-      "last_run": "2026-06-01",
-      "entry_date": "2026-05-29"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-03",
+      "entry_date": "2026-06-03"
     }
   }
 }

@@ -177,6 +177,20 @@
       "cost": 4990.61,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.2253,
+      "price": 117.59,
+      "proceeds": 4955.06,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -35.55,
+      "pnl_pct": -0.71,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1159,6 +1173,16 @@
       },
       "sector": "Daily Jump In Google Trends Searches For Emergency Dental Care",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99766.68,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99766.68,
+      "positions": {},
+      "sector": "Daily Jump In Google Trends Searches For Emergency Dental Care",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04"

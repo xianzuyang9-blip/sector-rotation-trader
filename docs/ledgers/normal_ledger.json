@@ -1758,5 +1758,17 @@
     "fees": 9.95,
     "algo_id": "biscotti",
     "algo_name": "Algo Biscotti (Unconditional Loyalty)"
+  },
+  {
+    "date": "2026-06-03",
+    "action": "BUY",
+    "ticker": "AVGO",
+    "shares": 20.7654,
+    "price": 481.57,
+    "cost": 10000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "nrwise",
+    "algo_name": "NRWise Acceleration"
   }
 ]

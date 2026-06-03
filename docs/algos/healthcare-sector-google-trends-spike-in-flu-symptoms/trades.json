@@ -81,6 +81,20 @@
       "cost": 4995.87,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLV",
+      "shares": 33.7924,
+      "price": 146.4,
+      "proceeds": 4937.0,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -58.87,
+      "pnl_pct": -1.18,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1233,6 +1247,16 @@
       },
       "sector": "Healthcare Sector Google Trends Spike In Flu Symptoms",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99848.56,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99848.56,
+      "positions": {},
+      "sector": "Healthcare Sector Google Trends Spike In Flu Symptoms",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19"

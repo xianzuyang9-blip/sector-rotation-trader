@@ -755,6 +755,16 @@
       "positions": {},
       "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99996.83,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99996.83,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22"

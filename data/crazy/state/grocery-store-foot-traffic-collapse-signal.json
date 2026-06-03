@@ -1,19 +1,10 @@
 {
-  "cash": 94661.10263265141,
+  "cash": 99608.28387212766,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 272.0600591850497,
+  "fees_paid": 282.2705762562794,
   "taxes_paid": 71.38641168323228,
-  "positions": {
-    "XLY": {
-      "shares": 42.158278007787295,
-      "entry_price": 118.19000244140625,
-      "entry_date": "2026-06-01",
-      "cost": 4982.686980665864,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-01-23",
@@ -336,6 +327,20 @@
       "cost": 4982.69,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-03",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.1583,
+      "price": 117.59,
+      "proceeds": 4947.18,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -35.51,
+      "pnl_pct": -0.71,
+      "entry_date": "2026-06-01",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1538,20 +1543,29 @@
       },
       "sector": "Grocery Store Foot Traffic Collapse Signal",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99608.28,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99608.28,
+      "positions": {},
+      "sector": "Grocery Store Foot Traffic Collapse Signal",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-21",
-  "last_run": "2026-06-01",
+  "last_run": "2026-06-03",
   "meta": {
     "grocery-store-foot-traffic-collapse-signal": {
-      "latest_value": 59.0,
-      "prior_avg": 39.1429,
-      "signal_change": 0.5073,
-      "signal_label": "RISK_ON",
+      "latest_value": 24.0,
+      "prior_avg": 38.9643,
+      "signal_change": -0.3841,
+      "signal_label": "RISK_OFF",
       "name": "Grocery Store Foot Traffic Collapse Signal",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-01",
-      "entry_date": "2026-06-01"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-06-03"
     }
   }
 }
