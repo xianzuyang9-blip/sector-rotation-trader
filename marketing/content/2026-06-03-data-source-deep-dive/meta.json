@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-06-03-data-source-deep-dive",
+  "channels": {
+    "linkedin": {
+      "file": "linkedin.md",
+      "link_policy": "site_cta",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "substack_teaser",
+      "status": "ready"
+    },
+    "reddit": {
+      "link_policy": "no_links_in_body",
+      "status": "ready",
+      "subreddits": [
+        {
+          "file": "reddit_algotrading.md",
+          "first_comment_file": "reddit_algotrading_first_comment.txt",
+          "name": "algotrading",
+          "status": "ready",
+          "titles_file": "reddit_algotrading_titles.md"
+        },
+        {
+          "file": "reddit_investing.md",
+          "first_comment_file": "reddit_investing_first_comment.txt",
+          "name": "investing",
+          "status": "ready",
+          "titles_file": "reddit_investing_titles.md"
+        },
+        {
+          "file": "reddit_stocks.md",
+          "first_comment_file": "reddit_stocks_first_comment.txt",
+          "name": "stocks",
+          "status": "ready",
+          "titles_file": "reddit_stocks_titles.md"
+        },
+        {
+          "file": "reddit_quant.md",
+          "first_comment_file": "reddit_quant_first_comment.txt",
+          "name": "quant",
+          "status": "ready",
+          "titles_file": "reddit_quant_titles.md"
+        },
+        {
+          "file": "reddit_security_analysis.md",
+          "first_comment_file": "reddit_security_analysis_first_comment.txt",
+          "name": "security_analysis",
+          "status": "ready",
+          "titles_file": "reddit_security_analysis_titles.md"
+        }
+      ]
+    },
+    "substack": {
+      "canonical_url": "https://www.stockarithm.com",
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "x": {
+      "file": "x.md",
+      "link_policy": "substack_cta",
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "linkedin": {
+      "candidates": [
+        "Most trading signals look good until they have to survive in public. Right now 1 of 385 StockArithm signals are beating SPY.",
+        "StockArithm runs sector ETF signals in public so it is easier to see what is actually holding up. Today that means 1 of 385 signals are beating SPY.",
+        "Quantified Simple Monthly Rotation is the current leader, but the more useful fact is that only 1 of 385 public signals are beating SPY right now.",
+        "The point of StockArithm is not a polished backtest. It is a public signal board with 385 sector ETF signals and only 3 recent winners versus SPY."
+      ],
+      "selected": "Most trading signals look good until they have to survive in public. Right now 1 of 385 StockArithm signals are beating SPY."
+    },
+    "reddit_titles": {
+      "algotrading": [
+        "1 of 385 signals is beating SPY. Here is the full public board.",
+        "Quantified Simple Monthly Rotation is #1, but the more interesting number is 384 losing signals.",
+        "The label can be wrong and the signal can still work.",
+        "How I keep a public paper-trading board honest when most ideas fail",
+        "I built a public sector-rotation lab and kept every failure visible."
+      ],
+      "investing": [
+        "1 of 385 signals is beating SPY. Here is the full public board.",
+        "The label can be wrong and the signal can still work.",
+        "I built a public sector-rotation lab and kept every failure visible.",
+        "One data source and what it really measures \u2014 a public paper-trading lab for alternative data signals",
+        "Why I think visible losses matter more than pretty backtests"
+      ],
+      "quant": [
+        "1 of 385 signals is beating SPY. Here is the full public board.",
+        "385 paper-traded signals, 1 above SPY, and the sample size is still small",
+        "The label can be wrong and the signal can still work.",
+        "What a public sector-rotation lab can and cannot tell you",
+        "I built a public sector-rotation lab and kept every failure visible."
+      ],
+      "security_analysis": [
+        "1 of 385 signals is beating SPY. Here is the full public board.",
+        "The label can be wrong and the signal can still work.",
+        "How visible failures change the way I think about signal quality",
+        "Why a public alternative-data sector lab is really a thesis test",
+        "I built a public sector-rotation lab and kept every failure visible."
+      ],
+      "stocks": [
+        "1 of 385 signals is beating SPY. Here is the full public board.",
+        "The label can be wrong and the signal can still work.",
+        "One winner, a lot of losers, and a public board I can\u2019t hide",
+        "I built a public sector-rotation lab and kept every failure visible.",
+        "1 winner out of 385 signals. That is the whole story."
+      ]
+    },
+    "substack_note": {
+      "candidates": [
+        "One public board, 1 winner, 384 losers. That is the point.",
+        "Quantified Simple Monthly Rotation is still the cleanest winner, but the board is the better story.",
+        "StockArithm exists to keep the failures visible, not hide them.",
+        "The interesting part is not the winner; it is how the full board behaves."
+      ],
+      "selected": "One public board, 1 winner, 384 losers. That is the point."
+    },
+    "x": {
+      "candidates": [
+        "1 of 385 signals is beating SPY. The losers stay visible.",
+        "Quantified Simple Monthly Rotation is still #1, but the board is the real story.",
+        "The point of StockArithm is not a polished backtest. It is a public board.",
+        "One data source and what it really measures: the premise matters less than what the board keeps showing.",
+        "384 signals are not beating SPY. That is the part worth reading."
+      ],
+      "selected": "1 of 385 signals is beating SPY. The losers stay visible."
+    }
+  },
+  "post_id": "2026-06-03-data-source-deep-dive",
+  "product": "stockarithm",
+  "scheduled_date": "2026-06-03",
+  "scheduled_time": "09:30",
+  "slug": "data-source-deep-dive",
+  "source_report": "reports/deep_validation/2026-06-03.json",
+  "status": "ready",
+  "theme": "data_source_deep_dive",
+  "timezone": "America/New_York",
+  "title": "One data source and what it really measures"
+}
