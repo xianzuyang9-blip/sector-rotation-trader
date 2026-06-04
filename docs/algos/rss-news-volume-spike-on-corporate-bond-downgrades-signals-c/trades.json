@@ -23,6 +23,16 @@
       "pnl_pct": -0.07,
       "entry_date": "2026-05-20",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 98.2766,
+      "price": 50.87,
+      "cost": 4999.33,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -855,6 +865,26 @@
       "positions": {},
       "sector": "Rss News Volume Spike On Corporate Bond Downgrades Signals Credit Stress Rotation",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 94977.32,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99976.65,
+      "positions": {
+        "XLF": {
+          "shares": 98.2766,
+          "entry_price": 50.87,
+          "current_price": 50.87,
+          "market_value": 4999.33,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "Rss News Volume Spike On Corporate Bond Downgrades Signals Credit Stress Rotation",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-17"

@@ -4523,6 +4523,44 @@
       },
       "sector": "Antonacci Dual Momentum Sector Rotation",
       "num_positions": 3
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 26345.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 107463.32,
+      "positions": {
+        "XLK": {
+          "shares": 138.0742,
+          "entry_price": 191.02,
+          "current_price": 196.23,
+          "market_value": 27094.3,
+          "unrealized_pnl": 719.37,
+          "entry_date": "2026-05-29",
+          "margin": false
+        },
+        "XLE": {
+          "shares": 468.5546,
+          "entry_price": 56.29,
+          "current_price": 58.71,
+          "market_value": 27508.84,
+          "unrealized_pnl": 1133.9,
+          "entry_date": "2026-05-29",
+          "margin": false
+        },
+        "XLI": {
+          "shares": 152.3418,
+          "entry_price": 173.13,
+          "current_price": 174.05,
+          "market_value": 26515.09,
+          "unrealized_pnl": 140.15,
+          "entry_date": "2026-05-29",
+          "margin": false
+        }
+      },
+      "sector": "Antonacci Dual Momentum Sector Rotation",
+      "num_positions": 3
     }
   ],
   "sim_start": "2026-01-11"

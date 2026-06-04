@@ -273,6 +273,20 @@
       "cost": 4990.81,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.6515,
+      "price": 174.05,
+      "proceeds": 4976.59,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -14.22,
+      "pnl_pct": -0.28,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1622,6 +1636,16 @@
       },
       "sector": "Port Congestion Squeeze",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99792.04,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99792.04,
+      "positions": {},
+      "sector": "Port Congestion Squeeze",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"

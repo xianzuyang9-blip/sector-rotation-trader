@@ -1907,15 +1907,35 @@
       },
       "sector": "Insider Trading Signals",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 49447.74,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98983.81,
+      "positions": {
+        "XLP": {
+          "shares": 602.922,
+          "entry_price": 82.03,
+          "current_price": 82.16,
+          "market_value": 49536.07,
+          "unrealized_pnl": 78.38,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Insider Trading Signals",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-16",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "insider-trading-signals": {
       "name": "Insider Trading Signals",
       "last_signal": "INSIDER_DROUGHT",
-      "last_run": "2026-06-03",
+      "last_run": "2026-06-04",
       "form4_buys_30d": 0,
       "signal_label": "INSIDER_DROUGHT"
     }

@@ -23,6 +23,16 @@
       "pnl_pct": -1.25,
       "entry_date": "2026-02-27",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLV",
+      "shares": 33.8623,
+      "price": 147.55,
+      "cost": 4996.39,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -935,6 +945,26 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 94921.38,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99917.77,
+      "positions": {
+        "XLV": {
+          "shares": 33.8623,
+          "entry_price": 147.55,
+          "current_price": 147.55,
+          "market_value": 4996.39,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-05"

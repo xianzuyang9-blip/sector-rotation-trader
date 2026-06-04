@@ -1,19 +1,10 @@
 {
-  "cash": 94799.59031080482,
+  "cash": 99742.86158572306,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 191.4163726505251,
+  "fees_paid": 201.62677734755434,
   "taxes_paid": 58.569490191536076,
-  "positions": {
-    "XLY": {
-      "shares": 42.43537682825771,
-      "entry_price": 117.58999633789062,
-      "entry_date": "2026-06-03",
-      "cost": 4989.975805831833,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-02-04",
@@ -240,6 +231,20 @@
       "cost": 4989.98,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.4354,
+      "price": 116.73,
+      "proceeds": 4943.27,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -46.7,
+      "pnl_pct": -0.94,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1342,20 +1347,30 @@
       },
       "sector": "Wage Growth Demand Surge Fast Food Google Trends",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99742.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99742.86,
+      "positions": {},
+      "sector": "Wage Growth Demand Surge Fast Food Google Trends",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "wage-growth-demand-surge-fast-food-google-trends": {
       "latest_value": 100.0,
-      "prior_avg": 45.8929,
-      "signal_change": 1.179,
-      "signal_label": "RISK_ON",
+      "prior_avg": 50.8929,
+      "signal_change": 0.9649,
+      "signal_label": "HOLD",
       "entry_date": "2026-06-03",
       "name": "Wage Growth Demand Surge Fast Food Google Trends",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-03"
+      "last_signal": "HOLD",
+      "last_run": "2026-06-04"
     }
   }
 }

@@ -676,16 +676,26 @@
       "positions": {},
       "sector": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "weekly-spike-in-labor-jobs-google-trends-for-gig-worker-stri": {
       "signal_label": "HOLD",
       "name": "Weekly Spike In Labor Jobs Google Trends For Gig Worker Strike",
       "last_signal": "HOLD",
-      "last_run": "2026-06-03"
+      "last_run": "2026-06-04"
     }
   }
 }

@@ -1,19 +1,10 @@
 {
-  "cash": 94712.54350010825,
+  "cash": 99683.72339530542,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 272.0083041545566,
+  "fees_paid": 282.2159596638874,
   "taxes_paid": 37.65520435746463,
-  "positions": {
-    "XLI": {
-      "shares": 28.620439318378896,
-      "entry_price": 174.19000244140625,
-      "entry_date": "2026-06-03",
-      "cost": 4985.39439474254,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-20",
@@ -336,6 +327,20 @@
       "cost": 4985.39,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.6204,
+      "price": 174.05,
+      "proceeds": 4971.18,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -14.21,
+      "pnl_pct": -0.29,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1598,20 +1603,30 @@
       },
       "sector": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99683.72,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99683.72,
+      "positions": {},
+      "sector": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "industrial-sector-weekly-earthquake-activity-correlation-dip": {
-      "signal_label": "RISK_ON",
-      "latest_value": 1.0,
-      "prior_avg": 343.6429,
-      "signal_change": -0.9971,
+      "signal_label": "HOLD",
+      "latest_value": 4.0,
+      "prior_avg": 341.3571,
+      "signal_change": -0.9883,
       "entry_date": "2026-06-03",
       "name": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-03"
+      "last_signal": "HOLD",
+      "last_run": "2026-06-04"
     }
   }
 }

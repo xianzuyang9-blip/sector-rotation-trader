@@ -3216,6 +3216,44 @@
       },
       "sector": "XLK",
       "num_positions": 3
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 67977.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 104205.59,
+      "positions": {
+        "QCOM": {
+          "shares": 53.6049,
+          "entry_price": 186.55,
+          "current_price": 250.01,
+          "market_value": 13401.77,
+          "unrealized_pnl": 3401.77,
+          "entry_date": "2026-05-05",
+          "margin": false
+        },
+        "AMD": {
+          "shares": 23.731,
+          "entry_price": 421.39,
+          "current_price": 542.52,
+          "market_value": 12874.53,
+          "unrealized_pnl": 2874.53,
+          "entry_date": "2026-05-06",
+          "margin": false
+        },
+        "AVGO": {
+          "shares": 20.7654,
+          "entry_price": 481.57,
+          "current_price": 479.23,
+          "market_value": 9951.41,
+          "unrealized_pnl": -48.59,
+          "entry_date": "2026-06-03",
+          "margin": false
+        }
+      },
+      "sector": "XLK",
+      "num_positions": 3
     }
   ],
   "sim_start": "2026-01-07"

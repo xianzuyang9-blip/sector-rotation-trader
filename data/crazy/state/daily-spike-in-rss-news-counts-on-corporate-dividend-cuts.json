@@ -1,19 +1,10 @@
 {
-  "cash": 94876.09732343406,
+  "cash": 99802.61653139665,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 131.02451804438812,
+  "fees_paid": 141.2504691922361,
   "taxes_paid": 8.265330506607507,
-  "positions": {
-    "XLF": {
-      "shares": 97.04629964157787,
-      "entry_price": 51.459999084472656,
-      "entry_date": "2026-06-03",
-      "cost": 4994.0024907070565,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-20",
@@ -168,6 +159,20 @@
       "cost": 4994.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.0463,
+      "price": 50.87,
+      "proceeds": 4926.52,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -67.48,
+      "pnl_pct": -1.35,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1050,19 +1055,29 @@
       },
       "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99802.62,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99802.62,
+      "positions": {},
+      "sector": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-18",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "daily-spike-in-rss-news-counts-on-corporate-dividend-cuts": {
-      "latest_value": 5.0,
-      "prior_avg": 1.5,
-      "signal_change": 2.3333,
-      "signal_label": "RISK_ON",
+      "latest_value": 6.0,
+      "prior_avg": 1.6,
+      "signal_change": 2.75,
+      "signal_label": "HOLD",
       "name": "Daily Spike In Rss News Counts On Corporate Dividend Cuts",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-03",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-04",
       "entry_date": "2026-06-03"
     }
   }

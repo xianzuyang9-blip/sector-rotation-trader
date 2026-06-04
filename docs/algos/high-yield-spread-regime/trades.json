@@ -1,5 +1,26 @@
 {
-  "trade_log": [],
+  "trade_log": [
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 786.3181,
+      "price": 50.87,
+      "cost": 40000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 299.8372,
+      "price": 116.73,
+      "cost": 35000.0,
+      "margin": false,
+      "fees": 9.95
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-01-16",
@@ -1249,6 +1270,35 @@
       "positions": {},
       "sector": "High Yield Spread Regime",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 24980.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99980.1,
+      "positions": {
+        "XLF": {
+          "shares": 786.3181,
+          "entry_price": 50.87,
+          "current_price": 50.87,
+          "market_value": 40000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        },
+        "XLY": {
+          "shares": 299.8372,
+          "entry_price": 116.73,
+          "current_price": 116.73,
+          "market_value": 35000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "High Yield Spread Regime",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

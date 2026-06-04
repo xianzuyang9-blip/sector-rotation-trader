@@ -33,6 +33,20 @@
       "cost": 4994.49,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLP",
+      "shares": 61.035,
+      "price": 82.16,
+      "proceeds": 5004.41,
+      "fees": 10.22,
+      "tax": 3.67,
+      "pnl": 6.25,
+      "pnl_pct": 0.13,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -775,6 +789,16 @@
       },
       "sector": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99886.12,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99886.12,
+      "positions": {},
+      "sector": "Weekly Rise In Localeconomyweirdness Rss Counts Mentioning Food Bank Demand Surge Signals Consumer Hardship Pressure On Staples",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23"

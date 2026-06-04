@@ -116,3 +116,5 @@
 {"timestamp": "2026-06-01T23:57:32", "algo_id": "yelp-closure-velocity", "name": "Yelp Closure Velocity", "keys": ["YELP_API_KEY"], "reason": "Missing YELP_API_KEY"}
 {"timestamp": "2026-06-03T00:16:52", "algo_id": "glassdoor", "name": "Glassdoor Misery Gradient", "keys": ["GLASSDOOR_PARTNER_ID", "GLASSDOOR_KEY"], "reason": "Missing Glassdoor keys"}
 {"timestamp": "2026-06-03T00:18:54", "algo_id": "yelp-closure-velocity", "name": "Yelp Closure Velocity", "keys": ["YELP_API_KEY"], "reason": "Missing YELP_API_KEY"}
+{"timestamp": "2026-06-04T00:18:17", "algo_id": "glassdoor", "name": "Glassdoor Misery Gradient", "keys": ["GLASSDOOR_PARTNER_ID", "GLASSDOOR_KEY"], "reason": "Missing Glassdoor keys"}
+{"timestamp": "2026-06-04T00:20:17", "algo_id": "yelp-closure-velocity", "name": "Yelp Closure Velocity", "keys": ["YELP_API_KEY"], "reason": "Missing YELP_API_KEY"}

@@ -57,6 +57,20 @@
       "cost": 4996.53,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.0953,
+      "price": 50.87,
+      "proceeds": 4929.01,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -67.51,
+      "pnl_pct": -1.35,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -819,6 +833,16 @@
       },
       "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99853.06,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99853.06,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22"

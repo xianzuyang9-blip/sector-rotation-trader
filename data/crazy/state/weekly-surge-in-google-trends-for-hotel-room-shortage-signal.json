@@ -1177,19 +1177,29 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99764.02,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99764.02,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "weekly-surge-in-google-trends-for-hotel-room-shortage-signal": {
       "signal_label": "HOLD",
       "latest_value": 0.0,
-      "prior_avg": 4.5357,
+      "prior_avg": 3.1429,
       "signal_change": -1.0,
       "name": "Weekly Surge In Google Trends For Hotel Room Shortage Signals Travel Sector Tightness",
       "last_signal": "HOLD",
-      "last_run": "2026-06-03"
+      "last_run": "2026-06-04"
     }
   }
 }

@@ -857,6 +857,16 @@
       "positions": {},
       "sector": "Earthquake Activity Surge Triggers Defensive Rotation",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99890.67,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99890.67,
+      "positions": {},
+      "sector": "Earthquake Activity Surge Triggers Defensive Rotation",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23"

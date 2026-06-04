@@ -1,19 +1,10 @@
 {
-  "cash": 94924.04603888399,
+  "cash": 99853.05979018626,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 50.306699490352344,
+  "fees_paid": 60.53279008444601,
   "taxes_paid": 0.0,
-  "positions": {
-    "XLF": {
-      "shares": 97.09533999617418,
-      "entry_price": 51.459999084472656,
-      "entry_date": "2026-06-03",
-      "cost": 4996.526107309684,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-27",
@@ -72,6 +63,20 @@
       "cost": 4996.53,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.0953,
+      "price": 50.87,
+      "proceeds": 4929.01,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -67.51,
+      "pnl_pct": -1.35,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -834,20 +839,29 @@
       },
       "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99853.06,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99853.06,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "daily-spike-in-rss-counts-for-new-labor-union-formations-sig": {
-      "latest_value": 4.0,
-      "prior_avg": 1.5,
-      "signal_change": 1.6667,
-      "signal_label": "RISK_ON",
+      "latest_value": 2.0,
+      "prior_avg": 1.6667,
+      "signal_change": 0.2,
+      "signal_label": "RISK_OFF",
       "name": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-03",
-      "entry_date": "2026-06-03"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-06-04"
     }
   }
 }

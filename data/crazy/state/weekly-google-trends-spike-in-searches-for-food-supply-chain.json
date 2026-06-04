@@ -985,16 +985,26 @@
       "positions": {},
       "sector": "Weekly Google Trends Spike In Searches For Food Supply Chain Disruptions",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99906.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99906.61,
+      "positions": {},
+      "sector": "Weekly Google Trends Spike In Searches For Food Supply Chain Disruptions",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-06-03",
+  "last_run": "2026-06-04",
   "meta": {
     "weekly-google-trends-spike-in-searches-for-food-supply-chain": {
       "signal_label": "HOLD",
       "name": "Weekly Google Trends Spike In Searches For Food Supply Chain Disruptions",
       "last_signal": "HOLD",
-      "last_run": "2026-06-03",
+      "last_run": "2026-06-04",
       "latest_value": 0.0,
       "prior_avg": 4.5714,
       "signal_change": -1.0

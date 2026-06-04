@@ -57,6 +57,20 @@
       "cost": 5001.83,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.7148,
+      "price": 174.05,
+      "proceeds": 4987.6,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -14.23,
+      "pnl_pct": -0.28,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -849,6 +863,16 @@
       },
       "sector": "Rss Count Surge For Supply Chain Bottleneck News",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100012.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100012.36,
+      "positions": {},
+      "sector": "Rss Count Surge For Supply Chain Bottleneck News",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-19"

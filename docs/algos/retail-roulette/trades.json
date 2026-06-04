@@ -1379,6 +1379,16 @@
       "positions": {},
       "sector": "Retail Roulette",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99910.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99910.25,
+      "positions": {},
+      "sector": "Retail Roulette",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"

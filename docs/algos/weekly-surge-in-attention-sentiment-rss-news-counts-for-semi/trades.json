@@ -705,6 +705,16 @@
       "positions": {},
       "sector": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100023.04,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100023.04,
+      "positions": {},
+      "sector": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03"

@@ -225,6 +225,20 @@
       "cost": 4989.98,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.4354,
+      "price": 116.73,
+      "proceeds": 4943.27,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -46.7,
+      "pnl_pct": -0.94,
+      "entry_date": "2026-06-03",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1327,6 +1341,16 @@
       },
       "sector": "Wage Growth Demand Surge Fast Food Google Trends",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99742.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99742.86,
+      "positions": {},
+      "sector": "Wage Growth Demand Surge Fast Food Google Trends",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27"

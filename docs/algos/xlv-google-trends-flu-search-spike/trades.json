@@ -1175,6 +1175,16 @@
       "positions": {},
       "sector": "Xlv Google Trends Flu Search Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99931.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99931.14,
+      "positions": {},
+      "sector": "Xlv Google Trends Flu Search Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18"
