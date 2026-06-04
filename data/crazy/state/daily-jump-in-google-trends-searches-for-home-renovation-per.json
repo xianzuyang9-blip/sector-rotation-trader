@@ -995,6 +995,16 @@
       "positions": {},
       "sector": "Daily Jump In Google Trends Searches For Home Renovation Permits",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99911.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99911.81,
+      "positions": {},
+      "sector": "Daily Jump In Google Trends Searches For Home Renovation Permits",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
@@ -1002,9 +1012,9 @@
   "meta": {
     "daily-jump-in-google-trends-searches-for-home-renovation-per": {
       "signal_label": "HOLD",
-      "latest_value": 0.0,
-      "prior_avg": 12.1429,
-      "signal_change": -1.0,
+      "latest_value": 9.0,
+      "prior_avg": 9.8571,
+      "signal_change": -0.087,
       "name": "Daily Jump In Google Trends Searches For Home Renovation Permits",
       "last_signal": "HOLD",
       "last_run": "2026-06-04",

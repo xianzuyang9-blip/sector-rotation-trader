@@ -1607,6 +1607,16 @@
       "positions": {},
       "sector": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99683.72,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99683.72,
+      "positions": {},
+      "sector": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19"

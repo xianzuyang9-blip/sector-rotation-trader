@@ -676,6 +676,16 @@
       "positions": {},
       "sector": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-04",
@@ -683,9 +693,9 @@
   "meta": {
     "daily-spike-in-weather-series-for-extreme-heat-days-signals-": {
       "signal_label": "HOLD",
-      "latest_value": 9054487.0,
-      "prior_avg": 10170837.8857,
-      "signal_change": -0.1098,
+      "latest_value": 8908506.0,
+      "prior_avg": 9770218.7714,
+      "signal_change": -0.0882,
       "name": "Daily Spike In Weather Series For Extreme Heat Days Signals Utility Sector Demand Surge",
       "last_signal": "HOLD",
       "last_run": "2026-06-04"

@@ -4056,6 +4056,35 @@
       },
       "sector": "Chaos Rotation Lab",
       "num_positions": 2
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 31118.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 93770.54,
+      "positions": {
+        "XLE": {
+          "shares": 543.4232,
+          "entry_price": 57.3,
+          "current_price": 58.75,
+          "market_value": 31926.11,
+          "unrealized_pnl": 787.96,
+          "entry_date": "2026-06-01",
+          "margin": false
+        },
+        "XLK": {
+          "shares": 159.0629,
+          "entry_price": 195.76,
+          "current_price": 193.17,
+          "market_value": 30726.18,
+          "unrealized_pnl": -411.97,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Chaos Rotation Lab",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16"

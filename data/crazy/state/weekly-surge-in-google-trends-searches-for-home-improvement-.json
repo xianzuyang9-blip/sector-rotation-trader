@@ -1,19 +1,10 @@
 {
-  "cash": 94990.05,
+  "cash": 99997.91739186153,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 9.95,
-  "taxes_paid": 0.0,
-  "positions": {
-    "XLY": {
-      "shares": 42.83388894208412,
-      "entry_price": 116.7300033569336,
-      "entry_date": "2026-06-04",
-      "cost": 5000.0,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 20.163985262125216,
+  "taxes_paid": 4.62053172819561,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-06-04",
@@ -24,6 +15,20 @@
       "cost": 5000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.8339,
+      "price": 117.26,
+      "proceeds": 5012.49,
+      "fees": 10.21,
+      "tax": 4.62,
+      "pnl": 7.87,
+      "pnl_pct": 0.16,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1086,20 +1091,29 @@
       },
       "sector": "Weekly Surge In Google Trends Searches For Home Improvement Loan Signals Consumer Stress Lifting Xly",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99997.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99997.92,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends Searches For Home Improvement Loan Signals Consumer Stress Lifting Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
   "last_run": "2026-06-04",
   "meta": {
     "weekly-surge-in-google-trends-searches-for-home-improvement-": {
-      "signal_label": "RISK_ON",
+      "signal_label": "RISK_OFF",
       "name": "Weekly Surge In Google Trends Searches For Home Improvement Loan Signals Consumer Stress Lifting Xly",
-      "last_signal": "RISK_ON",
+      "last_signal": "RISK_OFF",
       "last_run": "2026-06-04",
-      "latest_value": 71.0,
-      "prior_avg": 59.5,
-      "signal_change": 0.1933,
-      "entry_date": "2026-06-04"
+      "latest_value": 40.0,
+      "prior_avg": 60.6071,
+      "signal_change": -0.34
     }
   }
 }

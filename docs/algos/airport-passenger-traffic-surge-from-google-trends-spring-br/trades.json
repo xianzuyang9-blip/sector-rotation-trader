@@ -729,6 +729,16 @@
       "positions": {},
       "sector": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99997.51,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99997.51,
+      "positions": {},
+      "sector": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-05"

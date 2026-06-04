@@ -1385,6 +1385,16 @@
       "positions": {},
       "sector": "Healthcare Cost Google Trends Acceleration Index",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99466.5,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99466.5,
+      "positions": {},
+      "sector": "Healthcare Cost Google Trends Acceleration Index",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-01",
@@ -1392,9 +1402,9 @@
   "meta": {
     "healthcare-cost-google-trends-acceleration-index": {
       "signal_label": "HOLD",
-      "latest_value": 0.0,
-      "prior_avg": 40.9643,
-      "signal_change": -1.0,
+      "latest_value": 25.0,
+      "prior_avg": 46.75,
+      "signal_change": -0.4652,
       "entry_date": "2026-04-14",
       "name": "Healthcare Cost Google Trends Acceleration Index",
       "last_signal": "HOLD",

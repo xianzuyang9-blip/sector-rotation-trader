@@ -901,6 +901,16 @@
       "positions": {},
       "sector": "Usgs Earthquake Activity Spike Near Major Freight Hubs Signals Temporary Freight Disruption",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100042.42,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100042.42,
+      "positions": {},
+      "sector": "Usgs Earthquake Activity Spike Near Major Freight Hubs Signals Temporary Freight Disruption",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-12",
@@ -908,9 +918,9 @@
   "meta": {
     "usgs-earthquake-activity-spike-near-major-freight-hubs-signa": {
       "signal_label": "HOLD",
-      "latest_value": 4.0,
-      "prior_avg": 280.8571,
-      "signal_change": -0.9858,
+      "latest_value": 278.0,
+      "prior_avg": 297.5714,
+      "signal_change": -0.0658,
       "entry_date": "2026-04-16",
       "name": "Usgs Earthquake Activity Spike Near Major Freight Hubs Signals Temporary Freight Disruption",
       "last_signal": "HOLD",

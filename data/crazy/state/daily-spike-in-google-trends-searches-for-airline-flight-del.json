@@ -926,6 +926,16 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends Searches For Airline Flight Delay Compensation",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends Searches For Airline Flight Delay Compensation",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
@@ -936,9 +946,9 @@
       "name": "Daily Spike In Google Trends Searches For Airline Flight Delay Compensation",
       "last_signal": "HOLD",
       "last_run": "2026-06-04",
-      "latest_value": 7.0,
-      "prior_avg": 8.5714,
-      "signal_change": -0.1833
+      "latest_value": 10.0,
+      "prior_avg": 9.5714,
+      "signal_change": 0.0448
     }
   }
 }

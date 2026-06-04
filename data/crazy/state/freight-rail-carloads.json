@@ -1978,6 +1978,35 @@
       },
       "sector": "Freight Rail Carloads",
       "num_positions": 2
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 19883.53,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100952.78,
+      "positions": {
+        "XLI": {
+          "shares": 259.7606,
+          "entry_price": 172.4,
+          "current_price": 176.16,
+          "market_value": 45759.42,
+          "unrealized_pnl": 976.7,
+          "entry_date": "2026-06-01",
+          "margin": false
+        },
+        "XLB": {
+          "shares": 684.0339,
+          "entry_price": 50.92,
+          "current_price": 51.62,
+          "market_value": 35309.83,
+          "unrealized_pnl": 478.82,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Freight Rail Carloads",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",

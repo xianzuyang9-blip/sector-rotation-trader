@@ -1431,6 +1431,16 @@
       "positions": {},
       "sector": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99656.17,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99656.17,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
@@ -1438,9 +1448,9 @@
   "meta": {
     "weekly-rise-in-google-trends-interest-for-food-delivery-dela": {
       "signal_label": "HOLD",
-      "latest_value": 0.0,
-      "prior_avg": 13.5,
-      "signal_change": -1.0,
+      "latest_value": 4.0,
+      "prior_avg": 13.3929,
+      "signal_change": -0.7013,
       "name": "Weekly Rise In Google Trends Interest For Food Delivery Delay Signals Bearish Xlp",
       "last_signal": "HOLD",
       "last_run": "2026-06-04"

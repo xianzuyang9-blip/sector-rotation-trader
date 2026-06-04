@@ -1157,6 +1157,16 @@
       "positions": {},
       "sector": "Commodity Shortage News Volume Burst",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99887.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99887.73,
+      "positions": {},
+      "sector": "Commodity Shortage News Volume Burst",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-13"

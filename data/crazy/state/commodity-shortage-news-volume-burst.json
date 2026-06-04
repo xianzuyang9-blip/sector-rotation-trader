@@ -1163,6 +1163,16 @@
       "positions": {},
       "sector": "Commodity Shortage News Volume Burst",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99887.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99887.73,
+      "positions": {},
+      "sector": "Commodity Shortage News Volume Burst",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-13",
@@ -1172,9 +1182,9 @@
       "latest_value": 1.0,
       "prior_avg": 19.8,
       "signal_change": -0.9495,
-      "signal_label": "RISK_OFF",
+      "signal_label": "HOLD",
       "name": "Commodity Shortage News Volume Burst",
-      "last_signal": "RISK_OFF",
+      "last_signal": "HOLD",
       "last_run": "2026-06-04"
     }
   }

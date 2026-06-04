@@ -1,10 +1,19 @@
 {
-  "cash": 99786.96614428176,
+  "cash": 94787.66783706767,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 241.90516024132648,
+  "fees_paid": 251.85516024132647,
   "taxes_paid": 44.64067068954532,
-  "positions": {},
+  "positions": {
+    "XLI": {
+      "shares": 28.32282131864679,
+      "entry_price": 176.16000366210938,
+      "entry_date": "2026-06-04",
+      "cost": 4989.348307214088,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-05-11",
@@ -293,6 +302,16 @@
       "pnl_pct": -0.28,
       "entry_date": "2026-06-03",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.3228,
+      "price": 176.16,
+      "cost": 4989.35,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1495,6 +1514,26 @@
       "positions": {},
       "sector": "Shipping Container Squeeze Play",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 94787.67,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99777.02,
+      "positions": {
+        "XLI": {
+          "shares": 28.3228,
+          "entry_price": 176.16,
+          "current_price": 176.16,
+          "market_value": 4989.35,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "Shipping Container Squeeze Play",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-21",
@@ -1504,11 +1543,11 @@
       "latest_value": 890861.0,
       "prior_avg": 795107.6875,
       "signal_change": 0.1204,
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Shipping Container Squeeze Play",
-      "last_signal": "HOLD",
+      "last_signal": "RISK_ON",
       "last_run": "2026-06-04",
-      "entry_date": "2026-06-03"
+      "entry_date": "2026-06-04"
     }
   }
 }

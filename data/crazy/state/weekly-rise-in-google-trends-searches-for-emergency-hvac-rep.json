@@ -995,6 +995,16 @@
       "positions": {},
       "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99990.57,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.57,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
@@ -1005,9 +1015,9 @@
       "name": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
       "last_signal": "HOLD",
       "last_run": "2026-06-04",
-      "latest_value": 56.0,
-      "prior_avg": 46.3571,
-      "signal_change": 0.208,
+      "latest_value": 54.0,
+      "prior_avg": 48.5714,
+      "signal_change": 0.1118,
       "entry_date": "2026-05-28"
     }
   }

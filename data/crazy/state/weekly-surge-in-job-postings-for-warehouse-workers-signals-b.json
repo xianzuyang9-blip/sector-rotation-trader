@@ -1,19 +1,10 @@
 {
-  "cash": 94829.00863518605,
+  "cash": 99852.22229327293,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 151.0586202496896,
-  "taxes_paid": 9.661691326205318,
-  "positions": {
-    "XLI": {
-      "shares": 28.678678834666023,
-      "entry_price": 174.0500030517578,
-      "entry_date": "2026-06-04",
-      "cost": 4991.524138694003,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 161.26982566176696,
+  "taxes_paid": 28.272996366468952,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-04-24",
@@ -192,6 +183,20 @@
       "cost": 4991.52,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.6787,
+      "price": 176.16,
+      "proceeds": 5041.82,
+      "fees": 10.21,
+      "tax": 18.61,
+      "pnl": 31.69,
+      "pnl_pct": 0.63,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1324,20 +1329,29 @@
       },
       "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99852.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99852.22,
+      "positions": {},
+      "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
   "last_run": "2026-06-04",
   "meta": {
     "weekly-surge-in-job-postings-for-warehouse-workers-signals-b": {
-      "latest_value": 3.0,
-      "prior_avg": 1.8889,
-      "signal_change": 0.5882,
-      "signal_label": "RISK_ON",
+      "latest_value": 1.0,
+      "prior_avg": 1.75,
+      "signal_change": -0.4286,
+      "signal_label": "RISK_OFF",
       "name": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-04",
-      "entry_date": "2026-06-04"
+      "last_signal": "RISK_OFF",
+      "last_run": "2026-06-04"
     }
   }
 }

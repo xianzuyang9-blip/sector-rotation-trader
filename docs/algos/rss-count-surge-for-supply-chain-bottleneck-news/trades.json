@@ -873,6 +873,16 @@
       "positions": {},
       "sector": "Rss Count Surge For Supply Chain Bottleneck News",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100012.36,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100012.36,
+      "positions": {},
+      "sector": "Rss Count Surge For Supply Chain Bottleneck News",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-19"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T00:29:35Z",
+  "generated_at": "2026-06-04T23:59:07Z",
   "algos": [
     {
       "key": "normal:baileymol",
@@ -57,8 +57,8 @@
         "XLRE",
         "XLU"
       ],
-      "equity": 97289.12,
-      "ytd_pct": -2.71,
+      "equity": 97801.05,
+      "ytd_pct": -2.2,
       "trade_count": 9,
       "positions": 1,
       "last_snapshot": "2026-06-04",
@@ -93,8 +93,8 @@
         "SPY",
         "AGG"
       ],
-      "equity": 107463.32,
-      "ytd_pct": 7.46,
+      "equity": 107381.0,
+      "ytd_pct": 7.38,
       "trade_count": 27,
       "positions": 3,
       "last_snapshot": "2026-06-04",
@@ -128,8 +128,8 @@
         "XLU",
         "SPY"
       ],
-      "equity": 105900.29,
-      "ytd_pct": 5.9,
+      "equity": 105488.56,
+      "ytd_pct": 5.49,
       "trade_count": 14,
       "positions": 2,
       "last_snapshot": "2026-06-04",
@@ -154,8 +154,8 @@
         "EEM",
         "TLT"
       ],
-      "equity": 115484.78,
-      "ytd_pct": 15.48,
+      "equity": 113683.92,
+      "ytd_pct": 13.68,
       "trade_count": 3,
       "positions": 1,
       "last_snapshot": "2026-06-04",

@@ -1,19 +1,10 @@
 {
-  "cash": 94921.3848291732,
+  "cash": 100007.97341577278,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.106795671871996,
-  "taxes_paid": 0.0,
-  "positions": {
-    "XLV": {
-      "shares": 33.86232423111544,
-      "entry_price": 147.5500030517578,
-      "entry_date": "2026-06-04",
-      "cost": 4996.386043640695,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "fees_paid": 40.32444348569492,
+  "taxes_paid": 52.97609665839568,
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-02-27",
@@ -48,6 +39,20 @@
       "cost": 4996.39,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLV",
+      "shares": 33.8623,
+      "price": 152.08,
+      "proceeds": 5139.56,
+      "fees": 10.22,
+      "tax": 52.98,
+      "pnl": 90.2,
+      "pnl_pct": 1.81,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -980,6 +985,16 @@
       },
       "sector": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100007.97,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100007.97,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-05",
@@ -989,9 +1004,9 @@
       "latest_value": 60.0,
       "prior_avg": 35.0,
       "signal_change": 0.7143,
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
-      "last_signal": "RISK_ON",
+      "last_signal": "HOLD",
       "last_run": "2026-06-04",
       "entry_date": "2026-06-04"
     }

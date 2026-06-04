@@ -1497,6 +1497,16 @@
       "positions": {},
       "sector": "Xlu Daily Electricity Demand Surge",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99758.18,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99758.18,
+      "positions": {},
+      "sector": "Xlu Daily Electricity Demand Surge",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
@@ -1504,9 +1514,9 @@
   "meta": {
     "xlu-daily-electricity-demand-surge": {
       "signal_label": "HOLD",
-      "latest_value": 9054487.0,
-      "prior_avg": 10170837.8857,
-      "signal_change": -0.1098,
+      "latest_value": 8908506.0,
+      "prior_avg": 9770218.7714,
+      "signal_change": -0.0882,
       "name": "Xlu Daily Electricity Demand Surge",
       "last_signal": "HOLD",
       "last_run": "2026-06-04",

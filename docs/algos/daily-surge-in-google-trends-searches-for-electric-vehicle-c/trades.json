@@ -1091,6 +1091,16 @@
       "positions": {},
       "sector": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99690.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99690.94,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04"

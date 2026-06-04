@@ -1171,6 +1171,16 @@
       "positions": {},
       "sector": "Earthquake Aftershock Amplifier",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100047.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100047.52,
+      "positions": {},
+      "sector": "Earthquake Aftershock Amplifier",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19",
@@ -1178,9 +1188,9 @@
   "meta": {
     "earthquake-aftershock-amplifier": {
       "signal_label": "HOLD",
-      "latest_value": 4.0,
-      "prior_avg": 280.5714,
-      "signal_change": -0.9857,
+      "latest_value": 277.0,
+      "prior_avg": 297.5714,
+      "signal_change": -0.0691,
       "name": "Earthquake Aftershock Amplifier",
       "last_signal": "HOLD",
       "last_run": "2026-06-04"

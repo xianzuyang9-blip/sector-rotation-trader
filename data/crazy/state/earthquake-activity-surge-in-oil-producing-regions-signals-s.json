@@ -836,6 +836,16 @@
       "positions": {},
       "sector": "Earthquake Activity Surge In Oil-producing Regions Signals Supply Disruption Risk Premium",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Earthquake Activity Surge In Oil-producing Regions Signals Supply Disruption Risk Premium",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-17",
@@ -843,9 +853,9 @@
   "meta": {
     "earthquake-activity-surge-in-oil-producing-regions-signals-s": {
       "signal_label": "HOLD",
-      "latest_value": 4.0,
-      "prior_avg": 280.8571,
-      "signal_change": -0.9858,
+      "latest_value": 278.0,
+      "prior_avg": 297.5714,
+      "signal_change": -0.0658,
       "name": "Earthquake Activity Surge In Oil-producing Regions Signals Supply Disruption Risk Premium",
       "last_signal": "HOLD",
       "last_run": "2026-06-04"

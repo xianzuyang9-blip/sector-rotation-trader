@@ -1,10 +1,19 @@
 {
-  "cash": 99489.43226298831,
+  "cash": 94505.01064983889,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 524.2316535132393,
+  "fees_paid": 534.1816535132393,
   "taxes_paid": 166.57390037401257,
-  "positions": {},
+  "positions": {
+    "XLY": {
+      "shares": 42.42257822381897,
+      "entry_price": 117.26000213623047,
+      "entry_date": "2026-06-04",
+      "cost": 4974.471613149416,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-04-01",
@@ -629,6 +638,16 @@
       "pnl_pct": -0.94,
       "entry_date": "2026-06-03",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.4226,
+      "price": 117.26,
+      "cost": 4974.47,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1761,6 +1780,26 @@
       "positions": {},
       "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 94505.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99479.48,
+      "positions": {
+        "XLY": {
+          "shares": 42.4226,
+          "entry_price": 117.26,
+          "current_price": 117.26,
+          "market_value": 4974.47,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-11",
@@ -1770,10 +1809,10 @@
       "latest_value": 890861.0,
       "prior_avg": 795107.6875,
       "signal_change": 0.1204,
-      "signal_label": "HOLD",
-      "entry_date": "2026-06-03",
+      "signal_label": "RISK_ON",
+      "entry_date": "2026-06-04",
       "name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound",
-      "last_signal": "HOLD",
+      "last_signal": "RISK_ON",
       "last_run": "2026-06-04"
     }
   }

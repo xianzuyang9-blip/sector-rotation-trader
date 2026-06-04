@@ -1,10 +1,19 @@
 {
-  "cash": 99585.69447301471,
+  "cash": 94596.45974936397,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 524.1317887015132,
+  "fees_paid": 534.0817887015132,
   "taxes_paid": 203.92392032114395,
-  "positions": {},
+  "positions": {
+    "XLI": {
+      "shares": 28.26569380187712,
+      "entry_price": 176.16000366210938,
+      "entry_date": "2026-06-04",
+      "cost": 4979.284723650736,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-04-01",
@@ -629,6 +638,16 @@
       "pnl_pct": -0.29,
       "entry_date": "2026-06-03",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.2657,
+      "price": 176.16,
+      "cost": 4979.28,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1771,6 +1790,26 @@
       "positions": {},
       "sector": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 94596.46,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99575.74,
+      "positions": {
+        "XLI": {
+          "shares": 28.2657,
+          "entry_price": 176.16,
+          "current_price": 176.16,
+          "market_value": 4979.28,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-10",
@@ -1780,10 +1819,10 @@
       "latest_value": 890861.0,
       "prior_avg": 795107.6875,
       "signal_change": 0.1204,
-      "signal_label": "HOLD",
-      "entry_date": "2026-06-03",
+      "signal_label": "RISK_ON",
+      "entry_date": "2026-06-04",
       "name": "Weekly Spike In Freight Container Volumes At East Coast Ports Signals Industrial Sector Strength",
-      "last_signal": "HOLD",
+      "last_signal": "RISK_ON",
       "last_run": "2026-06-04"
     }
   }

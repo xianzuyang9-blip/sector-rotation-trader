@@ -1770,5 +1770,21 @@
     "fees": 9.95,
     "algo_id": "nrwise",
     "algo_name": "NRWise Acceleration"
+  },
+  {
+    "date": "2026-06-04",
+    "action": "SELL",
+    "ticker": "AVGO",
+    "shares": 20.7654,
+    "price": 418.91,
+    "proceeds": 8688.45,
+    "fees": 10.39,
+    "tax": 0.0,
+    "pnl": -1311.55,
+    "pnl_pct": -13.12,
+    "entry_date": "2026-06-03",
+    "reason": "stop_loss",
+    "algo_id": "nrwise",
+    "algo_name": "NRWise Acceleration"
   }
 ]

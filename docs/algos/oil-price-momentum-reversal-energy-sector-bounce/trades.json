@@ -369,6 +369,20 @@
       "cost": 4993.36,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 85.0514,
+      "price": 58.75,
+      "proceeds": 4986.54,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -6.82,
+      "pnl_pct": -0.14,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1551,6 +1565,16 @@
       },
       "sector": "Oil Price Momentum Reversal Energy Sector Bounce",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99850.52,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99850.52,
+      "positions": {},
+      "sector": "Oil Price Momentum Reversal Energy Sector Bounce",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-26"

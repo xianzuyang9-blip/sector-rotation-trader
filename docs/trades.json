@@ -221,6 +221,20 @@
       "cost": 10000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-04",
+      "action": "SELL",
+      "ticker": "AVGO",
+      "shares": 20.7654,
+      "price": 418.91,
+      "proceeds": 8688.45,
+      "fees": 10.39,
+      "tax": 0.0,
+      "pnl": -1311.55,
+      "pnl_pct": -13.12,
+      "entry_date": "2026-06-03",
+      "reason": "stop_loss"
     }
   ],
   "daily_snapshots": [
@@ -3254,6 +3268,35 @@
       },
       "sector": "XLK",
       "num_positions": 3
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 76666.32,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 102085.32,
+      "positions": {
+        "QCOM": {
+          "shares": 53.6049,
+          "entry_price": 186.55,
+          "current_price": 242.57,
+          "market_value": 13002.95,
+          "unrealized_pnl": 3002.95,
+          "entry_date": "2026-05-05",
+          "margin": false
+        },
+        "AMD": {
+          "shares": 23.731,
+          "entry_price": 421.39,
+          "current_price": 523.2,
+          "market_value": 12416.05,
+          "unrealized_pnl": 2416.05,
+          "entry_date": "2026-05-06",
+          "margin": false
+        }
+      },
+      "sector": "XLK",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-07"

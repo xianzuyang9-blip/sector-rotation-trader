@@ -23,6 +23,16 @@
       "pnl_pct": 0.66,
       "entry_date": "2026-06-02",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-04",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 25.8899,
+      "price": 193.17,
+      "cost": 5001.15,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -715,6 +725,26 @@
       "positions": {},
       "sector": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 95011.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100013.09,
+      "positions": {
+        "XLK": {
+          "shares": 25.8899,
+          "entry_price": 193.17,
+          "current_price": 193.17,
+          "market_value": 5001.15,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Attention Sentiment Rss News Counts For Semiconductor Export Restrictions",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-03-03"

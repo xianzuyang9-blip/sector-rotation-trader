@@ -1351,6 +1351,16 @@
       "positions": {},
       "sector": "Wage Growth Demand Surge Fast Food Google Trends",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99742.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99742.86,
+      "positions": {},
+      "sector": "Wage Growth Demand Surge Fast Food Google Trends",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-27"
