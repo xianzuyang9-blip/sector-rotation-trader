@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+  "name": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-06-03"
+}

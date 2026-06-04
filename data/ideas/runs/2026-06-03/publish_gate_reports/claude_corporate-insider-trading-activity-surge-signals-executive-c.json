@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-06-03/publish/claude_corporate-insider-trading-activity-surge-signals-executive-c.md",
+  "target_file": "data/ideas/runs/2026-06-03/intervention/claude_corporate-insider-trading-activity-surge-signals-executive-c.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": true,
+    "selected_adapter": "html_table",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support html_table yet.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "regime shifts",
+      "sector-specific aggregation unclear",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "html_table": 5
+      },
+      "top_score": 5,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1025,
+    "output_tokens": 88
+  },
+  "cost_usd": 0.0034425,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"html_table\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Adapter matches data source but insider buy-to-sell ratio aggregation and sector filtering need manual validation.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\", \"sector-specific aggregation unclear\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-03/corporate-insider-trading-activity-surge-signals-executive-c.json"
+}

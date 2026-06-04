@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/chatgpt_daily-spike-in-google-trends-for-car-repossession-signals-ri.md",
+  "out": "crazy/algos/daily_spike_in_google_trends_for_car_repossession_signals_ri.py",
+  "adapter": "google_trends",
+  "idea_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+  "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+  "universe": [
+    "XLY"
+  ],
+  "frequency": "daily",
+  "family": "consumer_stress",
+  "threshold": 0.3,
+  "direction": "up",
+  "hold_days": 7
+}

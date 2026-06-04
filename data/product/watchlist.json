@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T00:24:32Z",
+  "generated_at": "2026-06-04T00:29:35Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -761,6 +761,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 100005.34,
+      "ytd_pct": 0.01,
+      "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:daily-spike-in-google-trends-for-diy-home-security-installat",
       "algo_type": "crazy",
       "algo_id": "daily-spike-in-google-trends-for-diy-home-security-installat",
@@ -847,6 +871,30 @@
       "equity": 99840.86,
       "ytd_pct": -0.16,
       "trade_count": 8,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "name": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLP"
+      ],
+      "equity": 99958.22,
+      "ytd_pct": -0.04,
+      "trade_count": 4,
       "positions": 0,
       "last_snapshot": "2026-06-04",
       "last_signal": null,
@@ -2542,6 +2590,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "name": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLF"
+      ],
+      "equity": 99836.13,
+      "ytd_pct": -0.16,
+      "trade_count": 8,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-overtime-jobs-signals-labo",
@@ -3652,6 +3724,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "name": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "family": "macro_input_pressure",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLE"
+      ],
+      "equity": 99825.09,
+      "ytd_pct": -0.17,
+      "trade_count": 14,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-google-trends-for-inflation-hedge-gold-signa",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-inflation-hedge-gold-signa",
@@ -3971,6 +4067,30 @@
       "backtest_reason": "Backtest completed",
       "backtest_alpha_vs_spy_pct": -50.82,
       "backtest_trade_count": 118
+    },
+    {
+      "key": "crazy:airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "algo_type": "crazy",
+      "algo_id": "airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "name": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
+      "family": "travel_mobility",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99997.51,
+      "ytd_pct": -0.0,
+      "trade_count": 4,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
     },
     {
       "key": "crazy:travel-booking-momentum-divergence",

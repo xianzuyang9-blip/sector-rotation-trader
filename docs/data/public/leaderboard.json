@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-06-04T00:24:40Z",
+  "generated_at": "2026-06-04T00:29:35Z",
   "counts": {
-    "total": 391,
+    "total": 403,
     "beating_spy": 1
   },
   "algos": [
@@ -1012,6 +1012,42 @@
           }
         },
         "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.793,
+            "return_pct": -3.965
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.227,
+            "return_pct": -1.135
+          }
+        },
+        "summary": "mixed"
       }
     },
     {
@@ -2110,6 +2146,42 @@
             "direction": "UP",
             "confidence": 0.19,
             "return_pct": 0.951
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "name": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "ytd_pct": -0.04,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.04,
+      "spy_delta_30d_pct": -5.09,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.572,
+            "return_pct": -2.861
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.452,
+            "return_pct": -2.26
           }
         },
         "summary": "mixed"
@@ -3665,6 +3737,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "name": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.16,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.1,
+      "spy_delta_30d_pct": -5.15,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.214,
+            "return_pct": -1.07
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.279,
+            "return_pct": -1.396
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:utilities-sector-negative-price-gap-fill",
       "algo_type": "crazy",
       "algo_id": "utilities-sector-negative-price-gap-fill",
@@ -3766,6 +3874,42 @@
             "direction": "DOWN",
             "confidence": 0.227,
             "return_pct": -1.135
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "name": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "family": "macro_input_pressure",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.17,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLE",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.604,
+            "return_pct": 3.018
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.249,
+            "return_pct": -1.245
           }
         },
         "summary": "mixed"
@@ -13147,6 +13291,294 @@
       "spy_pct": 10.7,
       "alpha_pct": -10.71,
       "ret_30d_pct": -0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.793,
+            "return_pct": -3.965
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.227,
+            "return_pct": -1.135
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+      "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+      "family": "local_economy_weirdness",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.029,
+            "return_pct": -0.143
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.19,
+            "return_pct": 0.951
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+      "algo_type": "crazy",
+      "algo_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+      "name": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+      "family": "freight_logistics",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.029,
+            "return_pct": -0.143
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.19,
+            "return_pct": 0.951
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+      "algo_type": "crazy",
+      "algo_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+      "name": "Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.214,
+            "return_pct": -1.07
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.279,
+            "return_pct": -1.396
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+      "algo_type": "crazy",
+      "algo_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+      "name": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 6.398
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 18.475
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:ev-charging-network-expansion-acceleration-signals-green-cap",
+      "algo_type": "crazy",
+      "algo_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+      "name": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.029,
+            "return_pct": -0.143
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.19,
+            "return_pct": 0.951
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+      "name": "Daily Spike In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 6.398
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 18.475
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-jump-in-google-trends-for-holiday-travel-cancellations",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-holiday-travel-cancellations",
+      "name": "Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress",
+      "family": "travel_mobility",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -5.05,
+      "last_snapshot": "2026-06-04",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.793,
+            "return_pct": -3.965
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.227,
+            "return_pct": -1.135
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "algo_type": "crazy",
+      "algo_id": "airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "name": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
+      "family": "travel_mobility",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
       "spy_delta_30d_pct": -5.05,
       "last_snapshot": "2026-06-04",
       "new_algo_date": null,

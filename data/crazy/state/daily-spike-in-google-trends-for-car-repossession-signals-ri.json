@@ -1,0 +1,787 @@
+{
+  "cash": 100005.33515967969,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 60.495939880382736,
+  "taxes_paid": 38.395486253289775,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-03-23",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.405,
+      "price": 110.12,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-24",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.405,
+      "price": 109.68,
+      "proceeds": 4969.81,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -30.19,
+      "pnl_pct": -0.6,
+      "entry_date": "2026-03-23",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-31",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.8616,
+      "price": 108.98,
+      "cost": 4997.99,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-01",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.8616,
+      "price": 109.8,
+      "proceeds": 5025.38,
+      "fees": 10.22,
+      "tax": 10.13,
+      "pnl": 17.26,
+      "pnl_pct": 0.35,
+      "entry_date": "2026-03-31",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-08",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 45.1034,
+      "price": 110.82,
+      "cost": 4998.36,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-09",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 45.1034,
+      "price": 112.74,
+      "proceeds": 5074.74,
+      "fees": 10.22,
+      "tax": 28.26,
+      "pnl": 48.12,
+      "pnl_pct": 0.96,
+      "entry_date": "2026-04-08",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-03-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLY": {
+          "shares": 45.405,
+          "entry_price": 110.12,
+          "current_price": 110.12,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-23",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 99959.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99959.86,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 99959.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99959.86,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 99959.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99959.86,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 99959.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99959.86,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 99959.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99959.86,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 94951.92,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99949.91,
+      "positions": {
+        "XLY": {
+          "shares": 45.8616,
+          "entry_price": 108.98,
+          "current_price": 108.98,
+          "market_value": 4997.99,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-31",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 99967.17,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.17,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 99967.17,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.17,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 99967.17,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.17,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 99967.17,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.17,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 99967.17,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.17,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 94958.86,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99957.22,
+      "positions": {
+        "XLY": {
+          "shares": 45.1034,
+          "entry_price": 110.82,
+          "current_price": 110.82,
+          "market_value": 4998.36,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-08",
+          "margin": false
+        }
+      },
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-28",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 100005.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100005.34,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-03-05",
+  "last_run": "2026-06-04",
+  "meta": {
+    "daily-spike-in-google-trends-for-car-repossession-signals-ri": {
+      "latest_value": 65.0,
+      "prior_avg": 56.5714,
+      "signal_change": 0.149,
+      "signal_label": "HOLD",
+      "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-04"
+    }
+  }
+}

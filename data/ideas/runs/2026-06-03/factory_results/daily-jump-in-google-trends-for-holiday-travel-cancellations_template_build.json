@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/chatgpt_daily-jump-in-google-trends-for-holiday-travel-cancellations.md",
+  "out": "crazy/algos/daily_jump_in_google_trends_for_holiday_travel_cancellations.py",
+  "adapter": "google_trends",
+  "idea_id": "daily-jump-in-google-trends-for-holiday-travel-cancellations",
+  "name": "Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress",
+  "universe": [
+    "XLY"
+  ],
+  "frequency": "daily",
+  "family": "travel_mobility",
+  "threshold": 0.2,
+  "direction": "up",
+  "hold_days": 7
+}

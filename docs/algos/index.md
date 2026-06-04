@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-06-04T00:24:32
+Updated (UTC): 2026-06-04T00:29:34
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 386
+Crazy models: 398
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -402,3 +402,15 @@ Crazy models: 386
 | daily-surge-in-google-trends-for-electric-vehicle-battery-re | Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift | daily |
 | weekly-surge-in-google-trends-for-overtime-jobs-signals-labo | Weekly Surge In Google Trends For Overtime Jobs Signals Labor Market Tightness | weekly |
 | grocery-price-inflation-google-trends-spike-signals-consumer | Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand | weekly |
+| daily-jump-in-google-trends-for-holiday-travel-cancellations | Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress | daily |
+| daily-spike-in-google-trends-for-car-repossession-signals-ri | Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress | daily |
+| daily-spike-in-google-trends-for-emergency-plumber-signals-c | Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress | daily |
+| daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br | Daily Spike In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility | daily |
+| weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do | Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress | weekly |
+| weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal | Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption | weekly |
+| weekly-surge-in-google-trends-for-home-heating-oil-price-sig | Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation | weekly |
+| weekly-surge-in-google-trends-for-job-quitting-signals-labor | Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress | weekly |
+| weekly-surge-in-rss-news-counts-on-commodity-shortage-signal | Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds | weekly |
+| airport-passenger-traffic-surge-from-google-trends-spring-br | Airport Passenger Traffic Surge From Google Trends Spring Break Bookings | weekly |
+| ev-charging-network-expansion-acceleration-signals-green-cap | Ev Charging Network Expansion Acceleration Signals Green Capex Boom | weekly |
+| tech-stock-earnings-misses-trigger-volatility-expansion-in-s | Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings | daily |

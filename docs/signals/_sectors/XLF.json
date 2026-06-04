@@ -2,12 +2,12 @@
   "etf": "XLF",
   "sector": "Financial Services",
   "bullish": 2,
-  "bearish": 38,
-  "neutral": 351,
-  "total_signals": 391,
-  "total_active": 40,
+  "bearish": 39,
+  "neutral": 362,
+  "total_signals": 403,
+  "total_active": 41,
   "bullish_pct": 5,
-  "composite": "2 of 40",
+  "composite": "2 of 41",
   "composite_label": "BEARISH",
   "composite_color": "red",
   "breakdown": [
@@ -171,6 +171,15 @@
       "direction": "NEUTRAL",
       "days_running": 82,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.01,
       "beat_spy": false
     },
     {
@@ -957,6 +966,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+      "name": "Daily Spike In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-spike-in-google-trends-for-flu-symptom-searches-boosti",
       "name": "Daily Spike In Google Trends For Flu Symptom Searches Boosting Healthcare Services Demand",
       "algo_type": "crazy",
@@ -999,6 +1017,15 @@
       "direction": "NEUTRAL",
       "days_running": 75,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "name": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.0,
       "beat_spy": false
     },
     {
@@ -1224,6 +1251,15 @@
       "direction": "NEUTRAL",
       "days_running": 85,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "name": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.16,
       "beat_spy": false
     },
     {
@@ -1467,6 +1503,15 @@
       "direction": "NEUTRAL",
       "days_running": 105,
       "ytd_pct": -0.04,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+      "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -2037,6 +2082,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+      "name": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "rss-roar",
       "name": "Rss Roar",
       "algo_type": "crazy",
@@ -2352,6 +2406,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+      "name": "Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-jump-in-openchargemap-ev-charger-counts-expansion-rate",
       "name": "Daily Jump In Openchargemap Ev Charger Counts Expansion Rate Signals Bullish Consumer Discretionary",
       "algo_type": "crazy",
@@ -2385,6 +2448,15 @@
       "direction": "BEARISH",
       "days_running": 119,
       "ytd_pct": -6.73,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-holiday-travel-cancellations",
+      "name": "Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -2439,6 +2511,15 @@
       "direction": "NEUTRAL",
       "days_running": 73,
       "ytd_pct": -0.2,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "name": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.04,
       "beat_spy": false
     },
     {
@@ -2564,6 +2645,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 92,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+      "name": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -2826,6 +2916,15 @@
       "direction": "NEUTRAL",
       "days_running": 87,
       "ytd_pct": -0.19,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+      "name": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -3204,6 +3303,15 @@
       "direction": "NEUTRAL",
       "days_running": 88,
       "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "name": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.16,
       "beat_spy": false
     },
     {

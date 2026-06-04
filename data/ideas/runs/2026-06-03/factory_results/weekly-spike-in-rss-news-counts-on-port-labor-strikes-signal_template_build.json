@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/chatgpt_weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal.md",
+  "out": "crazy/algos/weekly_spike_in_rss_news_counts_on_port_labor_strikes_signal.py",
+  "adapter": "rss_count",
+  "idea_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+  "name": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+  "universe": [
+    "XLI"
+  ],
+  "frequency": "weekly",
+  "family": "freight_logistics",
+  "threshold": 0.5,
+  "direction": "up",
+  "hold_days": 28
+}

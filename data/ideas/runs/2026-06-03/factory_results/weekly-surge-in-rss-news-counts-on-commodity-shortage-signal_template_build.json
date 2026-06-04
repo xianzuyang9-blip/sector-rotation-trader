@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/chatgpt_weekly-surge-in-rss-news-counts-on-commodity-shortage-signal.md",
+  "out": "crazy/algos/weekly_surge_in_rss_news_counts_on_commodity_shortage_signal.py",
+  "adapter": "rss_count",
+  "idea_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+  "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+  "universe": [
+    "XLI"
+  ],
+  "frequency": "weekly",
+  "family": "local_economy_weirdness",
+  "threshold": 0.4,
+  "direction": "up",
+  "hold_days": 21
+}

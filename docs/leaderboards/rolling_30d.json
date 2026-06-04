@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-04T00:24:39.613165",
+  "as_of": "2026-06-04T00:29:33.867773",
   "spy_ret_30d": 0.050458879369350784,
   "entries": [
     {
@@ -325,6 +325,14 @@
     {
       "algo_id": "weekly-ev-charger-expansion-in-underserved-regions",
       "name": "Weekly Ev Charger Expansion In Underserved Regions",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -843,6 +851,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+      "name": "Daily Spike In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-spike-in-google-trends-for-flu-symptom-searches-boosti",
       "name": "Daily Spike In Google Trends For Flu Symptom Searches Boosting Healthcare Services Demand",
       "category": "crazy",
@@ -869,6 +885,14 @@
     {
       "algo_id": "utilities-volatility-spike-long-hedge-trade",
       "name": "Utilities Volatility Spike Long Hedge Trade",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "name": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1133,6 +1157,14 @@
     {
       "algo_id": "weekly-ev-charger-network-density-jump-in-rural-counties",
       "name": "Weekly Ev Charger Network Density Jump In Rural Counties",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+      "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1523,6 +1555,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+      "name": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "rss-roar",
       "name": "Rss Roar",
       "category": "crazy",
@@ -1683,6 +1723,14 @@
       "max_dd_30d": 0.0
     },
     {
+      "algo_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+      "name": "Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
       "algo_id": "daily-jump-in-openchargemap-ev-charger-counts-expansion-rate",
       "name": "Daily Jump In Openchargemap Ev Charger Counts Expansion Rate Signals Bullish Consumer Discretionary",
       "category": "crazy",
@@ -1693,6 +1741,14 @@
     {
       "algo_id": "reddit-volatility-spike",
       "name": "Reddit Volatility Spike",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-holiday-travel-cancellations",
+      "name": "Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1781,6 +1837,14 @@
     {
       "algo_id": "weekly-surge-in-google-trends-for-job-interview-preparation-",
       "name": "Weekly Surge In Google Trends For Job Interview Preparation Searches",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+      "name": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -1925,6 +1989,14 @@
     {
       "algo_id": "daily-jump-in-google-trends-for-home-appliance-repair-signal",
       "name": "Daily Jump In Google Trends For Home Appliance Repair Signals Consumer Stress Lifting Consumer Staples",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+      "name": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2157,6 +2229,14 @@
     {
       "algo_id": "weekly-jump-in-google-trends-home-pest-control-emergency-sea",
       "name": "Weekly Jump In Google Trends Home Pest Control Emergency Searches Signals Consumer Stress And Discretionary Rebound",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "name": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2611,6 +2691,14 @@
       "max_dd_30d": -0.00041240000000005236
     },
     {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "name": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+      "category": "crazy",
+      "ret_30d": -0.0004178000000000237,
+      "sharpe_30d": -57.65718473876284,
+      "max_dd_30d": -0.00041779999999998836
+    },
+    {
       "algo_id": "mortgage-refinance-wave-google-trends-surge",
       "name": "Mortgage Refinance Wave Google Trends Surge",
       "category": "crazy",
@@ -2777,6 +2865,14 @@
       "ret_30d": -0.00094686539303801,
       "sharpe_30d": -30.03093736048219,
       "max_dd_30d": -0.0009468653930380562
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "name": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "category": "crazy",
+      "ret_30d": -0.001034125852966139,
+      "sharpe_30d": -24.41405700560249,
+      "max_dd_30d": -0.0010341258529661277
     },
     {
       "algo_id": "utility-power-grid-stress",

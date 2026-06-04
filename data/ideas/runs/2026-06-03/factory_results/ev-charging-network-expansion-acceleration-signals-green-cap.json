@@ -1,0 +1,16 @@
+{
+  "adapter": "openchargemap",
+  "algo_file": "crazy/algos/ev_charging_network_expansion_acceleration_signals_green_cap.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-06-03/build/claude_ev-charging-network-expansion-acceleration-signals-green-cap.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-06-03/algos/crazy/ev-charging-network-expansion-acceleration-signals-green-cap"
+}

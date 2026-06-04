@@ -1,0 +1,9 @@
+{
+  "algo_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+  "name": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+  "metrics": {},
+  "run_date": "2026-06-03"
+}

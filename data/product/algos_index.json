@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T00:24:32Z",
+  "generated_at": "2026-06-04T00:29:35Z",
   "algos": [
     {
       "key": "crazy:attention-sentiment-spike-daily-surge-in-news-rss-counts-men",
@@ -78,6 +78,30 @@
       "algo_type": "crazy",
       "algo_id": "daily-spike-in-rss-news-count-for-semiconductor-equipment-or",
       "name": "Daily Spike In Rss News Count For Semiconductor Equipment Orders Signals Chip Sector Rebound",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLK"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-rss-news-counts-on-corporate-cybersecurity-br",
+      "name": "Daily Spike In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility",
       "family": "attention_sentiment",
       "status": "sandbox",
       "evidence_class": "needs_history",
@@ -776,6 +800,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+      "algo_type": "crazy",
+      "algo_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+      "name": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLK"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:twitter-sentiment-spike",
       "algo_type": "crazy",
       "algo_id": "twitter-sentiment-spike",
@@ -949,6 +997,30 @@
       "rebalance_frequency": "weekly",
       "universe": [
         "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+      "algo_type": "crazy",
+      "algo_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+      "name": "Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress",
+      "family": "attention_sentiment",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLF"
       ],
       "equity": 100000.0,
       "ytd_pct": 0.0,
@@ -1765,6 +1837,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-car-repossession-signals-ri",
+      "name": "Daily Spike In Google Trends For Car Repossession Signals Rising Consumer Financial Distress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 100005.34,
+      "ytd_pct": 0.01,
+      "trade_count": 6,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:daily-spike-in-google-trends-for-diy-home-security-installat",
       "algo_type": "crazy",
       "algo_id": "daily-spike-in-google-trends-for-diy-home-security-installat",
@@ -1899,6 +1995,30 @@
       "equity": 99903.93,
       "ytd_pct": -0.1,
       "trade_count": 8,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-plumber-signals-c",
+      "name": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLP"
+      ],
+      "equity": 99958.22,
+      "ytd_pct": -0.04,
+      "trade_count": 4,
       "positions": 0,
       "last_snapshot": "2026-06-04",
       "last_signal": null,
@@ -4415,6 +4535,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+      "algo_type": "crazy",
+      "algo_id": "weekly-spike-in-rss-news-counts-on-port-labor-strikes-signal",
+      "name": "Weekly Spike In Rss News Counts On Port Labor Strikes Signals Freight Logistics Disruption",
+      "family": "freight_logistics",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-freight-logistics-google-trends-for-cargo-th",
@@ -5315,6 +5459,30 @@
       "equity": 100000.0,
       "ytd_pct": 0.0,
       "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "name": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLF"
+      ],
+      "equity": 99836.13,
+      "ytd_pct": -0.16,
+      "trade_count": 8,
       "positions": 0,
       "last_snapshot": "2026-06-04",
       "last_signal": null,
@@ -6373,6 +6541,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+      "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+      "family": "local_economy_weirdness",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:yelp-closure-velocity",
       "algo_type": "crazy",
       "algo_id": "yelp-closure-velocity",
@@ -7159,6 +7351,30 @@
       "new_algo_date": null,
       "backtest_status": "UNSUPPORTED_DATA",
       "backtest_reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:ev-charging-network-expansion-acceleration-signals-green-cap",
+      "algo_type": "crazy",
+      "algo_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+      "name": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLI"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
       "backtest_alpha_vs_spy_pct": null,
       "backtest_trade_count": null
     },
@@ -8210,6 +8426,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-price-sig",
+      "name": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "family": "macro_input_pressure",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLE"
+      ],
+      "equity": 99825.09,
+      "ytd_pct": -0.17,
+      "trade_count": 14,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:weekly-surge-in-google-trends-for-home-heating-oil-shortage-",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-home-heating-oil-shortage-",
@@ -8969,6 +9209,30 @@
       "backtest_trade_count": null
     },
     {
+      "key": "crazy:airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "algo_type": "crazy",
+      "algo_id": "airport-passenger-traffic-surge-from-google-trends-spring-br",
+      "name": "Airport Passenger Traffic Surge From Google Trends Spring Break Bookings",
+      "family": "travel_mobility",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 99997.51,
+      "ytd_pct": -0.0,
+      "trade_count": 4,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
       "key": "crazy:airport-security-surge",
       "algo_type": "crazy",
       "algo_id": "airport-security-surge",
@@ -9015,6 +9279,30 @@
       "new_algo_date": null,
       "backtest_status": "UNSUPPORTED_DATA",
       "backtest_reason": "V1 only supports SPY/sector ETFs; unsupported tickers: EXPE, MAR, TCOM",
+      "backtest_alpha_vs_spy_pct": null,
+      "backtest_trade_count": null
+    },
+    {
+      "key": "crazy:daily-jump-in-google-trends-for-holiday-travel-cancellations",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-holiday-travel-cancellations",
+      "name": "Daily Jump In Google Trends For Holiday Travel Cancellations Signals Consumer Travel Stress",
+      "family": "travel_mobility",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "universe": [
+        "XLY"
+      ],
+      "equity": 100000.0,
+      "ytd_pct": 0.0,
+      "trade_count": 0,
+      "positions": 0,
+      "last_snapshot": "2026-06-04",
+      "last_signal": null,
+      "new_algo_date": null,
+      "backtest_status": null,
+      "backtest_reason": null,
       "backtest_alpha_vs_spy_pct": null,
       "backtest_trade_count": null
     },

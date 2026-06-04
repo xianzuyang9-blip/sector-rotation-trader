@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/claude_ev-charging-network-expansion-acceleration-signals-green-cap.md",
+  "out": "crazy/algos/ev_charging_network_expansion_acceleration_signals_green_cap.py",
+  "adapter": "openchargemap",
+  "idea_id": "ev-charging-network-expansion-acceleration-signals-green-cap",
+  "name": "Ev Charging Network Expansion Acceleration Signals Green Capex Boom",
+  "universe": [
+    "XLI"
+  ],
+  "frequency": "weekly",
+  "family": "macro_input_pressure",
+  "threshold": 0.25,
+  "direction": "up",
+  "hold_days": 28
+}

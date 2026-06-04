@@ -1,0 +1,905 @@
+{
+  "trade_log": [
+    {
+      "date": "2026-03-05",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 89.1053,
+      "price": 56.1134,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-06",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 89.1053,
+      "price": 56.2028,
+      "proceeds": 4997.74,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -2.26,
+      "pnl_pct": -0.05,
+      "entry_date": "2026-03-05",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-09",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 89.3476,
+      "price": 55.9544,
+      "cost": 4999.39,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-10",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 89.3476,
+      "price": 55.2391,
+      "proceeds": 4925.25,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -74.14,
+      "pnl_pct": -1.48,
+      "entry_date": "2026-03-09",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-11",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 88.2384,
+      "price": 56.6101,
+      "cost": 4995.19,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-12",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 88.2384,
+      "price": 57.1367,
+      "proceeds": 5031.42,
+      "fees": 10.23,
+      "tax": 13.41,
+      "pnl": 22.83,
+      "pnl_pct": 0.46,
+      "entry_date": "2026-03-11",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-16",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 86.8475,
+      "price": 57.5242,
+      "cost": 4995.83,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-17",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 86.8475,
+      "price": 58.1302,
+      "proceeds": 5038.23,
+      "fees": 10.23,
+      "tax": 15.69,
+      "pnl": 26.71,
+      "pnl_pct": 0.53,
+      "entry_date": "2026-03-16",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-20",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 84.7971,
+      "price": 58.925,
+      "cost": 4996.67,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-23",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 84.7971,
+      "price": 59.63,
+      "proceeds": 5046.22,
+      "fees": 10.23,
+      "tax": 18.33,
+      "pnl": 31.22,
+      "pnl_pct": 0.62,
+      "entry_date": "2026-03-20",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-03-24",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 82.1455,
+      "price": 60.84,
+      "cost": 4997.73,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-03-25",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 82.1455,
+      "price": 60.57,
+      "proceeds": 4965.33,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -32.4,
+      "pnl_pct": -0.65,
+      "entry_date": "2026-03-24",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 83.7488,
+      "price": 59.65,
+      "cost": 4995.61,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-01",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 83.7488,
+      "price": 58.85,
+      "proceeds": 4918.39,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -77.22,
+      "pnl_pct": -1.55,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-03-05",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLE": {
+          "shares": 89.1053,
+          "entry_price": 56.1134,
+          "current_price": 56.1134,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-05",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 99987.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99987.79,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 94978.45,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99977.84,
+      "positions": {
+        "XLE": {
+          "shares": 89.3476,
+          "entry_price": 55.9544,
+          "current_price": 55.9544,
+          "market_value": 4999.39,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-09",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 99903.7,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99903.7,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 94898.57,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99893.75,
+      "positions": {
+        "XLE": {
+          "shares": 88.2384,
+          "entry_price": 56.6101,
+          "current_price": 56.6101,
+          "market_value": 4995.19,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-11",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 99916.58,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99916.58,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 99916.58,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99916.58,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 94910.8,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99906.63,
+      "positions": {
+        "XLE": {
+          "shares": 86.8475,
+          "entry_price": 57.5242,
+          "current_price": 57.5242,
+          "market_value": 4995.83,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-16",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 99933.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99933.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 99933.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99933.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 99933.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99933.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 94926.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99923.4,
+      "positions": {
+        "XLE": {
+          "shares": 84.7971,
+          "entry_price": 58.925,
+          "current_price": 58.925,
+          "market_value": 4996.67,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-20",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 99954.61,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99954.61,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 94946.93,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99944.66,
+      "positions": {
+        "XLE": {
+          "shares": 82.1455,
+          "entry_price": 60.84,
+          "current_price": 60.84,
+          "market_value": 4997.73,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-03-24",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 99912.26,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99912.26,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 94906.7,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99902.31,
+      "positions": {
+        "XLE": {
+          "shares": 83.7488,
+          "entry_price": 59.65,
+          "current_price": 59.65,
+          "market_value": 4995.61,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-30",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-28",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99825.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99825.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Home Heating Oil Price Signals Energy Sector Inflation",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-03-05"
+}

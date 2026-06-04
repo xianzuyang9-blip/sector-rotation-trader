@@ -1,0 +1,16 @@
+{
+  "adapter": "rss_count",
+  "algo_file": "crazy/algos/weekly_spike_in_rss_news_counts_mentioning_corporate_bond_do.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-06-03/build/chatgpt_weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-06-03/algos/crazy/weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do"
+}

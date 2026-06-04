@@ -21,7 +21,7 @@
     "XLF": {
       "etf": "XLF",
       "sector": "Financial Services",
-      "composite": "2 of 40",
+      "composite": "2 of 41",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 5
@@ -29,7 +29,7 @@
     "XLY": {
       "etf": "XLY",
       "sector": "Consumer Cyclical",
-      "composite": "11 of 71",
+      "composite": "11 of 73",
       "composite_label": "BEARISH",
       "composite_color": "red",
       "bullish_pct": 15
@@ -53,18 +53,18 @@
     "XLP": {
       "etf": "XLP",
       "sector": "Consumer Defensive",
-      "composite": "8 of 43",
+      "composite": "8 of 44",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 19
+      "bullish_pct": 18
     },
     "XLE": {
       "etf": "XLE",
       "sector": "Energy",
-      "composite": "4 of 38",
+      "composite": "4 of 39",
       "composite_label": "BEARISH",
       "composite_color": "red",
-      "bullish_pct": 11
+      "bullish_pct": 10
     },
     "XLB": {
       "etf": "XLB",

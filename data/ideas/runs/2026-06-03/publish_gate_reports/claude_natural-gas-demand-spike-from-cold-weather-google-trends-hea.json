@@ -1,0 +1,37 @@
+{
+  "source_file": "data/ideas/runs/2026-06-03/publish/claude_natural-gas-demand-spike-from-cold-weather-google-trends-hea.md",
+  "target_file": "data/ideas/runs/2026-06-03/intervention/claude_natural-gas-demand-spike-from-cold-weather-google-trends-hea.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "google_trends",
+    "needs_new_adapter": true,
+    "reason": "Spec requires combining Google Trends and weather data, but no single adapter covers both.",
+    "risk_flags": [
+      "complex multi-source integration",
+      "multiple adapters needed",
+      "potential data sync and timing issues",
+      "weather_series adapter required but not selected"
+    ],
+    "route": {
+      "adapters": [
+        "google_trends"
+      ],
+      "scores": {
+        "weather_series": 2,
+        "google_trends": 3,
+        "html_table": 2,
+        "price_only": 1
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1050,
+    "output_tokens": 101
+  },
+  "cost_usd": 0.003635,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"google_trends\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"Spec requires combining Google Trends and weather data, but no single adapter covers both.\",\n  \"risk_flags\": [\n    \"multiple adapters needed\",\n    \"weather_series adapter required but not selected\",\n    \"complex multi-source integration\",\n    \"potential data sync and timing issues\"\n  ]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-03/natural-gas-demand-spike-from-cold-weather-google-trends-hea.json"
+}

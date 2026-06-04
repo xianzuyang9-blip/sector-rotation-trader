@@ -1,0 +1,821 @@
+{
+  "cash": 99836.13277535742,
+  "borrowed": 0.0,
+  "accrued_interest": 0.0,
+  "fees_paid": 80.71166095269376,
+  "taxes_paid": 3.6935099671602982,
+  "positions": {},
+  "trade_log": [
+    {
+      "date": "2026-04-23",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 96.5251,
+      "price": 51.8,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-24",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.5251,
+      "price": 51.42,
+      "proceeds": 4953.09,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -46.91,
+      "pnl_pct": -0.94,
+      "entry_date": "2026-04-23",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-29",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 96.2473,
+      "price": 51.92,
+      "cost": 4997.16,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-30",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.2473,
+      "price": 52.13,
+      "proceeds": 5007.14,
+      "fees": 10.23,
+      "tax": 3.69,
+      "pnl": 6.29,
+      "pnl_pct": 0.13,
+      "entry_date": "2026-04-29",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-08",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 97.521,
+      "price": 51.24,
+      "cost": 4996.97,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-11",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 97.521,
+      "price": 51.18,
+      "proceeds": 4980.89,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -16.08,
+      "pnl_pct": -0.32,
+      "entry_date": "2026-05-08",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-12",
+      "action": "BUY",
+      "ticker": "XLF",
+      "shares": 96.8529,
+      "price": 51.58,
+      "cost": 4995.67,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-13",
+      "action": "SELL",
+      "ticker": "XLF",
+      "shares": 96.8529,
+      "price": 50.99,
+      "proceeds": 4928.3,
+      "fees": 10.23,
+      "tax": 0.0,
+      "pnl": -67.37,
+      "pnl_pct": -1.35,
+      "entry_date": "2026-05-12",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-03-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLF": {
+          "shares": 96.5251,
+          "entry_price": 51.8,
+          "current_price": 51.8,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-23",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 99943.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99943.14,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 99943.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99943.14,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 99943.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99943.14,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 94936.04,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99933.19,
+      "positions": {
+        "XLF": {
+          "shares": 96.2473,
+          "entry_price": 51.92,
+          "current_price": 51.92,
+          "market_value": 4997.16,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-29",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 99939.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99939.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 99939.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99939.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99939.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99939.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 99939.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99939.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99939.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99939.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 99939.48,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99939.48,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 94932.56,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99929.53,
+      "positions": {
+        "XLF": {
+          "shares": 97.521,
+          "entry_price": 51.24,
+          "current_price": 51.24,
+          "market_value": 4996.97,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-08",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99913.45,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99913.45,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 94907.83,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99903.5,
+      "positions": {
+        "XLF": {
+          "shares": 96.8529,
+          "entry_price": 51.58,
+          "current_price": 51.58,
+          "market_value": 4995.67,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-12",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-28",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99836.13,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99836.13,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-03-05",
+  "last_run": "2026-06-04",
+  "meta": {
+    "weekly-surge-in-google-trends-for-job-quitting-signals-labor": {
+      "signal_label": "HOLD",
+      "latest_value": 58.0,
+      "prior_avg": 67.3214,
+      "signal_change": -0.1385,
+      "name": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Churn Stress",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-04"
+    }
+  }
+}

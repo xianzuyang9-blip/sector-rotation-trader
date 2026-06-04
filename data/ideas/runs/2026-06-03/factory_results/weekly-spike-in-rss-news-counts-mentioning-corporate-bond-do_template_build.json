@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/chatgpt_weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do.md",
+  "out": "crazy/algos/weekly_spike_in_rss_news_counts_mentioning_corporate_bond_do.py",
+  "adapter": "rss_count",
+  "idea_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-bond-do",
+  "name": "Weekly Spike In Rss News Counts Mentioning Corporate Bond Downgrade Signals Financial Stress",
+  "universe": [
+    "XLF"
+  ],
+  "frequency": "weekly",
+  "family": "attention_sentiment",
+  "threshold": 0.5,
+  "direction": "up",
+  "hold_days": 28
+}

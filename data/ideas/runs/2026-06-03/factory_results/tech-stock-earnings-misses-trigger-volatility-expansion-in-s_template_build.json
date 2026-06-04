@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-03/build/claude_tech-stock-earnings-misses-trigger-volatility-expansion-in-s.md",
+  "out": "crazy/algos/tech_stock_earnings_misses_trigger_volatility_expansion_in_s.py",
+  "adapter": "rss_count",
+  "idea_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
+  "name": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
+  "universe": [
+    "XLK"
+  ],
+  "frequency": "daily",
+  "family": "attention_sentiment",
+  "threshold": 1.5,
+  "direction": "up",
+  "hold_days": 5
+}

@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal",
+  "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-06-03"
+}
