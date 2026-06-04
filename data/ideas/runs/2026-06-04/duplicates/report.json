@@ -1,0 +1,222 @@
+{
+  "date": "2026-06-04",
+  "input_count": 24,
+  "kept_count": 21,
+  "duplicate_count": 3,
+  "kept_by_source": {
+    "chatgpt": 12,
+    "claude": 9
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-google-trends-surge-in-warehouse-worker-strike-search",
+      "title": "Weekly Google Trends Surge In Warehouse Worker Strike Searches Signals Labor Disruption",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly google trends surge in warehouse worker strike searches signals bearish industrials",
+        "matched_idea_id": "weekly-google-trends-surge-in-warehouse-worker-strike-search",
+        "matched_origin": "history:2026-04-29",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-google-trends-surge-in-warehouse-worker-strike-search",
+        "title": "Weekly Google Trends Surge In Warehouse Worker Strike Searches Signals Labor Disruption",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in strike-related searches indicate rising labor unrest affecting logistics and supply chains. Labor strikes disrupt industrial and logistics operations, pressuring industrial sector stocks.",
+        "data_sources": [
+          "Google Trends weekly search interest for 'warehouse worker strike'"
+        ],
+        "signal_logic": "If weekly search interest rises by 30% compared to prior 4 weeks average",
+        "entry_exit": "Entry: If weekly search interest rises by 30% compared to prior 4 weeks average Exit: After 3 weeks or when interest declines by 15%",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest for 'warehouse worker strike' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor conflicts in warehouses are common and often announced or discussed weeks in advance.",
+        "schema": {
+          "idea": "Weekly Google Trends Surge In 'Warehouse Worker Strike' Searches Signals Labor Disruption",
+          "family": "labor_jobs",
+          "data": {
+            "source": "Google Trends weekly search interest for 'warehouse worker strike'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Spikes in strike-related searches indicate rising labor unrest affecting logistics and supply chains.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Labor strikes disrupt industrial and logistics operations, pressuring industrial sector stocks."
+          },
+          "trade_logic": {
+            "entry": "If weekly search interest rises by 30% compared to prior 4 weeks average",
+            "exit": "After 3 weeks or when interest declines by 15%",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor conflicts in warehouses are common and often announced or discussed weeks in advance.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-spike-in-usgs-earthquake-activity-near-major-ports-sig",
+      "title": "Daily Spike In Usgs Earthquake Activity Near Major Ports Signals Freight Disruption",
+      "family": "freight_logistics",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily spike in usgs earthquake activity near major ports signals short-term freight logistics disruption and bearish xli",
+        "matched_idea_id": "daily-spike-in-usgs-earthquake-activity-near-major-ports-sig",
+        "matched_origin": "history:2026-04-30",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-spike-in-usgs-earthquake-activity-near-major-ports-sig",
+        "title": "Daily Spike In Usgs Earthquake Activity Near Major Ports Signals Freight Disruption",
+        "family": "freight_logistics",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increased seismic activity near ports can cause short-term freight delays and logistic disruptions. Port disruptions hurt industrial and freight logistics sector performance.",
+        "data_sources": [
+          "USGS daily earthquake activity near major US ports"
+        ],
+        "signal_logic": "If daily earthquake count near ports exceeds 3 standard deviations above monthly average",
+        "entry_exit": "Entry: If daily earthquake count near ports exceeds 3 standard deviations above monthly average Exit: After 7 days or when earthquake count normalizes",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use USGS daily earthquake activity near major US ports via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 36,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Seismic activity frequently fluctuates with occasional clusters near coastal port regions.",
+        "schema": {
+          "idea": "Daily Spike In USGS Earthquake Activity Near Major Ports Signals Freight Disruption",
+          "family": "freight_logistics",
+          "data": {
+            "source": "USGS daily earthquake activity near major US ports",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Increased seismic activity near ports can cause short-term freight delays and logistic disruptions.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Port disruptions hurt industrial and freight logistics sector performance."
+          },
+          "trade_logic": {
+            "entry": "If daily earthquake count near ports exceeds 3 standard deviations above monthly average",
+            "exit": "After 7 days or when earthquake count normalizes",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 36,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Seismic activity frequently fluctuates with occasional clusters near coastal port regions.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-diy-pest-control-indicates-c",
+      "title": "Daily Jump In Google Trends For Diy Pest Control Indicates Consumer Home Stress And Staples Demand",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.857,
+        "matched_title": "daily jump in google trends for diy pest control signals consumer home stress and staples demand",
+        "matched_idea_id": "daily-jump-in-google-trends-for-diy-pest-control-signals-con",
+        "matched_origin": "history:2026-06-02",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-diy-pest-control-indicates-c",
+        "title": "Daily Jump In Google Trends For Diy Pest Control Indicates Consumer Home Stress And Staples Demand",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Rising pest control searches imply home stress driving increased spending on staples and home care products. Consumer staples benefit from increased demand in home maintenance products.",
+        "data_sources": [
+          "Google Trends daily search interest for 'DIY pest control'"
+        ],
+        "signal_logic": "If daily search interest exceeds 20% above 7-day average",
+        "entry_exit": "Entry: If daily search interest exceeds 20% above 7-day average Exit: After 10 days or interest returning below 5-day average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'DIY pest control' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Pest control needs often arise seasonally or after weather events, causing search spikes.",
+        "schema": {
+          "idea": "Daily Jump In Google Trends For 'DIY Pest Control' Indicates Consumer Home Stress And Staples Demand",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'DIY pest control'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Rising pest control searches imply home stress driving increased spending on staples and home care products.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Consumer staples benefit from increased demand in home maintenance products."
+          },
+          "trade_logic": {
+            "entry": "If daily search interest exceeds 20% above 7-day average",
+            "exit": "After 10 days or interest returning below 5-day average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Pest control needs often arise seasonally or after weather events, causing search spikes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-job-market-reskilling-course",
+    "title": "Daily Jump In Google Trends For Job Market Reskilling Courses Indicates Labor Market Shift",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-last-minute-vacation-renta",
+    "title": "Weekly Surge In Google Trends For Last-minute Vacation Rentals Signals Travel Bounce",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-political-insider-filings-for-healthcare-sec",
+    "title": "Weekly Surge In Political Insider Filings For Healthcare Sector Executives Buying Stock",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-in-electric-truck-orders-signals-",
+    "title": "Weekly Google Trends Surge In Electric Truck Orders Signals Industrial Ev Demand Growth",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-credit-card-payment-delay-i",
+    "title": "Daily Spike In Google Trends For Credit Card Payment Delay Indicates Rising Consumer Financial Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-in-cold-storage-warehouse-rental-",
+    "title": "Weekly Google Trends Surge In Cold Storage Warehouse Rental Signals Food Supply Chain Tightness",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-emergency-plumbing-services",
+    "title": "Daily Surge In Google Trends For Emergency Plumbing Services Signals Home Repair Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-in-home-office-furniture-sale-sig",
+    "title": "Weekly Google Trends Surge In Home Office Furniture Sale Signals Consumer Discretionary Bounce",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-fred-series-for-industrial-electricity-consu",
+    "title": "Weekly Spike In Fred Series For Industrial Electricity Consumption Growth Signals Manufacturing Strength",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-google-trends-for-emergency-dental-care-indic",
+    "title": "Daily Spike In Google Trends For Emergency Dental Care Indicates Healthcare Consumer Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-roadside-assistance-near-me",
+    "title": "Daily Surge In Google Trends For Roadside Assistance Near Me Indicates Consumer Auto Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+    "title": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "warehouse-robotics-news-surge-signals-industrial-tech-demand",
+    "title": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "utility-sector-relative-strength-reversal-after-volatility-c",
+    "title": "Utility Sector Relative Strength Reversal After Volatility Crush",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+    "title": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "used-car-price-rally-google-trends-signals-discretionary-dem",
+    "title": "Used Car Price Rally Google Trends Signals Discretionary Demand Rebound",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "healthcare-cost-search-spike-signals-staples-defensive-rotat",
+    "title": "Healthcare Cost Search Spike Signals Staples Defensive Rotation",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "mortgage-delinquency-google-trends-spike-signals-housing-str",
+    "title": "Mortgage Delinquency Google Trends Spike Signals Housing Stress Rotation",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "truck-driver-job-posting-surge-signals-freight-recovery",
+    "title": "Truck Driver Job Posting Surge Signals Freight Recovery",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "fed-fund-rate-volatility-expansion-signals-bond-market-repri",
+    "title": "Fed Fund Rate Volatility Expansion Signals Bond Market Repricing",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-installation-acceleration-signals-clean-energy-ca",
+    "title": "Ev Charger Installation Acceleration Signals Clean Energy Capex Surge",
+    "family": "macro_input_pressure",
+    "score": 100
+  }
+]
