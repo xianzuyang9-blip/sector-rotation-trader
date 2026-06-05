@@ -1,10 +1,19 @@
 {
-  "cash": 99519.6712877127,
+  "cash": 94533.73772332707,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 262.09998643652887,
+  "fees_paid": 272.04998643652885,
   "taxes_paid": 16.456995391400195,
-  "positions": {},
+  "positions": {
+    "XLC": {
+      "shares": 44.55971743509371,
+      "entry_price": 111.66999816894531,
+      "entry_date": "2026-06-05",
+      "cost": 4975.983564385635,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-04-20",
@@ -317,6 +326,16 @@
       "pnl_pct": -1.05,
       "entry_date": "2026-05-29",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-05",
+      "action": "BUY",
+      "ticker": "XLC",
+      "shares": 44.5597,
+      "price": 111.67,
+      "cost": 4975.98,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1609,19 +1628,40 @@
       "positions": {},
       "sector": "Google Gusts",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 94533.74,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99509.72,
+      "positions": {
+        "XLC": {
+          "shares": 44.5597,
+          "entry_price": 111.67,
+          "current_price": 111.67,
+          "market_value": 4975.98,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-05",
+          "margin": false
+        }
+      },
+      "sector": "Google Gusts",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "google-gusts": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Google Gusts",
-      "last_signal": "HOLD",
-      "last_run": "2026-06-04",
-      "latest_value": 6.0,
-      "prior_avg": 8.7857,
-      "signal_change": -0.3171
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-05",
+      "latest_value": 4.0,
+      "prior_avg": 2.1786,
+      "signal_change": 0.8361,
+      "entry_date": "2026-06-05"
     }
   }
 }

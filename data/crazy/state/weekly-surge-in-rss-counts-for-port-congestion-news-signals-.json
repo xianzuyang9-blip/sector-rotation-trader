@@ -1,19 +1,10 @@
 {
-  "cash": 94990.05,
+  "cash": 99923.64507423328,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 9.95,
+  "fees_paid": 20.15570502516193,
   "taxes_paid": 0.0,
-  "positions": {
-    "XLI": {
-      "shares": 28.38328733002553,
-      "entry_price": 176.16000366210938,
-      "entry_date": "2026-06-05",
-      "cost": 5000.0,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-06-05",
@@ -24,6 +15,20 @@
       "cost": 5000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-05",
+      "action": "SELL",
+      "ticker": "XLI",
+      "shares": 28.3833,
+      "price": 174.18,
+      "proceeds": 4933.6,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -66.4,
+      "pnl_pct": -1.33,
+      "entry_date": "2026-06-05",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -696,19 +701,28 @@
       },
       "sector": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99923.65,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99923.65,
+      "positions": {},
+      "sector": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-06",
   "last_run": "2026-06-05",
   "meta": {
     "weekly-surge-in-rss-counts-for-port-congestion-news-signals-": {
-      "latest_value": 2.0,
-      "prior_avg": 1.0625,
-      "signal_change": 0.8824,
-      "entry_date": "2026-06-05",
-      "signal_label": "RISK_ON",
+      "latest_value": 1.0,
+      "prior_avg": 1.5882,
+      "signal_change": -0.3704,
+      "signal_label": "RISK_OFF",
       "name": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
-      "last_signal": "RISK_ON",
+      "last_signal": "RISK_OFF",
       "last_run": "2026-06-05"
     }
   }

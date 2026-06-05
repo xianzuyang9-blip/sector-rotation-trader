@@ -33,6 +33,20 @@
       "cost": 4999.84,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-05",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.6389,
+      "price": 114.86,
+      "proceeds": 4887.3,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -112.54,
+      "pnl_pct": -2.25,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -805,6 +819,16 @@
       },
       "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99874.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99874.34,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22"

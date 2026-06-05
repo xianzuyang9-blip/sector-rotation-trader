@@ -2293,6 +2293,35 @@
       },
       "sector": "FINRA Dark Pool Signal",
       "num_positions": 2
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 24937.95,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 98400.6,
+      "positions": {
+        "XLP": {
+          "shares": 470.9028,
+          "entry_price": 84.8,
+          "current_price": 83.44,
+          "market_value": 39292.13,
+          "unrealized_pnl": -640.43,
+          "entry_date": "2026-05-25",
+          "margin": false
+        },
+        "XLU": {
+          "shares": 770.4739,
+          "entry_price": 45.35,
+          "current_price": 44.35,
+          "market_value": 34170.52,
+          "unrealized_pnl": -770.47,
+          "entry_date": "2026-05-25",
+          "margin": false
+        }
+      },
+      "sector": "FINRA Dark Pool Signal",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-20"

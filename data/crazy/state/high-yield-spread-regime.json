@@ -1351,19 +1351,48 @@
       },
       "sector": "High Yield Spread Regime",
       "num_positions": 2
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 24980.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100543.84,
+      "positions": {
+        "XLF": {
+          "shares": 786.3181,
+          "entry_price": 50.87,
+          "current_price": 52.3,
+          "market_value": 41124.44,
+          "unrealized_pnl": 1124.44,
+          "entry_date": "2026-06-04",
+          "margin": false
+        },
+        "XLY": {
+          "shares": 299.8372,
+          "entry_price": 116.73,
+          "current_price": 114.86,
+          "market_value": 34439.3,
+          "unrealized_pnl": -560.7,
+          "entry_date": "2026-06-04",
+          "margin": false
+        }
+      },
+      "sector": "High Yield Spread Regime",
+      "num_positions": 2
     }
   ],
   "sim_start": "2026-01-16",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "high-yield-spread-regime": {
       "name": "High Yield Spread Regime",
-      "last_run": "2026-06-04",
+      "last_run": "2026-06-05",
       "series_id": "BAMLH0A0HYM2",
-      "spread_level": 2.75,
-      "spread_delta_63d": -0.44,
-      "signal_label": "CREDIT_RISK_ON",
-      "signal_key": "CREDIT_RISK_ON",
+      "spread_level": 2.74,
+      "spread_delta_63d": -0.32,
+      "signal_label": "HOLD",
+      "signal_key": "HOLD",
       "last_signal": "CREDIT_RISK_ON"
     }
   }

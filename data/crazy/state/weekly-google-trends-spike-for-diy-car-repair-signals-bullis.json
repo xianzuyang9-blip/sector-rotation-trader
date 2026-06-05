@@ -1581,20 +1581,30 @@
       "positions": {},
       "sector": "Weekly Google Trends Spike For Diy Car Repair Signals Bullish Xly",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99892.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99892.81,
+      "positions": {},
+      "sector": "Weekly Google Trends Spike For Diy Car Repair Signals Bullish Xly",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-26",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "weekly-google-trends-spike-for-diy-car-repair-signals-bullis": {
-      "latest_value": 15.0,
-      "prior_avg": 32.75,
-      "signal_change": -0.542,
+      "latest_value": 16.0,
+      "prior_avg": 30.3929,
+      "signal_change": -0.4736,
       "signal_label": "HOLD",
       "entry_date": "2026-04-09",
       "name": "Weekly Google Trends Spike For Diy Car Repair Signals Bullish Xly",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

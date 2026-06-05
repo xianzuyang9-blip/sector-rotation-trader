@@ -731,10 +731,20 @@
       "positions": {},
       "sector": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99991.96,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99991.96,
+      "positions": {},
+      "sector": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "weekly-surge-in-freight-logistics-google-trends-for-cargo-th": {
       "latest_value": 13.0,
@@ -744,7 +754,7 @@
       "entry_date": "2026-03-16",
       "name": "Weekly Surge In Freight Logistics Google Trends For Cargo Theft",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

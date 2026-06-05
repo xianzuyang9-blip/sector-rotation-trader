@@ -696,16 +696,26 @@
       "positions": {},
       "sector": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "daily-jump-in-labor-jobs-google-trends-for-warehouse-worker-": {
       "signal_label": "HOLD",
       "name": "Daily Jump In Labor Jobs Google Trends For Warehouse Worker Shortage",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

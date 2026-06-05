@@ -676,19 +676,29 @@
       "positions": {},
       "sector": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-05",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "weekly-surge-in-rss-news-counts-on-commodity-shortage-signal": {
       "latest_value": 1.0,
-      "prior_avg": 1.3333,
-      "signal_change": -0.25,
+      "prior_avg": 1.2727,
+      "signal_change": -0.2143,
       "signal_label": "HOLD",
       "name": "Weekly Surge In Rss News Counts On Commodity Shortage Signals Industrial Sector Headwinds",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

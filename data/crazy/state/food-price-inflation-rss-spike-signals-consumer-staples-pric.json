@@ -731,20 +731,30 @@
       "positions": {},
       "sector": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99967.64,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.64,
+      "positions": {},
+      "sector": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "food-price-inflation-rss-spike-signals-consumer-staples-pric": {
-      "latest_value": 2.0,
-      "prior_avg": 2.4,
-      "signal_change": -0.1667,
+      "latest_value": 1.0,
+      "prior_avg": 2.25,
+      "signal_change": -0.5556,
       "entry_date": "2026-06-02",
       "signal_label": "HOLD",
       "name": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

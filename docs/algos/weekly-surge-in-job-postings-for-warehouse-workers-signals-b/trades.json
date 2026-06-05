@@ -1333,6 +1333,16 @@
       "positions": {},
       "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99852.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99852.22,
+      "positions": {},
+      "sector": "Weekly Surge In Job Postings For Warehouse Workers Signals Bullish Xli",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

@@ -1949,19 +1949,29 @@
       "positions": {},
       "sector": "Xlc Weekly Google Trends Surge In 5g Rollout",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99592.39,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99592.39,
+      "positions": {},
+      "sector": "Xlc Weekly Google Trends Surge In 5g Rollout",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "xlc-weekly-google-trends-surge-in-5g-rollout": {
-      "latest_value": 14.0,
-      "prior_avg": 16.2857,
-      "signal_change": -0.1404,
+      "latest_value": 7.0,
+      "prior_avg": 15.0714,
+      "signal_change": -0.5355,
       "signal_label": "HOLD",
       "name": "Xlc Weekly Google Trends Surge In 5g Rollout",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

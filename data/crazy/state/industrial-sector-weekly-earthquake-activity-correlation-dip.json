@@ -1623,20 +1623,30 @@
       "positions": {},
       "sector": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99683.72,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99683.72,
+      "positions": {},
+      "sector": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-19",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "industrial-sector-weekly-earthquake-activity-correlation-dip": {
       "signal_label": "HOLD",
-      "latest_value": 277.0,
-      "prior_avg": 346.7857,
-      "signal_change": -0.2012,
+      "latest_value": 285.0,
+      "prior_avg": 343.6429,
+      "signal_change": -0.1707,
       "entry_date": "2026-06-03",
       "name": "Industrial Sector Weekly Earthquake Activity Correlation Dip",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

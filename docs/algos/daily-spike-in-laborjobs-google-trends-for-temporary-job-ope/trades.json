@@ -843,6 +843,16 @@
       "positions": {},
       "sector": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99798.88,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99798.88,
+      "positions": {},
+      "sector": "Daily Spike In Laborjobs Google Trends For Temporary Job Openings Signals Labor Market Tightening And Industrial Strength",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-23"

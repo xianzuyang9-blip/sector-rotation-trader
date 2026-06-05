@@ -1,10 +1,19 @@
 {
-  "cash": 100012.3594340887,
+  "cash": 95001.79146238427,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 60.48155072249715,
+  "fees_paid": 70.43155072249715,
   "taxes_paid": 33.146121097103816,
-  "positions": {},
+  "positions": {
+    "XLI": {
+      "shares": 28.709485486157927,
+      "entry_price": 174.17999267578125,
+      "entry_date": "2026-06-05",
+      "cost": 5000.617971704436,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-05-21",
@@ -77,6 +86,16 @@
       "pnl_pct": -0.28,
       "entry_date": "2026-06-03",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-05",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.7095,
+      "price": 174.18,
+      "cost": 5000.62,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -889,19 +908,40 @@
       "positions": {},
       "sector": "Rss Count Surge For Supply Chain Bottleneck News",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 95001.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100002.41,
+      "positions": {
+        "XLI": {
+          "shares": 28.7095,
+          "entry_price": 174.18,
+          "current_price": 174.18,
+          "market_value": 5000.62,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-05",
+          "margin": false
+        }
+      },
+      "sector": "Rss Count Surge For Supply Chain Bottleneck News",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-19",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "rss-count-surge-for-supply-chain-bottleneck-news": {
-      "latest_value": 1.0,
-      "prior_avg": 1.5,
-      "signal_change": -0.3333,
-      "signal_label": "HOLD",
+      "latest_value": 3.0,
+      "prior_avg": 1.0,
+      "signal_change": 2.0,
+      "signal_label": "RISK_ON",
       "name": "Rss Count Surge For Supply Chain Bottleneck News",
-      "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-05",
+      "entry_date": "2026-06-05"
     }
   }
 }

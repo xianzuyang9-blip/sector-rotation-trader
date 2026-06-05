@@ -119,6 +119,16 @@
       "pnl_pct": -0.28,
       "entry_date": "2026-06-03",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-05",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.6632,
+      "price": 174.18,
+      "cost": 4992.55,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1021,6 +1031,26 @@
       "positions": {},
       "sector": "Daily Jump In Rss News Counts For Labor Union Strikes In Transportation Sector",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 94848.57,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.12,
+      "positions": {
+        "XLI": {
+          "shares": 28.6632,
+          "entry_price": 174.18,
+          "current_price": 174.18,
+          "market_value": 4992.55,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-05",
+          "margin": false
+        }
+      },
+      "sector": "Daily Jump In Rss News Counts For Labor Union Strikes In Transportation Sector",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-16"

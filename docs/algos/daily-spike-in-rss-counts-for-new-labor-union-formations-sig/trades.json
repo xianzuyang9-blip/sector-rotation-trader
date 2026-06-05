@@ -853,6 +853,16 @@
       "positions": {},
       "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99853.06,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99853.06,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For New Labor Union Formations Signals Labor Market Shift",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22"

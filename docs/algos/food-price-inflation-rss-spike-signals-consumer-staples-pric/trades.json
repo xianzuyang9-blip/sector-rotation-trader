@@ -725,6 +725,16 @@
       "positions": {},
       "sector": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99967.64,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99967.64,
+      "positions": {},
+      "sector": "Food Price Inflation Rss Spike Signals Consumer Staples Pricing Power",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-03"

@@ -1,19 +1,10 @@
 {
-  "cash": 94990.05,
+  "cash": 99646.73275251275,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 9.95,
+  "fees_paid": 20.141108874071662,
   "taxes_paid": 0.0,
-  "positions": {
-    "XLK": {
-      "shares": 25.883936674405465,
-      "entry_price": 193.1699981689453,
-      "entry_date": "2026-06-05",
-      "cost": 5000.0,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-06-05",
@@ -24,6 +15,20 @@
       "cost": 5000.0,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-05",
+      "action": "SELL",
+      "ticker": "XLK",
+      "shares": 25.8839,
+      "price": 180.3,
+      "proceeds": 4656.68,
+      "fees": 10.19,
+      "tax": 0.0,
+      "pnl": -343.32,
+      "pnl_pct": -6.87,
+      "entry_date": "2026-06-05",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -696,19 +701,29 @@
       },
       "sector": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99646.73,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99646.73,
+      "positions": {},
+      "sector": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-06",
   "last_run": "2026-06-05",
   "meta": {
     "warehouse-robotics-news-surge-signals-industrial-tech-demand": {
-      "latest_value": 22.0,
-      "prior_avg": 2.5625,
-      "signal_change": 7.5854,
+      "latest_value": 13.0,
+      "prior_avg": 3.4286,
+      "signal_change": 2.7917,
       "entry_date": "2026-06-05",
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
-      "last_signal": "RISK_ON",
+      "last_signal": "HOLD",
       "last_run": "2026-06-05"
     }
   }

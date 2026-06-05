@@ -1201,19 +1201,29 @@
       "positions": {},
       "sector": "Xlv Google Trends Flu Search Spike",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99931.14,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99931.14,
+      "positions": {},
+      "sector": "Xlv Google Trends Flu Search Spike",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "xlv-google-trends-flu-search-spike": {
       "signal_label": "HOLD",
       "name": "Xlv Google Trends Flu Search Spike",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04",
-      "latest_value": 14.0,
-      "prior_avg": 20.6071,
-      "signal_change": -0.3206
+      "last_run": "2026-06-05",
+      "latest_value": 13.0,
+      "prior_avg": 20.8571,
+      "signal_change": -0.3767
     }
   }
 }

@@ -1,119 +1,119 @@
 {
-  "date": "2026-06-04",
-  "generated_at": "2026-06-04T23:59:15.174443Z",
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T23:56:56.169762Z",
   "comparators": {
     "momentum_5d": {
       "XLK": {
-        "direction": "UP",
-        "return_pct": 3.382,
-        "confidence": 0.676
+        "direction": "DOWN",
+        "return_pct": -5.612,
+        "confidence": 1.0
       },
       "XLF": {
         "direction": "UP",
-        "return_pct": 1.794,
-        "confidence": 0.359
+        "return_pct": 1.396,
+        "confidence": 0.279
       },
       "XLY": {
         "direction": "DOWN",
-        "return_pct": -3.932,
-        "confidence": 0.786
+        "return_pct": -4.972,
+        "confidence": 0.994
       },
       "XLP": {
-        "direction": "DOWN",
-        "return_pct": -2.831,
-        "confidence": 0.566
+        "direction": "UP",
+        "return_pct": 0.639,
+        "confidence": 0.128
       },
       "XLU": {
         "direction": "DOWN",
-        "return_pct": -1.546,
-        "confidence": 0.309
+        "return_pct": -0.158,
+        "confidence": 0.032
       },
       "XLV": {
         "direction": "UP",
-        "return_pct": 0.795,
-        "confidence": 0.159
+        "return_pct": 2.368,
+        "confidence": 0.474
       },
       "XLI": {
         "direction": "UP",
-        "return_pct": 1.358,
-        "confidence": 0.272
+        "return_pct": 0.606,
+        "confidence": 0.121
       },
       "XLB": {
-        "direction": "UP",
-        "return_pct": 0.506,
-        "confidence": 0.101
+        "direction": "DOWN",
+        "return_pct": -1.017,
+        "confidence": 0.203
       },
       "XLRE": {
-        "direction": "DOWN",
-        "return_pct": -0.023,
-        "confidence": 0.005
+        "direction": "UP",
+        "return_pct": 1.614,
+        "confidence": 0.323
       },
       "XLC": {
         "direction": "DOWN",
-        "return_pct": -3.051,
-        "confidence": 0.61
+        "return_pct": -3.475,
+        "confidence": 0.695
       },
       "XLE": {
         "direction": "UP",
-        "return_pct": 3.161,
-        "confidence": 0.632
+        "return_pct": 2.452,
+        "confidence": 0.49
       }
     },
     "momentum_20d": {
       "XLK": {
         "direction": "UP",
-        "return_pct": 13.609,
+        "return_pct": 6.253,
         "confidence": 1.0
       },
       "XLF": {
         "direction": "UP",
-        "return_pct": 0.675,
-        "confidence": 0.135
+        "return_pct": 1.455,
+        "confidence": 0.291
       },
       "XLY": {
         "direction": "DOWN",
-        "return_pct": -2.177,
-        "confidence": 0.435
+        "return_pct": -4.188,
+        "confidence": 0.838
       },
       "XLP": {
         "direction": "DOWN",
-        "return_pct": -2.612,
-        "confidence": 0.522
+        "return_pct": -0.643,
+        "confidence": 0.129
       },
       "XLU": {
         "direction": "DOWN",
-        "return_pct": -3.872,
-        "confidence": 0.774
+        "return_pct": -1.707,
+        "confidence": 0.341
       },
       "XLV": {
         "direction": "UP",
-        "return_pct": 4.594,
-        "confidence": 0.919
+        "return_pct": 5.728,
+        "confidence": 1.0
       },
       "XLI": {
-        "direction": "DOWN",
-        "return_pct": -0.401,
-        "confidence": 0.08
+        "direction": "UP",
+        "return_pct": 0.103,
+        "confidence": 0.021
       },
       "XLB": {
         "direction": "DOWN",
-        "return_pct": -1.507,
-        "confidence": 0.301
+        "return_pct": -1.498,
+        "confidence": 0.3
       },
       "XLRE": {
-        "direction": "DOWN",
-        "return_pct": -0.76,
-        "confidence": 0.152
+        "direction": "UP",
+        "return_pct": 0.676,
+        "confidence": 0.135
       },
       "XLC": {
         "direction": "DOWN",
-        "return_pct": -3.613,
-        "confidence": 0.723
+        "return_pct": -4.865,
+        "confidence": 0.973
       },
       "XLE": {
         "direction": "UP",
-        "return_pct": 3.07,
-        "confidence": 0.614
+        "return_pct": 3.074,
+        "confidence": 0.615
       }
     }
   }

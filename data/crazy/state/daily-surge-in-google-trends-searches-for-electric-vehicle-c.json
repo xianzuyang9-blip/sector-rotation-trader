@@ -1107,19 +1107,29 @@
       "positions": {},
       "sector": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99690.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99690.94,
+      "positions": {},
+      "sector": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "daily-surge-in-google-trends-searches-for-electric-vehicle-c": {
       "signal_label": "HOLD",
       "latest_value": 0.0,
-      "prior_avg": 2.2857,
+      "prior_avg": 1.2857,
       "signal_change": -1.0,
       "name": "Daily Surge In Google Trends Searches For Electric Vehicle Charging Station Outages",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

@@ -33,6 +33,20 @@
       "cost": 4998.82,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-05",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 85.0862,
+      "price": 57.67,
+      "proceeds": 4896.7,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -102.11,
+      "pnl_pct": -2.04,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1115,6 +1129,16 @@
       },
       "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99864.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99864.25,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23"

@@ -1,19 +1,10 @@
 {
-  "cash": 94987.04059486208,
+  "cash": 99874.34102894868,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.113389539990514,
+  "fees_paid": 40.321056625551854,
   "taxes_paid": 3.9831998311929966,
-  "positions": {
-    "XLY": {
-      "shares": 42.63893500911911,
-      "entry_price": 117.26000213623047,
-      "entry_date": "2026-06-04",
-      "cost": 4999.841610255899,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-27",
@@ -48,6 +39,20 @@
       "cost": 4999.84,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-05",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.6389,
+      "price": 114.86,
+      "proceeds": 4887.3,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -112.54,
+      "pnl_pct": -2.25,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -820,19 +825,29 @@
       },
       "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99874.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99874.34,
+      "positions": {},
+      "sector": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-22",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "daily-spike-in-rss-counts-for-corporate-layoff-announcements": {
-      "latest_value": 7.0,
-      "prior_avg": 3.75,
-      "signal_change": 0.8667,
-      "signal_label": "RISK_ON",
+      "latest_value": 6.0,
+      "prior_avg": 4.6,
+      "signal_change": 0.3043,
+      "signal_label": "HOLD",
       "name": "Daily Spike In Rss Counts For Corporate Layoff Announcements Signals Consumer Discretionary Headwind",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-04",
+      "last_signal": "HOLD",
+      "last_run": "2026-06-05",
       "entry_date": "2026-06-04"
     }
   }

@@ -885,6 +885,16 @@
       "positions": {},
       "sector": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99808.62,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99808.62,
+      "positions": {},
+      "sector": "Grocery Price Inflation Google Trends Spike Signals Consumer Staples Demand",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-04"

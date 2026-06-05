@@ -1,10 +1,19 @@
 {
-  "cash": 99990.57399420148,
+  "cash": 94981.0952944914,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 40.3201590482123,
+  "fees_paid": 50.27015904821229,
   "taxes_paid": 23.470039124486338,
-  "positions": {},
+  "positions": {
+    "XLI": {
+      "shares": 28.703231771379162,
+      "entry_price": 174.17999267578125,
+      "entry_date": "2026-06-05",
+      "cost": 4999.528699710074,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-05-25",
@@ -53,6 +62,16 @@
       "pnl_pct": -0.59,
       "entry_date": "2026-05-29",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-05",
+      "action": "BUY",
+      "ticker": "XLI",
+      "shares": 28.7032,
+      "price": 174.18,
+      "cost": 4999.53,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1005,20 +1024,40 @@
       "positions": {},
       "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 94981.1,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99980.62,
+      "positions": {
+        "XLI": {
+          "shares": 28.7032,
+          "entry_price": 174.18,
+          "current_price": 174.18,
+          "market_value": 4999.53,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-05",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "weekly-rise-in-google-trends-searches-for-emergency-hvac-rep": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Weekly Rise In Google Trends Searches For Emergency Hvac Repair",
-      "last_signal": "HOLD",
-      "last_run": "2026-06-04",
-      "latest_value": 54.0,
-      "prior_avg": 48.5714,
-      "signal_change": 0.1118,
-      "entry_date": "2026-05-28"
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-05",
+      "latest_value": 61.0,
+      "prior_avg": 48.4286,
+      "signal_change": 0.2596,
+      "entry_date": "2026-06-05"
     }
   }
 }

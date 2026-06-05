@@ -1209,19 +1209,29 @@
       "positions": {},
       "sector": "Daily Jump In Google Trends Searches For Emergency Dental Care",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99766.68,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99766.68,
+      "positions": {},
+      "sector": "Daily Jump In Google Trends Searches For Emergency Dental Care",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "daily-jump-in-google-trends-searches-for-emergency-dental-ca": {
       "signal_label": "HOLD",
-      "latest_value": 36.0,
-      "prior_avg": 36.7143,
-      "signal_change": -0.0195,
+      "latest_value": 32.0,
+      "prior_avg": 36.5714,
+      "signal_change": -0.125,
       "name": "Daily Jump In Google Trends Searches For Emergency Dental Care",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04",
+      "last_run": "2026-06-05",
       "entry_date": "2026-06-01"
     }
   }

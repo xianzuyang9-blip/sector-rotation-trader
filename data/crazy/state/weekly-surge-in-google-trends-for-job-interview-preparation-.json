@@ -936,19 +936,29 @@
       "positions": {},
       "sector": "Weekly Surge In Google Trends For Job Interview Preparation Searches",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Job Interview Preparation Searches",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-04",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "weekly-surge-in-google-trends-for-job-interview-preparation-": {
       "signal_label": "HOLD",
       "name": "Weekly Surge In Google Trends For Job Interview Preparation Searches",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04",
-      "latest_value": 16.0,
-      "prior_avg": 23.7143,
-      "signal_change": -0.3253
+      "last_run": "2026-06-05",
+      "latest_value": 14.0,
+      "prior_avg": 24.2857,
+      "signal_change": -0.4235
     }
   }
 }

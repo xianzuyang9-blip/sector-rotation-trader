@@ -745,10 +745,20 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99958.22,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99958.22,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-03-05",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "daily-spike-in-google-trends-for-emergency-plumber-signals-c": {
       "signal_label": "HOLD",
@@ -757,7 +767,7 @@
       "signal_change": -0.5,
       "name": "Daily Spike In Google Trends For Emergency Plumber Signals Consumer Home Repair Stress",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04"
+      "last_run": "2026-06-05"
     }
   }
 }

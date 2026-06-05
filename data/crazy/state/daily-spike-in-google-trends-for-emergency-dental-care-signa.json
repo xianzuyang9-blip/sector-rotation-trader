@@ -995,19 +995,29 @@
       "positions": {},
       "sector": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 100007.97,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100007.97,
+      "positions": {},
+      "sector": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-02-05",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "daily-spike-in-google-trends-for-emergency-dental-care-signa": {
-      "latest_value": 60.0,
-      "prior_avg": 35.0,
-      "signal_change": 0.7143,
+      "latest_value": 32.0,
+      "prior_avg": 36.5714,
+      "signal_change": -0.125,
       "signal_label": "HOLD",
       "name": "Daily Spike In Google Trends For Emergency Dental Care Signals Consumer Stress Impacting Health Sector",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04",
+      "last_run": "2026-06-05",
       "entry_date": "2026-06-04"
     }
   }

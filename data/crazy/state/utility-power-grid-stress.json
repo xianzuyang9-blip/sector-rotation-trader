@@ -1,10 +1,19 @@
 {
-  "cash": 99894.61946874502,
+  "cash": 94889.93849530777,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 80.73310236571928,
+  "fees_paid": 90.68310236571928,
   "taxes_paid": 0.0,
-  "positions": {},
+  "positions": {
+    "XLU": {
+      "shares": 112.62076990491337,
+      "entry_price": 44.349998474121094,
+      "entry_date": "2026-06-05",
+      "cost": 4994.730973437251,
+      "using_margin": false,
+      "consec_below_ma": 0
+    }
+  },
   "trade_log": [
     {
       "date": "2026-05-19",
@@ -101,6 +110,16 @@
       "pnl_pct": -0.68,
       "entry_date": "2026-05-29",
       "reason": "rebalance"
+    },
+    {
+      "date": "2026-06-05",
+      "action": "BUY",
+      "ticker": "XLU",
+      "shares": 112.6208,
+      "price": 44.35,
+      "cost": 4994.73,
+      "margin": false,
+      "fees": 9.95
     }
   ],
   "daily_snapshots": [
@@ -1390,19 +1409,40 @@
       "positions": {},
       "sector": "Utility Power Grid Stress",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 94889.94,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99884.67,
+      "positions": {
+        "XLU": {
+          "shares": 112.6208,
+          "entry_price": 44.35,
+          "current_price": 44.35,
+          "market_value": 4994.73,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-06-05",
+          "margin": false
+        }
+      },
+      "sector": "Utility Power Grid Stress",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "utility-power-grid-stress": {
-      "signal_label": "HOLD",
+      "signal_label": "RISK_ON",
       "name": "Utility Power Grid Stress",
-      "last_signal": "HOLD",
-      "last_run": "2026-06-04",
-      "latest_value": 8908506.0,
-      "prior_avg": 10779493.9643,
-      "signal_change": -0.1736
+      "last_signal": "RISK_ON",
+      "last_run": "2026-06-05",
+      "latest_value": 12090043.0,
+      "prior_avg": 11306215.4286,
+      "signal_change": 0.0693,
+      "entry_date": "2026-06-05"
     }
   }
 }

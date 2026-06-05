@@ -1,19 +1,10 @@
 {
-  "cash": 94967.54866787333,
+  "cash": 99864.25023643678,
   "borrowed": 0.0,
   "accrued_interest": 0.0,
-  "fees_paid": 30.126144932922173,
+  "fees_paid": 40.347016922452944,
   "taxes_paid": 0.0,
-  "positions": {
-    "XLE": {
-      "shares": 85.08622501041285,
-      "entry_price": 58.75,
-      "entry_date": "2026-06-04",
-      "cost": 4998.815719361754,
-      "using_margin": false,
-      "consec_below_ma": 0
-    }
-  },
+  "positions": {},
   "trade_log": [
     {
       "date": "2026-05-27",
@@ -48,6 +39,20 @@
       "cost": 4998.82,
       "margin": false,
       "fees": 9.95
+    },
+    {
+      "date": "2026-06-05",
+      "action": "SELL",
+      "ticker": "XLE",
+      "shares": 85.0862,
+      "price": 57.67,
+      "proceeds": 4896.7,
+      "fees": 10.22,
+      "tax": 0.0,
+      "pnl": -102.11,
+      "pnl_pct": -2.04,
+      "entry_date": "2026-06-04",
+      "reason": "rebalance"
     }
   ],
   "daily_snapshots": [
@@ -1130,19 +1135,29 @@
       },
       "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99864.25,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99864.25,
+      "positions": {},
+      "sector": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-23",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "weekly-rise-in-google-trends-searches-for-gas-price-protest-": {
-      "signal_label": "RISK_ON",
+      "signal_label": "HOLD",
       "name": "Weekly Rise In Google Trends Searches For Gas Price Protest Signals Bearish Xle",
-      "last_signal": "RISK_ON",
-      "last_run": "2026-06-04",
-      "latest_value": 5.0,
-      "prior_avg": 3.5357,
-      "signal_change": 0.4141,
+      "last_signal": "HOLD",
+      "last_run": "2026-06-05",
+      "latest_value": 3.0,
+      "prior_avg": 2.5714,
+      "signal_change": 0.1667,
       "entry_date": "2026-06-04"
     }
   }

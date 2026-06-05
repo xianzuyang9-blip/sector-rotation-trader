@@ -1932,6 +1932,26 @@
       },
       "sector": "Insider Trading Signals",
       "num_positions": 1
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 49447.74,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99755.55,
+      "positions": {
+        "XLP": {
+          "shares": 602.922,
+          "entry_price": 82.03,
+          "current_price": 83.44,
+          "market_value": 50307.81,
+          "unrealized_pnl": 850.12,
+          "entry_date": "2026-06-01",
+          "margin": false
+        }
+      },
+      "sector": "Insider Trading Signals",
+      "num_positions": 1
     }
   ],
   "sim_start": "2026-01-16"

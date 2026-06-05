@@ -1779,19 +1779,29 @@
       "positions": {},
       "sector": "Xle Weekly Drawdown Rebound Signal",
       "num_positions": 0
+    },
+    {
+      "date": "2026-06-05",
+      "cash": 99644.75,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99644.75,
+      "positions": {},
+      "sector": "Xle Weekly Drawdown Rebound Signal",
+      "num_positions": 0
     }
   ],
   "sim_start": "2026-01-18",
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "meta": {
     "xle-weekly-drawdown-rebound-signal": {
-      "latest_value": 58.75,
-      "prior_avg": 58.0984,
-      "signal_change": 0.0112,
+      "latest_value": 57.67,
+      "prior_avg": 58.2458,
+      "signal_change": -0.0099,
       "signal_label": "HOLD",
       "name": "Xle Weekly Drawdown Rebound Signal",
       "last_signal": "HOLD",
-      "last_run": "2026-06-04",
+      "last_run": "2026-06-05",
       "entry_date": "2026-05-20"
     }
   }
