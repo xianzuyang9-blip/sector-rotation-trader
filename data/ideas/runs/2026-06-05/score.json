@@ -1,0 +1,149 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-usgs-earthquake-activity-within-logistic-hubs",
+    "title": "Daily Spike In Usgs Earthquake Activity Within Logistic Hubs Signals Short-term Freight Disruptions",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "title": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-fred-weekly-initial-jobless-claims-signals-ne",
+    "title": "Daily Surge In Fred Weekly Initial Jobless Claims Signals Near-term Labor Market Stress",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "title": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-google-trends-for-emergency-roadside-assistan",
+    "title": "Daily Surge In Google Trends For Emergency Roadside Assistance Signals Rising Consumer Stress And Potential Discretionary Weakness",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-freight-truck-driver-short",
+    "title": "Weekly Surge In Google Trends For Freight Truck Driver Shortage Signals Logistics Sector Tightness",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-google-trends-for-construction-labor-shortag",
+    "title": "Weekly Spike In Google Trends For Construction Labor Shortage Signals Industrial And Materials Sector Tightness",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-fred-industrial-production-index-signals-ris",
+    "title": "Weekly Spike In Fred Industrial Production Index Signals Rising Industrial Sector Demand Momentum",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-airline-strike-signals-upc",
+    "title": "Weekly Surge In Google Trends For Airline Strike Signals Upcoming Travel Mobility Disruptions",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-battery-shortage-signals-gr",
+    "title": "Weekly Rise In Google Trends For Battery Shortage Signals Green Energy Supply Chain Stress",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-fred-cpi-producer-price-index-signals-increa",
+    "title": "Weekly Spike In Fred Cpi Producer Price Index Signals Increasing Input Cost Pressure For Industrials",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "oil-price-contango-curve-steepens-on-supply-fear",
+    "title": "Oil Price Contango Curve Steepens On Supply Fear",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "corporate-bond-issuance-surge-signals-credit-confidence-reve",
+    "title": "Corporate Bond Issuance Surge Signals Credit Confidence Reversal",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "copper-price-volatility-spike-signals-industrial-uncertainty",
+    "title": "Copper Price Volatility Spike Signals Industrial Uncertainty",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "gasoline-price-spike-triggers-consumer-staples-rotation",
+    "title": "Gasoline Price Spike Triggers Consumer Staples Rotation",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "lumber-price-rebound-signals-housing-demand-resurgence",
+    "title": "Lumber Price Rebound Signals Housing Demand Resurgence",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "initial-jobless-claims-spike-triggers-defensive-rotation",
+    "title": "Initial Jobless Claims Spike Triggers Defensive Rotation",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "temperature-extreme-surge-drives-utility-demand",
+    "title": "Temperature Extreme Surge Drives Utility Demand",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "trucking-freight-tonnage-collapse-signals-industrial-recessi",
+    "title": "Trucking Freight Tonnage Collapse Signals Industrial Recession",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "hospital-admission-rates-spike-signals-healthcare-spending-u",
+    "title": "Hospital Admission Rates Spike Signals Healthcare Spending Urgency",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "mortgage-application-volume-cliff-signals-real-estate-demand",
+    "title": "Mortgage Application Volume Cliff Signals Real Estate Demand Shock",
+    "family": "local_economy_weirdness",
+    "score": 100
+  }
+]

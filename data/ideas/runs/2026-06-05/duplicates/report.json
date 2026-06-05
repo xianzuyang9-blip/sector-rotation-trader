@@ -1,0 +1,292 @@
+{
+  "date": "2026-06-05",
+  "input_count": 25,
+  "kept_count": 21,
+  "duplicate_count": 4,
+  "kept_by_source": {
+    "chatgpt": 11,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+      "title": "Daily Spike In Google Trends For Emergency Childcare Near Me Signals Rising Consumer Stress Impacting Discretionary Spending",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily spike in google trends for emergency childcare near me",
+        "matched_idea_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-spike-in-google-trends-for-emergency-childcare-near-me",
+        "title": "Daily Spike In Google Trends For Emergency Childcare Near Me Signals Rising Consumer Stress Impacting Discretionary Spending",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increased emergency childcare searches indicate household stress that can reduce discretionary spending temporarily. Discretionary sector vulnerable to consumer spending pullback during family stress periods.",
+        "data_sources": [
+          "Google Trends daily search interest for 'emergency childcare near me'"
+        ],
+        "signal_logic": "Enter short XLY when daily search interest spikes 30% above 7-day moving average",
+        "entry_exit": "Entry: Enter short XLY when daily search interest spikes 30% above 7-day moving average Exit: Exit after 7 trading days or when daily searches revert below 7-day MA",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'emergency childcare near me' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Family emergency related searches vary frequently with local conditions, triggering many short-term spikes.",
+        "schema": {
+          "idea": "Daily spike in Google Trends for 'emergency childcare near me' signals rising consumer stress impacting discretionary spending",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'emergency childcare near me'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Increased emergency childcare searches indicate household stress that can reduce discretionary spending temporarily.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLY",
+            "rationale": "Discretionary sector vulnerable to consumer spending pullback during family stress periods."
+          },
+          "trade_logic": {
+            "entry": "Enter short XLY when daily search interest spikes 30% above 7-day moving average",
+            "exit": "Exit after 7 trading days or when daily searches revert below 7-day MA",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Family emergency related searches vary frequently with local conditions, triggering many short-term spikes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+      "title": "Daily Jump In Google Trends For Emergency Hvac Repair Signals Consumer Stress Driving Staples Sector Demand",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily jump in google trends for emergency hvac repair signals consumer home repair stress",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+        "title": "Daily Jump In Google Trends For Emergency Hvac Repair Signals Consumer Stress Driving Staples Sector Demand",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spike in emergency HVAC repair searches indicates consumer stress around home comfort, boosting staples/energy demand. Staples sector benefits from urgent repair spending on home utilities and appliances.",
+        "data_sources": [
+          "Google Trends daily search interest for 'emergency HVAC repair'"
+        ],
+        "signal_logic": "Enter long XLP when daily search interest rises 30% above 7-day average",
+        "entry_exit": "Entry: Enter long XLP when daily search interest rises 30% above 7-day average Exit: Exit after 7 trading days or when daily searches drop below 7-day average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'emergency HVAC repair' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Home repair emergencies fluctuate frequently with weather and seasonality, triggering multiple spikes monthly.",
+        "schema": {
+          "idea": "Daily jump in Google Trends for 'emergency HVAC repair' signals consumer stress driving staples sector demand",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'emergency HVAC repair'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spike in emergency HVAC repair searches indicates consumer stress around home comfort, boosting staples/energy demand.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Staples sector benefits from urgent repair spending on home utilities and appliances."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLP when daily search interest rises 30% above 7-day average",
+            "exit": "Exit after 7 trading days or when daily searches drop below 7-day average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Home repair emergencies fluctuate frequently with weather and seasonality, triggering multiple spikes monthly.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-warehouse-labor-strike-sig",
+      "title": "Weekly Surge In Google Trends For Warehouse Labor Strike Signals Industrial Sector Labor Disruptions",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for warehouse labor strike signals freight disruption",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-warehouse-labor-strike-sig",
+        "matched_origin": "history:2026-05-11",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-warehouse-labor-strike-sig",
+        "title": "Weekly Surge In Google Trends For Warehouse Labor Strike Signals Industrial Sector Labor Disruptions",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increasing strike-related searches indicate potential labor disruptions impacting warehouse and industrial operations. Labor disruptions reduce operational efficiency and pressure industrial sector earnings.",
+        "data_sources": [
+          "Google Trends weekly search interest for 'warehouse labor strike'"
+        ],
+        "signal_logic": "Enter short XLI when weekly search interest jumps 30% week-over-week",
+        "entry_exit": "Entry: Enter short XLI when weekly search interest jumps 30% week-over-week Exit: Exit after 4 weeks or when search interest falls below 10% growth",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLI"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest for 'warehouse labor strike' via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor disputes in warehousing frequently trend in news and searches, providing repeatable signals.",
+        "schema": {
+          "idea": "Weekly surge in Google Trends for 'warehouse labor strike' signals industrial sector labor disruptions",
+          "family": "labor_jobs",
+          "data": {
+            "source": "Google Trends weekly search interest for 'warehouse labor strike'",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Increasing strike-related searches indicate potential labor disruptions impacting warehouse and industrial operations.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLI",
+            "rationale": "Labor disruptions reduce operational efficiency and pressure industrial sector earnings."
+          },
+          "trade_logic": {
+            "entry": "Enter short XLI when weekly search interest jumps 30% week-over-week",
+            "exit": "Exit after 4 weeks or when search interest falls below 10% growth",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor disputes in warehousing frequently trend in news and searches, providing repeatable signals.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-urgent-dental-surgery-signal",
+      "title": "Daily Jump In Google Trends For Urgent Dental Surgery Signals Healthcare Sector Consumer Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.625,
+        "matched_title": "daily jump in google trends for emergency dental care signals consumer stress lifting healthcare sector demand",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-dental-care-signal",
+        "matched_origin": "history:2026-05-13",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-urgent-dental-surgery-signal",
+        "title": "Daily Jump In Google Trends For Urgent Dental Surgery Signals Healthcare Sector Consumer Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Rising urgent dental surgery searches reflect acute consumer healthcare needs boosting sector demand. Healthcare providers and supplies benefit from increased urgent care demand.",
+        "data_sources": [
+          "Google Trends daily search interest for 'urgent dental surgery'"
+        ],
+        "signal_logic": "Enter long XLV when daily search interest rises 30% above 7-day average",
+        "entry_exit": "Entry: Enter long XLV when daily search interest rises 30% above 7-day average Exit: Exit after 7 trading days or when interest drops below 7-day average",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLV"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest for 'urgent dental surgery' via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Healthcare-related urgent care searches fluctuate frequently with seasonal and local factors.",
+        "schema": {
+          "idea": "Daily jump in Google Trends for 'urgent dental surgery' signals healthcare sector consumer stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest for 'urgent dental surgery'",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Rising urgent dental surgery searches reflect acute consumer healthcare needs boosting sector demand.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLV",
+            "rationale": "Healthcare providers and supplies benefit from increased urgent care demand."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLV when daily search interest rises 30% above 7-day average",
+            "exit": "Exit after 7 trading days or when interest drops below 7-day average",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Healthcare-related urgent care searches fluctuate frequently with seasonal and local factors.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
