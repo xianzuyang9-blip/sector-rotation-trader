@@ -1,0 +1,19 @@
+FEATURE IDEAS RUN — 2026-06-05
+==================================================
+
+Total PRDs generated: 8
+
+ChatGPT (OpenAI): 4 ideas
+  1. Failure Waterfall
+  2. Signal Divergence Flags
+  3. Alt-Data Signal Explorer
+  4. Receipts Guy Trade Ledger
+
+Claude (Anthropic): 4 ideas
+  1. Force Rank Divergence View
+  2. Receipts Export (CSV + Trade Log)
+  3. Signal Bucket Classifier
+  4. Rolling P&L vs SPY Comparison Chart
+
+==================================================
+PRDs saved to: drafts/features/2026-06-05/
