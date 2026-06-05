@@ -34,6 +34,23 @@
     "source_file": "drafts/features/2026-05-15/openai-feature-02-trade-failure-highlight-reel.md"
   },
   {
+    "feature_name": "Receipts Guy Trade Ledger",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 3,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 9,
+    "adjusted_score": 14.4,
+    "top_viral_mechanic": "Raw, unfiltered trade logs with explicit loss visibility let skeptical traders prove signal legitimacy to peers\u2014directly counters fintech hype and becomes shareable proof of integrity.",
+    "biggest_weakness": "No incentive loop: viewing a ledger doesn't require or encourage inviting others, so viral spread stops at individual verification rather than network growth.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-06-05/openai-feature-04-receipts-guy-trade-ledger.md"
+  },
+  {
     "feature_name": "Receipts Guy's Trade History Scroll",
     "scores": {
       "proof_of_work": 3,
@@ -255,6 +272,23 @@
     "source_file": "drafts/features/2026-05-29/openai-feature-02-receipts-guy-s-raw-trade-log-access.md"
   },
   {
+    "feature_name": "Failure Waterfall",
+    "scores": {
+      "proof_of_work": 4,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 8,
+    "adjusted_score": 9.6,
+    "top_viral_mechanic": "Lets skeptical traders prove signal honesty to peers by sharing unvarnished loss sequences\u2014the anti-hype receipts that build credibility in r/algotrading.",
+    "biggest_weakness": "Zero network effects or invitation mechanics; users consume it privately without natural sharing triggers or reasons to invite others.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-06-05/openai-feature-01-failure-waterfall.md"
+  },
+  {
     "feature_name": "Biscotti's Failures Gallery",
     "scores": {
       "proof_of_work": 4,
@@ -355,6 +389,23 @@
     "biggest_weakness": "No built-in sharing mechanism or social loop\u2014users must manually screenshot or link; decay curves are inherently introspective rather than externally validating.",
     "verdict": "BUILD_NOW",
     "source_file": "drafts/features/2026-05-22/openai-feature-01-signal-decay-curves.md"
+  },
+  {
+    "feature_name": "Alt-Data Signal Explorer",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 2,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.96,
+    "top_viral_mechanic": "Grouping failures by data source (Satellite Dust, Tweets & Whispers) lets users publicly call out which alt-data is noise\u2014high-status contrarian take for r/algotrading.",
+    "biggest_weakness": "No incentive for users to share findings or invite others; it's a personal research tool that doesn't create shareable moments or competitive leaderboards.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-06-05/openai-feature-03-alt-data-signal-explorer.md"
   },
   {
     "feature_name": "Divergence View",
@@ -663,6 +714,57 @@
     "source_file": "drafts/features/2026-05-22/openai-feature-04-trade-log-time-machine.md"
   },
   {
+    "feature_name": "Force Rank Divergence View",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Catching rank contradictions (45th lifetime \u2192 1st in 30D) is genuinely interesting to r/algotrading and creates 'I found a hidden gem' proof-of-work moments worth sharing in Discord/Reddit.",
+    "biggest_weakness": "No invitation loop or network effect\u2014users don't need to recruit others to see divergence, and the feature doesn't improve with more users, so it's a one-time discovery tool, not a viral loop.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-06-05/anthropic-feature-01-force-rank-divergence-view.md"
+  },
+  {
+    "feature_name": "Receipts Export (CSV + Trade Log)",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Enables independent verification and audit trail sharing\u2014users can prove to skeptics that stockarithm publishes real losses, turning transparency into credibility currency within r/algotrading.",
+    "biggest_weakness": "No built-in sharing mechanism; a user must manually send CSV to others, so the viral loop is broken\u2014it's a tool for personal verification, not social proof.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-06-05/anthropic-feature-02-receipts-export-csv-trade-log.md"
+  },
+  {
+    "feature_name": "Signal Bucket Classifier",
+    "scores": {
+      "proof_of_work": 3,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 5
+    },
+    "viral_total": 7,
+    "adjusted_score": 8.4,
+    "top_viral_mechanic": "Deterministic, published classification rules let users credibly claim they found alpha early in UNRESOLVED bucket\u2014proof of work without hype.",
+    "biggest_weakness": "No incentive loop or social sharing mechanic; users consume the classification privately and don't need to invite others to extract value.",
+    "verdict": "BUILD_NOW",
+    "source_file": "drafts/features/2026-06-05/anthropic-feature-03-signal-bucket-classifier.md"
+  },
+  {
     "feature_name": "Signal Bucket Explorer",
     "scores": {
       "proof_of_work": 2,
@@ -918,6 +1020,23 @@
     "source_file": "drafts/features/2026-05-01/openai-feature-03-alt-data-signal-lifecycle-tracker.md"
   },
   {
+    "feature_name": "Signal Divergence Flags",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 2,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 3
+    },
+    "viral_total": 6,
+    "adjusted_score": 5.04,
+    "top_viral_mechanic": "Flags surface anomalies that power users can screenshot and discuss in r/algotrading as 'look what I caught,' creating modest proof-of-work for signal hunters.",
+    "biggest_weakness": "Feature is a leaderboard filter\u2014purely internal utility with zero incentive to share findings publicly or invite others; no built-in social loop or public evidence trail.",
+    "verdict": "BUILD_LATER",
+    "source_file": "drafts/features/2026-06-05/openai-feature-02-signal-divergence-flags.md"
+  },
+  {
     "feature_name": "Streak & Fade View",
     "scores": {
       "proof_of_work": 2,
@@ -995,6 +1114,23 @@
     "biggest_weakness": "Feature is purely explanatory/defensive\u2014it solves confusion but creates zero shareable moments, no invitation loop, and no reason to tell others about it.",
     "verdict": "BUILD_LATER",
     "source_file": "drafts/features/2026-05-29/openai-feature-03-bucket-divergence-flags.md"
+  },
+  {
+    "feature_name": "Rolling P&L vs SPY Comparison Chart",
+    "scores": {
+      "proof_of_work": 2,
+      "invitation_loop": 1,
+      "public_evidence": 1,
+      "cooperative_gain": 1,
+      "build_complexity": 2,
+      "stockarithm_fit": 4
+    },
+    "viral_total": 5,
+    "adjusted_score": 4.8,
+    "top_viral_mechanic": "Exposes underperformance vs SPY in real time, letting users publicly call out dead signals\u2014but only if they share the link.",
+    "biggest_weakness": "Chart lives on algo detail page; zero incentive to share it, no social footprint, no proof-of-work currency for the viewer.",
+    "verdict": "BUILD_LATER",
+    "source_file": "drafts/features/2026-06-05/anthropic-feature-04-rolling-p-l-vs-spy-comparison-chart.md"
   },
   {
     "feature_name": "Force Rank Divergence View",
