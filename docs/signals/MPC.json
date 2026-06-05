@@ -2,15 +2,15 @@
   "ticker": "MPC",
   "sector": "Energy",
   "sector_etf": "XLE",
-  "composite": "5 of 51",
+  "composite": "5 of 54",
   "composite_label": "BEARISH",
   "composite_color": "red",
   "bullish": 5,
-  "bearish": 46,
-  "neutral": 352,
-  "total_signals": 403,
-  "total_active": 51,
-  "bullish_pct": 10,
+  "bearish": 49,
+  "neutral": 365,
+  "total_signals": 419,
+  "total_active": 54,
+  "bullish_pct": 9,
   "breakdown": [
     {
       "algo_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
@@ -148,12 +148,30 @@
       "beat_spy": false
     },
     {
+      "algo_id": "healthcare-cost-search-spike-signals-staples-defensive-rotat",
+      "name": "Healthcare Cost Search Spike Signals Staples Defensive Rotation",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-surge-in-google-trends-for-electric-vehicle-battery-re",
       "name": "Daily Surge In Google Trends For Electric Vehicle Battery Recycling Signals Green Tech Demand Shift",
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 68,
       "ytd_pct": -0.21,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-credit-card-payment-delay-i",
+      "name": "Daily Spike In Google Trends For Credit Card Payment Delay Indicates Rising Consumer Financial Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -238,6 +256,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-google-trends-surge-in-cold-storage-warehouse-rental-",
+      "name": "Weekly Google Trends Surge In Cold Storage Warehouse Rental Signals Food Supply Chain Tightness",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "daily-spike-in-google-trends-for-emergency-childcare-searche",
       "name": "Daily Spike In Google Trends For Emergency Childcare Searches Signals Working Parent Stress",
       "algo_type": "crazy",
@@ -306,6 +333,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 74,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-last-minute-vacation-renta",
+      "name": "Weekly Surge In Google Trends For Last-minute Vacation Rentals Signals Travel Bounce",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -478,6 +514,24 @@
       "direction": "NEUTRAL",
       "days_running": 101,
       "ytd_pct": -0.02,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-google-trends-surge-in-home-office-furniture-sale-sig",
+      "name": "Weekly Google Trends Surge In Home Office Furniture Sale Signals Consumer Discretionary Bounce",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-jump-in-google-trends-for-job-market-reskilling-course",
+      "name": "Daily Jump In Google Trends For Job Market Reskilling Courses Indicates Labor Market Shift",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -837,6 +891,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 86,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-roadside-assistance-near-me",
+      "name": "Daily Surge In Google Trends For Roadside Assistance Near Me Indicates Consumer Auto Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -1597,6 +1660,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "utility-sector-relative-strength-reversal-after-volatility-c",
+      "name": "Utility Sector Relative Strength Reversal After Volatility Crush",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "ev-charger-expansion-velocity-boom",
       "name": "Ev Charger Expansion Velocity Boom",
       "algo_type": "crazy",
@@ -1858,6 +1930,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+      "name": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.01,
+      "beat_spy": false
+    },
+    {
       "algo_id": "weekly-spike-in-google-trends-for-railway-crossing-malfuncti",
       "name": "Weekly Spike In Google Trends For Railway Crossing Malfunction Signals Freight Sector Risk",
       "algo_type": "crazy",
@@ -2044,6 +2125,15 @@
       "direction": "BEARISH",
       "days_running": 102,
       "ytd_pct": 0.08,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-emergency-plumbing-services",
+      "name": "Daily Surge In Google Trends For Emergency Plumbing Services Signals Home Repair Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -2371,6 +2461,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+      "name": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.01,
+      "beat_spy": false
+    },
+    {
       "algo_id": "weekly-jump-in-google-trends-for-small-business-layoffs-sign",
       "name": "Weekly Jump In Google Trends For Small Business Layoffs Signals Consumer Discretionary Downturn",
       "algo_type": "crazy",
@@ -2587,6 +2686,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "used-car-price-rally-google-trends-signals-discretionary-dem",
+      "name": "Used Car Price Rally Google Trends Signals Discretionary Demand Rebound",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "vix-fear-rotation",
       "name": "VIX Fear Rotation",
       "algo_type": "crazy",
@@ -2650,6 +2758,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "warehouse-robotics-news-surge-signals-industrial-tech-demand",
+      "name": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.01,
+      "beat_spy": false
+    },
+    {
       "algo_id": "tech-stock-earnings-misses-trigger-volatility-expansion-in-s",
       "name": "Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings",
       "algo_type": "crazy",
@@ -2695,6 +2812,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-dental-care-indic",
+      "name": "Daily Spike In Google Trends For Emergency Dental Care Indicates Healthcare Consumer Stress",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
       "algo_id": "reddit-sentiment-spike-trend",
       "name": "Reddit Sentiment Spike Trend",
       "algo_type": "crazy",
@@ -2709,6 +2835,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 98,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-google-trends-surge-in-electric-truck-orders-signals-",
+      "name": "Weekly Google Trends Surge In Electric Truck Orders Signals Industrial Ev Demand Growth",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -3078,6 +3213,15 @@
       "algo_type": "crazy",
       "direction": "NEUTRAL",
       "days_running": 111,
+      "ytd_pct": 0.0,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "ev-charger-installation-acceleration-signals-clean-energy-ca",
+      "name": "Ev Charger Installation Acceleration Signals Clean Energy Capex Surge",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
       "ytd_pct": 0.0,
       "beat_spy": false
     },
@@ -3640,7 +3784,7 @@
       "beat_spy": false
     }
   ],
-  "generated": "2026-06-04",
+  "generated": "2026-06-05",
   "lab_started": "2026-01-11",
   "disclaimer": "This is an experimental signal lab. Not financial advice. Signals are research outputs, not recommendations to buy, sell, or hold any asset. Signals can and will fail. Past performance does not guarantee future results. Results are simulated/model outputs and may not reflect slippage, fees, liquidity, execution delays, or market impact. Third-party data may be incomplete, delayed, inaccurate, or revised. Do your own research and consult a qualified professional before making investment decisions. Paper-traded only \u2014 no real money at risk."
 }

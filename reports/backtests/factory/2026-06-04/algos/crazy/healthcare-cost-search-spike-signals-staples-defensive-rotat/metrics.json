@@ -1,0 +1,9 @@
+{
+  "algo_id": "healthcare-cost-search-spike-signals-staples-defensive-rotat",
+  "name": "Healthcare Cost Search Spike Signals Staples Defensive Rotation",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "metrics": {},
+  "run_date": "2026-06-04"
+}

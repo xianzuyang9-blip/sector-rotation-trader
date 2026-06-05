@@ -1,0 +1,169 @@
+{
+  "run_date": "2026-06-04",
+  "start": "2024-01-01",
+  "end": "2026-06-04",
+  "slippage_bps": 5.0,
+  "generated_at": "2026-06-05T00:08:35Z",
+  "counts": {
+    "LIVE_ONLY_NON_PRICE": 15,
+    "INSUFFICIENT_ACTIVITY": 1
+  },
+  "results": [
+    {
+      "algo_id": "daily-jump-in-google-trends-for-job-market-reskilling-course",
+      "name": "Daily Jump In Google Trends For Job Market Reskilling Courses Indicates Labor Market Shift",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-credit-card-payment-delay-i",
+      "name": "Daily Spike In Google Trends For Credit Card Payment Delay Indicates Rising Consumer Financial Stress",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "daily-spike-in-google-trends-for-emergency-dental-care-indic",
+      "name": "Daily Spike In Google Trends For Emergency Dental Care Indicates Healthcare Consumer Stress",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-emergency-plumbing-services",
+      "name": "Daily Surge In Google Trends For Emergency Plumbing Services Signals Home Repair Stress",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "daily-surge-in-google-trends-for-roadside-assistance-near-me",
+      "name": "Daily Surge In Google Trends For Roadside Assistance Near Me Indicates Consumer Auto Stress",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "ev-charger-installation-acceleration-signals-clean-energy-ca",
+      "name": "Ev Charger Installation Acceleration Signals Clean Energy Capex Surge",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.openchargemap",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "healthcare-cost-search-spike-signals-staples-defensive-rotat",
+      "name": "Healthcare Cost Search Spike Signals Staples Defensive Rotation",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+      "name": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "used-car-price-rally-google-trends-signals-discretionary-dem",
+      "name": "Used Car Price Rally Google Trends Signals Discretionary Demand Rebound",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "utility-sector-relative-strength-reversal-after-volatility-c",
+      "name": "Utility Sector Relative Strength Reversal After Volatility Crush",
+      "family": "crazy",
+      "status": "INSUFFICIENT_ACTIVITY",
+      "reason": "Backtest completed",
+      "metrics": {
+        "total_return_pct": 0.0,
+        "spy_return_pct": 63.97,
+        "alpha_vs_spy_pct": -63.97,
+        "max_drawdown_pct": 0.0,
+        "spy_max_drawdown_pct": -18.76,
+        "sharpe": 0.0,
+        "spy_sharpe": 1.09,
+        "trade_count": 0,
+        "sell_count": 0,
+        "win_rate_pct": 0.0,
+        "turnover": 0.0
+      },
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "warehouse-robotics-news-surge-signals-industrial-tech-demand",
+      "name": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "weekly-google-trends-surge-in-cold-storage-warehouse-rental-",
+      "name": "Weekly Google Trends Surge In Cold Storage Warehouse Rental Signals Food Supply Chain Tightness",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "weekly-google-trends-surge-in-electric-truck-orders-signals-",
+      "name": "Weekly Google Trends Surge In Electric Truck Orders Signals Industrial Ev Demand Growth",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "weekly-google-trends-surge-in-home-office-furniture-sale-sig",
+      "name": "Weekly Google Trends Surge In Home Office Furniture Sale Signals Consumer Discretionary Bounce",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-last-minute-vacation-renta",
+      "name": "Weekly Surge In Google Trends For Last-minute Vacation Rentals Signals Travel Bounce",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    },
+    {
+      "algo_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+      "name": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+      "metrics": {},
+      "run_date": "2026-06-04"
+    }
+  ]
+}

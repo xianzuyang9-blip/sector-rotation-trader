@@ -1,0 +1,9 @@
+{
+  "algo_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+  "name": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "metrics": {},
+  "run_date": "2026-06-04"
+}

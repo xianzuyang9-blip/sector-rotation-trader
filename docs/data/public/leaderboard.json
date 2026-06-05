@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-06-04T23:59:21Z",
+  "generated_at": "2026-06-05T00:09:07Z",
   "counts": {
-    "total": 403,
+    "total": 419,
     "beating_spy": 1
   },
   "algos": [
@@ -1375,6 +1375,114 @@
             "direction": "DOWN",
             "confidence": 0.435,
             "return_pct": -2.177
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+      "name": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
+      "family": "freight_logistics",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -4.61,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.272,
+            "return_pct": 1.358
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.08,
+            "return_pct": -0.401
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:warehouse-robotics-news-surge-signals-industrial-tech-demand",
+      "algo_type": "crazy",
+      "algo_id": "warehouse-robotics-news-surge-signals-industrial-tech-demand",
+      "name": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -4.61,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.676,
+            "return_pct": 3.382
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 13.609
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:port-congestion-news-spike-signals-logistics-headwind-revers",
+      "algo_type": "crazy",
+      "algo_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+      "name": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade",
+      "family": "freight_logistics",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -4.61,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.272,
+            "return_pct": 1.358
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.08,
+            "return_pct": -0.401
           }
         },
         "summary": "mixed"
@@ -13597,6 +13705,474 @@
           }
         },
         "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-last-minute-vacation-renta",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-last-minute-vacation-renta",
+      "name": "Weekly Surge In Google Trends For Last-minute Vacation Rentals Signals Travel Bounce",
+      "family": "travel_mobility",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.786,
+            "return_pct": -3.932
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.435,
+            "return_pct": -2.177
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-google-trends-surge-in-home-office-furniture-sale-sig",
+      "algo_type": "crazy",
+      "algo_id": "weekly-google-trends-surge-in-home-office-furniture-sale-sig",
+      "name": "Weekly Google Trends Surge In Home Office Furniture Sale Signals Consumer Discretionary Bounce",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.786,
+            "return_pct": -3.932
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.435,
+            "return_pct": -2.177
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-google-trends-surge-in-electric-truck-orders-signals-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-google-trends-surge-in-electric-truck-orders-signals-",
+      "name": "Weekly Google Trends Surge In Electric Truck Orders Signals Industrial Ev Demand Growth",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.272,
+            "return_pct": 1.358
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.08,
+            "return_pct": -0.401
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-google-trends-surge-in-cold-storage-warehouse-rental-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-google-trends-surge-in-cold-storage-warehouse-rental-",
+      "name": "Weekly Google Trends Surge In Cold Storage Warehouse Rental Signals Food Supply Chain Tightness",
+      "family": "local_economy_weirdness",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.566,
+            "return_pct": -2.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.522,
+            "return_pct": -2.612
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:utility-sector-relative-strength-reversal-after-volatility-c",
+      "algo_type": "crazy",
+      "algo_id": "utility-sector-relative-strength-reversal-after-volatility-c",
+      "name": "Utility Sector Relative Strength Reversal After Volatility Crush",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLU",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.309,
+            "return_pct": -1.546
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.774,
+            "return_pct": -3.872
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:used-car-price-rally-google-trends-signals-discretionary-dem",
+      "algo_type": "crazy",
+      "algo_id": "used-car-price-rally-google-trends-signals-discretionary-dem",
+      "name": "Used Car Price Rally Google Trends Signals Discretionary Demand Rebound",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.786,
+            "return_pct": -3.932
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.435,
+            "return_pct": -2.177
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:healthcare-cost-search-spike-signals-staples-defensive-rotat",
+      "algo_type": "crazy",
+      "algo_id": "healthcare-cost-search-spike-signals-staples-defensive-rotat",
+      "name": "Healthcare Cost Search Spike Signals Staples Defensive Rotation",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.566,
+            "return_pct": -2.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.522,
+            "return_pct": -2.612
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:ev-charger-installation-acceleration-signals-clean-energy-ca",
+      "algo_type": "crazy",
+      "algo_id": "ev-charger-installation-acceleration-signals-clean-energy-ca",
+      "name": "Ev Charger Installation Acceleration Signals Clean Energy Capex Surge",
+      "family": "macro_input_pressure",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLU",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.309,
+            "return_pct": -1.546
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.774,
+            "return_pct": -3.872
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-surge-in-google-trends-for-roadside-assistance-near-me",
+      "algo_type": "crazy",
+      "algo_id": "daily-surge-in-google-trends-for-roadside-assistance-near-me",
+      "name": "Daily Surge In Google Trends For Roadside Assistance Near Me Indicates Consumer Auto Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.786,
+            "return_pct": -3.932
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.435,
+            "return_pct": -2.177
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-surge-in-google-trends-for-emergency-plumbing-services",
+      "algo_type": "crazy",
+      "algo_id": "daily-surge-in-google-trends-for-emergency-plumbing-services",
+      "name": "Daily Surge In Google Trends For Emergency Plumbing Services Signals Home Repair Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.566,
+            "return_pct": -2.831
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.522,
+            "return_pct": -2.612
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-google-trends-for-emergency-dental-care-indic",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-emergency-dental-care-indic",
+      "name": "Daily Spike In Google Trends For Emergency Dental Care Indicates Healthcare Consumer Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLV",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.159,
+            "return_pct": 0.795
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.919,
+            "return_pct": 4.594
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-spike-in-google-trends-for-credit-card-payment-delay-i",
+      "algo_type": "crazy",
+      "algo_id": "daily-spike-in-google-trends-for-credit-card-payment-delay-i",
+      "name": "Daily Spike In Google Trends For Credit Card Payment Delay Indicates Rising Consumer Financial Stress",
+      "family": "consumer_stress",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.359,
+            "return_pct": 1.794
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.135,
+            "return_pct": 0.675
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:daily-jump-in-google-trends-for-job-market-reskilling-course",
+      "algo_type": "crazy",
+      "algo_id": "daily-jump-in-google-trends-for-job-market-reskilling-course",
+      "name": "Daily Jump In Google Trends For Job Market Reskilling Courses Indicates Labor Market Shift",
+      "family": "labor_jobs",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "daily",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -4.6,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLF",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.359,
+            "return_pct": 1.794
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.135,
+            "return_pct": 0.675
+          }
+        },
+        "summary": "both_up"
       }
     }
   ]

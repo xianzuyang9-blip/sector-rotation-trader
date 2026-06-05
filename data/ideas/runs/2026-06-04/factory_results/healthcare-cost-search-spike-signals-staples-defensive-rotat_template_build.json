@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/claude_healthcare-cost-search-spike-signals-staples-defensive-rotat.md",
+  "out": "crazy/algos/healthcare_cost_search_spike_signals_staples_defensive_rotat.py",
+  "adapter": "google_trends",
+  "idea_id": "healthcare-cost-search-spike-signals-staples-defensive-rotat",
+  "name": "Healthcare Cost Search Spike Signals Staples Defensive Rotation",
+  "universe": [
+    "XLP"
+  ],
+  "frequency": "weekly",
+  "family": "consumer_stress",
+  "threshold": 0.45,
+  "direction": "up",
+  "hold_days": 9
+}

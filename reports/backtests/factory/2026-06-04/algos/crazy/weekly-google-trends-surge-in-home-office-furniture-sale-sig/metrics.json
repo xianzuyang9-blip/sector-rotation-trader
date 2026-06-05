@@ -1,0 +1,9 @@
+{
+  "algo_id": "weekly-google-trends-surge-in-home-office-furniture-sale-sig",
+  "name": "Weekly Google Trends Surge In Home Office Furniture Sale Signals Consumer Discretionary Bounce",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "metrics": {},
+  "run_date": "2026-06-04"
+}

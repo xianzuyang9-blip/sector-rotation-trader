@@ -1,0 +1,16 @@
+{
+  "adapter": "rss_count",
+  "algo_file": "crazy/algos/weekly_surge_in_rss_counts_for_port_congestion_news_signals_.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-06-04/build/chatgpt_weekly-surge-in-rss-counts-for-port-congestion-news-signals-.md",
+  "status": "completed_pending_run",
+  "backtest_status": "LIVE_ONLY_NON_PRICE",
+  "backtest_reason": "Uses non-price adapter: crazy.adapters.rss_count",
+  "backtest_alpha_vs_spy_pct": null,
+  "backtest_trade_count": null,
+  "backtest_report_dir": "reports/backtests/factory/2026-06-04/algos/crazy/weekly-surge-in-rss-counts-for-port-congestion-news-signals-"
+}

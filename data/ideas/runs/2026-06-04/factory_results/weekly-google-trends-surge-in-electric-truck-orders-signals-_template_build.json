@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/chatgpt_weekly-google-trends-surge-in-electric-truck-orders-signals-.md",
+  "out": "crazy/algos/weekly_google_trends_surge_in_electric_truck_orders_signals_.py",
+  "adapter": "google_trends",
+  "idea_id": "weekly-google-trends-surge-in-electric-truck-orders-signals-",
+  "name": "Weekly Google Trends Surge In Electric Truck Orders Signals Industrial Ev Demand Growth",
+  "universe": [
+    "XLI"
+  ],
+  "frequency": "weekly",
+  "family": "macro_input_pressure",
+  "threshold": 0.25,
+  "direction": "up",
+  "hold_days": 28
+}

@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/claude_ev-charger-installation-acceleration-signals-clean-energy-ca.md",
+  "out": "crazy/algos/ev_charger_installation_acceleration_signals_clean_energy_ca.py",
+  "adapter": "openchargemap",
+  "idea_id": "ev-charger-installation-acceleration-signals-clean-energy-ca",
+  "name": "Ev Charger Installation Acceleration Signals Clean Energy Capex Surge",
+  "universe": [
+    "XLU"
+  ],
+  "frequency": "weekly",
+  "family": "macro_input_pressure",
+  "threshold": 0.35,
+  "direction": "up",
+  "hold_days": 10
+}

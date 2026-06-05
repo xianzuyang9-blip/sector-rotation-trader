@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/chatgpt_weekly-google-trends-surge-in-cold-storage-warehouse-rental-.md",
+  "out": "crazy/algos/weekly_google_trends_surge_in_cold_storage_warehouse_rental_.py",
+  "adapter": "google_trends",
+  "idea_id": "weekly-google-trends-surge-in-cold-storage-warehouse-rental-",
+  "name": "Weekly Google Trends Surge In Cold Storage Warehouse Rental Signals Food Supply Chain Tightness",
+  "universe": [
+    "XLP"
+  ],
+  "frequency": "weekly",
+  "family": "local_economy_weirdness",
+  "threshold": 0.25,
+  "direction": "up",
+  "hold_days": 28
+}

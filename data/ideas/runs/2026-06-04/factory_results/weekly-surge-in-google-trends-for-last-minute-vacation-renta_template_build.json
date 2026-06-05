@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/chatgpt_weekly-surge-in-google-trends-for-last-minute-vacation-renta.md",
+  "out": "crazy/algos/weekly_surge_in_google_trends_for_last_minute_vacation_renta.py",
+  "adapter": "google_trends",
+  "idea_id": "weekly-surge-in-google-trends-for-last-minute-vacation-renta",
+  "name": "Weekly Surge In Google Trends For Last-minute Vacation Rentals Signals Travel Bounce",
+  "universe": [
+    "XLY"
+  ],
+  "frequency": "weekly",
+  "family": "travel_mobility",
+  "threshold": 0.15,
+  "direction": "up",
+  "hold_days": 28
+}

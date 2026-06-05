@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/claude_utility-sector-relative-strength-reversal-after-volatility-c.md",
+  "out": "crazy/algos/utility_sector_relative_strength_reversal_after_volatility_c.py",
+  "adapter": "price_only",
+  "idea_id": "utility-sector-relative-strength-reversal-after-volatility-c",
+  "name": "Utility Sector Relative Strength Reversal After Volatility Crush",
+  "universe": [
+    "XLU"
+  ],
+  "frequency": "daily",
+  "family": "macro_input_pressure",
+  "threshold": 0.25,
+  "direction": "down",
+  "hold_days": 8
+}

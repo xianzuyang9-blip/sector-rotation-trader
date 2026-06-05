@@ -1,0 +1,16 @@
+{
+  "adapter": "price_only",
+  "algo_file": "crazy/algos/utility_sector_relative_strength_reversal_after_volatility_c.py",
+  "built": true,
+  "errors": [],
+  "idea_id": "utility-sector-relative-strength-reversal-after-volatility-c",
+  "run_ok": null,
+  "seeded": true,
+  "spec_file": "data/ideas/runs/2026-06-04/build/claude_utility-sector-relative-strength-reversal-after-volatility-c.md",
+  "status": "completed_pending_run",
+  "backtest_status": "INSUFFICIENT_ACTIVITY",
+  "backtest_reason": "Backtest completed",
+  "backtest_alpha_vs_spy_pct": -63.97,
+  "backtest_trade_count": 0,
+  "backtest_report_dir": "reports/backtests/factory/2026-06-04/algos/crazy/utility-sector-relative-strength-reversal-after-volatility-c"
+}

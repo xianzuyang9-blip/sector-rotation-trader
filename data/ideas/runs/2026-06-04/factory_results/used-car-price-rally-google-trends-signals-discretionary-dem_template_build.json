@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/claude_used-car-price-rally-google-trends-signals-discretionary-dem.md",
+  "out": "crazy/algos/used_car_price_rally_google_trends_signals_discretionary_dem.py",
+  "adapter": "google_trends",
+  "idea_id": "used-car-price-rally-google-trends-signals-discretionary-dem",
+  "name": "Used Car Price Rally Google Trends Signals Discretionary Demand Rebound",
+  "universe": [
+    "XLY"
+  ],
+  "frequency": "weekly",
+  "family": "consumer_stress",
+  "threshold": 0.25,
+  "direction": "up",
+  "hold_days": 12
+}

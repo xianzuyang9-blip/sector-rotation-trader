@@ -1,0 +1,15 @@
+{
+  "spec_file": "data/ideas/runs/2026-06-04/build/chatgpt_daily-jump-in-google-trends-for-job-market-reskilling-course.md",
+  "out": "crazy/algos/daily_jump_in_google_trends_for_job_market_reskilling_course.py",
+  "adapter": "google_trends",
+  "idea_id": "daily-jump-in-google-trends-for-job-market-reskilling-course",
+  "name": "Daily Jump In Google Trends For Job Market Reskilling Courses Indicates Labor Market Shift",
+  "universe": [
+    "XLF"
+  ],
+  "frequency": "daily",
+  "family": "labor_jobs",
+  "threshold": 0.2,
+  "direction": "up",
+  "hold_days": 10
+}

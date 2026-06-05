@@ -1,0 +1,9 @@
+{
+  "algo_id": "used-car-price-rally-google-trends-signals-discretionary-dem",
+  "name": "Used Car Price Rally Google Trends Signals Discretionary Demand Rebound",
+  "family": "crazy",
+  "status": "LIVE_ONLY_NON_PRICE",
+  "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+  "metrics": {},
+  "run_date": "2026-06-04"
+}

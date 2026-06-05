@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-06-04T23:59:07Z",
+  "generated_at": "2026-06-05T00:09:06Z",
   "algos": [
     {
       "schema_version": "v1",
@@ -1371,6 +1371,114 @@
             "direction": "DOWN",
             "confidence": 0.435,
             "return_pct": -2.177
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+      "name": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds",
+      "family": "freight_logistics",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -4.61,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.272,
+            "return_pct": 1.358
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.08,
+            "return_pct": -0.401
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:warehouse-robotics-news-surge-signals-industrial-tech-demand",
+      "algo_type": "crazy",
+      "algo_id": "warehouse-robotics-news-surge-signals-industrial-tech-demand",
+      "name": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection",
+      "family": "attention_sentiment",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -4.61,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLK",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.676,
+            "return_pct": 3.382
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 1.0,
+            "return_pct": 13.609
+          }
+        },
+        "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:port-congestion-news-spike-signals-logistics-headwind-revers",
+      "algo_type": "crazy",
+      "algo_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+      "name": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade",
+      "family": "freight_logistics",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.01,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.01,
+      "spy_delta_30d_pct": -4.61,
+      "last_snapshot": "2026-06-05",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.272,
+            "return_pct": 1.358
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.08,
+            "return_pct": -0.401
           }
         },
         "summary": "mixed"

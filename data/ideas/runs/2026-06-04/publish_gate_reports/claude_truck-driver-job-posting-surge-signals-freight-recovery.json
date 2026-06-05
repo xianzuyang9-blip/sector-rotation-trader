@@ -1,0 +1,37 @@
+{
+  "source_file": "data/ideas/runs/2026-06-04/publish/claude_truck-driver-job-posting-surge-signals-freight-recovery.md",
+  "target_file": "data/ideas/runs/2026-06-04/intervention/claude_truck-driver-job-posting-surge-signals-freight-recovery.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "rss_count",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support html_table yet.",
+    "risk_flags": [
+      "adapter mismatch",
+      "data source instability",
+      "false positives",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "html_table"
+      ],
+      "scores": {
+        "rss_count": 2,
+        "html_table": 2,
+        "port_container_volume": 1,
+        "price_only": 1
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1009,
+    "output_tokens": 81
+  },
+  "cost_usd": 0.0033325,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"rss_count\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec requires rss_count adapter but top deterministic adapter is html_table; adapter mismatch needs manual review\",\n  \"risk_flags\": [\"adapter mismatch\", \"data source instability\", \"false positives\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-04/truck-driver-job-posting-surge-signals-freight-recovery.json"
+}

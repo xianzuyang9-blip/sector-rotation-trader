@@ -1,25 +1,25 @@
 {
-  "run_date": "2026-06-04",
-  "generated_at": "2026-06-04T23:59:07Z",
+  "run_date": "2026-06-05",
+  "generated_at": "2026-06-05T00:09:06Z",
   "counts": {
-    "total": 403,
+    "total": 419,
     "normal": 5,
-    "crazy": 398,
-    "watchlist": 178,
+    "crazy": 414,
+    "watchlist": 181,
     "promoted": 5,
     "graveyard": 26
   },
   "by_status": {
     "backtest_weak": 4,
     "failed": 1,
-    "live_only": 169,
+    "live_only": 172,
     "parked": 25,
     "promoted": 5,
-    "sandbox": 199
+    "sandbox": 212
   },
   "by_evidence_class": {
-    "live_receipts_only": 170,
-    "needs_history": 196,
+    "live_receipts_only": 173,
+    "needs_history": 209,
     "pending_seed": 25,
     "v1_backtested": 12
   },

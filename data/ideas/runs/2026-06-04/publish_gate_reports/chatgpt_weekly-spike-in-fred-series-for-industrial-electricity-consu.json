@@ -1,0 +1,37 @@
+{
+  "source_file": "data/ideas/runs/2026-06-04/publish/chatgpt_weekly-spike-in-fred-series-for-industrial-electricity-consu.md",
+  "target_file": "data/ideas/runs/2026-06-04/intervention/chatgpt_weekly-spike-in-fred-series-for-industrial-electricity-consu.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": false,
+    "reason": "Low confidence in deterministic adapter routing and weekly frequency needs verification.",
+    "risk_flags": [
+      "data source stability concerns",
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "weekly frequency validation needed"
+    ],
+    "route": {
+      "adapters": [
+        "eia_electricity",
+        "fred_series",
+        "html_table"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1,
+        "eia_electricity": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 924,
+    "output_tokens": 79
+  },
+  "cost_usd": 0.0031,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Low confidence in deterministic adapter routing and weekly frequency needs verification.\",\n  \"risk_flags\": [\"low adapter routing confidence\", \"weekly frequency validation needed\", \"data source stability concerns\"]\n}\n```"
+}

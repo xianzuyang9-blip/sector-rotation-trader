@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-06-04T23:59:06
+Updated (UTC): 2026-06-05T00:09:06
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 398
+Crazy models: 414
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -414,3 +414,19 @@ Crazy models: 398
 | airport-passenger-traffic-surge-from-google-trends-spring-br | Airport Passenger Traffic Surge From Google Trends Spring Break Bookings | weekly |
 | ev-charging-network-expansion-acceleration-signals-green-cap | Ev Charging Network Expansion Acceleration Signals Green Capex Boom | weekly |
 | tech-stock-earnings-misses-trigger-volatility-expansion-in-s | Tech Stock Earnings Misses Trigger Volatility Expansion In Semiconductor Holdings | daily |
+| daily-jump-in-google-trends-for-job-market-reskilling-course | Daily Jump In Google Trends For Job Market Reskilling Courses Indicates Labor Market Shift | daily |
+| daily-spike-in-google-trends-for-credit-card-payment-delay-i | Daily Spike In Google Trends For Credit Card Payment Delay Indicates Rising Consumer Financial Stress | daily |
+| daily-spike-in-google-trends-for-emergency-dental-care-indic | Daily Spike In Google Trends For Emergency Dental Care Indicates Healthcare Consumer Stress | daily |
+| daily-surge-in-google-trends-for-emergency-plumbing-services | Daily Surge In Google Trends For Emergency Plumbing Services Signals Home Repair Stress | daily |
+| daily-surge-in-google-trends-for-roadside-assistance-near-me | Daily Surge In Google Trends For Roadside Assistance Near Me Indicates Consumer Auto Stress | daily |
+| weekly-google-trends-surge-in-cold-storage-warehouse-rental- | Weekly Google Trends Surge In Cold Storage Warehouse Rental Signals Food Supply Chain Tightness | weekly |
+| weekly-google-trends-surge-in-electric-truck-orders-signals- | Weekly Google Trends Surge In Electric Truck Orders Signals Industrial Ev Demand Growth | weekly |
+| weekly-google-trends-surge-in-home-office-furniture-sale-sig | Weekly Google Trends Surge In Home Office Furniture Sale Signals Consumer Discretionary Bounce | weekly |
+| weekly-surge-in-google-trends-for-last-minute-vacation-renta | Weekly Surge In Google Trends For Last-minute Vacation Rentals Signals Travel Bounce | weekly |
+| weekly-surge-in-rss-counts-for-port-congestion-news-signals- | Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds | weekly |
+| ev-charger-installation-acceleration-signals-clean-energy-ca | Ev Charger Installation Acceleration Signals Clean Energy Capex Surge | weekly |
+| healthcare-cost-search-spike-signals-staples-defensive-rotat | Healthcare Cost Search Spike Signals Staples Defensive Rotation | weekly |
+| port-congestion-news-spike-signals-logistics-headwind-revers | Port Congestion News Spike Signals Logistics Headwind Reversal Trade | weekly |
+| used-car-price-rally-google-trends-signals-discretionary-dem | Used Car Price Rally Google Trends Signals Discretionary Demand Rebound | weekly |
+| utility-sector-relative-strength-reversal-after-volatility-c | Utility Sector Relative Strength Reversal After Volatility Crush | daily |
+| warehouse-robotics-news-surge-signals-industrial-tech-demand | Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection | weekly |

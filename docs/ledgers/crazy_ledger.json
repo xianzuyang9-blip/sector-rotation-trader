@@ -34322,5 +34322,41 @@
     "reason": "rebalance",
     "algo_id": "daily-surge-in-rss-news-counts-for-new-labor-union-formation",
     "algo_name": "Daily Surge In Rss News Counts For New Labor Union Formations Signals Labor Market Pressure On Industrial Sector"
+  },
+  {
+    "date": "2026-06-05",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.3833,
+    "price": 176.16,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-rss-counts-for-port-congestion-news-signals-",
+    "algo_name": "Weekly Surge In Rss Counts For Port Congestion News Signals Industrial Headwinds"
+  },
+  {
+    "date": "2026-06-05",
+    "action": "BUY",
+    "ticker": "XLI",
+    "shares": 28.3833,
+    "price": 176.16,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "port-congestion-news-spike-signals-logistics-headwind-revers",
+    "algo_name": "Port Congestion News Spike Signals Logistics Headwind Reversal Trade"
+  },
+  {
+    "date": "2026-06-05",
+    "action": "BUY",
+    "ticker": "XLK",
+    "shares": 25.8839,
+    "price": 193.17,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "warehouse-robotics-news-surge-signals-industrial-tech-demand",
+    "algo_name": "Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection"
   }
 ]

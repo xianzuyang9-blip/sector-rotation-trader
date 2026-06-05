@@ -1,0 +1,33 @@
+{
+  "source_file": "data/ideas/runs/2026-06-04/publish/claude_warehouse-robotics-news-surge-signals-industrial-tech-demand.md",
+  "target_file": "data/ideas/runs/2026-06-04/build/claude_warehouse-robotics-news-surge-signals-industrial-tech-demand.md",
+  "verdict": {
+    "decision": "BUILD",
+    "adapter_ok": true,
+    "selected_adapter": "rss_count",
+    "needs_new_adapter": false,
+    "reason": "Spec uses a valid rss_count adapter with clear deterministic logic and data source.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "regime shifts"
+    ],
+    "route": {
+      "adapters": [
+        "rss_count"
+      ],
+      "scores": {
+        "rss_count": 3,
+        "html_table": 1
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 997,
+    "output_tokens": 72
+  },
+  "cost_usd": 0.0032125,
+  "raw_llm_response": "{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"rss_count\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec uses a valid rss_count adapter with clear deterministic logic and data source.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}"
+}

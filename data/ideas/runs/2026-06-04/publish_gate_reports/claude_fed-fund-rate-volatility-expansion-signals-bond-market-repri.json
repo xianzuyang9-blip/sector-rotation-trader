@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-04/publish/claude_fed-fund-rate-volatility-expansion-signals-bond-market-repri.md",
+  "target_file": "data/ideas/runs/2026-06-04/intervention/claude_fed-fund-rate-volatility-expansion-signals-bond-market-repri.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "adapter does not support shorting",
+      "position sizing implies short exposure",
+      "requires short position",
+      "short_trade_not_supported",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "price_only"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1,
+        "price_only": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1021,
+    "output_tokens": 84
+  },
+  "cost_usd": 0.0033925,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec requires short position but current algo envelope supports only long/flat allocations.\",\n  \"risk_flags\": [\"requires short position\", \"adapter does not support shorting\", \"position sizing implies short exposure\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-04/fed-fund-rate-volatility-expansion-signals-bond-market-repri.json"
+}
