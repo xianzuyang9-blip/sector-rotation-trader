@@ -53,6 +53,11 @@ jobs:
           python scripts/social_content_generator.py --date "$AFH_RUN_DATE" || \
             echo "[warn] social_content_generator failed — drafts may be missing"
 
+      - name: Generate LinkedIn event drafts
+        run: |
+          python scripts/linkedin_event_posts.py --date "$AFH_RUN_DATE" || \
+            echo "[warn] linkedin_event_posts failed — event drafts may be missing"
+
       - name: Commit draft
         run: |
           git config user.name "sector-bot"

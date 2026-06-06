@@ -31,6 +31,7 @@ def _run_date() -> str:
 def main():
     run_date = _run_date()
     draft_path = DRAFTS_DIR / f"{run_date}.md"
+    event_dir = DRAFTS_DIR / "linkedin_events" / run_date
 
     lines = []
     lines.append(f"CONTENT DRAFT — {run_date}")
@@ -51,8 +52,21 @@ def main():
     lines.append(draft)
     lines.append("")
     lines.append("=" * 50)
+    if event_dir.exists():
+        event_posts = sorted(event_dir.glob("*.md"))
+        if event_posts:
+            lines.append("")
+            lines.append("LINKEDIN EVENT DRAFTS")
+            lines.append("=" * 50)
+            for path in event_posts:
+                lines.append("")
+                lines.append(f"--- {path.name} ---")
+                lines.append(path.read_text().strip())
+    lines.append("")
     lines.append("To publish: copy above, paste into Substack, review, hit send.")
     lines.append(f"Draft file: {draft_path}")
+    if event_dir.exists():
+        lines.append(f"LinkedIn event drafts: {event_dir}")
 
     print("\n".join(lines))
 
