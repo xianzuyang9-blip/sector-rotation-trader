@@ -1,0 +1,135 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-usgs-earthquake-count-in-key-freight-corridor",
+    "title": "Daily Spike In Usgs Earthquake Count In Key Freight Corridor Signals Logistics Disruption",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-jump-in-google-trends-for-diy-home-pest-control-signa",
+    "title": "Weekly Jump In Google Trends For Diy Home Pest Control Signals Rising Consumer Home Stress",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-surge-in-open-charge-map-ev-charger-counts-signals-acc",
+    "title": "Daily Surge In Open Charge Map Ev Charger Counts Signals Accelerating Green Infrastructure Demand",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-google-trends-surge-for-warehouse-robotics-automation",
+    "title": "Weekly Google Trends Surge For Warehouse Robotics Automation Signals Industrial Tech Demand",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-google-trends-for-freight-container-backlog-",
+    "title": "Weekly Spike In Google Trends For Freight Container Backlog Signals Industrial Logistics Stress",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-political-insider-filing-for-tech-ceo-stock-",
+    "title": "Weekly Spike In Political Insider Filing For Tech Ceo Stock Sales Signals Sector Caution",
+    "family": "political_insider_filing",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-rss-news-counts-mentioning-corporate-labor-s",
+    "title": "Weekly Spike In Rss News Counts Mentioning Corporate Labor Strike Signals Broad Labor Unrest",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-rss-news-counts-mentioning-warehouse-labor-st",
+    "title": "Weekly Rise In Rss News Counts Mentioning Warehouse Labor Strike Signals Industrial Disruption",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-fred-series-for-crude-oil-inventory-draw-sign",
+    "title": "Weekly Rise In Fred Series For Crude Oil Inventory Draw Signals Energy Supply Tightening",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "commercial-real-estate-lease-default-surge-via-rss-news-volu",
+    "title": "Commercial Real Estate Lease Default Surge Via Rss News Volume",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "gasoline-price-spike-triggers-consumer-staples-outperformanc",
+    "title": "Gasoline Price Spike Triggers Consumer Staples Outperformance",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "corporate-bond-spread-widening-signals-credit-stress-rotatio",
+    "title": "Corporate Bond Spread Widening Signals Credit Stress Rotation",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "google-trends-surge-in-job-search-keywords-signals-labor-anx",
+    "title": "Google Trends Surge In Job Search Keywords Signals Labor Anxiety",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-network-density-increase-signals-green-capex-acce",
+    "title": "Ev Charger Network Density Increase Signals Green Capex Acceleration",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-railroad-car-loading-collapse-signals-industrial-rec",
+    "title": "Freight Railroad Car Loading Collapse Signals Industrial Recession",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "airline-load-factor-contraction-signals-travel-demand-collap",
+    "title": "Airline Load Factor Contraction Signals Travel Demand Collapse",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "unemployment-claims-spike-fear-trade-into-healthcare",
+    "title": "Unemployment Claims Spike Fear Trade Into Healthcare",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "copper-futures-price-collapse-signals-manufacturing-slowdown",
+    "title": "Copper Futures Price Collapse Signals Manufacturing Slowdown",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "heating-oil-demand-surge-signals-winter-energy-crisis",
+    "title": "Heating Oil Demand Surge Signals Winter Energy Crisis",
+    "family": "macro_input_pressure",
+    "score": 100
+  }
+]

@@ -1,0 +1,432 @@
+{
+  "date": "2026-06-06",
+  "input_count": 25,
+  "kept_count": 19,
+  "duplicate_count": 6,
+  "kept_by_source": {
+    "chatgpt": 9,
+    "claude": 10
+  },
+  "duplicates": [
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-surge-in-google-trends-for-emergency-plumber-near-me-s",
+      "title": "Daily Surge In Google Trends For Emergency Plumber Near Me Signals Home Repair Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.688,
+        "matched_title": "daily spike in google trends for emergency plumber near me signals consumer stress lifting home repair demand",
+        "matched_idea_id": "daily-spike-in-google-trends-for-emergency-plumber-near-me-s",
+        "matched_origin": "history:2026-05-20",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-surge-in-google-trends-for-emergency-plumber-near-me-s",
+        "title": "Daily Surge In Google Trends For Emergency Plumber Near Me Signals Home Repair Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spike in emergency plumbing searches points to rising urgent home repair needs increasing consumer discretionary stress. Staples sector benefits from increased spending on home repair essentials and services.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "Enter long XLP if daily Google Trends for 'emergency plumber near me' rises by 25% from 7-day moving average",
+        "entry_exit": "Entry: Enter long XLP if daily Google Trends for 'emergency plumber near me' rises by 25% from 7-day moving average Exit: Exit after 7 trading days or if trend falls below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Emergency home repair needs spike frequently, especially during seasonal weather changes.",
+        "schema": {
+          "idea": "Daily surge in Google Trends for 'emergency plumber near me' signals home repair stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spike in emergency plumbing searches points to rising urgent home repair needs increasing consumer discretionary stress.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Staples sector benefits from increased spending on home repair essentials and services."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLP if daily Google Trends for 'emergency plumber near me' rises by 25% from 7-day moving average",
+            "exit": "Exit after 7 trading days or if trend falls below 10% increase",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Emergency home repair needs spike frequently, especially during seasonal weather changes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-spike-in-google-trends-for-urgent-dental-surgery-signa",
+      "title": "Daily Spike In Google Trends For Urgent Dental Surgery Signals Healthcare Consumer Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily spike in google trends for urgent dental surgery signals healthcare demand surge",
+        "matched_idea_id": "daily-spike-in-google-trends-for-urgent-dental-surgery-signa",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-spike-in-google-trends-for-urgent-dental-surgery-signa",
+        "title": "Daily Spike In Google Trends For Urgent Dental Surgery Signals Healthcare Consumer Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in urgent dental surgery searches reflect increased stress on healthcare demand and consumer discretionary health spending. Healthcare sector benefits from rising urgent care demand and treatment volumes.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "Enter long XLV if daily Google Trends for 'urgent dental surgery' rises by 20% vs 7-day average",
+        "entry_exit": "Entry: Enter long XLV if daily Google Trends for 'urgent dental surgery' rises by 20% vs 7-day average Exit: Exit after 5 trading days or if trend falls below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLV"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 18,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Healthcare-related urgent search spikes occur regularly tied to seasonal and environmental factors.",
+        "schema": {
+          "idea": "Daily spike in Google Trends for 'urgent dental surgery' signals healthcare consumer stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in urgent dental surgery searches reflect increased stress on healthcare demand and consumer discretionary health spending.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLV",
+            "rationale": "Healthcare sector benefits from rising urgent care demand and treatment volumes."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLV if daily Google Trends for 'urgent dental surgery' rises by 20% vs 7-day average",
+            "exit": "Exit after 5 trading days or if trend falls below 10% increase",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 18,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Healthcare-related urgent search spikes occur regularly tied to seasonal and environmental factors.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+      "title": "Daily Jump In Google Trends For Emergency Roadside Assistance Signals Consumer Vehicle Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "daily jump in google trends for emergency roadside assistance signals consumer stress impacting discretionary sector",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-emergency-roadside-assistanc",
+        "title": "Daily Jump In Google Trends For Emergency Roadside Assistance Signals Consumer Vehicle Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in emergency roadside assistance searches indicate rising vehicle breakdowns and consumer repair cost stress. Staples sector benefits as consumers prioritize essential vehicle services and products.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "Enter long XLP if daily Google Trends for 'emergency roadside assistance' rises by 20% vs 7-day average",
+        "entry_exit": "Entry: Enter long XLP if daily Google Trends for 'emergency roadside assistance' rises by 20% vs 7-day average Exit: Exit after 6 trading days or if trend drops below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "Vehicle-related emergencies spike frequently due to seasonal and mechanical issues.",
+        "schema": {
+          "idea": "Daily jump in Google Trends for 'emergency roadside assistance' signals consumer vehicle stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in emergency roadside assistance searches indicate rising vehicle breakdowns and consumer repair cost stress.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Staples sector benefits as consumers prioritize essential vehicle services and products."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLP if daily Google Trends for 'emergency roadside assistance' rises by 20% vs 7-day average",
+            "exit": "Exit after 6 trading days or if trend drops below 10% increase",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "Vehicle-related emergencies spike frequently due to seasonal and mechanical issues.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+      "title": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Stress",
+      "family": "labor_jobs",
+      "duplicate_of": {
+        "reason": "same_idea_id",
+        "score": 1.0,
+        "matched_title": "weekly surge in google trends for job quitting signals labor market churn stress",
+        "matched_idea_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+        "matched_origin": "existing_algo",
+        "matched_source": "crazy"
+      },
+      "idea": {
+        "idea_id": "weekly-surge-in-google-trends-for-job-quitting-signals-labor",
+        "title": "Weekly Surge In Google Trends For Job Quitting Signals Labor Market Stress",
+        "family": "labor_jobs",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "A rising search interest for 'job quitting' indicates rising worker dissatisfaction and potential labor supply tightening. Consumer discretionary sector is vulnerable to labor cost inflation and supply disruptions.",
+        "data_sources": [
+          "Google Trends weekly search interest"
+        ],
+        "signal_logic": "Enter short XLY if weekly Google Trends for 'job quitting' rises by more than 15% WoW",
+        "entry_exit": "Entry: Enter short XLY if weekly Google Trends for 'job quitting' rises by more than 15% WoW Exit: Exit after 3 weeks or if trend reverses by more than 10%",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Labor market tensions frequently show weekly search surges tied to quitting behavior.",
+        "schema": {
+          "idea": "Weekly surge in Google Trends for 'job quitting' signals labor market stress",
+          "family": "labor_jobs",
+          "data": {
+            "source": "Google Trends weekly search interest",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "A rising search interest for 'job quitting' indicates rising worker dissatisfaction and potential labor supply tightening.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLY",
+            "rationale": "Consumer discretionary sector is vulnerable to labor cost inflation and supply disruptions."
+          },
+          "trade_logic": {
+            "entry": "Enter short XLY if weekly Google Trends for 'job quitting' rises by more than 15% WoW",
+            "exit": "Exit after 3 weeks or if trend reverses by more than 10%",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Labor market tensions frequently show weekly search surges tied to quitting behavior.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "weekly-rise-in-google-trends-for-luxury-travel-cancellations",
+      "title": "Weekly Rise In Google Trends For Luxury Travel Cancellations Signals Travel Sector Stress",
+      "family": "travel_mobility",
+      "duplicate_of": {
+        "reason": "same_structure",
+        "score": 0.491,
+        "matched_title": "weekly google trends spike for summer travel cancellations signals travel sector weakness",
+        "matched_idea_id": "weekly-google-trends-spike-for-summer-travel-cancellations-s",
+        "matched_origin": "history:2026-04-28",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "weekly-rise-in-google-trends-for-luxury-travel-cancellations",
+        "title": "Weekly Rise In Google Trends For Luxury Travel Cancellations Signals Travel Sector Stress",
+        "family": "travel_mobility",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Increased searches for luxury travel cancellations indicate consumer pullback and travel sector headwinds. Consumer discretionary sector suffers from reduced luxury and travel spending.",
+        "data_sources": [
+          "Google Trends weekly search interest"
+        ],
+        "signal_logic": "Enter short XLY if weekly Google Trends for 'luxury travel cancellations' rises by 30% WoW",
+        "entry_exit": "Entry: Enter short XLY if weekly Google Trends for 'luxury travel cancellations' rises by 30% WoW Exit: Exit after 4 weeks or if trend normalizes below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLY"
+        ],
+        "frequency": "weekly",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends weekly search interest via api (weekly).",
+        "required_keys": [],
+        "expected_fire_rate": "weekly",
+        "historical_backfill": true,
+        "minimum_history_months": 12,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "medium",
+        "reason_it_will_fire_in_30_days": "Travel sentiment shifts rapidly due to news, weather, and economic factors.",
+        "schema": {
+          "idea": "Weekly rise in Google Trends for 'luxury travel cancellations' signals travel sector stress",
+          "family": "travel_mobility",
+          "data": {
+            "source": "Google Trends weekly search interest",
+            "type": "api",
+            "frequency": "weekly",
+            "stable": true
+          },
+          "behavior": "Increased searches for luxury travel cancellations indicate consumer pullback and travel sector headwinds.",
+          "market_impact": {
+            "direction": "bearish",
+            "sector": "XLY",
+            "rationale": "Consumer discretionary sector suffers from reduced luxury and travel spending."
+          },
+          "trade_logic": {
+            "entry": "Enter short XLY if weekly Google Trends for 'luxury travel cancellations' rises by 30% WoW",
+            "exit": "Exit after 4 weeks or if trend normalizes below 10% increase",
+            "expected_frequency": "medium"
+          },
+          "expected_fire_rate": "weekly",
+          "historical_backfill": true,
+          "minimum_history_months": 12,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "medium",
+          "reason_it_will_fire_in_30_days": "Travel sentiment shifts rapidly due to news, weather, and economic factors.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    },
+    {
+      "source": "chatgpt",
+      "idea_id": "daily-jump-in-google-trends-for-urgent-hvac-repair-signals-h",
+      "title": "Daily Jump In Google Trends For Urgent Hvac Repair Signals Home Repair Stress",
+      "family": "consumer_stress",
+      "duplicate_of": {
+        "reason": "high_title_overlap",
+        "score": 0.75,
+        "matched_title": "daily jump in google trends for emergency hvac repair signals consumer home repair stress",
+        "matched_idea_id": "daily-jump-in-google-trends-for-emergency-hvac-repair-signal",
+        "matched_origin": "history:2026-05-18",
+        "matched_source": "chatgpt"
+      },
+      "idea": {
+        "idea_id": "daily-jump-in-google-trends-for-urgent-hvac-repair-signals-h",
+        "title": "Daily Jump In Google Trends For Urgent Hvac Repair Signals Home Repair Stress",
+        "family": "consumer_stress",
+        "source_provider": "openai",
+        "source_model": "gpt-4.1-mini",
+        "thesis": "Spikes in urgent HVAC repair searches indicate increased consumer pressure on home environment comfort and costs. Staples sector benefits from urgent home repair spending and service demand.",
+        "data_sources": [
+          "Google Trends daily search interest"
+        ],
+        "signal_logic": "Enter long XLP if daily Google Trends for 'urgent HVAC repair' rises > 20% vs 7-day average",
+        "entry_exit": "Entry: Enter long XLP if daily Google Trends for 'urgent HVAC repair' rises > 20% vs 7-day average Exit: Exit after 7 days or if trend drops below 10% increase",
+        "position_sizing": "Allocate 5% per signal, max 20% total exposure.",
+        "universe": [
+          "XLP"
+        ],
+        "frequency": "daily",
+        "risks": "Data source instability, false positives, and regime shifts.",
+        "implementation_notes": "Use Google Trends daily search interest via api (daily).",
+        "required_keys": [],
+        "expected_fire_rate": "daily",
+        "historical_backfill": true,
+        "minimum_history_months": 24,
+        "adapter_status": "existing",
+        "trigger_sensitivity": "high",
+        "reason_it_will_fire_in_30_days": "HVAC repair demand spikes seasonally and with weather changes.",
+        "schema": {
+          "idea": "Daily jump in Google Trends for 'urgent HVAC repair' signals home repair stress",
+          "family": "consumer_stress",
+          "data": {
+            "source": "Google Trends daily search interest",
+            "type": "api",
+            "frequency": "daily",
+            "stable": true
+          },
+          "behavior": "Spikes in urgent HVAC repair searches indicate increased consumer pressure on home environment comfort and costs.",
+          "market_impact": {
+            "direction": "bullish",
+            "sector": "XLP",
+            "rationale": "Staples sector benefits from urgent home repair spending and service demand."
+          },
+          "trade_logic": {
+            "entry": "Enter long XLP if daily Google Trends for 'urgent HVAC repair' rises > 20% vs 7-day average",
+            "exit": "Exit after 7 days or if trend drops below 10% increase",
+            "expected_frequency": "high"
+          },
+          "expected_fire_rate": "daily",
+          "historical_backfill": true,
+          "minimum_history_months": 24,
+          "adapter_status": "existing",
+          "trigger_sensitivity": "high",
+          "reason_it_will_fire_in_30_days": "HVAC repair demand spikes seasonally and with weather changes.",
+          "source_provider": "openai",
+          "source_model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ]
+}
