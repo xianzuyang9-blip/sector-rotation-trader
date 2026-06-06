@@ -1,0 +1,39 @@
+{
+  "run_date": "2026-06-05",
+  "start": "2024-01-01",
+  "end": "2026-06-05",
+  "slippage_bps": 5.0,
+  "generated_at": "2026-06-06T00:00:16Z",
+  "counts": {
+    "LIVE_ONLY_NON_PRICE": 3
+  },
+  "results": [
+    {
+      "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+      "name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-05"
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-freight-truck-driver-short",
+      "name": "Weekly Surge In Google Trends For Freight Truck Driver Shortage Signals Logistics Sector Tightness",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-05"
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+      "name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "family": "crazy",
+      "status": "LIVE_ONLY_NON_PRICE",
+      "reason": "Uses non-price adapter: crazy.adapters.google_trends",
+      "metrics": {},
+      "run_date": "2026-06-05"
+    }
+  ]
+}

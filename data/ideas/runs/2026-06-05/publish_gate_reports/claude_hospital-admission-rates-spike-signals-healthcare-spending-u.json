@@ -1,0 +1,35 @@
+{
+  "source_file": "data/ideas/runs/2026-06-05/publish/claude_hospital-admission-rates-spike-signals-healthcare-spending-u.md",
+  "target_file": "data/ideas/runs/2026-06-05/intervention/claude_hospital-admission-rates-spike-signals-healthcare-spending-u.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "data source instability",
+      "false positives",
+      "low_adapter_confidence",
+      "regime shifts",
+      "unsupported_template_adapter"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series"
+      ],
+      "scores": {
+        "fred_series": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 942,
+    "output_tokens": 75
+  },
+  "cost_usd": 0.003105,
+  "raw_llm_response": "{\n  \"decision\": \"BUILD\",\n  \"adapter_ok\": true,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec is deterministic, uses a real FRED series adapter with matching data source and frequency.\",\n  \"risk_flags\": [\"data source instability\", \"false positives\", \"regime shifts\"]\n}",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-05/hospital-admission-rates-spike-signals-healthcare-spending-u.json"
+}

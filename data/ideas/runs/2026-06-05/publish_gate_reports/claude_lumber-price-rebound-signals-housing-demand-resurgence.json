@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-05/publish/claude_lumber-price-rebound-signals-housing-demand-resurgence.md",
+  "target_file": "data/ideas/runs/2026-06-05/intervention/claude_lumber-price-rebound-signals-housing-demand-resurgence.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Template builder does not support fred_series yet.",
+    "risk_flags": [
+      "data source mismatch",
+      "price_only adapter insufficient",
+      "requires new adapter for lumber prices",
+      "unsupported_template_adapter",
+      "volume data not specified"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "price_only"
+      ],
+      "scores": {
+        "weather_series": 1,
+        "fred_series": 1,
+        "price_only": 3
+      },
+      "top_score": 3,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 1003,
+    "output_tokens": 97
+  },
+  "cost_usd": 0.0034775,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"LVL lumber spot prices from Yahoo Finance are not covered by existing adapters; new adapter needed for lumber price data.\",\n  \"risk_flags\": [\"data source mismatch\", \"requires new adapter for lumber prices\", \"volume data not specified\", \"price_only adapter insufficient\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-05/lumber-price-rebound-signals-housing-demand-resurgence.json"
+}

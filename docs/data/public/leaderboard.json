@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "generated_at": "2026-06-05T23:57:01Z",
+  "generated_at": "2026-06-06T00:00:28Z",
   "counts": {
-    "total": 419,
+    "total": 422,
     "beating_spy": 0
   },
   "algos": [
@@ -1997,6 +1997,42 @@
     },
     {
       "schema_version": "v1",
+      "key": "crazy:weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+      "algo_type": "crazy",
+      "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+      "name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand",
+      "family": "consumer_stress",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.05,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.0,
+      "spy_delta_30d_pct": -0.51,
+      "last_snapshot": "2026-06-06",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLP",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.128,
+            "return_pct": 0.639
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.129,
+            "return_pct": -0.643
+          }
+        },
+        "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
       "key": "crazy:weekly-surge-in-google-trends-for-diy-car-maintenance-signal",
       "algo_type": "crazy",
       "algo_id": "weekly-surge-in-google-trends-for-diy-car-maintenance-signal",
@@ -3598,6 +3634,42 @@
           }
         },
         "summary": "both_up"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-moving-services-signals-ri",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+      "name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "family": "labor_jobs",
+      "status": "live_only",
+      "evidence_class": "live_receipts_only",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": -0.16,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": -0.11,
+      "spy_delta_30d_pct": -0.62,
+      "last_snapshot": "2026-06-06",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLY",
+        "signals": {
+          "momentum_5d": {
+            "direction": "DOWN",
+            "confidence": 0.994,
+            "return_pct": -4.972
+          },
+          "momentum_20d": {
+            "direction": "DOWN",
+            "confidence": 0.838,
+            "return_pct": -4.188
+          }
+        },
+        "summary": "mixed"
       }
     },
     {
@@ -14173,6 +14245,42 @@
           }
         },
         "summary": "mixed"
+      }
+    },
+    {
+      "schema_version": "v1",
+      "key": "crazy:weekly-surge-in-google-trends-for-freight-truck-driver-short",
+      "algo_type": "crazy",
+      "algo_id": "weekly-surge-in-google-trends-for-freight-truck-driver-short",
+      "name": "Weekly Surge In Google Trends For Freight Truck Driver Shortage Signals Logistics Sector Tightness",
+      "family": "freight_logistics",
+      "status": "sandbox",
+      "evidence_class": "needs_history",
+      "rebalance_frequency": "weekly",
+      "ytd_pct": 0.0,
+      "days_running": 0,
+      "beat_spy": null,
+      "spy_pct": null,
+      "alpha_pct": null,
+      "ret_30d_pct": 0.0,
+      "spy_delta_30d_pct": -0.51,
+      "last_snapshot": "2026-06-06",
+      "new_algo_date": null,
+      "comparator": {
+        "primary_etf": "XLI",
+        "signals": {
+          "momentum_5d": {
+            "direction": "UP",
+            "confidence": 0.121,
+            "return_pct": 0.606
+          },
+          "momentum_20d": {
+            "direction": "UP",
+            "confidence": 0.021,
+            "return_pct": 0.103
+          }
+        },
+        "summary": "both_up"
       }
     }
   ]

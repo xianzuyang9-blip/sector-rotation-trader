@@ -1,0 +1,939 @@
+{
+  "trade_log": [
+    {
+      "date": "2026-04-10",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 44.2909,
+      "price": 112.89,
+      "cost": 5000.0,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-13",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 44.2909,
+      "price": 113.92,
+      "proceeds": 5035.4,
+      "fees": 10.22,
+      "tax": 13.1,
+      "pnl": 22.3,
+      "pnl_pct": 0.45,
+      "entry_date": "2026-04-10",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-17",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.5299,
+      "price": 120.41,
+      "cost": 5000.62,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-20",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.5299,
+      "price": 119.87,
+      "proceeds": 4967.98,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -32.64,
+      "pnl_pct": -0.65,
+      "entry_date": "2026-04-17",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-28",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.7185,
+      "price": 117.01,
+      "cost": 4998.49,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-04-29",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.7185,
+      "price": 116.84,
+      "proceeds": 4981.01,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -17.47,
+      "pnl_pct": -0.35,
+      "entry_date": "2026-04-28",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.2232,
+      "price": 118.35,
+      "cost": 4997.12,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-01",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.2232,
+      "price": 118.63,
+      "proceeds": 4998.73,
+      "fees": 10.21,
+      "tax": 0.6,
+      "pnl": 1.01,
+      "pnl_pct": 0.02,
+      "entry_date": "2026-04-30",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-05",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.3196,
+      "price": 118.07,
+      "cost": 4996.67,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-06",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.3196,
+      "price": 119.87,
+      "proceeds": 5062.63,
+      "fees": 10.22,
+      "tax": 24.4,
+      "pnl": 41.55,
+      "pnl_pct": 0.83,
+      "entry_date": "2026-05-05",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-07",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 41.6938,
+      "price": 119.88,
+      "cost": 4998.25,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-08",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 41.6938,
+      "price": 120.2,
+      "proceeds": 5001.38,
+      "fees": 10.21,
+      "tax": 1.16,
+      "pnl": 1.97,
+      "pnl_pct": 0.04,
+      "entry_date": "2026-05-07",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-12",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.2508,
+      "price": 118.29,
+      "cost": 4997.85,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-13",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.2508,
+      "price": 118.72,
+      "proceeds": 5005.81,
+      "fees": 10.21,
+      "tax": 2.94,
+      "pnl": 5.01,
+      "pnl_pct": 0.1,
+      "entry_date": "2026-05-12",
+      "reason": "rebalance"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "BUY",
+      "ticker": "XLY",
+      "shares": 42.1135,
+      "price": 118.67,
+      "cost": 4997.6,
+      "margin": false,
+      "fees": 9.95
+    },
+    {
+      "date": "2026-05-15",
+      "action": "SELL",
+      "ticker": "XLY",
+      "shares": 42.1135,
+      "price": 116.53,
+      "proceeds": 4897.27,
+      "fees": 10.21,
+      "tax": 0.0,
+      "pnl": -100.33,
+      "pnl_pct": -2.01,
+      "entry_date": "2026-05-14",
+      "reason": "rebalance"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "date": "2026-03-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-10",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-11",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-12",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-13",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-16",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-17",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-18",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-19",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-20",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-24",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-25",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-26",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-27",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-30",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-01",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-02",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-03",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-06",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-07",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-08",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-09",
+      "cash": 100000,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100000.0,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-10",
+      "cash": 94990.05,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99990.05,
+      "positions": {
+        "XLY": {
+          "shares": 44.2909,
+          "entry_price": 112.89,
+          "current_price": 112.89,
+          "market_value": 5000.0,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-10",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-13",
+      "cash": 100012.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100012.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-14",
+      "cash": 100012.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100012.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-15",
+      "cash": 100012.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100012.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-16",
+      "cash": 100012.35,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100012.35,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-17",
+      "cash": 95001.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 100002.4,
+      "positions": {
+        "XLY": {
+          "shares": 41.5299,
+          "entry_price": 120.41,
+          "current_price": 120.41,
+          "market_value": 5000.62,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-17",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-20",
+      "cash": 99969.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99969.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-21",
+      "cash": 99969.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99969.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-22",
+      "cash": 99969.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99969.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 99969.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99969.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-24",
+      "cash": 99969.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99969.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 99969.77,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99969.77,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-28",
+      "cash": 94961.33,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99959.82,
+      "positions": {
+        "XLY": {
+          "shares": 42.7185,
+          "entry_price": 117.01,
+          "current_price": 117.01,
+          "market_value": 4998.49,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-28",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 99942.34,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99942.34,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-04-30",
+      "cash": 94935.28,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99932.39,
+      "positions": {
+        "XLY": {
+          "shares": 42.2232,
+          "entry_price": 118.35,
+          "current_price": 118.35,
+          "market_value": 4997.12,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-04-30",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-01",
+      "cash": 99933.41,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99933.41,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-04",
+      "cash": 99933.41,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99933.41,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-05",
+      "cash": 94926.79,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99923.46,
+      "positions": {
+        "XLY": {
+          "shares": 42.3196,
+          "entry_price": 118.07,
+          "current_price": 118.07,
+          "market_value": 4996.67,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-05",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-06",
+      "cash": 99965.01,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99965.01,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-07",
+      "cash": 94956.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99955.06,
+      "positions": {
+        "XLY": {
+          "shares": 41.6938,
+          "entry_price": 119.88,
+          "current_price": 119.88,
+          "market_value": 4998.25,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-07",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-08",
+      "cash": 99957.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99957.03,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-11",
+      "cash": 99957.03,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99957.03,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-12",
+      "cash": 94949.23,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99947.08,
+      "positions": {
+        "XLY": {
+          "shares": 42.2508,
+          "entry_price": 118.29,
+          "current_price": 118.29,
+          "market_value": 4997.85,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-12",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-13",
+      "cash": 99952.09,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99952.09,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-14",
+      "cash": 94944.54,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99942.14,
+      "positions": {
+        "XLY": {
+          "shares": 42.1135,
+          "entry_price": 118.67,
+          "current_price": 118.67,
+          "market_value": 4997.6,
+          "unrealized_pnl": 0.0,
+          "entry_date": "2026-05-14",
+          "margin": false
+        }
+      },
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 1
+    },
+    {
+      "date": "2026-05-15",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-18",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-19",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-20",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-21",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-22",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-25",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-26",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-27",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-28",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-05-29",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-01",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-02",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-03",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-04",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    },
+    {
+      "date": "2026-06-06",
+      "cash": 99841.81,
+      "borrowed": 0.0,
+      "interest": 0.0,
+      "equity": 99841.81,
+      "positions": {},
+      "sector": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "num_positions": 0
+    }
+  ],
+  "sim_start": "2026-03-06"
+}

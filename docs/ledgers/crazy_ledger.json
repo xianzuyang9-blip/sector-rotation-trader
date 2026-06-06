@@ -9801,6 +9801,18 @@
   },
   {
     "date": "2026-03-20",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 61.8544,
+    "price": 80.835,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-03-20",
     "action": "SELL",
     "ticker": "XLK",
     "shares": 225.8189,
@@ -10210,6 +10222,22 @@
     "fees": 9.95,
     "algo_id": "weekly-surge-in-google-trends-for-diy-car-maintenance-signal",
     "algo_name": "Weekly Surge In Google Trends For Diy Car Maintenance Signals Rising Auto Sector Interest"
+  },
+  {
+    "date": "2026-03-23",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 61.8544,
+    "price": 81.18,
+    "proceeds": 5011.12,
+    "fees": 10.22,
+    "tax": 4.11,
+    "pnl": 7.01,
+    "pnl_pct": 0.14,
+    "entry_date": "2026-03-20",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-03-23",
@@ -14210,6 +14238,18 @@
   {
     "date": "2026-04-08",
     "action": "BUY",
+    "ticker": "XLP",
+    "shares": 60.3993,
+    "price": 82.78,
+    "cost": 4999.85,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-08",
+    "action": "BUY",
     "ticker": "XLY",
     "shares": 45.1518,
     "price": 110.82,
@@ -14446,6 +14486,22 @@
   {
     "date": "2026-04-09",
     "action": "SELL",
+    "ticker": "XLP",
+    "shares": 60.3993,
+    "price": 83.45,
+    "proceeds": 5030.1,
+    "fees": 10.22,
+    "tax": 11.19,
+    "pnl": 19.06,
+    "pnl_pct": 0.38,
+    "entry_date": "2026-04-08",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-09",
+    "action": "SELL",
     "ticker": "XLY",
     "shares": 45.1518,
     "price": 112.74,
@@ -14490,6 +14546,18 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-10",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 44.2909,
+    "price": 112.89,
+    "cost": 5000.0,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-10",
@@ -14758,6 +14826,22 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-13",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 44.2909,
+    "price": 113.92,
+    "proceeds": 5035.4,
+    "fees": 10.22,
+    "tax": 13.1,
+    "pnl": 22.3,
+    "pnl_pct": 0.45,
+    "entry_date": "2026-04-10",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-13",
@@ -15497,6 +15581,18 @@
   },
   {
     "date": "2026-04-15",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 61.6865,
+    "price": 81.06,
+    "cost": 5000.31,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-15",
     "action": "SELL",
     "ticker": "XLI",
     "shares": 28.8139,
@@ -15809,6 +15905,22 @@
   },
   {
     "date": "2026-04-16",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 61.6865,
+    "price": 81.43,
+    "proceeds": 5012.91,
+    "fees": 10.22,
+    "tax": 4.66,
+    "pnl": 7.94,
+    "pnl_pct": 0.16,
+    "entry_date": "2026-04-15",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-16",
     "action": "BUY",
     "ticker": "XLV",
     "shares": 34.1041,
@@ -15882,6 +15994,18 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-17",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 41.5299,
+    "price": 120.41,
+    "cost": 5000.62,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-17",
@@ -16161,6 +16285,18 @@
   },
   {
     "date": "2026-04-17",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 60.638,
+    "price": 82.46,
+    "cost": 5000.21,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-17",
     "action": "SELL",
     "ticker": "XLK",
     "shares": 210.7874,
@@ -16406,6 +16542,22 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-20",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 41.5299,
+    "price": 119.87,
+    "proceeds": 4967.98,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -32.64,
+    "pnl_pct": -0.65,
+    "entry_date": "2026-04-17",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-20",
@@ -16718,6 +16870,22 @@
     "fees": 9.95,
     "algo_id": "daily-jump-in-google-trends-for-home-renovation-loans-signal",
     "algo_name": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand"
+  },
+  {
+    "date": "2026-04-20",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 60.638,
+    "price": 82.39,
+    "proceeds": 4985.74,
+    "fees": 10.22,
+    "tax": 0.0,
+    "pnl": -14.46,
+    "pnl_pct": -0.29,
+    "entry_date": "2026-04-17",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-04-20",
@@ -18498,6 +18666,18 @@
   {
     "date": "2026-04-27",
     "action": "BUY",
+    "ticker": "XLP",
+    "shares": 60.7115,
+    "price": 82.34,
+    "cost": 4998.99,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-27",
+    "action": "BUY",
     "ticker": "XLK",
     "shares": 194.6511,
     "price": 160.57,
@@ -18622,6 +18802,18 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-28",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.7185,
+    "price": 117.01,
+    "cost": 4998.49,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-28",
@@ -18868,6 +19060,22 @@
     "algo_name": "Daily Jump In Google Trends For Home Renovation Loans Signals Consumer Stress Turning To Housing Sector Demand"
   },
   {
+    "date": "2026-04-28",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 60.7115,
+    "price": 83.08,
+    "proceeds": 5033.69,
+    "fees": 10.22,
+    "tax": 12.84,
+    "pnl": 21.87,
+    "pnl_pct": 0.44,
+    "entry_date": "2026-04-27",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
     "date": "2026-04-29",
     "action": "BUY",
     "ticker": "XLK",
@@ -18954,6 +19162,22 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-29",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.7185,
+    "price": 116.84,
+    "proceeds": 4981.01,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -17.47,
+    "pnl_pct": -0.35,
+    "entry_date": "2026-04-28",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-29",
@@ -19282,6 +19506,18 @@
   {
     "date": "2026-04-29",
     "action": "BUY",
+    "ticker": "XLP",
+    "shares": 60.2941,
+    "price": 82.92,
+    "cost": 4999.58,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-29",
+    "action": "BUY",
     "ticker": "XLY",
     "shares": 42.7274,
     "price": 116.84,
@@ -19398,6 +19634,18 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-04-30",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.2232,
+    "price": 118.35,
+    "cost": 4997.12,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-04-30",
@@ -19746,6 +19994,22 @@
   {
     "date": "2026-04-30",
     "action": "SELL",
+    "ticker": "XLP",
+    "shares": 60.2941,
+    "price": 84.31,
+    "proceeds": 5073.17,
+    "fees": 10.22,
+    "tax": 27.23,
+    "pnl": 46.36,
+    "pnl_pct": 0.93,
+    "entry_date": "2026-04-29",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-04-30",
+    "action": "SELL",
     "ticker": "XLY",
     "shares": 42.7274,
     "price": 118.35,
@@ -19926,6 +20190,22 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-01",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.2232,
+    "price": 118.63,
+    "proceeds": 4998.73,
+    "fees": 10.21,
+    "tax": 0.6,
+    "pnl": 1.01,
+    "pnl_pct": 0.02,
+    "entry_date": "2026-04-30",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-01",
@@ -20510,6 +20790,18 @@
     "fees": 9.95,
     "algo_id": "freight-rail-carloads",
     "algo_name": "Freight Rail Carloads"
+  },
+  {
+    "date": "2026-05-01",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 59.4203,
+    "price": 84.17,
+    "cost": 5001.4,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-05-01",
@@ -21630,6 +21922,22 @@
   {
     "date": "2026-05-04",
     "action": "SELL",
+    "ticker": "XLP",
+    "shares": 59.4203,
+    "price": 83.54,
+    "proceeds": 4953.75,
+    "fees": 10.22,
+    "tax": 0.0,
+    "pnl": -47.65,
+    "pnl_pct": -0.95,
+    "entry_date": "2026-05-01",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-04",
+    "action": "SELL",
     "ticker": "XLU",
     "shares": 107.4114,
     "price": 46.55,
@@ -22003,6 +22311,18 @@
     "date": "2026-05-05",
     "action": "BUY",
     "ticker": "XLY",
+    "shares": 42.3196,
+    "price": 118.07,
+    "cost": 4996.67,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
+  },
+  {
+    "date": "2026-05-05",
+    "action": "BUY",
+    "ticker": "XLY",
     "shares": 42.3495,
     "price": 118.07,
     "cost": 5000.21,
@@ -22220,6 +22540,18 @@
     "algo_name": "Weekly Surge In Google Trends For Diy Electronics Repair Signals Bullish Xlk"
   },
   {
+    "date": "2026-05-05",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 59.4638,
+    "price": 84.06,
+    "cost": 4998.52,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
     "date": "2026-05-06",
     "action": "BUY",
     "ticker": "XLY",
@@ -22346,6 +22678,22 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-06",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.3196,
+    "price": 119.87,
+    "proceeds": 5062.63,
+    "fees": 10.22,
+    "tax": 24.4,
+    "pnl": 41.55,
+    "pnl_pct": 0.83,
+    "entry_date": "2026-05-05",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-06",
@@ -22609,6 +22957,22 @@
   },
   {
     "date": "2026-05-06",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 59.4638,
+    "price": 84.24,
+    "proceeds": 4999.01,
+    "fees": 10.22,
+    "tax": 0.18,
+    "pnl": 0.31,
+    "pnl_pct": 0.01,
+    "entry_date": "2026-05-05",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-06",
     "action": "BUY",
     "ticker": "XLU",
     "shares": 109.3853,
@@ -22706,6 +23070,18 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-07",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 41.6938,
+    "price": 119.88,
+    "cost": 4998.25,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-07",
@@ -22931,6 +23307,18 @@
     "date": "2026-05-07",
     "action": "BUY",
     "ticker": "XLP",
+    "shares": 59.5147,
+    "price": 83.98,
+    "cost": 4998.04,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-07",
+    "action": "BUY",
+    "ticker": "XLP",
     "shares": 59.2556,
     "price": 83.98,
     "cost": 4976.28,
@@ -23034,6 +23422,22 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-08",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 41.6938,
+    "price": 120.2,
+    "proceeds": 5001.38,
+    "fees": 10.21,
+    "tax": 1.16,
+    "pnl": 1.97,
+    "pnl_pct": 0.04,
+    "entry_date": "2026-05-07",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-08",
@@ -23250,6 +23654,22 @@
     "reason": "rebalance",
     "algo_id": "weekly-surge-in-google-trends-for-diy-electronics-repair-sig",
     "algo_name": "Weekly Surge In Google Trends For Diy Electronics Repair Signals Bullish Xlk"
+  },
+  {
+    "date": "2026-05-08",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 59.5147,
+    "price": 84.18,
+    "proceeds": 4999.73,
+    "fees": 10.22,
+    "tax": 0.62,
+    "pnl": 1.06,
+    "pnl_pct": 0.02,
+    "entry_date": "2026-05-07",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-05-08",
@@ -23718,6 +24138,18 @@
   {
     "date": "2026-05-11",
     "action": "BUY",
+    "ticker": "XLP",
+    "shares": 59.9448,
+    "price": 83.37,
+    "cost": 4997.6,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-11",
+    "action": "BUY",
     "ticker": "XLE",
     "shares": 546.9205,
     "price": 57.17,
@@ -23882,6 +24314,18 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-12",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.2508,
+    "price": 118.29,
+    "cost": 4997.85,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-12",
@@ -24142,6 +24586,22 @@
   {
     "date": "2026-05-12",
     "action": "SELL",
+    "ticker": "XLP",
+    "shares": 59.9448,
+    "price": 84.44,
+    "proceeds": 5051.52,
+    "fees": 10.22,
+    "tax": 19.95,
+    "pnl": 33.97,
+    "pnl_pct": 0.68,
+    "entry_date": "2026-05-11",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-12",
+    "action": "SELL",
     "ticker": "XLC",
     "shares": 43.2601,
     "price": 115.86,
@@ -24254,6 +24714,22 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-13",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.2508,
+    "price": 118.72,
+    "proceeds": 5005.81,
+    "fees": 10.21,
+    "tax": 2.94,
+    "pnl": 5.01,
+    "pnl_pct": 0.1,
+    "entry_date": "2026-05-12",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-13",
@@ -24450,6 +24926,18 @@
   {
     "date": "2026-05-13",
     "action": "BUY",
+    "ticker": "XLP",
+    "shares": 59.0037,
+    "price": 84.72,
+    "cost": 4998.8,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-13",
+    "action": "BUY",
     "ticker": "XLI",
     "shares": 28.7985,
     "price": 173.62,
@@ -24554,6 +25042,18 @@
     "reason": "rebalance",
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-14",
+    "action": "BUY",
+    "ticker": "XLY",
+    "shares": 42.1135,
+    "price": 118.67,
+    "cost": 4997.6,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-14",
@@ -24770,6 +25270,22 @@
   {
     "date": "2026-05-14",
     "action": "SELL",
+    "ticker": "XLP",
+    "shares": 59.0037,
+    "price": 84.98,
+    "proceeds": 5003.92,
+    "fees": 10.22,
+    "tax": 1.9,
+    "pnl": 3.23,
+    "pnl_pct": 0.06,
+    "entry_date": "2026-05-13",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
+  },
+  {
+    "date": "2026-05-14",
+    "action": "SELL",
     "ticker": "XLI",
     "shares": 28.7985,
     "price": 174.51,
@@ -24906,6 +25422,22 @@
     "fees": 9.95,
     "algo_id": "port-container-volume-surge-signals-import-demand-recovery-a",
     "algo_name": "Port Container Volume Surge Signals Import Demand Recovery And Consumer Spending Rebound"
+  },
+  {
+    "date": "2026-05-15",
+    "action": "SELL",
+    "ticker": "XLY",
+    "shares": 42.1135,
+    "price": 116.53,
+    "proceeds": 4897.27,
+    "fees": 10.21,
+    "tax": 0.0,
+    "pnl": -100.33,
+    "pnl_pct": -2.01,
+    "entry_date": "2026-05-14",
+    "reason": "rebalance",
+    "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+    "algo_name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity"
   },
   {
     "date": "2026-05-15",
@@ -25138,6 +25670,18 @@
     "reason": "rebalance",
     "algo_id": "daily-spike-in-rss-counts-for-cybersecurity-breach-news-trig",
     "algo_name": "Daily Spike In Rss Counts For Cybersecurity Breach News Triggers Bearish Xlk"
+  },
+  {
+    "date": "2026-05-15",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 59.0555,
+    "price": 84.64,
+    "cost": 4998.46,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-05-15",
@@ -25682,6 +26226,22 @@
     "fees": 9.95,
     "algo_id": "daily-spike-in-rss-counts-for-cybersecurity-breach-news-trig",
     "algo_name": "Daily Spike In Rss Counts For Cybersecurity Breach News Triggers Bearish Xlk"
+  },
+  {
+    "date": "2026-05-18",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 59.0555,
+    "price": 85.9,
+    "proceeds": 5062.65,
+    "fees": 10.22,
+    "tax": 23.75,
+    "pnl": 40.44,
+    "pnl_pct": 0.81,
+    "entry_date": "2026-05-15",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-05-18",
@@ -26262,6 +26822,18 @@
     "fees": 9.95,
     "algo_id": "natural-gas-futures-volatility-pump-rotation",
     "algo_name": "Natural Gas Futures Volatility Pump Rotation"
+  },
+  {
+    "date": "2026-05-19",
+    "action": "BUY",
+    "ticker": "XLP",
+    "shares": 58.0786,
+    "price": 86.09,
+    "cost": 4999.99,
+    "margin": false,
+    "fees": 9.95,
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-05-19",
@@ -27586,6 +28158,22 @@
     "reason": "rebalance",
     "algo_id": "natural-gas-futures-volatility-pump-rotation",
     "algo_name": "Natural Gas Futures Volatility Pump Rotation"
+  },
+  {
+    "date": "2026-05-20",
+    "action": "SELL",
+    "ticker": "XLP",
+    "shares": 58.0786,
+    "price": 85.52,
+    "proceeds": 4956.67,
+    "fees": 10.22,
+    "tax": 0.0,
+    "pnl": -43.32,
+    "pnl_pct": -0.87,
+    "entry_date": "2026-05-19",
+    "reason": "rebalance",
+    "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+    "algo_name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand"
   },
   {
     "date": "2026-05-20",

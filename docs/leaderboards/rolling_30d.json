@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-05T23:57:00.346080",
+  "as_of": "2026-06-06T00:00:27.370010",
   "spy_ret_30d": 0.005069253936868634,
   "entries": [
     {
@@ -725,6 +725,14 @@
     {
       "algo_id": "weekly-surge-in-google-trends-searches-for-truck-driver-stri",
       "name": "Weekly Surge In Google Trends Searches For Truck Driver Strike Signals Imminent Logistics Disruption",
+      "category": "crazy",
+      "ret_30d": 0.0,
+      "sharpe_30d": 0.0,
+      "max_dd_30d": 0.0
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-freight-truck-driver-short",
+      "name": "Weekly Surge In Google Trends For Freight Truck Driver Shortage Signals Logistics Sector Tightness",
       "category": "crazy",
       "ret_30d": 0.0,
       "sharpe_30d": 0.0,
@@ -2467,6 +2475,14 @@
       "max_dd_30d": -9.958621178351189e-05
     },
     {
+      "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+      "name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand",
+      "category": "crazy",
+      "ret_30d": -4.422172613405273e-05,
+      "sharpe_30d": -18.00252972345608,
+      "max_dd_30d": -0.0005327014915642171
+    },
+    {
       "algo_id": "earthquake-aftershock-capital-flight",
       "name": "Earthquake Aftershock Capital Flight",
       "category": "crazy",
@@ -2881,6 +2897,14 @@
       "ret_30d": -0.0011236037269164445,
       "sharpe_30d": -20.560864917701945,
       "max_dd_30d": -0.0013633327327521414
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+      "name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "category": "crazy",
+      "ret_30d": -0.0011330091743229076,
+      "sharpe_30d": -16.766934273990213,
+      "max_dd_30d": -0.0011526953131760834
     },
     {
       "algo_id": "weekly-rise-in-localeconomyweirdness-rss-counts-mentioning-f",

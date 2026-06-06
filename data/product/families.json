@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T23:56:53Z",
+  "generated_at": "2026-06-06T00:00:28Z",
   "families": {
     "attention_sentiment": {
       "family": "attention_sentiment",
@@ -139,15 +139,15 @@
     },
     "consumer_stress": {
       "family": "consumer_stress",
-      "count": 119,
+      "count": 120,
       "by_status": {
         "failed": 1,
-        "live_only": 57,
+        "live_only": 58,
         "parked": 4,
         "sandbox": 57
       },
       "by_evidence_class": {
-        "live_receipts_only": 57,
+        "live_receipts_only": 58,
         "needs_history": 57,
         "pending_seed": 4,
         "v1_backtested": 1
@@ -460,15 +460,15 @@
     },
     "freight_logistics": {
       "family": "freight_logistics",
-      "count": 32,
+      "count": 33,
       "by_status": {
         "live_only": 19,
         "parked": 2,
-        "sandbox": 11
+        "sandbox": 12
       },
       "by_evidence_class": {
         "live_receipts_only": 19,
-        "needs_history": 11,
+        "needs_history": 12,
         "pending_seed": 2
       },
       "leaders": [
@@ -601,14 +601,14 @@
     },
     "labor_jobs": {
       "family": "labor_jobs",
-      "count": 39,
+      "count": 40,
       "by_status": {
-        "live_only": 18,
+        "live_only": 19,
         "parked": 4,
         "sandbox": 17
       },
       "by_evidence_class": {
-        "live_receipts_only": 18,
+        "live_receipts_only": 19,
         "needs_history": 17,
         "pending_seed": 4
       },

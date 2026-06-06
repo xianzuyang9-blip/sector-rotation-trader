@@ -2,15 +2,15 @@
   "ticker": "PG",
   "sector": "Consumer Defensive",
   "sector_etf": "XLP",
-  "composite": "8 of 48",
+  "composite": "8 of 49",
   "composite_label": "BEARISH",
   "composite_color": "red",
   "bullish": 8,
-  "bearish": 40,
-  "neutral": 371,
-  "total_signals": 419,
-  "total_active": 48,
-  "bullish_pct": 17,
+  "bearish": 41,
+  "neutral": 373,
+  "total_signals": 422,
+  "total_active": 49,
+  "bullish_pct": 16,
   "breakdown": [
     {
       "algo_id": "daily-spike-in-rss-counts-for-corporate-layoff-announcements",
@@ -553,6 +553,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-surge-in-google-trends-for-moving-services-signals-ri",
+      "name": "Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": -0.16,
+      "beat_spy": false
+    },
+    {
       "algo_id": "weekly-surge-in-attentionsentiment-rss-counts-for-cyber-atta",
       "name": "Weekly Surge In Attentionsentiment Rss Counts For Cyber Attack On Utilities Signals Energy Sector Risk",
       "algo_type": "crazy",
@@ -883,6 +892,15 @@
       "direction": "NEUTRAL",
       "days_running": 119,
       "ytd_pct": -0.05,
+      "beat_spy": false
+    },
+    {
+      "algo_id": "weekly-surge-in-google-trends-for-freight-truck-driver-short",
+      "name": "Weekly Surge In Google Trends For Freight Truck Driver Shortage Signals Logistics Sector Tightness",
+      "algo_type": "crazy",
+      "direction": "NEUTRAL",
+      "days_running": 66,
+      "ytd_pct": 0.0,
       "beat_spy": false
     },
     {
@@ -3190,6 +3208,15 @@
       "beat_spy": false
     },
     {
+      "algo_id": "weekly-jump-in-google-trends-for-urgent-home-repair-signals-",
+      "name": "Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand",
+      "algo_type": "crazy",
+      "direction": "BEARISH",
+      "days_running": 66,
+      "ytd_pct": -0.05,
+      "beat_spy": false
+    },
+    {
       "algo_id": "appliance-shortage-supply-chain-stress",
       "name": "Appliance Shortage Supply Chain Stress",
       "algo_type": "crazy",
@@ -3784,7 +3811,7 @@
       "beat_spy": false
     }
   ],
-  "generated": "2026-06-05",
+  "generated": "2026-06-06",
   "lab_started": "2026-01-11",
   "disclaimer": "This is an experimental signal lab. Not financial advice. Signals are research outputs, not recommendations to buy, sell, or hold any asset. Signals can and will fail. Past performance does not guarantee future results. Results are simulated/model outputs and may not reflect slippage, fees, liquidity, execution delays, or market impact. Third-party data may be incomplete, delayed, inaccurate, or revised. Do your own research and consult a qualified professional before making investment decisions. Paper-traded only \u2014 no real money at risk."
 }

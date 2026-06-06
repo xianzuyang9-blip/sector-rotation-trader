@@ -1,0 +1,33 @@
+{
+  "source_file": "data/ideas/runs/2026-06-05/publish/claude_oil-price-contango-curve-steepens-on-supply-fear.md",
+  "target_file": "data/ideas/runs/2026-06-05/intervention/claude_oil-price-contango-curve-steepens-on-supply-fear.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "price_only",
+    "needs_new_adapter": true,
+    "reason": "The spec requires front-month to 3-month futures spread data which price_only adapter does not provide.",
+    "risk_flags": [
+      "adapter mismatch",
+      "missing futures curve data",
+      "requires roll spread calculation"
+    ],
+    "route": {
+      "adapters": [
+        "price_only"
+      ],
+      "scores": {
+        "price_only": 2
+      },
+      "top_score": 2,
+      "confidence": "ok"
+    }
+  },
+  "usage": {
+    "input_tokens": 995,
+    "output_tokens": 85
+  },
+  "cost_usd": 0.0033375,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"price_only\",\n  \"needs_new_adapter\": true,\n  \"reason\": \"The spec requires front-month to 3-month futures spread data which price_only adapter does not provide.\",\n  \"risk_flags\": [\"adapter mismatch\", \"missing futures curve data\", \"requires roll spread calculation\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-05/oil-price-contango-curve-steepens-on-supply-fear.json"
+}

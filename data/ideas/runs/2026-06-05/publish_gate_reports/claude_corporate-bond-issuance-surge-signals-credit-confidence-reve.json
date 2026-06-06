@@ -1,0 +1,38 @@
+{
+  "source_file": "data/ideas/runs/2026-06-05/publish/claude_corporate-bond-issuance-surge-signals-credit-confidence-reve.md",
+  "target_file": "data/ideas/runs/2026-06-05/intervention/claude_corporate-bond-issuance-surge-signals-credit-confidence-reve.md",
+  "verdict": {
+    "decision": "INTERVENTION",
+    "adapter_ok": false,
+    "selected_adapter": "fred_series",
+    "needs_new_adapter": true,
+    "reason": "Current structural algo envelope supports long/flat allocation, not native short trades.",
+    "risk_flags": [
+      "low adapter routing confidence",
+      "low_adapter_confidence",
+      "short_trade_not_supported",
+      "shorting required",
+      "unsupported_template_adapter",
+      "volume data required"
+    ],
+    "route": {
+      "adapters": [
+        "fred_series",
+        "html_table"
+      ],
+      "scores": {
+        "fred_series": 1,
+        "html_table": 1
+      },
+      "top_score": 1,
+      "confidence": "low"
+    }
+  },
+  "usage": {
+    "input_tokens": 982,
+    "output_tokens": 82
+  },
+  "cost_usd": 0.003275,
+  "raw_llm_response": "```json\n{\n  \"decision\": \"INTERVENTION\",\n  \"adapter_ok\": false,\n  \"selected_adapter\": \"fred_series\",\n  \"needs_new_adapter\": false,\n  \"reason\": \"Spec requires shorting XLV but current algo envelope supports only long/flat positions\",\n  \"risk_flags\": [\"shorting required\", \"low adapter routing confidence\", \"volume data required\"]\n}\n```",
+  "adapter_proposal_file": "data/adapters/proposed/2026-06-05/corporate-bond-issuance-surge-signals-credit-confidence-reve.json"
+}

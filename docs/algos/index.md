@@ -1,6 +1,6 @@
 # Algo Index
 
-Updated (UTC): 2026-06-05T23:56:52
+Updated (UTC): 2026-06-06T00:00:27
 
 Normal models: 5
 
@@ -12,7 +12,7 @@ Normal models: 5
 | biscotti | Algo Biscotti (Unconditional Loyalty) | monthly_eom |
 | baileymol | Algo Baileymol (Chaos Monger) | weekly |
 
-Crazy models: 414
+Crazy models: 417
 
 | Algo ID | Name | Frequency |
 | --- | --- | --- |
@@ -430,3 +430,6 @@ Crazy models: 414
 | used-car-price-rally-google-trends-signals-discretionary-dem | Used Car Price Rally Google Trends Signals Discretionary Demand Rebound | weekly |
 | utility-sector-relative-strength-reversal-after-volatility-c | Utility Sector Relative Strength Reversal After Volatility Crush | daily |
 | warehouse-robotics-news-surge-signals-industrial-tech-demand | Warehouse Robotics News Surge Signals Industrial Tech Demand Inflection | weekly |
+| weekly-jump-in-google-trends-for-urgent-home-repair-signals- | Weekly Jump In Google Trends For Urgent Home Repair Signals Rising Consumer Stress Boosting Staples Demand | weekly |
+| weekly-surge-in-google-trends-for-freight-truck-driver-short | Weekly Surge In Google Trends For Freight Truck Driver Shortage Signals Logistics Sector Tightness | weekly |
+| weekly-surge-in-google-trends-for-moving-services-signals-ri | Weekly Surge In Google Trends For Moving Services Signals Rising Labor Demand And Housing Activity | weekly |
