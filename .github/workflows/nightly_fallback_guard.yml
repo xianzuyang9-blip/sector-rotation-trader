@@ -1,6 +1,10 @@
 name: Nightly Fallback Guard
 
 on:
+  schedule:
+    # 5:05am ET during daylight time. This catches dropped/late scheduled runs
+    # before the human morning ops review.
+    - cron: "5 9 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +18,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
-      - name: Evaluate nightly and preview health for current ET date
+      - name: Evaluate nightly, preview, and morning status health for current ET date
         id: check
         run: |
           ET_DATE=$(TZ=America/New_York date +%F)
@@ -32,7 +36,13 @@ jobs:
             --limit 12 \
             --json databaseId,status,conclusion,createdAt)
 
-          export ET_DATE DAILY_JSON PREVIEW_JSON
+          OVERNIGHT_JSON=$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow "Overnight Status Report" \
+            --limit 12 \
+            --json databaseId,status,conclusion,createdAt)
+
+          export ET_DATE DAILY_JSON PREVIEW_JSON OVERNIGHT_JSON
           python - <<'PY'
           import json
           import os
@@ -57,17 +67,20 @@ jobs:
 
           daily_ok, daily_rows = classify(os.environ["DAILY_JSON"])
           preview_ok, preview_rows = classify(os.environ["PREVIEW_JSON"])
+          overnight_ok, overnight_rows = classify(os.environ["OVERNIGHT_JSON"])
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"daily_ok={'true' if daily_ok else 'false'}\n")
               fh.write(f"preview_ok={'true' if preview_ok else 'false'}\n")
+              fh.write(f"overnight_ok={'true' if overnight_ok else 'false'}\n")
               fh.write(f"daily_seen={len(daily_rows)}\n")
               fh.write(f"preview_seen={len(preview_rows)}\n")
+              fh.write(f"overnight_seen={len(overnight_rows)}\n")
           PY
 
       - name: Trigger fallback nightly run if missing or failed
         id: dispatch_daily
-        if: steps.check.outputs.daily_ok != 'true'
+        if: github.event_name == 'workflow_dispatch' && steps.check.outputs.daily_ok != 'true'
         run: |
           gh workflow run "Daily Sector Rotation Run" --repo "$GITHUB_REPOSITORY"
           sleep 5
@@ -80,6 +93,11 @@ jobs:
           gh run watch "$RUN_ID" --repo "$GITHUB_REPOSITORY"
 
       - name: Trigger fallback preview publish if missing or failed
-        if: steps.check.outputs.preview_ok != 'true'
+        if: github.event_name == 'workflow_dispatch' && steps.check.outputs.preview_ok != 'true'
         run: |
           gh workflow run "Preview Site Publish" --repo "$GITHUB_REPOSITORY"
+
+      - name: Trigger fallback overnight status if missing or failed
+        if: steps.check.outputs.overnight_ok != 'true'
+        run: |
+          gh workflow run "Overnight Status Report" --repo "$GITHUB_REPOSITORY"

@@ -2,7 +2,11 @@ name: Overnight Status Report
 
 on:
   schedule:
+    # GitHub scheduled workflows can be delayed or dropped under load. Keep this
+    # idempotent and stagger retries so the morning ops report is available by 5am ET.
     - cron: "30 7 * * *"
+    - cron: "15 8 * * *"
+    - cron: "45 8 * * *"
   workflow_dispatch:
 
 jobs:
