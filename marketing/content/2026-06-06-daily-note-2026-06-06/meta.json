@@ -1,0 +1,61 @@
+{
+  "bundle_path": "marketing/content/2026-06-06-daily-note-2026-06-06",
+  "channels": {
+    "linkedin": {
+      "file": "linkedin.md",
+      "link_policy": "site_cta",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "x": {
+      "file": "x.md",
+      "link_policy": "substack_cta",
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "linkedin": {
+      "candidates": [
+        "Most trading signals look good until they have to survive in public. Right now 0 of 419 StockArithm signals are beating SPY.",
+        "StockArithm runs sector ETF signals in public so it is easier to see what is actually holding up. Today that means 0 of 419 signals are beating SPY.",
+        "Algo Baileymol (Chaos Monger) is the current leader, but the more useful fact is that only 0 of 419 public signals are beating SPY right now.",
+        "The point of StockArithm is not a polished backtest. It is a public signal board with 419 sector ETF signals and only 7 recent winners versus SPY."
+      ],
+      "selected": "Most trading signals look good until they have to survive in public. Right now 0 of 419 StockArithm signals are beating SPY."
+    },
+    "reddit_titles": {},
+    "substack_note": {
+      "candidates": [
+        "One public board, 0 winners, 419 losers. That is the point.",
+        "Algo Baileymol (Chaos Monger) is still the cleanest winner, but the board is the better story.",
+        "StockArithm exists to keep the failures visible, not hide them.",
+        "The interesting part is not the winner; it is how the full board behaves."
+      ],
+      "selected": "One public board, 0 winners, 419 losers. That is the point."
+    },
+    "x": {
+      "candidates": [
+        "0 of 419 signals are beating SPY. The losers stay visible.",
+        "Algo Baileymol (Chaos Monger) is still #1, but the board is the real story.",
+        "The point of StockArithm is not a polished backtest. It is a public board.",
+        "Daily lab note: the premise matters less than what the board keeps showing.",
+        "419 signals are not beating SPY. That is the part worth reading."
+      ],
+      "selected": "0 of 419 signals are beating SPY. The losers stay visible."
+    }
+  },
+  "post_id": "2026-06-06-daily-note-2026-06-06",
+  "product": "stockarithm",
+  "scheduled_date": "2026-06-06",
+  "scheduled_time": "09:30",
+  "slug": "daily-note-2026-06-06",
+  "source_report": "reports/deep_validation/latest.json",
+  "status": "ready",
+  "theme": "daily_lab_note",
+  "timezone": "America/New_York",
+  "title": "Daily lab note"
+}

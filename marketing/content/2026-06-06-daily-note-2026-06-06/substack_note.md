@@ -1,0 +1,3 @@
+One public board, 0 winners, 419 losers. That is the point.
+
+On 2026-06-05, zero algos beat SPY's 8.25% YTD return. The top force-ranked algo (Baileymol) sits at +8.16%, the second at +6.11%. Meanwhile, 419 signals generated across 105 tickers—and none crossed the line. Over the last 30 days, seven algos did beat SPY, but the full-window picture is unforgiving. The signal of the day (Biscotti alt, +1.73% in 30D) ranks #406 on force. The failure of the day (Chaos Rotation Lab) is down -8.96% YTD. Sector consensus is uniformly bearish—Utilities at 25% bullish is the "strongest" read. What does it mean when your best ideas still lag the index?

@@ -1,0 +1,1 @@
+0 of 419 signals beat SPY today. The gap widens—even the top force-ranked algos are underwater vs. the index. But 7 of 420 rolling 30D algos are winning. The losers stay visible. Read the full breakdown.
