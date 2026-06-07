@@ -1,0 +1,142 @@
+[
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-rise-in-google-trends-for-home-solar-panel-installati",
+    "title": "Weekly Rise In Google Trends For Home Solar Panel Installation Signals Green Energy Consumer Adoption",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-rss-news-counts-on-corporate-cybersecurity-bre",
+    "title": "Daily Jump In Rss News Counts On Corporate Cybersecurity Breaches Signals Tech Sector Volatility",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-labor-job-postings-for-warehouse-workers-signa",
+    "title": "Daily Jump In Labor Job Postings For Warehouse Workers Signals Industrial Sector Hiring Surge",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-roadside-assistance-near-me-",
+    "title": "Daily Jump In Google Trends For Roadside Assistance Near Me Signals Consumer Vehicle Stress And Discretionary Impact",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-rss-news-counts-on-container-ship-delays-sig",
+    "title": "Weekly Surge In Rss News Counts On Container Ship Delays Signals Freight Logistics Headwinds",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-jump-in-google-trends-for-urgent-car-repair-signals-co",
+    "title": "Daily Jump In Google Trends For Urgent Car Repair Signals Consumer Vehicle Stress Boosting Staples Demand",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "daily-spike-in-earthquake-activity-near-critical-ports-signa",
+    "title": "Daily Spike In Earthquake Activity Near Critical Ports Signals Short-term Freight Logistics Disruption",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-car-rental-last-minute-sig",
+    "title": "Weekly Surge In Google Trends For Car Rental Last Minute Signals Travel Demand Spike",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-surge-in-google-trends-for-urgent-plumber-near-me-sig",
+    "title": "Weekly Surge In Google Trends For Urgent Plumber Near Me Signals Local Economy Weirdness Boosting Staples Demand",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "chatgpt",
+    "idea_id": "weekly-spike-in-google-trends-for-building-material-shortage",
+    "title": "Weekly Spike In Google Trends For Building Material Shortage Signals Construction Sector Input Stress",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "food-price-inflation-grocery-basket-google-trends-spike-rota",
+    "title": "Food Price Inflation Grocery Basket Google Trends Spike Rotation Signal",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "hotel-occupancy-rate-weekly-collapse-snap",
+    "title": "Hotel Occupancy Rate Weekly Collapse Snap",
+    "family": "travel_mobility",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "freight-rail-car-utilization-snap-down-rebound",
+    "title": "Freight Rail Car Utilization Snap-down Rebound",
+    "family": "freight_logistics",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ev-charger-installation-acceleration-trend-momentum-shift",
+    "title": "Ev Charger Installation Acceleration Trend Momentum Shift",
+    "family": "local_economy_weirdness",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "ism-manufacturing-weakness-print-bounce-back-signal",
+    "title": "Ism Manufacturing Weakness Print Bounce-back Signal",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "unemployment-claims-spike-reversal-bounce",
+    "title": "Unemployment Claims Spike Reversal Bounce",
+    "family": "labor_jobs",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "google-trends-surge-in-recession-searches-capitulation-sell-",
+    "title": "Google Trends Surge In Recession Searches Capitulation Sell Signal",
+    "family": "attention_sentiment",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "mortgage-rate-spike-affordability-panic-fade",
+    "title": "Mortgage Rate Spike Affordability Panic Fade",
+    "family": "consumer_stress",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "crude-oil-volatility-index-ovx-spike-compression-trade",
+    "title": "Crude Oil Volatility Index Ovx Spike Compression Trade",
+    "family": "macro_input_pressure",
+    "score": 100
+  },
+  {
+    "source": "claude",
+    "idea_id": "corporate-bond-yield-spread-inversion-compression-trade",
+    "title": "Corporate Bond Yield Spread Inversion Compression Trade",
+    "family": "macro_input_pressure",
+    "score": 100
+  }
+]
