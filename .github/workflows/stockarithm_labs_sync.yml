@@ -1,0 +1,41 @@
+name: StockArithm Labs Public Sync
+
+on:
+  schedule:
+    - cron: "20 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync-labs:
+    runs-on: ubuntu-latest
+    env:
+      LABS_REPO_DIR: /tmp/stockarithm-labs
+      LABS_REMOTE: https://x-access-token:${{ secrets.STOCKARITHM_LABS_PUSH_TOKEN }}@github.com/teebuphilip/stockarithm-labs.git
+    steps:
+      - name: Checkout private source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install exporter dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests beautifulsoup4
+
+      - name: Export public adapter lab
+        run: |
+          if [ -n "${{ secrets.STOCKARITHM_LABS_PUSH_TOKEN }}" ]; then
+            python scripts/export_stockarithm_labs.py \
+              --repo-dir "$LABS_REPO_DIR" \
+              --remote-url "$LABS_REMOTE" \
+              --push
+          else
+            python scripts/export_stockarithm_labs.py --repo-dir "$LABS_REPO_DIR"
+            echo "[warn] STOCKARITHM_LABS_PUSH_TOKEN missing; exported locally only"
+          fi
