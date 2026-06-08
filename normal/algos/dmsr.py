@@ -27,6 +27,8 @@ class DMSRAlgo(NormalAlgoBase):
             return {"AGG": 1.0}
 
         sectors = monthly[SECTOR_ETFS].dropna(how="all")
+        if len(sectors) < 13:
+            return {}
         returns_12m = sectors.iloc[-1] / sectors.iloc[-13] - 1
         top4 = returns_12m.sort_values(ascending=False).head(4).index.tolist()
         weight = 1.0 / len(top4)
