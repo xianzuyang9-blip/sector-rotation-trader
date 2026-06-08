@@ -6,8 +6,11 @@ from datetime import datetime
 def _load_state(path: str):
     if not os.path.exists(path):
         return None
-    with open(path) as f:
-        return json.load(f)
+    try:
+        with open(path, encoding="utf-8-sig") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return None
 
 
 def _collect_trade_log(state: dict, algo_id: str, algo_name: str):
