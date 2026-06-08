@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 from typing import Iterable
 
 import pandas as pd
-import requests
 
 from crazy.config import CRAZY_CACHE_DIR
 from crazy.utils import cached_fetch
@@ -26,6 +25,8 @@ def fetch_twitter_activity(
     cache_path = os.path.join(CRAZY_CACHE_DIR, cache_key)
 
     def _fetch():
+        import requests
+
         rows = []
         headers = {"Authorization": f"Bearer {token}"}
         end_time = datetime.utcnow()
