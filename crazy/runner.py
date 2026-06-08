@@ -154,11 +154,15 @@ def _run_post_script(script: str):
     """Run a post-pipeline helper script. Logs failures loudly but does
     not abort the run -- an index/leaderboard failure should not kill
     a trading pipeline that already committed state."""
-    result = subprocess.run(
-        ["python", script],
-        capture_output=True,
-        text=True,
-    )
+    try:
+        result = subprocess.run(
+            ["python", script],
+            capture_output=True,
+            text=True,
+        )
+    except OSError as exc:
+        print(f"[WARN] {script} could not be started: {exc}")
+        return
     if result.returncode != 0:
         print(f"[WARN] {script} exited {result.returncode}")
         if result.stdout:
