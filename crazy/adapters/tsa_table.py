@@ -1,10 +1,8 @@
 import os
 from datetime import datetime
+from io import StringIO
 
 import pandas as pd
-import requests
-from bs4 import BeautifulSoup
-from io import StringIO
 
 from crazy.config import CRAZY_CACHE_DIR
 from crazy.utils import cached_fetch
@@ -18,6 +16,9 @@ def fetch_tsa_table() -> pd.DataFrame:
     cache_path = os.path.join(CRAZY_CACHE_DIR, "tsa.json")
 
     def _fetch():
+        import requests
+        from bs4 import BeautifulSoup
+
         url = "https://www.tsa.gov/travel/passenger-volumes"
         r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
         r.raise_for_status()
